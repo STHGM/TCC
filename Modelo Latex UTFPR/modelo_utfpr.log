@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  6 NOV 2017 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  7 NOV 2017 03:44
 entering extended mode
 **./modelo_utfpr.tex
 (modelo_utfpr.tex
@@ -597,17 +597,17 @@ o de jo-gos (game en-gine) Unity,
  []
 
 
-Overfull \hbox (15.3206pt too wide) in paragraph at lines 47--48
-\OT1/ptm/m/n/12 exem-plo qua-dros por se-gundo (FPS), con-sumo de mem[]oria, co
-n-sumo de CPU. Des-sas compara[][]oes
+Overfull \hbox (1.91475pt too wide) in paragraph at lines 53--58
+\OT1/ptm/m/n/12 Unity in-di-vi-du-al-mente em di-fe-ren-tes cen[]arios e com-pa
+-rar os re-sul-ta-dos en-tre eles. Ser[]ao tamb[]em
  []
 
-) [8]
+) [8] [9]
 \openout2 = `./Capitulos/capitulo2.aux'.
 
  (Capitulos/capitulo2.tex
 Cap\'{\i }tulo 2.
-<./Figuras/exemplo_bola_botao_01.png, id=33, 662.475pt x 313.9228pt>
+<./Figuras/exemplo_bola_botao_01.png, id=36, 662.475pt x 313.9228pt>
 File: ./Figuras/exemplo_bola_botao_01.png Graphic file (type png)
 
 <use ./Figuras/exemplo_bola_botao_01.png>
@@ -621,19 +621,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 
-<./Figuras/exemplo_bola_botao_02.png, id=35, 659.46375pt x 312.41719pt>
+<./Figuras/exemplo_bola_botao_02.png, id=38, 659.46375pt x 312.41719pt>
 File: ./Figuras/exemplo_bola_botao_02.png Graphic file (type png)
 
 <use ./Figuras/exemplo_bola_botao_02.png>
 Package pdftex.def Info: ./Figuras/exemplo_bola_botao_02.png used on input line
  22.
 (pdftex.def)             Requested size: 227.62206pt x 107.83171pt.
- [9
+ [10
 
 
 
  <./Figuras/exemplo_bola_botao_01.png> <./Figuras/exemplo_bola_botao_02.png>]
-<./Figuras/exemplo_col_circulos_01_TP.png, id=41, 469.00218pt x 344.78813pt>
+<./Figuras/exemplo_col_circulos_01_TP.png, id=44, 469.00218pt x 344.78813pt>
 File: ./Figuras/exemplo_col_circulos_01_TP.png Graphic file (type png)
 
 <use ./Figuras/exemplo_col_circulos_01_TP.png>
@@ -641,7 +641,7 @@ Package pdftex.def Info: ./Figuras/exemplo_col_circulos_01_TP.png used on input
  line 35.
 (pdftex.def)             Requested size: 227.62206pt x 167.33252pt.
 
-<./Figuras/exemplo_col_circulos_03_TP.png, id=42, 504.38437pt x 353.06906pt>
+<./Figuras/exemplo_col_circulos_03_TP.png, id=45, 504.38437pt x 353.06906pt>
 File: ./Figuras/exemplo_col_circulos_03_TP.png Graphic file (type png)
 
 <use ./Figuras/exemplo_col_circulos_03_TP.png>
@@ -649,7 +649,7 @@ Package pdftex.def Info: ./Figuras/exemplo_col_circulos_03_TP.png used on input
  line 44.
 (pdftex.def)             Requested size: 227.62206pt x 159.33752pt.
 
-<./Figuras/exemplo_col_circulos_04_TP.png, id=43, 485.56406pt x 389.20406pt>
+<./Figuras/exemplo_col_circulos_04_TP.png, id=46, 485.56406pt x 389.20406pt>
 File: ./Figuras/exemplo_col_circulos_04_TP.png Graphic file (type png)
 
 <use ./Figuras/exemplo_col_circulos_04_TP.png>
@@ -657,14 +657,14 @@ Package pdftex.def Info: ./Figuras/exemplo_col_circulos_04_TP.png used on input
  line 53.
 (pdftex.def)             Requested size: 227.62206pt x 182.44489pt.
 
-<./Figuras/code_sphere.png, id=44, 499.11469pt x 281.55188pt>
+<./Figuras/code_sphere.png, id=47, 499.11469pt x 281.55188pt>
 File: ./Figuras/code_sphere.png Graphic file (type png)
 
 <use ./Figuras/code_sphere.png>
 Package pdftex.def Info: ./Figuras/code_sphere.png used on input line 62.
 (pdftex.def)             Requested size: 455.24411pt x 256.81406pt.
- [10 <./Figuras/exemplo_col_circulos_01_TP.png>] [11 <./Figuras/exemplo_col_cir
-culos_03_TP.png> <./Figuras/exemplo_col_circulos_04_TP.png>] [12 <./Figuras/cod
+ [11 <./Figuras/exemplo_col_circulos_01_TP.png>] [12 <./Figuras/exemplo_col_cir
+culos_03_TP.png> <./Figuras/exemplo_col_circulos_04_TP.png>] [13 <./Figuras/cod
 e_sphere.png>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 104.
 
@@ -674,7 +674,7 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
-<./Figuras/circle-collider-2d.png, id=59, 444.15938pt x 148.30406pt>
+<./Figuras/circle-collider-2d.png, id=62, 444.15938pt x 148.30406pt>
 File: ./Figuras/circle-collider-2d.png Graphic file (type png)
 
 <use ./Figuras/circle-collider-2d.png>
@@ -684,7 +684,7 @@ Package pdftex.def Info: ./Figuras/circle-collider-2d.png used on input line 11
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 112.
 
-<./Figuras/box.png, id=60, 594.22pt x 234.8775pt>
+<./Figuras/box.png, id=63, 594.22pt x 234.8775pt>
 File: ./Figuras/box.png Graphic file (type png)
  <use ./Figuras/box.png>
 Package pdftex.def Info: ./Figuras/box.png used on input line 123.
@@ -695,8 +695,8 @@ Overfull \hbox (3.05449pt too wide) in paragraph at lines 131--132
 tm/m/it/12 Poly-gon-Col-li-der2D \OT1/ptm/m/n/12 n[]ao tem restri[][]ao
  []
 
-[13 <./Figuras/circle-collider-2d.png> <./Figuras/box.png>]
-<./Figuras/poligon-collider-2d.png, id=67, 439.6425pt x 166.37157pt>
+[14 <./Figuras/circle-collider-2d.png> <./Figuras/box.png>]
+<./Figuras/poligon-collider-2d.png, id=70, 439.6425pt x 166.37157pt>
 File: ./Figuras/poligon-collider-2d.png Graphic file (type png)
 
 <use ./Figuras/poligon-collider-2d.png>
@@ -704,35 +704,35 @@ Package pdftex.def Info: ./Figuras/poligon-collider-2d.png used on input line 1
 35.
 (pdftex.def)             Requested size: 341.43307pt x 129.21078pt.
 
-<./Figuras/edge-collider-2d.png, id=68, 444.91219pt x 173.14688pt>
+<./Figuras/edge-collider-2d.png, id=71, 444.91219pt x 173.14688pt>
 File: ./Figuras/edge-collider-2d.png Graphic file (type png)
 
 <use ./Figuras/edge-collider-2d.png>
 Package pdftex.def Info: ./Figuras/edge-collider-2d.png used on input line 147.
 
 (pdftex.def)             Requested size: 341.43307pt x 132.877pt.
- [14 <./Figuras/poligon-collider-2d.png> <./Figuras/edge-collider-2d.png>] [15]
+ [15 <./Figuras/poligon-collider-2d.png> <./Figuras/edge-collider-2d.png>] [16]
 
 Overfull \hbox (11.17822pt too wide) in paragraph at lines 228--229
 \OT1/ptm/m/n/12 nem[]aticos de-vem ser usa-dos em ob-je-tos que po-dem ser mo-v
 i-dos ou ha-bi-li-ta-dos/desabilitados
  []
 
-[16] [17] <./Figuras/Aabb_01.png, id=81, 301.125pt x 163.3603pt>
+[17] [18] <./Figuras/Aabb_01.png, id=85, 301.125pt x 163.3603pt>
 File: ./Figuras/Aabb_01.png Graphic file (type png)
 
 <use ./Figuras/Aabb_01.png>
 Package pdftex.def Info: ./Figuras/Aabb_01.png used on input line 330.
 (pdftex.def)             Requested size: 455.24411pt x 246.9941pt.
- [18] [19 <./Figuras/Aabb_01.png>]
-<./Figuras/Bounding_Volumes.jpg, id=90, 401.5pt x 271.0125pt>
+ [19] [20 <./Figuras/Aabb_01.png>]
+<./Figuras/Bounding_Volumes.jpg, id=93, 401.5pt x 271.0125pt>
 File: ./Figuras/Bounding_Volumes.jpg Graphic file (type jpg)
 
 <use ./Figuras/Bounding_Volumes.jpg>
 Package pdftex.def Info: ./Figuras/Bounding_Volumes.jpg used on input line 355.
 
 (pdftex.def)             Requested size: 341.43307pt x 230.48163pt.
-) [20 <./Figuras/Bounding_Volumes.jpg>]
+) [21 <./Figuras/Bounding_Volumes.jpg>]
 \openout2 = `./Capitulos/capitulo3.aux'.
 
 
@@ -743,11 +743,11 @@ Overfull \hbox (32.81496pt too wide) in paragraph at lines 11--27
  [][] 
  []
 
-[21
+[22
 
 
 
-]) [22] [23] (modelo_utfpr.bbl
+] [23]) [24] (modelo_utfpr.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
 []\OT1/ptm/m/n/12 BANERJEE, S. \OT1/ptm/b/n/12 7 Most Po-pu-lar Game De-ve-lop-
 ment En-gi-nes You Should
@@ -801,7 +801,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--94
 problem-you-face-as-a-independent-game-
  []
 
-[24
+[25
 
 
 ]
@@ -824,7 +824,7 @@ icia/numero-de-desenvolvedores-de-games-
 
 ) 
 AED: lastpage setting LastPage
-[25]
+[26]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -834,7 +834,7 @@ AED: lastpage setting LastPage
 Here is how much of TeX's memory you used:
  5163 strings out of 493323
  73505 string characters out of 3130014
- 168541 words of memory out of 3000000
+ 165544 words of memory out of 3000000
  8475 multiletter control sequences out of 15000+200000
  34991 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -847,9 +847,9 @@ cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/STHGM/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/STHGM/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/STH
 GM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (26 pages, 647763 bytes).
+Output written on modelo_utfpr.pdf (27 pages, 649509 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

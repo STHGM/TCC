@@ -1,13 +1,13 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Exemplo de intera\c c\~ao de eventos}}{9}
-\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de intera\c c\~ao de eventos}}{9}
-\contentsline {figure}{\numberline {3}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos n\~ao est\~ao colidindo.}}{10}
-\contentsline {figure}{\numberline {4}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos est\~ao colidindo e interceptando.}}{11}
-\contentsline {figure}{\numberline {5}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos est\~ao colidindo.}}{11}
-\contentsline {figure}{\numberline {6}{\ignorespaces C\'odigo colis\~ao de esferas}}{12}
-\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de CircleCollider2D}}{13}
-\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de BoxCollider2D}}{13}
-\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de PolygonCollider2D}}{14}
-\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de EdgeCollider2D}}{14}
-\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo de colis\~ao AABB}}{19}
-\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de colis\~ao OBB e outros}}{20}
+\contentsline {figure}{\numberline {1}{\ignorespaces Exemplo de intera\c c\~ao de eventos}}{10}
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de intera\c c\~ao de eventos}}{10}
+\contentsline {figure}{\numberline {3}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos n\~ao est\~ao colidindo.}}{11}
+\contentsline {figure}{\numberline {4}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos est\~ao colidindo e interceptando.}}{12}
+\contentsline {figure}{\numberline {5}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos est\~ao colidindo.}}{12}
+\contentsline {figure}{\numberline {6}{\ignorespaces C\'odigo colis\~ao de esferas}}{13}
+\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de CircleCollider2D}}{14}
+\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de BoxCollider2D}}{14}
+\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de PolygonCollider2D}}{15}
+\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de EdgeCollider2D}}{15}
+\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo de colis\~ao AABB}}{20}
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de colis\~ao OBB e outros}}{21}

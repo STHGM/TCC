@@ -318,12 +318,12 @@ Em um \emph{Linecast} é configurado o ponto inicial e o ponto final. Se houver a
 
 \section{Trabalhos Relacionados}
 
-Existem muitos métodos de implementação de detecção de colisão, e alguns deles podem ser implementados na Unity além dos já existentes na \emph{engine}. Nesta seção serão mencionados brevemente dois métodos muito utilizados e semelhantes em certos aspectos para detecção de colisão, que podem ser implementados na Unity através de implementação própria, como o AABB (\emph{Axis Alligned Bounding Box}).
+Existem muitos métodos de implementação de detecção de colisão, e alguns deles podem ser implementados na Unity além dos já existentes. Nesta seção serão mencionados brevemente dois métodos muito utilizados e semelhantes em certos aspectos para detecção de colisão, que podem ser implementados na Unity através de implementação própria, como o AABB (\emph{Axis Alligned Bounding Box}).
 
 
 
 \subsection{AABB (Axis Alligned Bounding Box)}
-O método de AABB cria uma caixa que envolve todo o volume do objeto, porém, diferente do OBB, as caixas não são alinhadas com o eixo base do próprio objeto, e sim com o eixo do espaço mundial onde o objeto se encontra. Em outras palavras, se o objeto rotacionar, o volume da caixa que será usada para detectar a colisão irá aumentar, pois não é fixo ao eixo base do objeto. Isso quer dizer que se dois objetos, dependendo de como estiverem arranjados no espaço, mesmo que não estejam colidindo, a detecção pode resultar que estão, pois suas caixas que os envolvem estão colidindo, como mostrado na figura \ref{aabb}.
+O método de AABB cria uma caixa que envolve todo o volume do objeto, porém, diferente do OBB, as caixas não são alinhadas com o eixo base do próprio objeto, e sim com o eixo do espaço mundial onde o objeto se encontra. Em outras palavras, se o objeto rotacionar, o volume da caixa que será usada para detectar a colisão irá aumentar, pois não é fixo ao eixo base do objeto. Isso quer dizer que se dois objetos, dependendo de como estiverem arranjados no espaço, mesmo que não estejam colidindo, a detecção pode resultar que estão, pois suas caixas que os envolvem estão colidindo, como mostrado na Figura \ref{aabb}.
 
 \begin{figure}[!htb]
 	\centering
