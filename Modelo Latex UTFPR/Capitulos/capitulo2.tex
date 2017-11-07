@@ -318,12 +318,11 @@ Em um \emph{Linecast} é configurado o ponto inicial e o ponto final. Se houver a
 
 \section{Trabalhos Relacionados}
 
-Existem muitos métodos de implementação de detecção de colisão, e alguns deles podem ser implementados na Unity além dos já existentes. Nesta seção serão mencionados brevemente dois métodos muito utilizados e semelhantes em certos aspectos para detecção de colisão, que podem ser implementados na Unity através de implementação própria, como o AABB (\emph{Axis Alligned Bounding Box}).
-
+Existem muitos métodos de implementação de detecção de colisão, e alguns deles podem ser implementados na Unity além dos já existentes. Nesta seção serão mencionados brevemente dois métodos muito utilizados e semelhantes em certos aspectos para detecção de colisão, que podem ser implementados na Unity através de implementação própria, como o AABB (\emph{Axis Alligned Bounding Box}). Em alguns métodos apresentados nessa seção, suas comparações de performance foram realizadas com outros métodos de colisões já existentes, porém nenhum deles feitos na Unity e sim (a maioria) em \emph{engine} própria. Este trabalho tem a intenção de realizar comparações desses métodos ou de métodos que se assemelham aos mesmos, porém na Unity e fundamentar um estudo comparativo para análises futuras.
 
 
 \subsection{AABB (Axis Alligned Bounding Box)}
-O método de AABB cria uma caixa que envolve todo o volume do objeto, porém, diferente do OBB, as caixas não são alinhadas com o eixo base do próprio objeto, e sim com o eixo do espaço mundial onde o objeto se encontra. Em outras palavras, se o objeto rotacionar, o volume da caixa que será usada para detectar a colisão irá aumentar, pois não é fixo ao eixo base do objeto. Isso quer dizer que se dois objetos, dependendo de como estiverem arranjados no espaço, mesmo que não estejam colidindo, a detecção pode resultar que estão, pois suas caixas que os envolvem estão colidindo, como mostrado na Figura \ref{aabb}.
+O método de AABB cria uma caixa que envolve todo o volume do objeto, porém, diferente do OBB, as caixas não são alinhadas com o eixo base do próprio objeto, e sim com o eixo do espaço mundial onde o objeto se encontra. Em outras palavras, se o objeto rotacionar, o volume da caixa que será usada para detectar a colisão irá aumentar, pois não é fixo ao eixo base do objeto. Isso quer dizer que se dois objetos, dependendo de como estiverem arranjados no espaço, mesmo que não estejam colidindo, a detecção pode resultar que estão, pois suas caixas que os envolvem estão colidindo, como mostrado na Figura \ref{aabb}. Outra representação do AABB pode ser encontrada na Figura \ref{obb} B.
 
 \begin{figure}[!htb]
 	\centering
@@ -339,16 +338,16 @@ Basicamente o que o algoritmo faz é adquirir os extremos das caixas, geralmente 
 \subsection{OBB (Oriented Bounding Box)}
 \cite{eberly2002dynamic}, \cite{Eichner2014}, \cite{Ericson2004}
 
-O método de OBB funciona criando uma caixa que envolve o volume de cada objeto que estará envolvido no teste de colisão tendo cada um deles como orientação seu eixo base. A  detecção pode ser feita de várias formas, a mais simples é checar se os vértices de uma caixa estão dentro de uma outra e vice-versa. Esse método tende a ser mais preciso que o AABB, pois se o objeto rotaciona, a caixa que o envolve também irá seguir essa rotação. No entanto tem um custo ligeiramente maior na performance. Esse método se assemelha ao componente \emph{BoxCollider2D} na Unity.
+O método de OBB funciona criando uma caixa que envolve o volume de cada objeto que estará envolvido no teste de colisão tendo cada um deles como orientação seu eixo base. A  detecção pode ser feita de várias formas, a mais simples é checar se os vértices de uma caixa estão dentro de uma outra e vice-versa. Esse método tende a ser mais preciso que o AABB, pois se o objeto rotaciona, a caixa que o envolve também irá seguir essa rotação. No entanto tem um custo ligeiramente maior na performance. Esse método se assemelha ao componente \emph{BoxCollider2D} na Unity. Um exemplo do OBB está representado na Figura \ref{obb} C.
 
 
 \subsection{Bounding Sphere}
 
-O \emph{Bounding Sphere} adquire o valor do centro da esfera e raio dos objetos que estarão envolvidos na detecção. Se a diferença da distância entre os centros das esferas for menor que a soma dos raios, então as esferas estão colidindo (um código semelhante foi explicado na seção 2.1 na Figura \ref{codesphere}) \cite{Santee2005}, \cite{Dopertchouk2000}. Um exemplo de \emph{Bounding Sphere} está apresentado na Figura \ref{obb}.
+O \emph{Bounding Sphere} adquire o valor do centro da esfera e raio dos objetos que estarão envolvidos na detecção. Se a diferença da distância entre os centros das esferas for menor que a soma dos raios, então as esferas estão colidindo (um código semelhante foi explicado na seção 2.1 na Figura \ref{codesphere}) \cite{Santee2005}, \cite{Dopertchouk2000}. Um exemplo de \emph{Bounding Sphere} está apresentado na Figura \ref{obb} A.
 
 \subsection{Convex Hull}
 
-O \emph{Convex Hull} procura atribuir o menor volume convexo para que possa conter o objeto, ou seja, o volume apresenta um sólido que não contém concavidades. Existem vários algoritmos que podem realizar os cálculos para formar esses volumes e/ou que permitem faze-los de maneira mais customizáveis. \cite{chazelle1993optimal}, \cite{de2008computational}. Um exemplo de volume \emph{Convex Hull} é apresentado na Figura \ref{obb}.
+O \emph{Convex Hull} procura atribuir o menor volume convexo para que possa conter o objeto, ou seja, o volume apresenta um sólido que não contém concavidades. Existem vários algoritmos que podem realizar os cálculos para formar esses volumes e/ou que permitem faze-los de maneira mais customizáveis. \cite{chazelle1993optimal}, \cite{de2008computational}. Um exemplo de volume \emph{Convex Hull} é apresentado na Figura \ref{obb} D.
 
 \begin{figure}[!htb]
 	\centering
