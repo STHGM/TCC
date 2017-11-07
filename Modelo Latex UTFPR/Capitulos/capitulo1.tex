@@ -1,0 +1,72 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CAPÍTULO 1
+\chapter{Introdução}  
+
+A indústria de jogos no Brasil cresceu cerca de 600\% entre 2008 e 2016 \cite{Silveira2017}, gerando crescimento na quantidade de empresas de desenvolvimento de jogos. Muitas dessas empresas são pequenas, com funcionários pouco experientes e possuem baixo orçamento para o desenvolvimento de jogos. Tais empresas são conhecidas como \emph{Indie}. Até o final de 2017 essa indústria está estimada em arrecadar 100 bilhões de dólares de acordo com a Digi-Capital \cite{Morris2017}.
+
+Esse nome é dado a elas pois desenvolvem seus jogos com pouco investimento e pouca ajuda de distribuidoras. Um dos fatores para o crescimento dessas empresas é o aumento de formas de distribuição de jogos, principalmente a distribuição online.
+
+De acordo com o Censo da Indústria Brasileira de Jogos Digitais, a média de funcionários por empresa no Brasil é de 8,5 pessoas (de 133 empresas que participaram da pesquisa de 2014) \cite{fleury2014censo}.
+
+
+\section{Problematização}
+
+Como a maioria dos desenvolvedores iniciantes trabalham com um investimento inicial baixo, além de problemas com publicidade, que é um dos principais fatores que impede o sucesso desses desenvolvedores, o projeto pode encontrar falhas técnicas \cite{Reichert2012} \cite{Moromisato2013}. Essas falhas no planejamento e no plano de negócio da empresa podem levar a uma má reputação do jogo ou da empresa, pois o mesmo pode sofrer problemas de otimização, que afetam o desempenho do jogo e o conforto do jogador.
+
+%Este trabalho de conclusão de curso irá se especificar em um dos problemas de conceito técnico, sendo ele relacionado a detecção de colisões no jogo, ou seja, quando dois objetos se interceptam.
+
+%Será adotada uma das engines mais populares entre os desenvolvedores indie, a Unity \cite{Unity2017} \cite{Banerjee2017}, também muito utilizada no Brasil de acordo com o Censo da Indústria Brasileira de Jogos Digitais (106  das 133 empresas pesquisadas em 2014, como mostrado na Tabela \ref{tabelaengines}) \cite{fleury2014censo} pelo fato de ter uma burocratização fácil. 
+
+%Durante as últimas décadas .... . Dessa forma, .... . Por isso, ....  \cite{Souza2015}. 
+
+%O presente documento é um exemplo de uso do estilo de formatação \LaTeX\ elaborado para atender às Normas para Elaboração de Trabalhos Acadêmicos da UTFPR. O estilo de formata\c{c}\~ao {\ttfamily normas-utf-tex.cls} tem por base o pacote \textsc{abn}\TeX~-- cuja leitura da documentação \cite{abnTeX2009} é fortemente sugerida~-- e o estilo de formatação \LaTeX\ da UFPR.
+
+%Para melhor entendimento do uso do estilo de formata\c{c}\~ao {\ttfamily normas-utf-tex.cls}, aconselha-se que o potencial usu\'ario analise os comandos existentes no arquivo \TeX\ ({\ttfamily modelo\_*.tex}) e os resultados obtidos no arquivo PDF ({\ttfamily modelo\_*.pdf}) depois do processamento pelo software \LaTeX\ + \textsc{Bib}\TeX~\cite{LaTeX2009,BibTeX2009}. Recomenda-se a consulta ao material de refer\^encia do software para a sua correta utiliza\c{c}\~ao~\cite{Lamport1986,Buerger1989,Kopka2003,Mittelbach2004}.
+
+%Para melhor entendimento do uso do estilo de formata\c{c}\~ao {\ttfamily normas-utf-tex.cls}, aconselha-se que o potencial usu\'ario analise os comandos existentes no arquivo \TeX\ ({\ttfamily modelo\_*.tex}) e os resultados obtidos no arquivo PDF ({\ttfamily modelo\_*.pdf}) depois do processamento pelo software \LaTeX\ + \textsc{Bib}\TeX~\cite{LaTeX2009,BibTeX2009}. Recomenda-se a consulta ao material de refer\^encia do software para a sua correta utiliza\c{c}\~ao~\cite{Lamport1986,Buerger1989,Kopka2003,Mittelbach2004}.
+
+
+%\section{Motivação}
+
+%Uma das principais vantagens do uso do estilo de formata\c{c}\~ao {\ttfamily normas-utf-tex.cls} para \LaTeX\ \'e a formata\c{c}\~ao \textit{autom\'atica} dos elementos que comp\~oem um documento acad\^emico, tais como capa, folha de rosto, dedicat\'oria, agradecimentos, ep\'igrafe, resumo, abstract, listas de figuras, tabelas, siglas e s\'imbolos, sum\'ario, cap\'itulos, refer\^encias, etc. Outras grandes vantagens do uso do \LaTeX\ para formata\c{c}\~ao de documentos acad\^emicos dizem respeito \`a facilidade de gerenciamento de refer\^encias cruzadas e bibliogr\'aficas, al\'em da formata\c{c}\~ao~-- inclusive de equa\c{c}\~oes  matem\'aticas~-- correta e esteticamente perfeita.
+
+%laçjdfispfjapfj~´faokf´spkf´s [´kfs´dpkfs]
+
+\section{Justificativa}
+
+Com o crescimento das empresas indie \cite{fleury2014censo} \cite{Morris2017}, tem aumentado o número de jogos executados em baixa performance, ou seja, os jogos rodam de maneira lenta ou pouco otimizada. Uma possível causa da baixa performance é a inexperiência dos desenvolvedores. Uma alternativa para suprir a falta de experiência é recorrer a soluções já existentes no mercado, como a plataforma de desenvolvimento de jogos Unity, que será alvo de estudo desse trabalho.
+
+No entanto, as informações sobre a plataforma Unity, mais especificamente sobre os métodos de colisões dessa plataforma são oriundas de sua própria documentação, que se mostra escassa em alguns quesitos, ou de fóruns, podendo trazer informações contraditórias com a documentação. Há uma falta de estudos que gerem soluções fundamentadas em boas práticas.
+
+Este estudo será realizado com o intuito de reduzir essas contradições, trazer dados e informações mais concretas e orientar os desenvolvedores durante a produção do jogo.
+
+\section{Objetivos}
+
+\subsection{Objetivo Geral}
+
+Realizar comparações na plataforma de desenvolvimento de jogos (game engine) Unity, referentes a diferentes métodos de detecção de colisões e sua influência de desempenho, por exemplo quadros por segundo (FPS), consumo de memória, consumo de CPU. Dessas comparações serão gerados relatórios e gráficos comparativos mostrando os resultados, analisando as vantagens e desvantagens de cada colisão descrita, bem como mostrar os cenários onde cada uma se mostra com melhor aproveitamento do desenvolvimento e da plataforma de distribuição (Computadores, Consoles, Dispositivos Móveis, Portáteis).
+
+%Prover um modelo de formata\c{c}\~ao \LaTeX\ que atenda \`as Normas para Elabora\c{c}\~ao de Trabalhos Acad\^emicos da UTFPR~\cite{UTFPR2008} e \`as Normas de Apresenta\c{c}\~ao de Trabalhos Acad\^emicos do DAELN~\cite{DAELN2006}.
+
+\subsection{Objetivos Espec\'ificos}
+
+Análise de cada método individualmente em diferentes cenários e comparar os resultados entre eles. Os métodos de identificação de colisão que serão analisados são \emph{OnTrigger}, \emph{OnCollision} e \emph{OnOverlap}.
+%\begin{enumerate}
+%\item dfsdsfd
+%\item fwfsdfsd
+%\end{enumerate}
+
+
+%\begin{itemize}
+%	\item Obter documentos acad\^emicos automaticamente formatados com corre\c{c}\~ao e perfei\c{c}\~ao est\'etica.
+%	\item Desonerar autores da tediosa tarefa de formatar documentos acad\^emicos, permitindo sua concentra\c{c}\~ao no conte\'udo do mesmo.
+%	\item Desonerar orientadores e examinadores da tediosa tarefa de conferir a formata\c{c}\~ao de documentos acad\^emicos, permitindo sua concentra\c{c}\~ao no conte\'udo do mesmo.
+%\end{itemize}
+
+%\section{Organização do Texto}
+
+\section{Organização do Trabalho}
+
+No Capítulo 2 será apresentado a fundamentação teórica que irá cobrir alguns conceitos de colisão 2D, além de explicitar alguns métodos presentes na Unity. No mesmo capítulo são apresentados alguns trabalhos relacionados sobre métodos de detecção de colisão.
+
+No Capítulo 3 será apresentado a proposta de como o trabalho será realizado, junto do cronograma estimado de seu progresso.

@@ -1,0 +1,855 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.23)  6 NOV 2017 19:49
+entering extended mode
+**./modelo_utfpr.tex
+(modelo_utfpr.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+(normas-utf-tex.cls (cvs-id.def)
+Document Class: normas-utf-tex 2011/06/19 v2.0
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2017/05/19 3.10 The Babel package
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-portuges\por
+tuges.ldf"
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count79
+\U@D=\dimen102
+)
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+)) ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lastpage\lastpage.
+sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bigfoot\perpage.st
+y"
+Package: perpage 2014/10/25 2.0 Reset/sort counters per page
+\c@abspage=\count80
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.
+sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip41
+\f@nch@O@elh=\skip42
+\f@nch@O@erh=\skip43
+\f@nch@O@olh=\skip44
+\f@nch@O@orh=\skip45
+\f@nch@O@elf=\skip46
+\f@nch@O@erf=\skip47
+\f@nch@O@olf=\skip48
+\f@nch@O@orf=\skip49
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
+.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count81
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (abnt.cls (cvs-id.def)
+Document Class: abnt 2006/09/09 v1.32 Classe abnt (NBR6024, NBR6027, NBR6028, N
+BR14724)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count82
+\calc@Bcount=\count83
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count84
+\calc@Cskip=\skip52
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.sty
+"
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count85
+\mult@box=\box26
+\multicol@leftmargin=\dimen105
+\c@unbalance=\count86
+\c@collectmore=\count87
+\doublecol@number=\count88
+\multicoltolerance=\count89
+\multicolpretolerance=\count90
+\full@width=\dimen106
+\page@free=\dimen107
+\premulticols=\dimen108
+\postmulticols=\dimen109
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box27
+\last@line=\box28
+\maxbalancingoverflow=\dimen110
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count91
+\c@finalcolumnbadness=\count92
+\last@try=\dimen111
+\multicolovershoot=\dimen112
+\multicolundershoot=\dimen113
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\mc@col@check@num=\count93
+) (abntex-abrev.sty (cvs-id.def)
+Package: abntex-abrev 2005/11/14 v1.4 Abreviacoes
+ (nbr10522-1988.def (cvs-id.def)
+File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:19
+88)
+)
+(abntex-abrev-pt_BR.def (cvs-id.def)
+File: abntex-abrev-pt_BR.def 2005/11/14 v1.3 definicao de abntex-abrev, traduca
+o de termos en_US/pt_BR
+)) (abntex-text.sty (cvs-id.def)
+Package: abntex-text 2005/11/14 v1.1 abnTeX text replacements
+
+(abntex-text-pt_BR.def (cvs-id.def)
+File: abntex-text-pt_BR.def 2005/12/21 v1.2 Definicao de nomes em Portugues/Bra
+sil (pt_BR)
+)) (abntex-default-design.sty (cvs-id.def)
+Package: abntex-default-design 2005/06/22 v1.2 Definicoes de design padrao do a
+bntex
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\relsize.st
+y"
+Package: relsize 2003/07/04 ver 3.1
+
+
+Package relsize Warning: Failed to get list of font sizes.
+(relsize)                Falling back to old definition. on input line 81.
+
+)
+\ABNTanapindent=\skip55
+\ABNTsignwidth=\skip56
+\ABNTsignthickness=\skip57
+\ABNTsignskip=\skip58
+) (nbr6027-1989.def) (nbr14724-2001.def)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count94
+\c@chapter=\count95
+\c@section=\count96
+\c@subsection=\count97
+\c@subsubsection=\count98
+\c@paragraph=\count99
+\c@subparagraph=\count100
+\c@figure=\count101
+\c@table=\count102
+\abovecaptionskip=\skip59
+\belowcaptionskip=\skip60
+\bibindent=\dimen114
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspace.
+sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\mathptmx.st
+y"
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\indentfirst.
+sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.
+sty"
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+)
+\c@absfigure=\count103
+\c@abstable=\count104
+\c@absequation=\count105
+) (abntcite.sty (cvs-id.def)
+Package: abntcite 2006/04/25 v1.30 Chamadas de referencias no texto (NBR10520, 
+NBR10522)
+\minimumbiblabelwidth=\skip61
+\ABCIauxlen=\skip62
+\c@ABCIaux=\count106
+\c@ABCImax=\count107
+ (nbr10520-2002.def (cvs-id.def)
+File: nbr10520-2002.def 2006/04/25 v1.4 Definicoes para abntcite (NBR10520:2002
+)
+)
+\biblabelsep=\skip63
+LaTeX Info: Redefining \newblock on input line 466.
+LaTeX Info: Redefining \cite on input line 493.
+\ABCItoken=\toks17
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.st
+y"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count108
+\LTcapwidth=\dimen115
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
+\LT@cols=\count109
+\LT@rows=\count110
+\c@LT@tables=\count111
+\c@LT@chunks=\count112
+\LT@p@ftn=\toks18
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip68
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen116
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen117
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count113
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count114
+\leftroot@=\count115
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count116
+\DOTSCASE@=\count117
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen118
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count118
+\c@MaxMatrixCols=\count119
+\dotsspace@=\muskip10
+\c@parentequation=\count120
+\dspbrk@lvl=\count121
+\tag@help=\toks20
+\row@=\count122
+\column@=\count123
+\maxfields@=\count124
+\andhelp@=\toks21
+\eqnshift@=\dimen119
+\alignsep@=\dimen120
+\tagshift@=\dimen121
+\tagwidth@=\dimen122
+\totwidth@=\dimen123
+\lineht@=\dimen124
+\@envbody=\toks22
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktabs.
+sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen127
+\lightrulewidth=\dimen128
+\cmidrulewidth=\dimen129
+\belowrulesep=\dimen130
+\belowbottomsep=\dimen131
+\aboverulesep=\dimen132
+\abovetopsep=\dimen133
+\cmidrulesep=\dimen134
+\cmidrulekern=\dimen135
+\defaultaddspace=\dimen136
+\@cmidla=\count125
+\@cmidlb=\count126
+\@aboverulesep=\dimen137
+\@belowrulesep=\dimen138
+\@thisruleclass=\count127
+\@lastruleclass=\count128
+\@thisrulewidth=\dimen139
+) (modelo_utfpr.aux (Capitulos/capitulo1.aux) (Capitulos/capitulo2.aux)
+(Capitulos/capitulo3.aux))
+\openout1 = `modelo_utfpr.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 74.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 74.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen140
+\scratchbox=\box58
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen141
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks25
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 76
+.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd
+"
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 76
+.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd
+"
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 76
+.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd
+"
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 76
+.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd
+"
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+ [1
+
+{C:/Users/STHGM/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[1] [1
+
+
+] [2
+
+
+] (modelo_utfpr.lof)
+\tf@lof=\write3
+\openout3 = `modelo_utfpr.lof'.
+
+ [3
+
+] (modelo_utfpr.lot)
+\tf@lot=\write4
+\openout4 = `modelo_utfpr.lot'.
+
+ [4
+
+] (modelo_utfpr.toc)
+\tf@toc=\write5
+\openout5 = `modelo_utfpr.toc'.
+
+
+[5
+
+
+]
+\openout2 = `./Capitulos/capitulo1.aux'.
+
+ (Capitulos/capitulo1.tex
+Cap\'{\i }tulo 1.
+[7
+
+
+
+]
+Overfull \hbox (1.57542pt too wide) in paragraph at lines 47--48
+[]\OT1/ptm/m/n/12 Realizar compara[][]oes na pla-ta-forma de de-sen-vol-vi-ment
+o de jo-gos (game en-gine) Unity,
+ []
+
+
+Overfull \hbox (15.3206pt too wide) in paragraph at lines 47--48
+\OT1/ptm/m/n/12 exem-plo qua-dros por se-gundo (FPS), con-sumo de mem[]oria, co
+n-sumo de CPU. Des-sas compara[][]oes
+ []
+
+) [8]
+\openout2 = `./Capitulos/capitulo2.aux'.
+
+ (Capitulos/capitulo2.tex
+Cap\'{\i }tulo 2.
+<./Figuras/exemplo_bola_botao_01.png, id=33, 662.475pt x 313.9228pt>
+File: ./Figuras/exemplo_bola_botao_01.png Graphic file (type png)
+
+<use ./Figuras/exemplo_bola_botao_01.png>
+Package pdftex.def Info: ./Figuras/exemplo_bola_botao_01.png used on input line
+ 15.
+(pdftex.def)             Requested size: 227.62206pt x 107.858pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+
+<./Figuras/exemplo_bola_botao_02.png, id=35, 659.46375pt x 312.41719pt>
+File: ./Figuras/exemplo_bola_botao_02.png Graphic file (type png)
+
+<use ./Figuras/exemplo_bola_botao_02.png>
+Package pdftex.def Info: ./Figuras/exemplo_bola_botao_02.png used on input line
+ 22.
+(pdftex.def)             Requested size: 227.62206pt x 107.83171pt.
+ [9
+
+
+
+ <./Figuras/exemplo_bola_botao_01.png> <./Figuras/exemplo_bola_botao_02.png>]
+<./Figuras/exemplo_col_circulos_01_TP.png, id=41, 469.00218pt x 344.78813pt>
+File: ./Figuras/exemplo_col_circulos_01_TP.png Graphic file (type png)
+
+<use ./Figuras/exemplo_col_circulos_01_TP.png>
+Package pdftex.def Info: ./Figuras/exemplo_col_circulos_01_TP.png used on input
+ line 35.
+(pdftex.def)             Requested size: 227.62206pt x 167.33252pt.
+
+<./Figuras/exemplo_col_circulos_03_TP.png, id=42, 504.38437pt x 353.06906pt>
+File: ./Figuras/exemplo_col_circulos_03_TP.png Graphic file (type png)
+
+<use ./Figuras/exemplo_col_circulos_03_TP.png>
+Package pdftex.def Info: ./Figuras/exemplo_col_circulos_03_TP.png used on input
+ line 44.
+(pdftex.def)             Requested size: 227.62206pt x 159.33752pt.
+
+<./Figuras/exemplo_col_circulos_04_TP.png, id=43, 485.56406pt x 389.20406pt>
+File: ./Figuras/exemplo_col_circulos_04_TP.png Graphic file (type png)
+
+<use ./Figuras/exemplo_col_circulos_04_TP.png>
+Package pdftex.def Info: ./Figuras/exemplo_col_circulos_04_TP.png used on input
+ line 53.
+(pdftex.def)             Requested size: 227.62206pt x 182.44489pt.
+
+<./Figuras/code_sphere.png, id=44, 499.11469pt x 281.55188pt>
+File: ./Figuras/code_sphere.png Graphic file (type png)
+
+<use ./Figuras/code_sphere.png>
+Package pdftex.def Info: ./Figuras/code_sphere.png used on input line 62.
+(pdftex.def)             Requested size: 455.24411pt x 256.81406pt.
+ [10 <./Figuras/exemplo_col_circulos_01_TP.png>] [11 <./Figuras/exemplo_col_cir
+culos_03_TP.png> <./Figuras/exemplo_col_circulos_04_TP.png>] [12 <./Figuras/cod
+e_sphere.png>]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 104.
+
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
+<./Figuras/circle-collider-2d.png, id=59, 444.15938pt x 148.30406pt>
+File: ./Figuras/circle-collider-2d.png Graphic file (type png)
+
+<use ./Figuras/circle-collider-2d.png>
+Package pdftex.def Info: ./Figuras/circle-collider-2d.png used on input line 11
+1.
+(pdftex.def)             Requested size: 341.43307pt x 114.00438pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 112.
+
+<./Figuras/box.png, id=60, 594.22pt x 234.8775pt>
+File: ./Figuras/box.png Graphic file (type png)
+ <use ./Figuras/box.png>
+Package pdftex.def Info: ./Figuras/box.png used on input line 123.
+(pdftex.def)             Requested size: 341.43307pt x 134.96391pt.
+
+Overfull \hbox (3.05449pt too wide) in paragraph at lines 131--132
+\OT1/ptm/m/n/12 forma po-li-go-nal con-vexa ou n[]ao-convexa fe-chada. O \OT1/p
+tm/m/it/12 Poly-gon-Col-li-der2D \OT1/ptm/m/n/12 n[]ao tem restri[][]ao
+ []
+
+[13 <./Figuras/circle-collider-2d.png> <./Figuras/box.png>]
+<./Figuras/poligon-collider-2d.png, id=67, 439.6425pt x 166.37157pt>
+File: ./Figuras/poligon-collider-2d.png Graphic file (type png)
+
+<use ./Figuras/poligon-collider-2d.png>
+Package pdftex.def Info: ./Figuras/poligon-collider-2d.png used on input line 1
+35.
+(pdftex.def)             Requested size: 341.43307pt x 129.21078pt.
+
+<./Figuras/edge-collider-2d.png, id=68, 444.91219pt x 173.14688pt>
+File: ./Figuras/edge-collider-2d.png Graphic file (type png)
+
+<use ./Figuras/edge-collider-2d.png>
+Package pdftex.def Info: ./Figuras/edge-collider-2d.png used on input line 147.
+
+(pdftex.def)             Requested size: 341.43307pt x 132.877pt.
+ [14 <./Figuras/poligon-collider-2d.png> <./Figuras/edge-collider-2d.png>] [15]
+
+Overfull \hbox (11.17822pt too wide) in paragraph at lines 228--229
+\OT1/ptm/m/n/12 nem[]aticos de-vem ser usa-dos em ob-je-tos que po-dem ser mo-v
+i-dos ou ha-bi-li-ta-dos/desabilitados
+ []
+
+[16] [17] <./Figuras/Aabb_01.png, id=81, 301.125pt x 163.3603pt>
+File: ./Figuras/Aabb_01.png Graphic file (type png)
+
+<use ./Figuras/Aabb_01.png>
+Package pdftex.def Info: ./Figuras/Aabb_01.png used on input line 330.
+(pdftex.def)             Requested size: 455.24411pt x 246.9941pt.
+ [18] [19 <./Figuras/Aabb_01.png>]
+<./Figuras/Bounding_Volumes.jpg, id=90, 401.5pt x 271.0125pt>
+File: ./Figuras/Bounding_Volumes.jpg Graphic file (type jpg)
+
+<use ./Figuras/Bounding_Volumes.jpg>
+Package pdftex.def Info: ./Figuras/Bounding_Volumes.jpg used on input line 355.
+
+(pdftex.def)             Requested size: 341.43307pt x 230.48163pt.
+) [20 <./Figuras/Bounding_Volumes.jpg>]
+\openout2 = `./Capitulos/capitulo3.aux'.
+
+
+(Capitulos/capitulo3.tex
+Cap\'{\i }tulo 3.
+
+Overfull \hbox (32.81496pt too wide) in paragraph at lines 11--27
+ [][] 
+ []
+
+[21
+
+
+
+]) [22] [23] (modelo_utfpr.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+[]\OT1/ptm/m/n/12 BANERJEE, S. \OT1/ptm/b/n/12 7 Most Po-pu-lar Game De-ve-lop-
+ment En-gi-nes You Should
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+\OT1/ptm/b/n/12 Con-si-der\OT1/ptm/m/n/12 . 2017. Aces-sado em 5 de ou-tu-bro d
+e 2017. Dis-pon[]vel em:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+\OML/ztmcm/m/it/12 <$\OT1/ptm/m/n/12 https://www.rswebsols.com/tutorials/softwa
+re-tutorials/popular-game-development-
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 35--39
+[]\OT1/ptm/m/n/12 DIGISCOT. \OT1/ptm/b/n/12 Dif-fe-rence between Li-ne-cast and
+ Ray-cast - Unity Answers\OT1/ptm/m/n/12 . 2015. Dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+\OML/ztmcm/m/it/12 <$\OT1/ptm/m/n/12 https://www.gamedev.net/articles/programmi
+ng/math-and-physics/simple-bounding-sphere-
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 78--81
+[]\OT1/ptm/m/n/12 Krita Foun-da-tion. \OT1/ptm/b/n/12 Krita\OT1/ptm/m/n/12 . 20
+17. Aces-sado em 8 de ou-tu-bro de 2017. Dis-pon[]vel em:
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 89--94
+[]\OT1/ptm/m/n/12 MOROMISATO, G. \OT1/ptm/b/n/12 What is the big-gest pro-blem 
+you face as a in-de-pen-dent
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 89--94
+\OT1/ptm/b/n/12 game de-ve-lo-per? \OT1/ptm/m/n/12 2013. Aces-sado em 5 de ou-t
+u-bro de 2017. Dis-pon[]vel em:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--94
+\OML/ztmcm/m/it/12 <$\OT1/ptm/m/n/12 https://www.quora.com/What-is-the-biggest-
+problem-you-face-as-a-independent-game-
+ []
+
+[24
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 123--128
+[]\OT1/ptm/m/n/12 SILVEIRA, D. \OT1/ptm/b/n/12 N[]umero de de-sen-vol-ve-do-res
+ de ga-mes cresce 600% em 8
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 123--128
+\OT1/ptm/b/n/12 anos, diz associa[][]ao\OT1/ptm/m/n/12 . 2017. Aces-sado em 8 d
+e ou-tu-bro de 2017. Dis-pon[]vel em:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--128
+\OML/ztmcm/m/it/12 <$\OT1/ptm/m/n/12 https://g1.globo.com/economia/negocios/not
+icia/numero-de-desenvolvedores-de-games-
+ []
+
+) 
+AED: lastpage setting LastPage
+[25]
++-------------------------------------------------------------------+
+| Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
+|                  http://abntex.codigolivre.org.br                 |
++-------------------------------------------------------------------+
+(modelo_utfpr.aux (Capitulos/capitulo1.aux) (Capitulos/capitulo2.aux)
+(Capitulos/capitulo3.aux)) ) 
+Here is how much of TeX's memory you used:
+ 5163 strings out of 493323
+ 73505 string characters out of 3130014
+ 168541 words of memory out of 3000000
+ 8475 multiletter control sequences out of 15000+200000
+ 34991 words of font info for 79 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,19n,45p,909b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/f
+onts/enc/dvips/base/8r.enc}<C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/STHGM/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/STHGM/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/STHGM/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/STHGM/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/STH
+GM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on modelo_utfpr.pdf (26 pages, 647763 bytes).
+PDF statistics:
+ 132 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

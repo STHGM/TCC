@@ -1,0 +1,438 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CAPÍTULO 2
+\chapter{FUNDAMENTAÇÃO TEÓRICA}  
+
+%O capítulo de Fundamentação Teórica deve definir os principais conceitos do trabalho e apontar os trabalhos relacionados. Contém a exposição ordenada e pormenorizada do assunto. É composta de revisão de literatura, dividida em seções e subseções descritas detalhadamente. Cada seção ou subseção deverá ter um título apropriado ao conteúdo. 
+
+%A seguir ilustra-se a forma de incluir figuras, tabelas, equa\c{c}\~oes, siglas e s\'imbolos no documento, obtendo indexa\c{c}\~ao autom\'atica em suas respectivas listas. A numera\c{c}\~ao sequencial de figuras, tabelas e equa\c{c}\~oes ocorre de modo autom\'atico. Refer\^encias cruzadas s\~ao obtidas atrav\'es dos comandos {\ttfamily \textbackslash label\{\}} e {\ttfamily \textbackslash ref\{\}}. Por exemplo, n\~ao \'e necess\'ario saber que o n\'umero deste cap\'itulo \'e~\ref{chap:desenv} para colocar o seu n\'umero no texto. Isto facilita muito a inser\c{c}\~ao, remo\c{c}\~ao ou reloca\c{c}\~ao de elementos numerados no texto (fato corriqueiro na escrita e corre\c{c}\~ao de um documento acad\^emico) sem a necessidade de renumer\'a-los todos.
+
+Os jogos digitais são softwares que permitem a interação lúdica entre o jogador e o ambiente em que o jogo é executado, como computadores e videogames, afim de proporcionar entretenimento ao jogador \cite{lucchese2009conceituacao}.
+
+Nos jogos, as colisões são utilizadas para realizar interações entre objetos. Fisicamente elas são usadas para detectar quando um objeto está em colisão com outro, que pode ser utilizado para criar interações entre os objetos. Por exemplo uma bola cai em cima de um botão, e esta interação realiza um evento de abrir uma porta.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.5\textwidth]{./Figuras/exemplo_bola_botao_01.png}
+	\caption[Exemplo de interação de eventos]{Exemplo de evento de colisão.}
+	\label{exevento01}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.5\textwidth]{./Figuras/exemplo_bola_botao_02.png}
+	\caption[Exemplo de interação de eventos]{Exemplo de evento de colisão.}
+	\label{exevento02}
+\end{figure}
+
+\section{Conceitos básicos de colisão}
+
+Colisões funcionam por cálculos matemáticos, como Teorema de Pitágoras e diferença de pontos, que detectam intersecção entre objetos baseada em coordenadas de suas posições e rotações, caso produzam alguma, no espaço. Um exemplo é a colisão de círculos, onde cada círculo tem como atributos o seu centro, que irá determinar a sua posição no espaço e o raio. Se a diferença da distância entre os centros dos círculos for menor ou igual a diferença dos raios significa que os círculos estão colidindo. Isso é ilustrado nas Figuras \ref{circle01}, \ref{circle02} e \ref{circle03}.
+
+Na Figura \ref{circle01} os pontos A e B representam os centros de cada círculo, sendo que o círculo verde tem o raio de comprimento A-C e o círculo pontilhado tem raio B-D. Então pode ser calculada a distância entre os centros dos círculos através de um Teorema de Pitágoras, tendo a reta A-B como sua hipotenusa. Logo em seguida será feita a comparação entre o comprimento da hipotenusa e a soma dos raios dos círculos para verificar estão colidindo. No caso da Figura \ref{circle01} eles não estão em colisão, pois o comprimento da hipotenusa A-B é maior que a soma dos raios A-C e B-D dos círculos, não satisfazendo a condição para que ocorra a colisão.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.5\textwidth]{./Figuras/exemplo_col_circulos_01_TP.png}
+	\caption[Colisão de Círculos: Círculos não estão colidindo.]{Colisão de Círculos: Círculos não estão colidindo, diferença das distâncias entre os centros é maior que a soma dos raios.} 
+	\label{circle01}
+\end{figure}
+
+Na Figura \ref{circle02} o procedimento é o mesmo para verificação. Nesse caso há a colisão e ainda há a intersecção entre os círculos. Isso pode ser confirmado ao comparar o comprimento da hipotenusa A-B com a soma dos raios A-C e B-D e verificar que o tamanho da hipotenusa é menor que a soma dos raios. Dependendo dos requisitos e do algoritmo, os pontos onde ocorre a intersecção podem ser armazenados, no caso da Figura \ref{circle02} são os pontos E e F.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.5\textwidth]{./Figuras/exemplo_col_circulos_03_TP.png}
+	\caption[Colisão de Círculos: Círculos estão colidindo e interceptando.]{Colisão de Círculos: Círculos estão colidindo e interceptando, diferença das distâncias entre os centros é menor que a soma dos raios.} 
+	\label{circle02}
+\end{figure}
+
+Na Figura \ref{circle03} o procedimento também é o mesmo e nesse existe a colisão, porém não há intersecção entre os círculos, isso é verificado através do cálculo da diferença entre a hipotenusa A-B e a soma dos raios A-C e B-D, que nesse caso são do mesmo comprimento, portanto há colisão.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.5\textwidth]{./Figuras/exemplo_col_circulos_04_TP.png}
+	\caption[Colisão de Círculos: Círculos estão colidindo.]{Colisão de Círculos: Círculos estão colidindo, diferença das distâncias entre os centros é igual que a soma dos raios.} 
+	\label{circle03}
+\end{figure}
+
+Um código semelhante é explicado no livro Programação de Jogos com C++ e DirectX de André Santee, porém com uma esfera ao invés de um círculo, no entanto o conceito se aplica de forma semelhante \cite{Santee2005}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{./Figuras/code_sphere.png}
+	\caption[Código colisão de esferas]{Código sobre colisão de esferas} \fonte{\cite{Santee2005}.}
+	\label{codesphere}
+\end{figure}
+
+O código representado na Figura \ref{codesphere} é basicamente dividido em duas etapas: encontrar a diferença na distância do centro das duas esferas utilizando o teorema de Pitágoras. Essa diferença será então verificada se ela é menor ou igual à soma dos raios das esferas.
+
+No código, é criada uma \emph{struct} Sphere (linha 1), que contém os atributos \emph{pos} (linha 3), recebendo a posição do centro da esfera; e \emph{radius} (linha 4), que recebe o valor do raio da esfera, sendo elas as estruturas presentes na simulação. 
+
+A função \emph{SphereCollision} (linha 7) do tipo booleana retorna falso se as esferas não estiverem colidindo e verdadeiro se estiverem. Ela recebe como parâmetro o endereço de duas estruturas do tipo esfera que serão usadas na detecção, já o último parâmetro recebe o endereço da distância entre os centros das esferas, no entanto esse parâmetro é opcional.
+
+Dentro da função é criado um vetor \emph{diff} (linha 9), que será usado para armazenar a diferença das distâncias dos centros das esferas em cada eixo através de uma iteração num \emph{for} (linhas 10 a 13).
+
+É criada então uma variável \emph{dist} que recebe a raiz da soma dos quadrados das distâncias entre os centros das esferas (\emph{diff}) (linha 14), ou seja, o teorema de Pitágoras.
+
+Nas linhas 15 a 18 verifica se o \emph{poutDist} é válido, se for, \emph{dist} é atribuído ao local da memória indicado.
+
+As linhas 19 a 22 verifica se há colisão entre as esferas calculando se a distância delas é menor ou igual a soma dos raios das mesmas.
+
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{./Figuras/code_circle.png}
+%	\caption[Código colisão de esferas]{Código sobre colisão de esferas exibido em \cite{Santee2005}.}
+%	\label{codesphere}
+%\end{figure}
+
+\section{Física na Unity}
+
+Nesta seção será apresentada os métodos e classes dos colisores mais comumente utilizados nos \emph{GameObjects} na plataforma de desenvolvimento de jogos Unity.
+
+\emph{GameObjects} são as classes básicas para todas as entidades compõem uma cena na Unity, e a elas podem ser atribuídos componentes que alteram suas propriedades.
+
+
+%	\subsection{Collision2D}
+	
+%	Detalha quais Colliders2D estão envolvidos na colisão, bem como os pontos de contato onde os Colliders2D se encontram.
+	
+	\subsection{Colliders 2D}
+	
+	Serão detalhados com figuras os \emph{colliders} dos tipos \emph{CircleCollider2D}, \emph{BoxCollider2D}, \emph{PolygonCollider2D} e \emph{EdgeColider2D}, pois são os tipos que serão o alvo de estudos desse trabalho, pelo fato de serem mais utilizados comumente e não necessitarem de interações entre outros \emph{colliders} para existirem.
+	
+\begin{itemize}
+	\item \emph{CircleCollider2D}
+	
+	Componente que adiciona a propriedade de colisão do tipo círculo. É restrito ao raio do \emph{collider}.
+	
+	
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[width=0.75\textwidth]{./Figuras/circle-collider-2d.png}
+		\caption[Exemplo de CircleCollider2D]{Exemplo de uso do \emph{CircleCollider2D}.}
+		\fonte{\cite{Basics2017}}
+		\label{circlecolex}
+	\end{figure}
+	
+	\item \emph{BoxCollider2D}
+	
+	Componente que adiciona a propriedade de colisão do tipo retangular. É restrito a altura e largura do \emph{collider}.
+	
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[width=0.75\textwidth]{./Figuras/box.png}
+		\caption[Exemplo de BoxCollider2D]{Exemplo de uso do \emph{BoxCollider2D}.}
+		\fonte{\cite{Basics2017}}
+		\label{boxcolex}
+	\end{figure}
+	
+	\item \emph{PolygonCollider2D}
+	
+	Componente que adiciona a propriedade de colisão do tipo poligonal, ou seja qualquer forma poligonal convexa ou não-convexa fechada. O \emph{PolygonCollider2D} não tem restrição de forma, porém é comumente utilizado quando algum objeto tem uma forma complexa que precisa ser utilizar todo o formato do objeto. A forma final do seu \emph{collider} representa um polígono fechado côncavo ou convexo.
+	
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[width=0.75\textwidth]{./Figuras/poligon-collider-2d.png}
+		\caption[Exemplo de PolygonCollider2D]{Exemplo de uso do \emph{PolygonCollider2D}.}
+		\fonte{\cite{Basics2017}}
+		\label{polycolex}
+	\end{figure}
+	
+	\item \emph{Edge Collider 2D}
+	
+	Componente que adiciona a propriedade de colisão do tipo aresta, ou seja qualquer forma poligonal convexa ou não-convexa aberta. Não tem restrição de forma, porém é comumente utilizado para terrenos e plataformas, onde apenas parte da superfície do objeto é utilizada.
+	
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[width=0.75\textwidth]{./Figuras/edge-collider-2d.png}
+		\caption[Exemplo de EdgeCollider2D]{Exemplo de uso do \emph{EdgeCollider2D}.}
+		\fonte{\cite{Basics2017}}
+		\label{edgecolex}
+	\end{figure}
+	
+	\item \emph{SpringJoint2D}
+	
+	Componente que adiciona a propriedade de colisão do tipo mola.
+	
+	\item \emph{DistanceJoint2D}
+	
+	Articulação 2D que une dois \emph{GameObjects} controlados pela física de \emph{RigidBody2D} e os mantém a uma certa distância.
+	
+	\item \emph{HingeJoint2D}
+	
+	Componente que adiciona a propriedade do tipo restrição angular, permitindo restringir rotação do objeto em seu próprio eixo (que pode ser personalizado) ou ser ligado (e ter o angulo de rotação restringido) por outro objeto.
+	
+	\item \emph{SliderJoint2D}
+	
+	Articulação que permite o \emph{GameObject} deslizar ao longo de uma linha no espaço.
+	
+	\item \emph{WheelJoint2D}
+	
+	Usado para simular uma roda rolante. A roda usa uma suspensão de ``mola'' para manter a distância do corpo principal do veículo.
+	
+\end{itemize}
+	
+	\subsection{Mensagens dos Colliders}
+	
+\begin{itemize}
+	
+	\item \emph{OnCollisionEnter2D}
+	
+	 É chamado quando o \emph{collider/rigidbody} do objeto ao qual ele pertence começou a tocar outro \emph{collider/rigidbody}.
+	
+	\item \emph{OnCollisionExit2D}
+	
+	É chamado quando o \emph{collider/rigidbody} do objeto ao qual ele pertence parou de tocar outro \emph{collider/rigidbody}.
+	
+	\item \emph{OnCollisionStay2D}
+	
+	É chamado uma vez por quadro para cada \emph{collider/rigidbody} que está tocando o \emph{collider/rigidbody} do objeto ao qual ele pertence.
+	
+	\item \emph{OnTriggerEnter2D}
+	
+	É chamado quando o \emph{collider} entra no \emph{trigger}(gatilho) do objeto ao qual ele pertence.
+	
+	\item \emph{OnTriggerExit2D}
+	
+	É chamado quando o \emph{collider} parou de tocar no \emph{trigger} do objeto ao qual ele pertence.
+	
+	\item \emph{OnTriggerStay2D}
+	
+	É chamado em quase todos os quadros para cada  \emph{collider} que esteja tocando o \emph{trigger} do objeto ao qual ele pertence.
+	
+
+	
+	% Please add the following required packages to your document preamble:
+	% \usepackage{graphicx}
+	
+	
+\end{itemize}
+
+
+
+\subsection{Interações de Colliders}
+
+\emph{Colliders} interagem uns com os outros diferentemente dependendo de como seus componentes \emph{Rigidbody} são configurados. As três configurações importantes são \emph{Static Collider, Rigidbody Collider e Kinematic Rigidbody Collider} \cite{UnityTechnologies2017}.
+
+\begin{itemize}
+	\item Static Collider
+	
+	Trata-se de um \emph{GameObject} que tem um \emph{Collider} mas não contém \emph{Rigidbody}. \emph{Static Colliders} são utilizados para desenvolvimento do cenário, já que eles se mantém no mesmo lugar e nunca se mexem. Objetos com \emph{Rigidbody} irão colidir com o \emph{static collider} mas não o moverão.
+	
+	\item \emph{Rigidbody Collider}
+	
+	Este é um \emph{GameObject} com um \emph{collider} e um \emph{Rigidbody} não-cinemático atribuído a ele. \emph{Colliders Rigidbody} são totalmente simulados pela \emph{engine} de física e podem reagir a colisões e forças aplicadas por \emph{script}. Eles podem colidir com outros objetos (incluindo \emph{static colliders}) e é a configuração mais usada de \emph{Collider} em jogos que usam física.
+	
+	\item \emph{Kinematic Rigidbody Collider}
+	
+	Este é um \emph{GameObject} com um \emph{Collider} e um \emph{Rigidbody} cinemático atribuído a ele (a propriedade \emph{IsKinematic} do \emph{RigidBody} é habilitada). Você pode mover um \emph{rigidbody} cinemático a partir de um \emph{script} modificando o componente \emph{Transform} dele, porém não irá responder a colisões e forças como um \emph{rigidbody} não-cinemático. \emph{Rigidbodies} cinemáticos devem ser usados em objetos que podem ser movidos ou habilitados/desabilitados quando necessário, porém devem se comportar como \emph{static colliders}. Diferente de um \emph{static collider}, um \emph{rigidbody} cinemático que se mova irá aplicar fricção para outros objetos e irá ``acordar'' outros \emph{rigidbodies} quando fazem contato.
+	
+\end{itemize}
+
+A Tabela \ref{mensagem_trigger} mostra quais interações de colisões geram mensagens para os \emph{triggers} enviarem.
+
+\begin{table}[!htb]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|c|c|c|c|c|c|}
+			\hline
+			\multicolumn{7}{|l|}{Trigger messages are sent upon collision} \\ \hline
+			& \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Static\\ Collider\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Rigidbody\\ Collider\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Kinematic Rigidbody\\ Collider\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Static Trigger\\ Collider\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Rigidbody Trigger\\ Collider\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Kinematic Rigidbody\\ Trigger Collider\end{tabular}} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Static\\ Collider\end{tabular} &  &  &  &  & Y & Y \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Rigidbody\\ Collider\end{tabular} &  &  &  & Y & Y & Y \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Kinematic Rigidbody\\ Collider\end{tabular} &  &  &  & Y & Y & Y \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Static Trigger\\ Collider\end{tabular} &  & Y & Y &  & Y & Y \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Rigidbody Trigger\\ Collider\end{tabular} & Y & Y & Y & Y & Y & Y \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Kinematic Rigidbody Trigger\\ Collider\end{tabular} & Y & Y & Y & Y & Y & Y \\ \hline
+		\end{tabular}%
+	}
+	\caption{Quando mensagens de \emph{trigger} são enviadas de acordo com o tipo de colisão}
+	\label{mensagem_trigger}
+\end{table}
+
+Alguns exemplos de quando mensagens de \emph{trigger} são enviadas sobre uma colisão podem ser comparados seguindo a Tabela \ref{mensagem_trigger}. Comparando a colisão entre um \emph{Static Collider} e um \emph{Rigidbody Trigger Collider}, ele envia uma mensagem de \emph{trigger}. Porém se forem comparados \emph{Kinematic Rigidbody Collider} com um \emph{Rigidbody Collider}, ele não envia mensagem de \emph{trigger}.
+
+Quando ocorre detecção de colisão e mensagens \emph{não-triggers} são enviadas ao ocorrer a colisão, esse envio acontece apenas entre \emph{Rigidbody Collider com Static Collider, Rigidbody Collider com Rigidbody Collider, Rigidbody Collider com Kinematic Rigidbody Collider, Static Collider com Rigidbody Collider, Kinematic Rigidbody Collider com Rigidbody Collider}.
+	
+	\subsection{Funções da Physics2D}
+	
+\begin{itemize}	
+	
+	\item \emph{Raycast}
+	
+	Emite um raio contra \emph{colliders} na cena.
+	
+	\item \emph{Linecast}
+	
+	Emite um segmento de linha contra \emph{colliders} na cena.
+	
+	\item \emph{Overlap}
+	
+	Checa se um \emph{collider} intercepta com uma área.
+	
+\end{itemize}
+
+Em um \emph{Raycast} é configurado o ponto inicial e a direção desse ponto para detectar se algo se encontra nesse raio \cite{Kacer2011}, \cite{DigiScot2015}. Esse raio emitido pode ser infinito no espaço.
+
+Em um \emph{Linecast} é configurado o ponto inicial e o ponto final. Se houver algum \emph{collider} entre esses dois pontos ele irá retornar verdadeiro \cite{Kacer2011}, \cite{DigiScot2015}.
+	
+	\subsection {Subdivisões das funções da Physics2D}
+	\begin{itemize}
+	
+	\item All
+	
+	Adquire uma lista de todos os colliders que interceptam em uma área.
+	
+	\item NonAloc
+	
+	Adquire uma lista de todos os colliders que interceptam em uma área específica.
+	
+	\subsection {Subdivisões dos Overlaps}
+	
+	\item Area
+	
+	Verifica se um collider está dentro de uma área retangular.
+	
+	\item Box
+	
+	Verifica se um collider está dentro de uma área de caixa.
+	
+	\item Capsule
+	
+	Verifica se um collider está dentro de uma área de capsula.
+	
+	\item Circle
+	
+	Verifica se um collider está dentro de uma área de círculo.
+	
+	\item Collider
+	
+	Obtém uma lista de todos os colliders que se sobrepõem ao collider.
+	
+	\item Point
+	
+	Verifica se um collider se sobrepõe a um ponto no espaço.
+\end{itemize}
+
+\cite{UnityTechnologies2017}
+
+\section{Trabalhos Relacionados}
+
+Existem muitos métodos de implementação de detecção de colisão, e alguns deles podem ser implementados na Unity além dos já existentes na \emph{engine}. Nesta seção serão mencionados brevemente dois métodos muito utilizados e semelhantes em certos aspectos para detecção de colisão, que podem ser implementados na Unity através de implementação própria, como o AABB (\emph{Axis Alligned Bounding Box}).
+
+
+
+\subsection{AABB (Axis Alligned Bounding Box)}
+O método de AABB cria uma caixa que envolve todo o volume do objeto, porém, diferente do OBB, as caixas não são alinhadas com o eixo base do próprio objeto, e sim com o eixo do espaço mundial onde o objeto se encontra. Em outras palavras, se o objeto rotacionar, o volume da caixa que será usada para detectar a colisão irá aumentar, pois não é fixo ao eixo base do objeto. Isso quer dizer que se dois objetos, dependendo de como estiverem arranjados no espaço, mesmo que não estejam colidindo, a detecção pode resultar que estão, pois suas caixas que os envolvem estão colidindo, como mostrado na figura \ref{aabb}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{./Figuras/Aabb_01.png}
+	\caption[Exemplo de colisão AABB]{Exemplo de colisão AABB.}
+	\fonte{\cite{Eichner2014}}
+	\label{aabb}
+\end{figure}
+
+Basicamente o que o algoritmo faz é adquirir os extremos das caixas, geralmente por arestas, que estão envolvendo os objetos e calcula a diferença entre eles.
+\cite{Eichner2014}.
+
+\subsection{OBB (Oriented Bounding Box)}
+\cite{eberly2002dynamic}, \cite{Eichner2014}, \cite{Ericson2004}
+
+O método de OBB funciona criando uma caixa que envolve o volume de cada objeto que estará envolvido no teste de colisão tendo cada um deles como orientação seu eixo base. A  detecção pode ser feita de várias formas, a mais simples é checar se os vértices de uma caixa estão dentro de uma outra e vice-versa. Esse método tende a ser mais preciso que o AABB, pois se o objeto rotaciona, a caixa que o envolve também irá seguir essa rotação. No entanto tem um custo ligeiramente maior na performance. Esse método se assemelha ao componente \emph{BoxCollider2D} na Unity.
+
+
+\subsection{Bounding Sphere}
+
+O \emph{Bounding Sphere} adquire o valor do centro da esfera e raio dos objetos que estarão envolvidos na detecção. Se a diferença da distância entre os centros das esferas for menor que a soma dos raios, então as esferas estão colidindo (um código semelhante foi explicado na seção 2.1 na Figura \ref{codesphere}) \cite{Santee2005}, \cite{Dopertchouk2000}. Um exemplo de \emph{Bounding Sphere} está apresentado na Figura \ref{obb}.
+
+\subsection{Convex Hull}
+
+O \emph{Convex Hull} procura atribuir o menor volume convexo para que possa conter o objeto, ou seja, o volume apresenta um sólido que não contém concavidades. Existem vários algoritmos que podem realizar os cálculos para formar esses volumes e/ou que permitem faze-los de maneira mais customizáveis. \cite{chazelle1993optimal}, \cite{de2008computational}. Um exemplo de volume \emph{Convex Hull} é apresentado na Figura \ref{obb}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Bounding_Volumes.jpg}
+	\caption[Exemplo de colisão OBB e outros]{Exemplo de colisão OBB e outros.}
+	\fonte{\cite{Serrano2016}}
+	\label{obb}
+\end{figure}
+
+%\subsection{Detecção de colisão usando hierarquias de volume envelopado e k-DOPs}
+%O trabalho realizado por \citeauthor{Klosowski1998} (\citeyear{Klosowski1998}), demonstra um novo algoritmo usando hierarquias de volume envelopado e k-DOPs (``discrete orientation polytope''). Além de uma integração com BV-trees.
+
+%\subsection{Algoritmo melhorado para detecção de colisões 2D}
+%O trabalho realizado por \cite{5453586} propõe um novo método de colisão 2D envolvendo retângulos de envelope de eixo alinhado. Valores de coordenadas são configurados para o centro do retângulo e os quatro vértices que o compõem e usa a distância entre dois pontos para detectar se as vértices do outro objeto estão inclusas, se estiverem, há colisão. A colisão sobre múltiplos objetos pode ser detectada ao repetir a detecção de colisão para cada vértice.
+
+%\subsection{Otimização de colisões para dispositivos móveis}
+%O trabalho realizado por \cite{6297290}, toma como principio o fato de que os dispositivos móveis tem pouca capacidade para aguentar os mesmos métodos de detecção de colisão usados em plataformas mais robustas, como computador ou videogames.
+
+%\citeauthor{6297290} propõe um novo método de detecção de colisão para dispositivos que suporte vários objetos ao mesmo tempo na cena sem perder performance ou sem travar o dispositivo.
+
+%O algoritmo é voltado principalmente para a colisão 2D, e ele funciona com dois grupos de objetos, sendo que os grupos estão se movendo em direções opostas um grupo precisa ter os objetos se movendo na mesma velocidade e o outro não. Esse método mostra bem funcional para jogos de estilo shoot'em up.
+%\cite{6297290}
+
+%\section{Figuras}
+
+%Na figura~\ref{boxcolexoxcolex} \'e apresentado um exemplo de gr\'afico flutuante. Esta figura aparece automaticamente na lista de figuras. Para uso avan\c{c}ado de gr\'aficos no \LaTeX, recomenda-se a consulta de literatura especializada~\cite{Goossens2007}.
+
+%Na Figura \ref{logo}, ....... 
+
+
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=0.2\textwidth]{./Figuras/box.png} % <- formatos PNG, JPG e PDF
+%	\caption[Exemplo de uma figura]{Exemplo de uma figura onde aparece uma imagem sem nenhum significado especial.}
+%	\fonte{\cite{Basics2017}}
+%	\label{boxcolex}
+%\end{figure}
+
+%Na figura \ref{logo} é apresentado um outro exemplo o logo da universidade.
+
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=0.4\textwidth]{./Figuras/Logo.jpg} % <- formatos PNG, JPG e PDF
+%	\caption[Exemplo de uma figura]{Logo da UTFPR.}
+%	\fonte{\cite{abnTeX2009}}
+%	\label{logo}
+%\end{figure}
+
+%\section{Tabelas}
+
+
+%Tamb\'em \'e apresentado o exemplo da tabela~\ref{tab:correlacao}, que aparece automaticamente na lista de tabelas. Informa\c{c}\~oes sobre a constru\c{c}\~ao de tabelas no \LaTeX\ podem ser encontradas na literatura especializada~\cite{Lamport1986,Buerger1989,Kopka2003,Mittelbach2004}.
+
+%\begin{table}[!htb]
+%	\centering
+%	\caption[Exemplo de uma tabela]{Exemplo de uma tabela mostrando a correla\c{c}\~ao entre x e y.}
+%	\label{tab:correlacao}
+%	\begin{tabular}{cc}
+%		\hline 
+%		x & y \\
+%		\hline
+%		1 & 2 \footnote{www.teste.e} \\
+%		3 & 4 \\
+%		5 & 6 \\
+%		7 & 8 \\
+%		\hline 
+%	\end{tabular}
+%	\fonte{Mittelbach2004}
+%\end{table}
+
+%\section{Equa\c{c}\~oes}
+
+%A transformada de Laplace \'e dada na equa\c{c}\~ao~(\ref{eq:laplace}), enquanto a equa\c{c}\~ao~(\ref{eq:dft}) apresenta a formula\c{c}\~ao da transformada discreta de Fourier bidimensional\footnote{Deve-se reparar na formata\c{c}\~ao esteticamente perfeita destas equa\c{c}\~oes!}.
+
+%\begin{equation}
+%X(s) = \int\limits_{t = -\infty}^{\infty} x(t) \, \text{e}^{-st} \, dt
+%\label{eq:laplace}
+%\end{equation}
+
+%\begin{equation}
+%F(u, v) = \sum_{m = 0}^{M - 1} \sum_{n = 0}^{N - 1} f(m, n) \exp \left[ -j 2 \pi \left( \frac{u m}{M} + \frac{v n}{N} \right) \right]
+%\label{eq:dft}
+%\end{equation}
+
+%\section{Siglas e símbolos}
+
+%O pacote \textsc{abn}\TeX\ permite ainda a defini\c{c}\~ao de siglas e s\'imbolos com indexa\c{c}\~ao autom\'atica atrav\'es dos comandos {\ttfamily \textbackslash sigla\{\}\{\}} e {\ttfamily \textbackslash simbolo\{\}\{\}}. Por exemplo, o significado das siglas\sigla{CPGEI}{Programa de P\'os-gradua\c{c}\~ao em Engenharia El\'etrica e Inform\'atica Industrial},\sigla{DAELN}{Departamento Acad\^emico de Eletrônica} e\sigla{UTFPR}{Universidade Tecnol\'ogica Federal do Paran\'a} aparecem automaticamente na lista de siglas, bem como o significado dos s\'imbolos\simbolo{$\lambda$}{comprimento de onda},\simbolo{$v$}{velocidade} e\simbolo{$f$}{frequ\^encia} aparecem automaticamente na lista de s\'imbolos. Mais detalhes sobre o uso destes e outros comandos do \textsc{abn}\TeX\ s\~ao encontrados na sua documenta\c{c}\~ao espec\'ifica~\cite{abnTeX2009}.

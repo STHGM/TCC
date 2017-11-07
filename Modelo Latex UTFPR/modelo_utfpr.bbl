@@ -1,0 +1,141 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.52 }
+
+\bibitem[Banerjee 2017]{Banerjee2017}
+\abntrefinfo{Banerjee}{BANERJEE}{2017}
+{BANERJEE, S. \textbf{{7 Most Popular Game Development Engines You Should
+  Consider}}. 2017.
+Acessado em 5 de outubro de 2017.
+Dispon{\'\i}vel em:
+  $<$https://www.rswebsols.com/tutorials/software-tutorials/popular-game-development-engines$>$.}
+
+\bibitem[Basics 2017]{Basics2017}
+\abntrefinfo{Basics}{BASICS}{2017}
+{BASICS, . min. \textbf{{Unity3d collider types}}. 2017.
+Acessado em 5 de outubro de 2017.
+Dispon{\'\i}vel em: $<$http://10minbasics.com/unity3d-collider-types/$>$.}
+
+\bibitem[Berg et al. 2008]{de2008computational}
+\abntrefinfo{Berg et al.}{BERG et al.}{2008}
+{BERG, M. D. et al. \textbf{Computational Geometry: Introduction}. [S.l.]:
+  Springer, 2008.}
+
+\bibitem[Chazelle 1993]{chazelle1993optimal}
+\abntrefinfo{Chazelle}{CHAZELLE}{1993}
+{CHAZELLE, B. An optimal convex hull algorithm in any fixed dimension.
+\textbf{Discrete \& Computational Geometry}, Springer, v.~10, n.~1, p.
+  377--409, 1993.}
+
+\bibitem[DigiScot 2015]{DigiScot2015}
+\abntrefinfo{DigiScot}{DIGISCOT}{2015}
+{DIGISCOT. \textbf{{Difference between Linecast and Raycast - Unity Answers}}.
+  2015.
+Dispon{\'\i}vel em:
+  $<$http://answers.unity3d.com/questions/848189/difference-between-linecast-and-raycast.html$>$.}
+
+\bibitem[Dopertchouk 2000]{Dopertchouk2000}
+\abntrefinfo{Dopertchouk}{DOPERTCHOUK}{2000}
+{DOPERTCHOUK, O. \textbf{{Simple Bounding-Sphere Collision Detection}}. 2000.
+Dispon{\'\i}vel em:
+  $<$https://www.gamedev.net/articles/programming/math-and-physics/simple-bounding-sphere-collision-detection-r1234/$>$.}
+
+\bibitem[Eberly 2002]{eberly2002dynamic}
+\abntrefinfo{Eberly}{EBERLY}{2002}
+{EBERLY, D. Dynamic collision detection using oriented bounding boxes.
+\textbf{Geometric Tools, Inc}, 2002.}
+
+\bibitem[Eichner 2014]{Eichner2014}
+\abntrefinfo{Eichner}{EICHNER}{2014}
+{EICHNER, H. \textbf{{Game Physics - 2D Collision Detction}}. 2014.
+Acessado em 10 de outubro de 2017.
+Dispon{\'\i}vel em:
+  $<$http://myselph.de/gamePhysics/collisionDetection.html$>$.}
+
+\bibitem[Ericson 2004]{Ericson2004}
+\abntrefinfo{Ericson}{ERICSON}{2004}
+{ERICSON, C. \textbf{{REAL-TIME COLLISION DETECTION}}. 1. ed. [S.l.: s.n.],
+  2004. 593~p.}
+
+\bibitem[Fleury et al. 2014]{fleury2014censo}
+\abntrefinfo{Fleury et al.}{FLEURY et al.}{2014}
+{FLEURY, A.; SAKUDA, L.~O.; CORDEIRO, J. H. D.~O. I censo da ind{\'u}stria
+  brasileira de jogos digitais.
+\textbf{NPGT-USP e BNDES: S{\~a}o Paulo e Rio de Janeiro}, 2014.}
+
+\bibitem[Kacer 2011]{Kacer2011}
+\abntrefinfo{Kacer}{KACER}{2011}
+{KACER. \textbf{{Raycast and Linecast - Unity Answers}}. 2011.
+Acessado em 10 de outubro de 2017.
+Dispon{\'\i}vel em:
+  $<$http://answers.unity3d.com/questions/164770/raycast-and-linecast.html$>$.}
+
+\bibitem[{Krita Foundation} 2017]{KritaFoundation2017}
+\abntrefinfo{{Krita Foundation}}{{Krita Foundation}}{2017}
+{{Krita Foundation}. \textbf{{Krita}}. 2017.
+Acessado em 8 de outubro de 2017.
+Dispon{\'\i}vel em: $<$https://krita.org/en/$>$.}
+
+\bibitem[Lucchese e Ribeiro 2009]{lucchese2009conceituacao}
+\abntrefinfo{Lucchese e Ribeiro}{LUCCHESE; RIBEIRO}{2009}
+{LUCCHESE, F.; RIBEIRO, B. Conceituacao de jogos digitais.
+\textbf{Sao Paulo}, 2009.}
+
+\bibitem[Moromisato 2013]{Moromisato2013}
+\abntrefinfo{Moromisato}{MOROMISATO}{2013}
+{MOROMISATO, G. \textbf{{What is the biggest problem you face as a independent
+  game developer?}} 2013.
+Acessado em 5 de outubro de 2017.
+Dispon{\'\i}vel em:
+  $<$https://www.quora.com/What-is-the-biggest-problem-you-face-as-a-independent-game-developer$>$.}
+
+\bibitem[Morris 2017]{Morris2017}
+\abntrefinfo{Morris}{MORRIS}{2017}
+{MORRIS, A. \textbf{{How The Rise of Indie Games Has Revitalized the Video Game
+  Industry}}. 2017.
+Acessado em 5 de outubro de 2017.
+Dispon{\'\i}vel em:
+  $<$https://www.allbusiness.com/indie-games-video-game-industry-101485-1.html$>$.}
+
+\bibitem[Reichert 2012]{Reichert2012}
+\abntrefinfo{Reichert}{REICHERT}{2012}
+{REICHERT, K. \textbf{{Top 5 Problems Faced By Indie Game Developers}}. 2012.
+Acessado em 5 de outubro de 2017.
+Dispon{\'\i}vel em: $<$https://goo.gl/jj6yhp$>$.}
+
+\bibitem[Santee 2005]{Santee2005}
+\abntrefinfo{Santee}{SANTEE}{2005}
+{SANTEE, A. \textbf{{Programa{\c{c}}{\~{a}}o de Jogos com C++ e DirectX}}.
+  [S.l.: s.n.], 2005. 400~p.}
+
+\bibitem[Serrano 2016]{Serrano2016}
+\abntrefinfo{Serrano}{SERRANO}{2016}
+{SERRANO, H. \textbf{{How does a Physics Engine work? An Overview}}. 2016.
+Acessado em 10 de outubro de 2017.
+Dispon{\'\i}vel em:
+  $<$https://www.haroldserrano.com/blog/how-a-physics-engine-works-an-overview$>$.}
+
+\bibitem[Silveira 2017]{Silveira2017}
+\abntrefinfo{Silveira}{SILVEIRA}{2017}
+{SILVEIRA, D. \textbf{{N{\'{u}}mero de desenvolvedores de games cresce 600{\%}
+  em 8 anos, diz associa{\c{c}}{\~{a}}o}}. 2017.
+Acessado em 8 de outubro de 2017.
+Dispon{\'\i}vel em:
+  $<$https://g1.globo.com/economia/negocios/noticia/numero-de-desenvolvedores-de-games-cresce-600-em-8-anos-diz-associacao.ghtml$>$.}
+
+\bibitem[{Unity Technologies} 2017]{Unity2017}
+\abntrefinfo{{Unity Technologies}}{{Unity Technologies}}{2017a}
+{{Unity Technologies}. \textbf{{Unity - Game Engine}}. 2017.
+Acessado em 28 de agosto de 2017.
+Dispon{\'\i}vel em: $<$https://unity3d.com/$>$.}
+
+\bibitem[{Unity Technologies} 2017]{UnityTechnologies2017}
+\abntrefinfo{{Unity Technologies}}{{Unity Technologies}}{2017b}
+{{Unity Technologies}. \textbf{{Unity Manual}}. 2017.
+Acessado em 28 de agosto de 2017.
+Dispon{\'\i}vel em: $<$https://docs.unity3d.com$>$.}
+
+\end{thebibliography}

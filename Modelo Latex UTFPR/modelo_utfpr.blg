@@ -1,0 +1,15 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: modelo_utfpr.aux
+A level-1 auxiliary file: ./Capitulos/capitulo1.aux
+A level-1 auxiliary file: ./Capitulos/capitulo2.aux
+A level-1 auxiliary file: ./Capitulos/capitulo3.aux
+The style file: abnt-alf.bst
+Database file #1: abnt-options.bib
+Database file #2: ./Referencias/reflatex.bib
+Warning--I didn't find a database entry for "abnt-etal-list=99"
++---------------------------------------------------------+
+| Estilo bibliografico abnt-alf.bst versao 1.52           |
+| Implementa a NBR6023, NBR10520 e NBR10523               |
+| Em caso de duvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+(There was 1 warning)

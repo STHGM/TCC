@@ -1,0 +1,74 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CAPÍTULO 3
+\chapter{Proposta}
+
+Este trabalho de conclusão de curso irá se especificar em um dos problemas de conceito técnico, sendo ele relacionado a detecção de colisões no jogo, ou seja, quando dois objetos se interceptam.
+
+Será adotada uma das \emph{engines} mais populares entre os desenvolvedores \emph{indie}, a Unity \cite{Unity2017} \cite{Banerjee2017}, também muito utilizada no Brasil de acordo com o Censo da Indústria Brasileira de Jogos Digitais (106  das 133 empresas pesquisadas em 2014, como mostrado na Tabela \ref{tabelaengines}) \cite{fleury2014censo} pelo fato de ter uma burocratização fácil. 
+
+\begin{table}[!htb]
+	\centering
+	\begin{tabular}{@{}lcc@{}}
+		\toprule
+		Engine Utilizada   & \multicolumn{1}{l}{Quantidade de empresas que utilizam} & \multicolumn{1}{l}{Porcentagem de empresas que utilizam} \\ \midrule
+		Unity              & 106                                                     & 79,7\%                                                   \\
+		Tecnologia própria & 25                                                      & 18,8\%                                                   \\
+		Cocos 2D           & 18                                                      & 13,53\%                                                  \\
+		Blender            & 13                                                      & 9,77\%                                                   \\
+		Corona SDK         & 11                                                      & 8,27\%                                                   \\
+		Construct2         & 11                                                      & 8,27\%                                                   \\
+		GameMaker          & 8                                                       & 6,02\%                                                   \\
+		Flash              & 8                                                       & 6,02\%                                                   \\
+		Unreal3 (UDK)      & 7                                                       & 5,26\%                                                   \\
+		Marmelade          & 2                                                       & 1,5\%                                                    \\
+		CryEngine          & 1                                                       & 0,75\%                                                   \\
+		Outros             & 16                                                      & 12,03\%                                                  \\ \bottomrule
+	\end{tabular}
+	\caption{Tabela de Engines mais utilizadas no Brasil}
+	\label{tabelaengines}
+	\cite{fleury2014censo}
+\end{table}
+
+Realizar comparações dos métodos de colisão oferecidos gratuitamente pela \emph{game engine} Unity.
+Essas comparações são divididas em 2 grandes tipos:
+\emph{Pre-runtime} e \emph{Procedural-runtime}.
+
+\section{Pre-runtime}
+
+Os objetos, seus \emph{colliders}, componentes de física e programação são inseridos na cena antes de serem executados. O programa então é executado, os objetos reagem de acordo com as suas posições na cena e próprias configurações. Os resultados são então coletados.
+
+\section{Procedural-runtime}
+
+Os objetos são gerados em tempo de execução, ou seja, são invocados durante a execução do programa, de acordo com a programação dos objetos-base, dos controladores e das configurações da cena. O programa é executado, os objetos são gerados em tempo de execução, reagem de acordo com suas configurações de colisão e cena. Os resultados são então coletados.
+
+\section{Enfatização das Comparações}
+As comparações serão feitas usando a interface de duas dimensões da Unity para obter resultados mais simples com esse estudo. Os tipos de \emph{colliders} que terão mais ênfase nas comparações serão \emph{Box, Circle, Polygon e Edge}.%pois são os colliders básicos dos quais os outros tipos são derivados.
+
+Também será usado o software gratuito de edição de imagem \emph{Krita} \cite{KritaFoundation2017} para desenvolver os \emph{sprites} que serão usados nas comparações.
+
+\section{Cronograma}
+
+Na tabela \ref{tabela_crono} é apresentado um cronograma com as datas estimativas da progressão do projeto.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[!htb]
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|}
+			\hline
+			Cronograma                                                                  & \multicolumn{1}{l|}{Ago 2017} & \multicolumn{1}{l|}{Set 2017} & \multicolumn{1}{l|}{Out 2017} & \multicolumn{1}{l|}{Nov de 2017} & \multicolumn{1}{l|}{Dez 2017} & \multicolumn{1}{l|}{Jan 2018} & \multicolumn{1}{l|}{Fev 2018} & \multicolumn{1}{l|}{Mar 2018} & \multicolumn{1}{l|}{Abr 2018} & \multicolumn{1}{l|}{Mai 2018} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Pesquisas\\ Iniciais\end{tabular}                & X                             & X                             &                               &                                  &                               &                               &                               &                               &                               &                               \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Pesquisas\\ sobre colisões\end{tabular}          &                               & X                             &                               &                                  &                               &                               &                               &                               &                               &                               \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Pesquisas sobre\\ colisões na Unity\end{tabular} &                               &                               & X                             &                                  &                               &                               &                               &                               &                               &                               \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Escrita do\\ TCC 1\end{tabular}                  &                               &                               & X                             &                                  &                               &                               &                               &                               &                               &                               \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Apresentação\\ do TCC 1\end{tabular}             &                               &                               & X                             &                                  &                               &                               &                               &                               &                               &                               \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Proposta\\ de cenários\end{tabular}              &                               &                               &                               & X                                & X                             &                               &                               &                               &                               &                               \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Realização das\\ comparações\end{tabular}        &                               &                               &                               &                                  & X                             & X                             & X                             & X                             &                               &                               \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Registro de\\ resultados\end{tabular}            &                               &                               &                               &                                  &                               & X                             & X                             & X                             &                               &                               \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Escrita do\\ TCC 2\end{tabular}                  &                               &                               &                               &                                  &                               &                               &                               & X                             & X                             &             X                 \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Apresentação\\ do TCC 2\end{tabular}             &                               &                               &                               &                                  &                               &                               &                               &                               &                               & X                             \\ \hline
+		\end{tabular}%
+	}
+	\caption{Cronograma de progresso estimado do trabalho}
+	\label{tabela_crono}
+\end{table}
