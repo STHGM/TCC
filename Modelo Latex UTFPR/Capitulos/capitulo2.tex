@@ -26,9 +26,9 @@ Nos jogos, as colisões são utilizadas para realizar interações entre objetos. Fi
 
 \section{Conceitos básicos de colisão}
 
-Colisões funcionam por cálculos matemáticos, como Teorema de Pitágoras e diferença de pontos, que detectam intersecção entre objetos baseada em coordenadas de suas posições e rotações, caso produzam alguma, no espaço. Um exemplo é a colisão de círculos, onde cada círculo tem como atributos o seu centro, que irá determinar a sua posição no espaço e o raio. Se a diferença da distância entre os centros dos círculos for menor ou igual a diferença dos raios significa que os círculos estão colidindo. Isso é ilustrado nas Figuras \ref{circle01}, \ref{circle02} e \ref{circle03}.
+Colisões funcionam por cálculos matemáticos, como Teorema de Pitágoras e diferença de pontos, que detectam intersecção entre objetos baseada em coordenadas de suas posições e rotações, caso produzam alguma, no espaço. Um exemplo é a colisão de círculos, onde cada círculo tem como atributos o seu centro, que irá determinar a sua posição no espaço e o raio. Se a diferença da distância entre os centros dos círculos for menor ou igual a soma dos raios significa que os círculos estão colidindo. Isso é ilustrado nas Figuras \ref{circle01}, \ref{circle02} e \ref{circle03}.
 
-Na Figura \ref{circle01} os pontos A e B representam os centros de cada círculo, sendo que o círculo verde tem o raio de comprimento A-C e o círculo pontilhado tem raio B-D. Então pode ser calculada a distância entre os centros dos círculos através de um Teorema de Pitágoras, tendo a reta A-B como sua hipotenusa. Logo em seguida será feita a comparação entre o comprimento da hipotenusa e a soma dos raios dos círculos para verificar estão colidindo. No caso da Figura \ref{circle01} eles não estão em colisão, pois o comprimento da hipotenusa A-B é maior que a soma dos raios A-C e B-D dos círculos, não satisfazendo a condição para que ocorra a colisão.
+Na Figura \ref{circle01} os pontos A e B representam os centros de cada círculo, sendo que o círculo verde tem o raio de comprimento $\overline{AC}$ e o círculo pontilhado tem raio $\overline{BD}$. Então pode ser calculada a distância entre os centros dos círculos através de um Teorema de Pitágoras, tendo o segmento de reta $\overline{AB}$ como sua hipotenusa. Logo em seguida será feita a comparação entre o comprimento da hipotenusa e a soma dos raios dos círculos para verificar estão colidindo. No caso da Figura \ref{circle01} eles não estão em colisão, pois o comprimento da hipotenusa A-B é maior que a soma dos raios $\overline{AC}$ e $\overline{BD}$ dos círculos, não satisfazendo a condição para que ocorra a colisão.
 
 \begin{figure}[!htb]
 	\centering
@@ -37,7 +37,7 @@ Na Figura \ref{circle01} os pontos A e B representam os centros de cada círculo,
 	\label{circle01}
 \end{figure}
 
-Na Figura \ref{circle02} o procedimento é o mesmo para verificação. Nesse caso há a colisão e ainda há a intersecção entre os círculos. Isso pode ser confirmado ao comparar o comprimento da hipotenusa A-B com a soma dos raios A-C e B-D e verificar que o tamanho da hipotenusa é menor que a soma dos raios. Dependendo dos requisitos e do algoritmo, os pontos onde ocorre a intersecção podem ser armazenados, no caso da Figura \ref{circle02} são os pontos E e F.
+Na Figura \ref{circle02} o procedimento é o mesmo para verificação. Nesse caso há a colisão e ainda há a intersecção entre os círculos. Isso pode ser confirmado ao comparar o comprimento da hipotenusa A-B com a soma dos raios $\overline{AC}$ e $\overline{BD}$ e verificar que o tamanho da hipotenusa é menor que a soma dos raios. Dependendo dos requisitos e do algoritmo, os pontos onde ocorre a intersecção podem ser armazenados, no caso da Figura \ref{circle02} são os pontos E e F.
 
 \begin{figure}[!htb]
 	\centering
@@ -46,7 +46,7 @@ Na Figura \ref{circle02} o procedimento é o mesmo para verificação. Nesse caso h
 	\label{circle02}
 \end{figure}
 
-Na Figura \ref{circle03} o procedimento também é o mesmo e nesse existe a colisão, porém não há intersecção entre os círculos, isso é verificado através do cálculo da diferença entre a hipotenusa A-B e a soma dos raios A-C e B-D, que nesse caso são do mesmo comprimento, portanto há colisão.
+Na Figura \ref{circle03} o procedimento também é o mesmo e nesse existe a colisão, porém não há intersecção entre os círculos, isso é verificado através do cálculo da diferença entre a hipotenusa A-B e a soma dos raios $\overline{AC}$ e $\overline{BD}$, que nesse caso são do mesmo comprimento, portanto há colisão.
 
 \begin{figure}[!htb]
 	\centering
@@ -87,7 +87,7 @@ As linhas 19 a 22 verifica se há colisão entre as esferas calculando se a distân
 
 \section{Física na Unity}
 
-Nesta seção será apresentada os métodos e classes dos colisores mais comumente utilizados nos \emph{GameObjects} na plataforma de desenvolvimento de jogos Unity.
+Nesta seção são apresentados os métodos e classes dos colisores mais comumente utilizados nos \emph{GameObjects} na plataforma de desenvolvimento de jogos Unity.
 
 \emph{GameObjects} são as classes básicas para todas as entidades compõem uma cena na Unity, e a elas podem ser atribuídos componentes que alteram suas propriedades.
 
@@ -98,7 +98,7 @@ Nesta seção será apresentada os métodos e classes dos colisores mais comumente u
 	
 	\subsection{Colliders 2D}
 	
-	Serão detalhados com figuras os \emph{colliders} dos tipos \emph{CircleCollider2D}, \emph{BoxCollider2D}, \emph{PolygonCollider2D} e \emph{EdgeColider2D}, pois são os tipos que serão o alvo de estudos desse trabalho, pelo fato de serem mais utilizados comumente e não necessitarem de interações entre outros \emph{colliders} para existirem.
+	São detalhados com figuras os \emph{colliders} dos tipos \emph{CircleCollider2D}, \emph{BoxCollider2D}, \emph{PolygonCollider2D} e \emph{EdgeColider2D}, pois são os tipos que serão o alvo de estudos desse trabalho, pelo fato de serem mais utilizados comumente e não necessitarem de interações entre outros \emph{colliders} para existirem.
 	
 \begin{itemize}
 	\item \emph{CircleCollider2D}
@@ -279,37 +279,37 @@ Em um \emph{Linecast} é configurado o ponto inicial e o ponto final. Se houver a
 	\subsection {Subdivisões das funções da Physics2D}
 	\begin{itemize}
 	
-	\item All
+	\item \emph{All}
 	
 	Adquire uma lista de todos os colliders que interceptam em uma área.
 	
-	\item NonAloc
+	\item \emph{NonAloc}
 	
 	Adquire uma lista de todos os colliders que interceptam em uma área específica.
 	
 	\subsection {Subdivisões dos Overlaps}
 	
-	\item Area
+	\item \emph{Area}
 	
 	Verifica se um collider está dentro de uma área retangular.
 	
-	\item Box
+	\item \emph{Box}
 	
 	Verifica se um collider está dentro de uma área de caixa.
 	
-	\item Capsule
+	\item \emph{Capsule}
 	
 	Verifica se um collider está dentro de uma área de capsula.
 	
-	\item Circle
+	\item \emph{Circle}
 	
 	Verifica se um collider está dentro de uma área de círculo.
 	
-	\item Collider
+	\item \emph{Collider}
 	
 	Obtém uma lista de todos os colliders que se sobrepõem ao collider.
 	
-	\item Point
+	\item \emph{Point}
 	
 	Verifica se um collider se sobrepõe a um ponto no espaço.
 \end{itemize}
