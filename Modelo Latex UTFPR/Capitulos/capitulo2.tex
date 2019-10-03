@@ -6,7 +6,7 @@
 
 %A seguir ilustra-se a forma de incluir figuras, tabelas, equa\c{c}\~oes, siglas e s\'imbolos no documento, obtendo indexa\c{c}\~ao autom\'atica em suas respectivas listas. A numera\c{c}\~ao sequencial de figuras, tabelas e equa\c{c}\~oes ocorre de modo autom\'atico. Refer\^encias cruzadas s\~ao obtidas atrav\'es dos comandos {\ttfamily \textbackslash label\{\}} e {\ttfamily \textbackslash ref\{\}}. Por exemplo, n\~ao \'e necess\'ario saber que o n\'umero deste cap\'itulo \'e~\ref{chap:desenv} para colocar o seu n\'umero no texto. Isto facilita muito a inser\c{c}\~ao, remo\c{c}\~ao ou reloca\c{c}\~ao de elementos numerados no texto (fato corriqueiro na escrita e corre\c{c}\~ao de um documento acad\^emico) sem a necessidade de renumer\'a-los todos.
 
-Os jogos digitais são softwares que permitem a interação lúdica entre o jogador e o ambiente em que o jogo é executado, como computadores e videogames, afim de proporcionar entretenimento ao jogador \cite{lucchese2009conceituacao}.
+Os jogos digitais são programas que permitem a interação lúdica entre o jogador e o ambiente em que o jogo é executado, como computadores e videogames, afim de proporcionar entretenimento ao jogador \cite{lucchese2009conceituacao}.
 
 Nos jogos, as colisões são utilizadas para realizar interações entre objetos. Fisicamente elas são usadas para detectar quando um objeto está em colisão com outro, que pode ser utilizado para criar interações entre os objetos. Por exemplo uma bola cai em cima de um botão (Figura \ref{exevento01}), e esta interação realiza um evento de abrir uma porta (Figura \ref{exevento02}).
 
@@ -28,7 +28,7 @@ Nos jogos, as colisões são utilizadas para realizar interações entre objetos. Fi
 
 Colisões funcionam por cálculos matemáticos, como Teorema de Pitágoras e diferença de pontos, que detectam intersecção entre objetos baseada em coordenadas de suas posições e rotações, caso produzam alguma, no espaço. Um exemplo é a colisão de círculos, onde cada círculo tem como atributos o seu centro, que irá determinar a sua posição no espaço e o raio. Se a diferença da distância entre os centros dos círculos for menor ou igual a soma dos raios significa que os círculos estão colidindo. Isso é ilustrado nas Figuras \ref{circle01}, \ref{circle02} e \ref{circle03}.
 
-Na Figura \ref{circle01} os pontos A e B representam os centros de cada círculo, sendo que o círculo verde tem o raio de comprimento $\overline{AC}$ e o círculo pontilhado tem raio $\overline{BD}$. Então pode ser calculada a distância entre os centros dos círculos através de um Teorema de Pitágoras, tendo o segmento de reta $\overline{AB}$ como sua hipotenusa. Logo em seguida será feita a comparação entre o comprimento da hipotenusa e a soma dos raios dos círculos para verificar estão colidindo. No caso da Figura \ref{circle01} eles não estão em colisão, pois o comprimento da hipotenusa A-B é maior que a soma dos raios $\overline{AC}$ e $\overline{BD}$ dos círculos, não satisfazendo a condição para que ocorra a colisão.
+Na Figura \ref{circle01}, os pontos A e B representam os centros de cada círculo, sendo que o círculo verde tem o raio de comprimento $\overline{AC}$ e o círculo pontilhado tem raio $\overline{BD}$. Então pode ser calculada a distância entre os centros dos círculos através de um Teorema de Pitágoras, tendo o segmento de reta $\overline{AB}$ como sua hipotenusa. Logo em seguida será feita a comparação entre o comprimento da hipotenusa e a soma dos raios dos círculos para verificar estão colidindo. No caso da Figura \ref{circle01} eles não estão em colisão, pois o comprimento da hipotenusa A-B é maior que a soma dos raios $\overline{AC}$ e $\overline{BD}$ dos círculos, não satisfazendo a condição para que ocorra a colisão.
 
 \begin{figure}[!htb]
 	\centering
@@ -97,6 +97,7 @@ Nesta seção são apresentados os métodos e classes dos colisores mais comumente u
 %	Detalha quais Colliders2D estão envolvidos na colisão, bem como os pontos de contato onde os Colliders2D se encontram.
 	
 	\subsection{Colliders 2D}
+	\label{subsec:colliders2d}
 	
 	São detalhados com figuras os \emph{colliders} dos tipos \emph{CircleCollider2D}, \emph{BoxCollider2D}, \emph{PolygonCollider2D} e \emph{EdgeColider2D}, pois são os tipos que serão o alvo de estudos desse trabalho, pelo fato de serem mais utilizados comumente e não necessitarem de interações entre outros \emph{colliders} para existirem.
 	
@@ -173,6 +174,7 @@ Nesta seção são apresentados os métodos e classes dos colisores mais comumente u
 \end{itemize}
 	
 	\subsection{Mensagens dos Colliders}
+	\label{subsec:mensagenscolliders}
 	
 \begin{itemize}
 	

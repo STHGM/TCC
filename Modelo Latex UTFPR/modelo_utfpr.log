@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  17 SEP 2019 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  3 OCT 2019 02:05
 entering extended mode
 **./modelo_utfpr.tex
 (modelo_utfpr.tex
@@ -422,7 +422,8 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count129
 \@thisrulewidth=\dimen139
 ) (modelo_utfpr.aux (Capitulos/capitulo1.aux) (Capitulos/capitulo2.aux)
-(Capitulos/capitulo3.aux))
+(Capitulos/capitulo3.aux) (Capitulos/capitulo4.aux) (Capitulos/capitulo5.aux)
+(Capitulos/capitulo6.aux))
 \openout1 = `modelo_utfpr.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
@@ -659,29 +660,29 @@ Package pdftex.def Info: ./Figuras/code_sphere.png  used on input line 62.
  [11 <./Figuras/exemplo_col_circulos_01_TP.png>] [12 <./Figuras/exemplo_col_cir
 culos_03_TP.png> <./Figuras/exemplo_col_circulos_04_TP.png>] [13 <./Figuras/cod
 e_sphere.png>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 104.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 105.
 
 
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
 <./Figuras/circle-collider-2d.png, id=62, 444.15938pt x 148.30406pt>
 File: ./Figuras/circle-collider-2d.png Graphic file (type png)
 <use ./Figuras/circle-collider-2d.png>
 Package pdftex.def Info: ./Figuras/circle-collider-2d.png  used on input line 1
-11.
+12.
 (pdftex.def)             Requested size: 341.43307pt x 114.00438pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 113.
 <./Figuras/box.png, id=63, 594.22pt x 234.8775pt>
 File: ./Figuras/box.png Graphic file (type png)
 <use ./Figuras/box.png>
-Package pdftex.def Info: ./Figuras/box.png  used on input line 123.
+Package pdftex.def Info: ./Figuras/box.png  used on input line 124.
 (pdftex.def)             Requested size: 341.43307pt x 134.96391pt.
 
-Overfull \hbox (3.05449pt too wide) in paragraph at lines 131--132
+Overfull \hbox (3.05449pt too wide) in paragraph at lines 132--133
 \OT1/ptm/m/n/12 forma po-li-go-nal con-vexa ou n[]ao-convexa fe-chada. O \OT1/p
 tm/m/it/12 Poly-gon-Col-li-der2D \OT1/ptm/m/n/12 n[]ao tem restri[][]ao
  []
@@ -691,17 +692,17 @@ tm/m/it/12 Poly-gon-Col-li-der2D \OT1/ptm/m/n/12 n[]ao tem restri[][]ao
 File: ./Figuras/poligon-collider-2d.png Graphic file (type png)
 <use ./Figuras/poligon-collider-2d.png>
 Package pdftex.def Info: ./Figuras/poligon-collider-2d.png  used on input line 
-135.
+136.
 (pdftex.def)             Requested size: 341.43307pt x 129.21078pt.
 <./Figuras/edge-collider-2d.png, id=71, 444.91219pt x 173.14688pt>
 File: ./Figuras/edge-collider-2d.png Graphic file (type png)
 <use ./Figuras/edge-collider-2d.png>
-Package pdftex.def Info: ./Figuras/edge-collider-2d.png  used on input line 147
+Package pdftex.def Info: ./Figuras/edge-collider-2d.png  used on input line 148
 .
 (pdftex.def)             Requested size: 341.43307pt x 132.877pt.
  [15 <./Figuras/poligon-collider-2d.png> <./Figuras/edge-collider-2d.png>] [16]
 
-Overfull \hbox (11.17822pt too wide) in paragraph at lines 228--229
+Overfull \hbox (11.17822pt too wide) in paragraph at lines 230--231
 \OT1/ptm/m/n/12 nem[]aticos de-vem ser usa-dos em ob-je-tos que po-dem ser mo-v
 i-dos ou ha-bi-li-ta-dos/desabilitados
  []
@@ -710,13 +711,13 @@ i-dos ou ha-bi-li-ta-dos/desabilitados
 <./Figuras/Aabb_01.png, id=88, 301.125pt x 163.3603pt>
 File: ./Figuras/Aabb_01.png Graphic file (type png)
 <use ./Figuras/Aabb_01.png>
-Package pdftex.def Info: ./Figuras/Aabb_01.png  used on input line 329.
+Package pdftex.def Info: ./Figuras/Aabb_01.png  used on input line 331.
 (pdftex.def)             Requested size: 455.24411pt x 246.9941pt.
  [20 <./Figuras/Aabb_01.png>]
 <./Figuras/Bounding_Volumes.jpg, id=93, 301.125pt x 203.25937pt>
 File: ./Figuras/Bounding_Volumes.jpg Graphic file (type jpg)
 <use ./Figuras/Bounding_Volumes.jpg>
-Package pdftex.def Info: ./Figuras/Bounding_Volumes.jpg  used on input line 354
+Package pdftex.def Info: ./Figuras/Bounding_Volumes.jpg  used on input line 356
 .
 (pdftex.def)             Requested size: 341.43307pt x 230.48988pt.
 ) [21 <./Figuras/Bounding_Volumes.jpg>]
@@ -733,7 +734,118 @@ Overfull \hbox (32.81496pt too wide) in paragraph at lines 11--27
 
 
 
-] [23]) [24] (modelo_utfpr.bbl
+] [23]) [24]
+\openout2 = `./Capitulos/capitulo4.aux'.
+
+ (Capitulos/capitulo4.tex
+Cap\'{\i }tulo 4.
+[25
+
+
+
+]
+Overfull \hbox (22.67401pt too wide) in paragraph at lines 37--38
+[]\OT1/ptm/m/n/12 Os ti-pos de co-lis[]oes apre-sen-ta-das no for-mul[]ario s[]
+ao as mes-mas apre-sen-ta-das na subse[][]ao 2.2.1[].
+ []
+
+) [26]
+\openout2 = `./Capitulos/capitulo5.aux'.
+
+ (Capitulos/capitulo5.tex
+Cap\'{\i }tulo 5.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 5.
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+
+LaTeX Warning: Citation `CTAN2009' on page 27 undefined on input line 5.
+
+
+LaTeX Warning: Citation `TeX-Br2009' on page 27 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Wikibooks2009' on page 27 undefined on input line 5.
+
+
+Overfull \hbox (3.1574pt too wide) in paragraph at lines 5--6
+[]\OT1/ptm/m/n/12 Espera-se que o uso do es-tilo de formata[][]ao L[]T[]X ade-q
+uado []as Nor-mas para Elabora[][]ao
+ []
+
+
+LaTeX Warning: Citation `TeXnicCenter2009' on page 27 undefined on input line 7
+.
+
+
+LaTeX Warning: Citation `MiKTeX2009' on page 27 undefined on input line 7.
+
+
+Overfull \hbox (4.29355pt too wide) in paragraph at lines 7--8
+\OT1/ptm/m/n/12 em L[]T[]X para usu[]arios Li-nux. Para usu[]arios Win-dows rec
+omenda-se o edi-tor T[]XnicCenter (\OT1/ptm/b/n/12 ??\OT1/ptm/m/n/12 ).
+ []
+
+
+LaTeX Warning: Citation `JabRef2009' on page 27 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Mendeley2009' on page 27 undefined on input line 9.
+
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 9.
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omspcr.fd"
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+) [27
+
+
+
+]
+\openout2 = `./Capitulos/capitulo6.aux'.
+
+ (Capitulos/capitulo6.tex
+Cap\'{\i }tulo 6.
+
+LaTeX Warning: Citation `CTAN2009' on page 28 undefined on input line 5.
+
+
+LaTeX Warning: Citation `TeX-Br2009' on page 28 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Wikibooks2009' on page 28 undefined on input line 5.
+
+
+Overfull \hbox (3.1574pt too wide) in paragraph at lines 5--6
+[]\OT1/ptm/m/n/12 Espera-se que o uso do es-tilo de formata[][]ao L[]T[]X ade-q
+uado []as Nor-mas para Elabora[][]ao
+ []
+
+
+LaTeX Warning: Citation `TeXnicCenter2009' on page 28 undefined on input line 7
+.
+
+
+LaTeX Warning: Citation `MiKTeX2009' on page 28 undefined on input line 7.
+
+
+Overfull \hbox (4.29355pt too wide) in paragraph at lines 7--8
+\OT1/ptm/m/n/12 em L[]T[]X para usu[]arios Li-nux. Para usu[]arios Win-dows rec
+omenda-se o edi-tor T[]XnicCenter (\OT1/ptm/b/n/12 ??\OT1/ptm/m/n/12 ).
+ []
+
+
+LaTeX Warning: Citation `JabRef2009' on page 28 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Mendeley2009' on page 28 undefined on input line 9.
+
+) [28
+
+
+
+] (modelo_utfpr.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
 []\OT1/ptm/m/n/12 BANERJEE, S. \OT1/ptm/b/n/12 7 Most Po-pu-lar Game De-ve-lop-
 ment En-gi-nes You Should
@@ -787,7 +899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--94
 problem-you-face-as-a-independent-game-
  []
 
-[25
+[29
 
 
 ]
@@ -810,32 +922,38 @@ icia/numero-de-desenvolvedores-de-games-
 
 ) 
 AED: lastpage setting LastPage
-[26]
+[30]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 (modelo_utfpr.aux (Capitulos/capitulo1.aux) (Capitulos/capitulo2.aux)
-(Capitulos/capitulo3.aux)) ) 
+(Capitulos/capitulo3.aux) (Capitulos/capitulo4.aux) (Capitulos/capitulo5.aux)
+(Capitulos/capitulo6.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5200 strings out of 492895
- 75778 string characters out of 3123735
- 173006 words of memory out of 3000000
- 8884 multiletter control sequences out of 15000+200000
- 34991 words of font info for 79 fonts, out of 3000000 for 9000
+ 5297 strings out of 492895
+ 77879 string characters out of 3123735
+ 174030 words of memory out of 3000000
+ 8949 multiletter control sequences out of 15000+200000
+ 38815 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,45p,909b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/f
-onts/enc/dvips/base/8r.enc}<C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/STHGM/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/STHGM/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/STHGM/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/STHGM/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/STH
-GM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (27 pages, 619990 bytes).
+{C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}<C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/urw/courier/ucrr8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/STHGM/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/STHGM/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on modelo_utfpr.pdf (31 pages, 641592 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
+ 152 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

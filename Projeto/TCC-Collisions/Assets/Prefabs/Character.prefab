@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212197922731350076}
   - component: {fileID: 61535401010273194}
   - component: {fileID: 50658733333108662}
-  - component: {fileID: 114438230028066738}
+  - component: {fileID: 114711975406427276}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -88,7 +88,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.39, y: 2.72}
   m_EdgeRadius: 0
---- !u!114 &114438230028066738
+--- !u!114 &114711975406427276
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
