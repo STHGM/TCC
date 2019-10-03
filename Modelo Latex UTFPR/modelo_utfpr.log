@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  3 OCT 2019 02:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  3 OCT 2019 05:39
 entering extended mode
 **./modelo_utfpr.tex
 (modelo_utfpr.tex
@@ -749,7 +749,7 @@ Overfull \hbox (22.67401pt too wide) in paragraph at lines 37--38
 ao as mes-mas apre-sen-ta-das na subse[][]ao 2.2.1[].
  []
 
-) [26]
+[26]) [27]
 \openout2 = `./Capitulos/capitulo5.aux'.
 
  (Capitulos/capitulo5.tex
@@ -758,55 +758,6 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 5.
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-
-LaTeX Warning: Citation `CTAN2009' on page 27 undefined on input line 5.
-
-
-LaTeX Warning: Citation `TeX-Br2009' on page 27 undefined on input line 5.
-
-
-LaTeX Warning: Citation `Wikibooks2009' on page 27 undefined on input line 5.
-
-
-Overfull \hbox (3.1574pt too wide) in paragraph at lines 5--6
-[]\OT1/ptm/m/n/12 Espera-se que o uso do es-tilo de formata[][]ao L[]T[]X ade-q
-uado []as Nor-mas para Elabora[][]ao
- []
-
-
-LaTeX Warning: Citation `TeXnicCenter2009' on page 27 undefined on input line 7
-.
-
-
-LaTeX Warning: Citation `MiKTeX2009' on page 27 undefined on input line 7.
-
-
-Overfull \hbox (4.29355pt too wide) in paragraph at lines 7--8
-\OT1/ptm/m/n/12 em L[]T[]X para usu[]arios Li-nux. Para usu[]arios Win-dows rec
-omenda-se o edi-tor T[]XnicCenter (\OT1/ptm/b/n/12 ??\OT1/ptm/m/n/12 ).
- []
-
-
-LaTeX Warning: Citation `JabRef2009' on page 27 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Mendeley2009' on page 27 undefined on input line 9.
-
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 9.
-("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omspcr.fd"
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
-) [27
-
-
-
-]
-\openout2 = `./Capitulos/capitulo6.aux'.
-
- (Capitulos/capitulo6.tex
-Cap\'{\i }tulo 6.
 
 LaTeX Warning: Citation `CTAN2009' on page 28 undefined on input line 5.
 
@@ -841,7 +792,56 @@ LaTeX Warning: Citation `JabRef2009' on page 28 undefined on input line 9.
 
 LaTeX Warning: Citation `Mendeley2009' on page 28 undefined on input line 9.
 
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 9.
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omspcr.fd"
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
 ) [28
+
+
+
+]
+\openout2 = `./Capitulos/capitulo6.aux'.
+
+ (Capitulos/capitulo6.tex
+Cap\'{\i }tulo 6.
+
+LaTeX Warning: Citation `CTAN2009' on page 29 undefined on input line 5.
+
+
+LaTeX Warning: Citation `TeX-Br2009' on page 29 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Wikibooks2009' on page 29 undefined on input line 5.
+
+
+Overfull \hbox (3.1574pt too wide) in paragraph at lines 5--6
+[]\OT1/ptm/m/n/12 Espera-se que o uso do es-tilo de formata[][]ao L[]T[]X ade-q
+uado []as Nor-mas para Elabora[][]ao
+ []
+
+
+LaTeX Warning: Citation `TeXnicCenter2009' on page 29 undefined on input line 7
+.
+
+
+LaTeX Warning: Citation `MiKTeX2009' on page 29 undefined on input line 7.
+
+
+Overfull \hbox (4.29355pt too wide) in paragraph at lines 7--8
+\OT1/ptm/m/n/12 em L[]T[]X para usu[]arios Li-nux. Para usu[]arios Win-dows rec
+omenda-se o edi-tor T[]XnicCenter (\OT1/ptm/b/n/12 ??\OT1/ptm/m/n/12 ).
+ []
+
+
+LaTeX Warning: Citation `JabRef2009' on page 29 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Mendeley2009' on page 29 undefined on input line 9.
+
+) [29
 
 
 
@@ -899,7 +899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--94
 problem-you-face-as-a-independent-game-
  []
 
-[29
+[30
 
 
 ]
@@ -922,7 +922,7 @@ icia/numero-de-desenvolvedores-de-games-
 
 ) 
 AED: lastpage setting LastPage
-[30]
+[31]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -951,9 +951,9 @@ nts/type1/urw/courier/ucrr8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX
 TeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/STHGM/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/STHGM/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (31 pages, 641592 bytes).
+Output written on modelo_utfpr.pdf (32 pages, 644514 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

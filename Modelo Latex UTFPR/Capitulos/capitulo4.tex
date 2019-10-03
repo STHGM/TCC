@@ -45,7 +45,31 @@ O formulário é separado em quatro setores:
 
 Enquanto o formulário se encontra aberto para ser respondido, os resultados pode ser acompanhados em tempo real. O que permite ter uma visão desde o início dos resultados e como eles vão progredindo com o passar do tempo.
 
-\section{\emph{Profiler} da Unity}
+\section{\emph{Profiler} da \emph{Unity}}
+
+\emph{Profiler} é uma ferramenta que permite a análise em tempo real dos dados e detalhes de uma cena durante sua execução.
+
+Os dados coletados são divididos em vários setores, no entanto apenas três setores serão o foco deste projeto, que são uso de CPU, uso de memória RAM e física 2D. Cada um desses setores coletam ainda várias informações com medidas diferentes, que serão especificadas.
+
+\begin{itemize}
+	\item Uso de CPU
+	
+	No uso de CPU, os atributos que focamos são os nomes dos métodos em execução, o número de chamadas, \emph{GC Alloc} (\emph{Garbage Collector - Coletor de lixo}) e o tempo em milissegundos (ms), tudo isso dentro de um quadro (FPS) da execução.
+	
+	O \emph{Garbage Collector} armazena o valor da chamada em medida de capacidade de armazenamento (\emph{bytes}, \emph{kilobytes}, etc.) e nos mostra quanto de memória está sendo alocada para tal método em dado quadro.
+	
+	O tempo em ms mostra o quanto demora para o método ser chamado e terminar sua execução.
+	
+	
+	\item Uso de memória RAM
+	
+	Este recurso mostra a quantidade de memória RAM utilizada durante a execução de cada quadro, medida em capacidade de armazenamento (\emph{bytes}, \emph{kilobytes}, etc). Ainda mostra a quantidade de alguns setores em detalhes. Como esse recurso não permite acesso a maiores detalhes, as seções dele que receberam foco foram a quantidade total  de memória utilizada, o total utilizado pela \emph{Unity}, o total utilizado pelo \emph{Mono} (Principal \emph{script} da aplicação) e \emph{Mesh Memory}.
+	
+	\item Física 2D
+	
+	Um resumo de alguns métodos durante sua execução, como número de objetos em estado ativo, desativo, contatos, etc.. O foco é mais realizado nessas 3 propriedades dos objetos.
+	
+\end{itemize}
 
 \section{Planilhas}
 
