@@ -53,7 +53,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Profiler\Allocators\IAllocator.cs" />
+     <Compile Include="Assets\Profiler\Allocators\ListPool.cs" />
+     <Compile Include="Assets\Profiler\Allocators\ObjectPool.cs" />
+     <Compile Include="Assets\Profiler\Factories\BaseFactory.cs" />
+     <Compile Include="Assets\Profiler\Factories\IFactory.cs" />
+     <Compile Include="Assets\Profiler\Factories\ListFactory.cs" />
+     <Compile Include="Assets\Profiler\FunctionTableState.cs" />
+     <Compile Include="Assets\Profiler\ProfilerData.cs" />
+     <Compile Include="Assets\Profiler\ProfilerDataExporter.cs" />
+     <Compile Include="Assets\Profiler\StatsCalculator\AvgStatsCalculator.cs" />
+     <Compile Include="Assets\Profiler\StatsCalculator\MaxStatsCalculator.cs" />
+     <Compile Include="Assets\Profiler\StatsCalculator\MinStatsCalculator.cs" />
+     <Compile Include="Assets\Profiler\StatsCalculator\StatsCalculatorBase.cs" />
+     <Compile Include="Assets\Profiler\StatsCalculator\StatsCalculatorProvider.cs" />
+     <Compile Include="Assets\Profiler\StatsCalculator\SumStatsCalculator.cs" />
+     <Compile Include="Assets\Profiler\UnityWrappers\GUIClip.cs" />
+     <Compile Include="Assets\Profiler\UnityWrappers\SplitterGUILayout.cs" />
+     <Compile Include="Assets\Profiler\UnityWrappers\SplitterState.cs" />
+     <Compile Include="Assets\Profiler\Utils\ByteSize.cs" />
+     <Compile Include="Assets\Profiler\Utils\TableGUILayout.cs" />
      <Compile Include="Assets\Scripts\box_col_pre.cs" />
+     <Compile Include="Assets\Scripts\box_col_pre_Trash.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/TCC/Original/TCC-Collisions/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  3 OCT 2019 05:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  3 OCT 2019 09:38
 entering extended mode
 **./modelo_utfpr.tex
 (modelo_utfpr.tex
@@ -595,18 +595,25 @@ Cap\'{\i }tulo 1.
 
 
 ]
-Overfull \hbox (1.57542pt too wide) in paragraph at lines 47--48
+Overfull \hbox (1.74332pt too wide) in paragraph at lines 47--48
 []\OT1/ptm/m/n/12 Realizar compara[][]oes na pla-ta-forma de de-sen-vol-vi-ment
-o de jo-gos (game en-gine) Unity,
+o de jo-gos (\OT1/ptm/m/it/12 game en-gine\OT1/ptm/m/n/12 ) \OT1/ptm/m/it/12 Un
+ity\OT1/ptm/m/n/12 ,
  []
 
 
-Overfull \hbox (1.91475pt too wide) in paragraph at lines 53--58
-\OT1/ptm/m/n/12 Unity in-di-vi-du-al-mente em di-fe-ren-tes cen[]arios e com-pa
--rar os re-sul-ta-dos en-tre eles. Ser[]ao tamb[]em
+Overfull \hbox (1.24268pt too wide) in paragraph at lines 53--58
+\OT1/ptm/m/it/12 Unity \OT1/ptm/m/n/12 in-di-vi-du-al-mente em di-fe-ren-tes ce
+n[]arios e com-pa-rar os re-sul-ta-dos en-tre eles. Ser[]ao tamb[]em
  []
 
-) [8] [9]
+[8]
+Overfull \hbox (28.01016pt too wide) in paragraph at lines 74--75
+[]\OT1/ptm/m/n/12 No Cap[]tulo 4 s[]ao apre-sen-ta-das as me-to-do-lo-gias uti
+-li-za-das para a realiza[][]ao das compara[][]oes
+ []
+
+) [9]
 \openout2 = `./Capitulos/capitulo2.aux'.
 
  (Capitulos/capitulo2.tex
@@ -951,7 +958,7 @@ nts/type1/urw/courier/ucrr8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX
 TeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/STHGM/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/STHGM/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (32 pages, 644514 bytes).
+Output written on modelo_utfpr.pdf (32 pages, 644868 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
