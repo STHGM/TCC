@@ -1,17 +1,33 @@
 function convertJSON(json) {
   let quadros = json.frames;
+  let arrayQuadros = [];
   let arrayCalls = [];
   let arraySelfTime = [];
   let arrayTotalTime = [];
   let arrayGCMemory = [];
   let objetoFinal = {
+    "quadrosTotal": [],
+    "quadrosCalls": [],
     "calls": [],
+    "quadrosSelfTime": [],
     "selfTime": [],
+    "quadrosTotalTime": [],
     "totalTime": [],
+    "quadrosGCMemory": [],
     "gcMemory": []
   };
 
+  let contadorFrames = 1;
+
   for (let i = 0; i < quadros.length; i++) {
+    if (contadorFrames == 10) {
+      arrayQuadros.push((i + 1));
+      contadorFrames = 1;
+    }
+    else {
+      arrayQuadros.push('');
+      contadorFrames++;
+    }
     if (quadros[i].functions.length == 0) {
       arrayCalls.push('');
       arraySelfTime.push('');
@@ -58,14 +74,20 @@ function convertJSON(json) {
     }
   }
 
+  arrayQuadros.push('END');
   arrayCalls.push('END');
   arraySelfTime.push('END');
   arrayTotalTime.push('END');
   arrayGCMemory.push('END');
 
+  objetoFinal.quadrosTotal = arrayQuadros;
+  objetoFinal.quadrosCalls = arrayQuadros;
   objetoFinal.calls = arrayCalls;
+  objetoFinal.quadrosSelfTime = arrayQuadros;
   objetoFinal.selfTime = arraySelfTime;
+  objetoFinal.quadrosTotalTime = arrayQuadros;
   objetoFinal.totalTime = arrayTotalTime;
+  objetoFinal.quadrosGCMemory = arrayQuadros;
   objetoFinal.gcMemory = arrayGCMemory;
 
   console.log(JSON.stringify(objetoFinal));

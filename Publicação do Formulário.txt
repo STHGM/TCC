@@ -1,6 +1,6 @@
 Hi,
 
-I'm making a survey to acquire data about Unity collision usage for a University Project. The survey is quite simple and shouldn't take too long to answer it.
+I'm making a survey to acquire data about Unity collision usage for a University Project. The survey is quite simple and shouldn't take too long to answer it. Take in mind that those are just basic questions to have a general idea about it.
 
 Any doubts don't hesitate to ask. The following links are the survey in English and Portuguese(in case anyone feels comfortable with that) respectively.
 
