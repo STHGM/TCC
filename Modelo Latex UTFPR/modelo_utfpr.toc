@@ -9,12 +9,13 @@
 \contentsline {chapter}{\numberline {2}\MakeUppercase {FUNDAMENTA\c C\~AO TE\'ORICA}}{10}% 
 \contentsline {section}{\numberline {2.1}\MakeUppercase {Conceitos b\'asicos de colis\~ao}}{10}% 
 \contentsline {section}{\numberline {2.2}\MakeUppercase {F\IeC {\'\i }sica na Unity}}{13}% 
-\contentsline {subsection}{\numberline {2.2.1}Colliders 2D}{14}% 
+\contentsline {subsection}{\numberline {2.2.1}\emph {Colliders} 2D}{14}% 
 \contentsline {subsection}{\numberline {2.2.2}Mensagens dos Colliders}{16}% 
-\contentsline {subsection}{\numberline {2.2.3}Intera\c c\~oes de Colliders}{17}% 
-\contentsline {subsection}{\numberline {2.2.4}Fun\c c\~oes da Physics2D}{18}% 
-\contentsline {subsection}{\numberline {2.2.5}Subdivis\~oes das fun\c c\~oes da Physics2D}{18}% 
-\contentsline {subsection}{\numberline {2.2.6}Subdivis\~oes dos Overlaps}{19}% 
+\contentsline {subsection}{\numberline {2.2.3}Mensagens dos Triggers}{16}% 
+\contentsline {subsection}{\numberline {2.2.4}Intera\c c\~oes de Colliders}{17}% 
+\contentsline {subsection}{\numberline {2.2.5}Fun\c c\~oes da Physics2D}{18}% 
+\contentsline {subsection}{\numberline {2.2.6}Subdivis\~oes das fun\c c\~oes da Physics2D}{18}% 
+\contentsline {subsection}{\numberline {2.2.7}Subdivis\~oes dos Overlaps}{19}% 
 \contentsline {section}{\numberline {2.3}\MakeUppercase {Trabalhos Relacionados}}{19}% 
 \contentsline {subsection}{\numberline {2.3.1}AABB (Axis Alligned Bounding Box)}{20}% 
 \contentsline {subsection}{\numberline {2.3.2}OBB (Oriented Bounding Box)}{20}% 

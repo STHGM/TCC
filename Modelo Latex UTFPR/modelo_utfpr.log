@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  3 OCT 2019 09:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  9 OCT 2019 01:28
 entering extended mode
 **./modelo_utfpr.tex
 (modelo_utfpr.tex
@@ -709,7 +709,7 @@ Package pdftex.def Info: ./Figuras/edge-collider-2d.png  used on input line 148
 (pdftex.def)             Requested size: 341.43307pt x 132.877pt.
  [15 <./Figuras/poligon-collider-2d.png> <./Figuras/edge-collider-2d.png>] [16]
 
-Overfull \hbox (11.17822pt too wide) in paragraph at lines 230--231
+Overfull \hbox (11.17822pt too wide) in paragraph at lines 237--238
 \OT1/ptm/m/n/12 nem[]aticos de-vem ser usa-dos em ob-je-tos que po-dem ser mo-v
 i-dos ou ha-bi-li-ta-dos/desabilitados
  []
@@ -718,13 +718,13 @@ i-dos ou ha-bi-li-ta-dos/desabilitados
 <./Figuras/Aabb_01.png, id=88, 301.125pt x 163.3603pt>
 File: ./Figuras/Aabb_01.png Graphic file (type png)
 <use ./Figuras/Aabb_01.png>
-Package pdftex.def Info: ./Figuras/Aabb_01.png  used on input line 331.
+Package pdftex.def Info: ./Figuras/Aabb_01.png  used on input line 338.
 (pdftex.def)             Requested size: 455.24411pt x 246.9941pt.
  [20 <./Figuras/Aabb_01.png>]
 <./Figuras/Bounding_Volumes.jpg, id=93, 301.125pt x 203.25937pt>
 File: ./Figuras/Bounding_Volumes.jpg Graphic file (type jpg)
 <use ./Figuras/Bounding_Volumes.jpg>
-Package pdftex.def Info: ./Figuras/Bounding_Volumes.jpg  used on input line 356
+Package pdftex.def Info: ./Figuras/Bounding_Volumes.jpg  used on input line 363
 .
 (pdftex.def)             Requested size: 341.43307pt x 230.48988pt.
 ) [21 <./Figuras/Bounding_Volumes.jpg>]
@@ -751,7 +751,7 @@ Cap\'{\i }tulo 4.
 
 
 ]
-Overfull \hbox (22.67401pt too wide) in paragraph at lines 37--38
+Overfull \hbox (22.67401pt too wide) in paragraph at lines 39--40
 []\OT1/ptm/m/n/12 Os ti-pos de co-lis[]oes apre-sen-ta-das no for-mul[]ario s[]
 ao as mes-mas apre-sen-ta-das na subse[][]ao 2.2.1[].
  []
@@ -910,19 +910,19 @@ problem-you-face-as-a-independent-game-
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 123--128
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
 []\OT1/ptm/m/n/12 SILVEIRA, D. \OT1/ptm/b/n/12 N[]umero de de-sen-vol-ve-do-res
  de ga-mes cresce 600% em 8
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 123--128
+Underfull \hbox (badness 3209) in paragraph at lines 130--135
 \OT1/ptm/b/n/12 anos, diz associa[][]ao\OT1/ptm/m/n/12 . 2017. Aces-sado em 8 d
 e ou-tu-bro de 2017. Dis-pon[]vel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--128
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
 \OML/ztmcm/m/it/12 <$\OT1/ptm/m/n/12 https://g1.globo.com/economia/negocios/not
 icia/numero-de-desenvolvedores-de-games-
  []
@@ -942,10 +942,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5297 strings out of 492895
- 77879 string characters out of 3123735
- 174030 words of memory out of 3000000
- 8949 multiletter control sequences out of 15000+200000
+ 5302 strings out of 492895
+ 77975 string characters out of 3123735
+ 174079 words of memory out of 3000000
+ 8954 multiletter control sequences out of 15000+200000
  38815 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,45p,909b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -958,7 +958,7 @@ nts/type1/urw/courier/ucrr8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX
 TeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/STHGM/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/STHGM/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (32 pages, 644868 bytes).
+Output written on modelo_utfpr.pdf (32 pages, 645571 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

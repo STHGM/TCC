@@ -6,7 +6,9 @@ Neste capítulo é explicado como as comparações foram feitas e o que foi retirado
 
 Uma pesquisa de caso foi realizada para saber mais dos tipos de colisões utilizadas através de um formulário que foi divulgado em grupos de comunidades de desenvolvedores de jogos de várias categorias (desenvolvedor independente, estudante, etc.).
 
-Durante os testes foi usada a ferramenta \emph{Profiler} da \emph{Unity}. Essa ferramenta permite analisar em tempo real vários detalhes da performance do jogo em execução, como tempo em milissegundos, \emph{scripts} chamados, memória RAM utilizada.
+Durante os testes foi usada a ferramenta \emph{Profiler} da \emph{Unity}. Essa ferramenta permite analisar em tempo real vários detalhes da performance do jogo em execução, como tempo em milissegundos, \emph{scripts} chamados, memória RAM utilizada, etc.
+
+Para a obtenção dessas comparações foi usado um \emph{script} que grava os resultados em formato \emph{JSON}, criado por \cite{DiPalma2017}. Em seguida foram extraídos do arquivo apenas os dados que serão usados para essa análise comparativa, que serão detalhados mais a seguir. Após isso os arquivos foram convertidos para valores separados por vírgulas (\emph{CSVs}), para que pudessem ser lidos e manipulados por softwares de planilha.
 
 Planilhas foram usadas para armazenar os resultados das pesquisas e dos testes onde podem ser exibidos em gráficos comparativos para melhor visualização e compreensão dos dados.
 
@@ -38,7 +40,7 @@ O formulário é separado em quatro setores:
 	
 	\item Perguntas relacionadas à colisões 3D
 	
-	Segue exatamente o mesmo padrão do item anterior sobre colisões 2D, apenas alteradas para 3D.
+	Segue exatamente o mesmo padrão do item anterior sobre colisões 2D, apenas alteradas para 3D. Feitas para ter uma visão á respeito do outro setor especializado da \emph{Unity}.
 	
 	
 \end{itemize}
@@ -49,25 +51,28 @@ Enquanto o formulário se encontra aberto para ser respondido, os resultados pode
 
 \emph{Profiler} é uma ferramenta que permite a análise em tempo real dos dados e detalhes de uma cena durante sua execução.
 
-Os dados coletados são divididos em vários setores, no entanto apenas três setores serão o foco deste projeto, que são uso de CPU, uso de memória RAM e física 2D. Cada um desses setores coletam ainda várias informações com medidas diferentes, que serão especificadas.
+Os dados coletados são divididos em vários setores, no entanto, apenas quatro atributos em uso de CPU serão o foco deste projeto, que são porcentagem de uso total, chamadas, memória alocada pelo \emph{Garbage Collector} e tempo total em milissegundos(ms). O \emph{Profiler} permite também que os dados sejam coletados por métodos, os que usaremos como coleta de dados dos atributos anteriormente mencionados são \emph{Physics2D.Simulate}, as mensagens \emph{OnCollision2D} e \emph{OnTrigger2D}.
+
+\emph{Physics2D.Simulate} é o método responsável por toda a simulação de física presente na cena, qualquer objeto estático, que tenha massa, corpo rígido ou \emph{trigger} é simulado por ele.
+
+As mensagens de \emph{OnCollision2D} que serão analisadas são as mesmas apresentadas na subseção~\ref{subsec:mensagenscolliders}. No mesmo padrão seguem as mensagens de \emph{OnTrigger2D} na subseção~\ref{subsec:mensagenstriggers}.
 
 \begin{itemize}
-	\item Uso de CPU
+	\item Porcentagem do uso total de CPU
 	
-	No uso de CPU, os atributos que focamos são os nomes dos métodos em execução, o número de chamadas, \emph{GC Alloc} (\emph{Garbage Collector - Coletor de lixo}) e o tempo em milissegundos (ms), tudo isso dentro de um quadro (FPS) da execução.
+	Porcentagem do uso total de CPU de um método em determinado quadro.
 	
-	O \emph{Garbage Collector} armazena o valor da chamada em medida de capacidade de armazenamento (\emph{bytes}, \emph{kilobytes}, etc.) e nos mostra quanto de memória está sendo alocada para tal método em dado quadro.
+	\item Chamadas (\emph{Calls})
 	
-	O tempo em ms mostra o quanto demora para o método ser chamado e terminar sua execução.
+	O número de vezes que o método foi chamado em determinado quadro.
 	
+	\item Memória alocada pelo \emph{Garbage Collector} (\emph{GCMemory})
 	
-	\item Uso de memória RAM
+	A quantidade de memória alocada em \emph{bytes} no \emph{Garbage Collector} para a execução do método em determinado quadro.
 	
-	Este recurso mostra a quantidade de memória RAM utilizada durante a execução de cada quadro, medida em capacidade de armazenamento (\emph{bytes}, \emph{kilobytes}, etc). Ainda mostra a quantidade de alguns setores em detalhes. Como esse recurso não permite acesso a maiores detalhes, as seções dele que receberam foco foram a quantidade total  de memória utilizada, o total utilizado pela \emph{Unity}, o total utilizado pelo \emph{Mono} (Principal \emph{script} da aplicação) e \emph{Mesh Memory}.
+	\item Tempo total em milissegundos (ms)
 	
-	\item Física 2D
-	
-	Um resumo de alguns métodos durante sua execução, como número de objetos em estado ativado, desativado, contatos num dado quadro, etc.. O foco desse setor nas três propriedades mencionadas.
+	A quantidade de tempo em milissegundos requerida para executar o método em determinado quadro.
 	
 \end{itemize}
 

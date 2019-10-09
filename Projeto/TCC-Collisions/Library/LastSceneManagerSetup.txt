@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Box_Col_Pre.unity
+- path: Assets/Scenes/Box/Static/Box_Col_Trigger_0500.unity
   isLoaded: 1
   isActive: 1
