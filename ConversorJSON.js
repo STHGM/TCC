@@ -1,16 +1,16 @@
 function convertJSON(json) {
   let quadros = json.frames;
   let arrayQuadros = [];
+  let arrayTotalPercent = [];
   let arrayCalls = [];
-  let arraySelfTime = [];
   let arrayTotalTime = [];
   let arrayGCMemory = [];
   let objetoFinal = {
     "quadrosTotal": [],
+    "quadrosTotalPercent": [],
+    "totalPercent": [],
     "quadrosCalls": [],
     "calls": [],
-    "quadrosSelfTime": [],
-    "selfTime": [],
     "quadrosTotalTime": [],
     "totalTime": [],
     "quadrosGCMemory": [],
@@ -29,8 +29,8 @@ function convertJSON(json) {
       contadorFrames++;
     }
     if (quadros[i].functions.length == 0) {
+      arrayTotalPercent.push('');
       arrayCalls.push('');
-      arraySelfTime.push('');
       arrayTotalTime.push('');
       arrayGCMemory.push('');
     }
@@ -38,12 +38,12 @@ function convertJSON(json) {
       let array = quadros[i].functions[0].values;
       for (let j = 0; j < array.length; j++) {
         switch (array[j].column) {
-          case 'Calls':
-            arrayCalls.push(array[j].value);
+          case 'TotalPercent':
+            arrayTotalPercent.push(array[j].value);
             break;
 
-          case 'SelfTime':
-            arraySelfTime.push(array[j].value);
+          case 'Calls':
+            arrayCalls.push(array[j].value);
             break;
 
           case 'TotalTime':
@@ -75,16 +75,16 @@ function convertJSON(json) {
   }
 
   arrayQuadros.push('END');
+  arrayTotalPercent.push('END');
   arrayCalls.push('END');
-  arraySelfTime.push('END');
   arrayTotalTime.push('END');
   arrayGCMemory.push('END');
 
   objetoFinal.quadrosTotal = arrayQuadros;
+  objetoFinal.quadrosTotalPercent = arrayQuadros;
+  objetoFinal.totalPercent = arrayTotalPercent;
   objetoFinal.quadrosCalls = arrayQuadros;
   objetoFinal.calls = arrayCalls;
-  objetoFinal.quadrosSelfTime = arrayQuadros;
-  objetoFinal.selfTime = arraySelfTime;
   objetoFinal.quadrosTotalTime = arrayQuadros;
   objetoFinal.totalTime = arrayTotalTime;
   objetoFinal.quadrosGCMemory = arrayQuadros;
