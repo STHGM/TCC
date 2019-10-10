@@ -29,6 +29,7 @@
 \contentsline {chapter}{\numberline {4}\MakeUppercase {METODOLOGIAS}}{25}% 
 \contentsline {section}{\numberline {4.1}\MakeUppercase {Pesquisa de caso}}{25}% 
 \contentsline {section}{\numberline {4.2}\MakeUppercase {\emph {Profiler} da \emph {Unity}}}{26}% 
-\contentsline {chapter}{\numberline {5}\MakeUppercase {RESULTADOS E DISCUSS\~OES}}{28}% 
-\contentsline {chapter}{\numberline {6}\MakeUppercase {CONCLUS\~AO}}{29}% 
-\contentsline {chapter}{REFER\^ENCIAS}{30}% 
+\contentsline {section}{\numberline {4.3}\MakeUppercase {Obten\c c\~ao e filtragem de dados}}{28}% 
+\contentsline {chapter}{\numberline {5}\MakeUppercase {RESULTADOS E DISCUSS\~OES}}{29}% 
+\contentsline {chapter}{\numberline {6}\MakeUppercase {CONCLUS\~AO}}{30}% 
+\contentsline {chapter}{REFER\^ENCIAS}{31}% 

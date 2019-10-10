@@ -49,6 +49,14 @@ Enquanto o formulário se encontra aberto para ser respondido, os resultados pode
 
 \section{\emph{Profiler} da \emph{Unity}}
 
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/profiler_unity_01.png}
+	\caption[Profiler da Unity]{\emph{Profiler} da \emph{Unity}. Em verde, estão as categorias dos dados que são medidos. Em azul, o gráfico porcentual do uso das categorias. Em vermelho, as funções chamadas em dado quadro e seus respectivos dados de consumo.}
+	\fonte{\cite{UnityTechnologies2017}}
+	\label{profilerunity}
+\end{figure}
+
 \emph{Profiler} é uma ferramenta que permite a análise em tempo real dos dados e detalhes de uma cena durante sua execução.
 
 Os dados coletados são divididos em vários setores, no entanto, apenas quatro atributos em uso de CPU serão o foco deste projeto, que são porcentagem de uso total, chamadas, memória alocada pelo \emph{Garbage Collector} e tempo total em milissegundos(ms). O \emph{Profiler} permite também que os dados sejam coletados por métodos, os que usaremos como coleta de dados dos atributos anteriormente mencionados são \emph{Physics2D.Simulate}, as mensagens \emph{OnCollision2D} e \emph{OnTrigger2D}.
@@ -76,6 +84,12 @@ As mensagens de \emph{OnCollision2D} que serão analisadas são as mesmas apresent
 	
 \end{itemize}
 
+
+\section{Obtenção e filtragem de dados}
+
+Por padrão, o \emph{Profiler} da \emph{Unity}, não é capaz de salvar os dados coletados para visualização, comparação e manipulação em outras plataformas. No entanto, é possível fazer isso graças a um \emph{script} criado por \citeauthor{DiPalma2017}. Ele permite exportar os dados de uso de CPU em formato \emph{JSON}, o que permite extrair e comparar apenas os dados que serão usados.
+
+Para extrair esses dados, foi usado um \emph{script} em \emph{Javascript} que os atribui para o formato certo para que possam ser convertidos em valores separados por vírgulas através do site \underline{\emph{http://convertcsv.com/json-to-csv.htm}} e depois lidos em um \emph{software} de planilhas que permita a leitura desse formato de valor.
 
 
 
