@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4738164155730516}
   - component: {fileID: 212197922731350076}
-  - component: {fileID: 61535401010273194}
-  - component: {fileID: 50658733333108662}
   - component: {fileID: 114711975406427276}
+  - component: {fileID: 50123289042581970}
+  - component: {fileID: 61363092343566216}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -43,7 +43,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50658733333108662
+--- !u!50 &50123289042581970
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61535401010273194
+--- !u!61 &61363092343566216
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

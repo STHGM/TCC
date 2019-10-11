@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ci.cs" />
      <Compile Include="Assets\Profiler\Allocators\IAllocator.cs" />
      <Compile Include="Assets\Profiler\Allocators\ListPool.cs" />
      <Compile Include="Assets\Profiler\Allocators\ObjectPool.cs" />
