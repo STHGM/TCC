@@ -8,6 +8,7 @@ public class spawner : MonoBehaviour {
 	public float speed = 10f;
 	public float delay = 1.0f;
 	public float repeat = 0.0f;
+	public float translate;
 
 	void Start () {
 		InvokeRepeating("spawn", repeat, delay);
@@ -15,7 +16,7 @@ public class spawner : MonoBehaviour {
 	
 	void Update () {
 		transform.Rotate(Vector3.back, speed * Time.deltaTime);
-		transform.Translate(0.01f, 0, 0);
+		transform.Translate(translate, 0, 0);
 	}
 
 	void spawn() {
