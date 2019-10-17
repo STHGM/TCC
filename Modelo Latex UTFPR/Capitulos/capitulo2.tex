@@ -1,14 +1,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CAPÍTULO 2
 \chapter{FUNDAMENTAÇÃO TEÓRICA}  
-
 %O capítulo de Fundamentação Teórica deve definir os principais conceitos do trabalho e apontar os trabalhos relacionados. Contém a exposição ordenada e pormenorizada do assunto. É composta de revisão de literatura, dividida em seções e subseções descritas detalhadamente. Cada seção ou subseção deverá ter um título apropriado ao conteúdo. 
 
 %A seguir ilustra-se a forma de incluir figuras, tabelas, equa\c{c}\~oes, siglas e s\'imbolos no documento, obtendo indexa\c{c}\~ao autom\'atica em suas respectivas listas. A numera\c{c}\~ao sequencial de figuras, tabelas e equa\c{c}\~oes ocorre de modo autom\'atico. Refer\^encias cruzadas s\~ao obtidas atrav\'es dos comandos {\ttfamily \textbackslash label\{\}} e {\ttfamily \textbackslash ref\{\}}. Por exemplo, n\~ao \'e necess\'ario saber que o n\'umero deste cap\'itulo \'e~\ref{chap:desenv} para colocar o seu n\'umero no texto. Isto facilita muito a inser\c{c}\~ao, remo\c{c}\~ao ou reloca\c{c}\~ao de elementos numerados no texto (fato corriqueiro na escrita e corre\c{c}\~ao de um documento acad\^emico) sem a necessidade de renumer\'a-los todos.
 
 Os jogos digitais são programas que permitem a interação lúdica entre o jogador e o ambiente em que o jogo é executado, como computadores e videogames, afim de proporcionar entretenimento ao jogador \cite{lucchese2009conceituacao}.
 
-Nos jogos, as colisões são utilizadas para realizar interações entre objetos. Fisicamente elas são usadas para detectar quando um objeto está em colisão com outro, que pode ser utilizado para criar interações entre os objetos. Por exemplo uma bola cai em cima de um botão (Figura \ref{exevento01}), e esta interação realiza um evento de abrir uma porta (Figura \ref{exevento02}).
+Nos jogos, as colisões são utilizadas para realizar interações entre objetos. Fisicamente elas são usadas para detectar quando um objeto está em colisão com outro, que pode ser utilizado para criar interações entre os objetos. Por exemplo, uma bola cai em cima de um botão (Figura \ref{exevento01}), e esta interação realiza um evento de abrir uma porta (Figura \ref{exevento02}).
 
 \begin{figure}[!htb]
 	\centering
@@ -26,9 +25,9 @@ Nos jogos, as colisões são utilizadas para realizar interações entre objetos. Fi
 
 \section{Conceitos básicos de colisão}
 
-Colisões funcionam por cálculos matemáticos, como Teorema de Pitágoras e diferença de pontos, que detectam intersecção entre objetos baseada em coordenadas de suas posições e rotações, caso produzam alguma, no espaço. Um exemplo é a colisão de círculos, onde cada círculo tem como atributos o seu centro, que irá determinar a sua posição no espaço e o raio. Se a diferença da distância entre os centros dos círculos for menor ou igual a soma dos raios significa que os círculos estão colidindo. Isso é ilustrado nas Figuras \ref{circle01}, \ref{circle02} e \ref{circle03}.
+Colisões funcionam por cálculos matemáticos, como Teorema de Pitágoras e diferença de pontos, que detectam intersecção entre objetos baseada em coordenadas de suas posições e rotações, caso produzam alguma, no espaço. Um exemplo é a colisão de círculos, onde cada círculo tem como atributo o seu centro, que irá determinar a sua posição no espaço e o raio. Se a diferença da distância entre os centros dos círculos for menor ou igual a soma dos raios significa que os círculos estão colidindo. Isso é ilustrado nas Figuras \ref{circle01}, \ref{circle02} e \ref{circle03}.
 
-Na Figura \ref{circle01}, os pontos A e B representam os centros de cada círculo, sendo que o círculo verde tem o raio de comprimento $\overline{AC}$ e o círculo pontilhado tem raio $\overline{BD}$. Então pode ser calculada a distância entre os centros dos círculos através de um Teorema de Pitágoras, tendo o segmento de reta $\overline{AB}$ como sua hipotenusa. Logo em seguida será feita a comparação entre o comprimento da hipotenusa e a soma dos raios dos círculos para verificar estão colidindo. No caso da Figura \ref{circle01} eles não estão em colisão, pois o comprimento da hipotenusa A-B é maior que a soma dos raios $\overline{AC}$ e $\overline{BD}$ dos círculos, não satisfazendo a condição para que ocorra a colisão.
+Na Figura \ref{circle01}, os pontos A e B representam os centros de cada círculo, sendo que o círculo verde tem o raio de comprimento $\overline{AC}$ e o círculo pontilhado tem raio $\overline{BD}$. Então pode ser calculada a distância entre os centros dos círculos por meio de um Teorema de Pitágoras, tendo o segmento de reta $\overline{AB}$ como sua hipotenusa. Logo em seguida, será feita a comparação entre o comprimento da hipotenusa e a soma dos raios dos círculos para verificar estão colidindo. No caso da Figura \ref{circle01} eles não estão em colisão, pois o comprimento da hipotenusa A-B é maior que a soma dos raios $\overline{AC}$ e $\overline{BD}$ dos círculos, não satisfazendo a condição para que ocorra a colisão.
 
 \begin{figure}[!htb]
 	\centering
@@ -37,7 +36,7 @@ Na Figura \ref{circle01}, os pontos A e B representam os centros de cada círculo
 	\label{circle01}
 \end{figure}
 
-Na Figura \ref{circle02} o procedimento é o mesmo para verificação. Nesse caso há a colisão e ainda há a intersecção entre os círculos. Isso pode ser confirmado ao comparar o comprimento da hipotenusa A-B com a soma dos raios $\overline{AC}$ e $\overline{BD}$ e verificar que o tamanho da hipotenusa é menor que a soma dos raios. Dependendo dos requisitos e do algoritmo, os pontos onde ocorre a intersecção podem ser armazenados, no caso da Figura \ref{circle02} são os pontos E e F.
+Na Figura \ref{circle02}, o procedimento é o mesmo para verificação. Nesse caso, há a colisão e ainda há a intersecção entre os círculos. Isso pode ser confirmado ao comparar o comprimento da hipotenusa A-B com a soma dos raios $\overline{AC}$ e $\overline{BD}$ e verificar que o tamanho da hipotenusa é menor que a soma dos raios. Dependendo dos requisitos e do algoritmo, os pontos onde ocorre a intersecção podem ser armazenados, no caso da Figura \ref{circle02} são os pontos E e F.
 
 \begin{figure}[!htb]
 	\centering
@@ -46,7 +45,7 @@ Na Figura \ref{circle02} o procedimento é o mesmo para verificação. Nesse caso h
 	\label{circle02}
 \end{figure}
 
-Na Figura \ref{circle03} o procedimento também é o mesmo e nesse existe a colisão, porém não há intersecção entre os círculos, isso é verificado através do cálculo da diferença entre a hipotenusa A-B e a soma dos raios $\overline{AC}$ e $\overline{BD}$, que nesse caso são do mesmo comprimento, portanto há colisão.
+Na Figura \ref{circle03}, o procedimento também é o mesmo e nesse existe a colisão, porém não há intersecção entre os círculos, isso é verificado através do cálculo da diferença entre a hipotenusa A-B e a soma dos raios $\overline{AC}$ e $\overline{BD}$, que nesse caso são do mesmo comprimento, portanto há colisão.
 
 \begin{figure}[!htb]
 	\centering
@@ -89,7 +88,7 @@ As linhas 19 a 22 verifica se há colisão entre as esferas calculando se a distân
 
 Nesta seção são apresentados os métodos e classes dos colisores mais comumente utilizados nos \emph{GameObjects} na plataforma de desenvolvimento de jogos \emph{Unity}.
 
-\emph{GameObjects} são as classes básicas para todas as entidades compõem uma cena na \emph{Unity}, e a elas podem ser atribuídos componentes que alteram suas propriedades.
+\emph{GameObjects} são as classes básicas para todas as entidades que compõem uma cena na \emph{Unity}, e a elas podem ser atribuídos componentes que alteram suas propriedades.
 
 
 %	\subsection{Collision2D}
@@ -238,7 +237,7 @@ Nesta seção são apresentados os métodos e classes dos colisores mais comumente u
 	
 \end{itemize}
 
-A Tabela \ref{mensagem_trigger} mostra quais interações de colisões geram mensagens para os \emph{triggers} enviarem.
+A Tabela \ref{mensagem_trigger} mostra quais interações de colisões geram mensagens para os \emph{triggers} enviarem. Já a Tabela \ref{mensagem_collider}, mostra quais interações de colisões geram mensagens para os \emph{colliders}.
 
 \begin{table}[!htb]
 	\centering
@@ -259,9 +258,38 @@ A Tabela \ref{mensagem_trigger} mostra quais interações de colisões geram mensag
 	\label{mensagem_trigger}
 \end{table}
 
+\begin{table}[!htb]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|c|c|c|c|c|c|} 
+			\hline
+			\multicolumn{7}{|l|}{Trigger messages are sent upon collision}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \\ 
+			\hline
+			& \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Static\\ Collider \end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Rigidbody\\ Collider \end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Kinematic Rigidbody\\ Collider \end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Static Trigger\\ Collider \end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Rigidbody Trigger\\ Collider \end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Kinematic Rigidbody\\ Trigger Collider \end{tabular}}  \\ 
+			\hline
+			\begin{tabular}[c]{@{}l@{}}Static\\ Collider \end{tabular}                      &                                                                                 & Y                                                                                  &                                                                                              &                                                                                         &                                                                                            &                                                                                                       \\ 
+			\hline
+			\begin{tabular}[c]{@{}l@{}}Rigidbody\\ Collider \end{tabular}                   & Y                                                                               & Y                                                                                  & Y                                                                                            &                                                                                         &                                                                                            &                                                                                                       \\ 
+			\hline
+			\begin{tabular}[c]{@{}l@{}}Kinematic Rigidbody\\ Collider \end{tabular}         &                                                                                 & Y                                                                                  &                                                                                              &                                                                                         &                                                                                            &                                                                                                       \\ 
+			\hline
+			\begin{tabular}[c]{@{}l@{}}Static Trigger\\ Collider \end{tabular}              &                                                                                 &                                                                                    &                                                                                              &                                                                                         &                                                                                            &                                                                                                       \\ 
+			\hline
+			\begin{tabular}[c]{@{}l@{}}Rigidbody Trigger\\ Collider \end{tabular}           &                                                                                 &                                                                                    &                                                                                              &                                                                                         &                                                                                            &                                                                                                       \\ 
+			\hline
+			\begin{tabular}[c]{@{}l@{}}Kinematic Rigidbody Trigger\\ Collider \end{tabular} &                                                                                 &                                                                                    &                                                                                              &                                                                                         &                                                                                            &                                                                                                       \\
+			\hline
+		\end{tabular}%
+	}
+	\caption{Quando mensagens de \emph{trigger} são enviadas de acordo com o tipo de colisão}
+	\label{mensagem_collider}
+\end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
 Alguns exemplos de quando mensagens de \emph{trigger} são enviadas sobre uma colisão podem ser comparados seguindo a Tabela \ref{mensagem_trigger}. Comparando a colisão entre um \emph{Static Collider} e um \emph{Rigidbody Trigger Collider}, ele envia uma mensagem de \emph{trigger}. Porém se forem comparados \emph{Kinematic Rigidbody Collider} com um \emph{Rigidbody Collider}, ele não envia mensagem de \emph{trigger}.
 
-Quando ocorre detecção de colisão e mensagens \emph{não-triggers} são enviadas ao ocorrer a colisão, esse envio acontece apenas entre \emph{Rigidbody Collider com Static Collider, Rigidbody Collider com Rigidbody Collider, Rigidbody Collider com Kinematic Rigidbody Collider, Static Collider com Rigidbody Collider, Kinematic Rigidbody Collider com Rigidbody Collider}.
+Quando ocorre detecção de colisão e mensagens \emph{não-triggers} são enviadas ao ocorrer a colisão, esse envio acontece apenas entre \emph{Rigidbody Collider com Static Collider, Rigidbody Collider com Rigidbody Collider, Rigidbody Collider com Kinematic Rigidbody Collider, Static Collider com Rigidbody Collider, Kinematic Rigidbody Collider com Rigidbody Collider}. Assim como mostrado na Tabela \ref{mensagem_collider}.
 	
 	\subsection{Funções da Physics2D}
 	

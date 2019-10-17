@@ -1,11 +1,60 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CAPÍTULO 5
-\chapter{RESULTADOS E DISCUSSÕES}  
+\chapter{RESULTADOS E DISCUSSÕES} 
 
-Espera-se que o uso do estilo de formata\c{c}\~ao \LaTeX\ adequado \`as Normas para Elabora\c{c}\~ao de Trabalhos Acad\^emicos da UTFPR ({\ttfamily normas-utf-tex.cls}) facilite a escrita de documentos no \^ambito desta institui\c{c}\~ao e aumente a produtividade de seus autores. Para usu\'arios iniciantes em \LaTeX, al\'em da bibliografia especializada j\'a citada, existe ainda uma s\'erie de recursos~\cite{CTAN2009} e fontes de informa\c{c}\~ao~\cite{TeX-Br2009,Wikibooks2009} dispon\'iveis na Internet.
+Este capítulo apresentará os resultados mais relevantes das comparações. É categorizado por tipo de \emph{collider}e depois por tipo de cenário (\emph{Pre-Runtime} e \emph{Runtime}).
 
-Recomenda-se o editor de textos Kile como ferramenta de composi\c{c}\~ao de documentos em \LaTeX\ para usu\'arios Linux. Para usu\'arios Windows recomenda-se o editor \TeX nicCenter~\cite{TeXnicCenter2009}. O \LaTeX\ normalmente j\'a faz parte da maioria das distribui\c{c}\~oes Linux, mas no sistema operacional Windows \'e necess\'ario instalar o software \textsc{MiK}\TeX~\cite{MiKTeX2009}.
+A maioria dos resultados com poucos objetos no cenário, ou seja, com um e dez objetos, não apresentaram grandes diferenças entre si em questão de performance que pudessem intervir na jogabilidade. Em todos as comparações, os cálculos da física dos objetos foi o que mais consumiu os recursos, que foram aumentando conforme o aumento do número de objetos na cena dependendo do tipo de \emph{collider} usado.
 
-Al\'em disso, recomenda-se o uso de um gerenciador de refer\^encias como o JabRef~\cite{JabRef2009} ou Mendeley~\cite{Mendeley2009} para a cataloga\c{c}\~ao bibliogr\'afica em um arquivo \textsc{Bib}\TeX, de forma a facilitar cita\c{c}\~oes atrav\'es do comando {\ttfamily \textbackslash cite\{\}} e outros comandos correlatos do pacote \textsc{abn}\TeX. A lista de refer\^encias deste documento foi gerada automaticamente pelo software \LaTeX\ + \textsc{Bib}\TeX\ a partir do arquivo {\ttfamily reflatex.bib}, que por sua vez foi composto com o gerenciador de refer\^encias JabRef.
+\section{Resultados com \emph{Box Collider}}
 
-O estilo de formata\c{c}\~ao \LaTeX\ da UTFPR e este exemplo de utiliza\c{c}\~ao foram elaborados por Diogo Rosa Kuiaski (diogo.kuiaski@gmail.com) e Hugo Vieira Neto (hvieir@utfpr.edu.br), com contribui\c{c}\~oes de C\'esar Vargas Benitez. Sugest\~oes de melhorias s\~ao bem-vindas.
+Nesta seção são apresentados os resultados com o \emph{collider} do tipo \emph{box}.
+
+\subsection{\emph{Box Collider - Pre-Runtime}}
+
+Os resultados apresentaram uma progressão linear conforme o número de objetos foi aumentando com pequenas variações. Nos três primeiros testes com um, dez e cinquenta objetos, os resultados se mostram com performance estável, sem queda bruscas de quadros e sem uso intensivo de CPU e de memória RAM.
+
+A partir de cem objetos, apesar de ainda não haver uso intenso de memória e CPU que afetem a jogabilidade, é possível perceber picos de \emph{Garbage Collection}. Esses picos começam a afetar a performance a partir dos quinhentos objetos, fazendo com que o uso total de CPU para calcular os quadros chega a 16 ms como mostrado na Figura \ref{teste_box_10}, onde antes era de 0.25 ms a 1 ms, mostrado na Figura \ref{teste_box_500}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Box/new/0010_Static.png}
+	\caption[Resultado 10 Objetos Box Static]{Resultado de performance de dez objetos com \emph{box collider} em \emph{Pre-Runtime}.}
+	\label{teste_box_10}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Box/new/0500_Static.png}
+	\caption[Resultado 500 Objetos Box Static]{Resultado de performance de quinhentos objetos com \emph{box collider} em \emph{Pre-Runtime}.}
+	\label{teste_box_500}
+\end{figure}
+
+O resultado com mil objetos foi o mais instável, apresentando um aumento de consumo apenas certo tempo depois do início da execução, chegando a fazer o tempo de consumo total de CPU chegar a 66 ms e 0.65GB de uso total de memória RAM (em comparação com a margem de 200MB de RAM nos resultados anteriores) como mostrado na Figura \ref{teste_box_1000}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Box/new/1000_Static.png}
+	\caption[Resultado 1000 Objetos Box Static]{Resultado de performance de mil objetos com \emph{box collider} em \emph{Pre-Runtime}.}
+	\label{teste_box_1000}
+\end{figure}
+
+\subsection{\emph{Box Collider - Runtime}}
+
+Nos três primeiros testes com um, dez e cinquenta objetos por segundo, os resultados se mostram com performance estável, porém com picos de \emph{Garbage Collection} contantes conforme os objetos eram invocados pelo script de invocação. O consumo total de memória RAM mostra ser menor do que os resultados em \emph{Pre-Runtime}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Box/new/0010_Dynamic.png}
+	\caption[Resultado 10 Objetos Box Dynamic]{Resultado de performance de dez objetos com \emph{box collider} em \emph{Runtime}.}
+	\label{teste_box_0010_dynamic}
+\end{figure}
+
+A partir de cem objetos por segundo, há uma queda brusca de performance. Foi gerada uma alta quantidade de \emph{Garbage Collection}, taxa de uso de CPU passou o limite de 66 ms e 1.64GB de RAM total, como pode ser mostrado na Figura \ref{teste_box_100_dynamic}, o que afeta bastante a performance, a visualização e estabilidade do jogo. As demais comparações seguintes dessa subseção apresentaram resultados semelhantes, com o aumento de consumo após pouco tempo de execução.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Box/new/0100_Dynamic.png}
+	\caption[Resultado 100 Objetos Box Dynamic]{Resultado de performance de quinhentos objetos com \emph{box collider} em \emph{Runtime}.}
+	\label{teste_box_100_dynamic}
+\end{figure}

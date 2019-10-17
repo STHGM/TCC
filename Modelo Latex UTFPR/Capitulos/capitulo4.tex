@@ -4,17 +4,17 @@
 
 Neste capítulo é explicado como as comparações foram feitas e o que foi retirado delas para a abordagem de resultados.
 
-Uma pesquisa de caso foi realizada para saber mais dos tipos de colisões utilizadas através de um formulário que foi divulgado em grupos de comunidades de desenvolvedores de jogos de várias categorias (desenvolvedor independente, estudante, etc.).
+Uma pesquisa de campo foi realizada para saber mais dos tipos de colisões utilizadas através de um formulário que foi divulgado em grupos de comunidades de desenvolvedores de jogos de várias categorias (desenvolvedor independente, estudante, etc.).
 
 Durante os testes foi usada a ferramenta \emph{Profiler} da \emph{Unity}. Essa ferramenta permite analisar em tempo real vários detalhes da performance do jogo em execução, como tempo em milissegundos, \emph{scripts} chamados, memória RAM utilizada, etc.
 
-Para a obtenção dessas comparações foi usado um \emph{script} que grava os resultados em formato \emph{JSON}, criado por \cite{DiPalma2017}. Em seguida foram extraídos do arquivo apenas os dados que serão usados para essa análise comparativa, que serão detalhados mais a seguir. Após isso os arquivos foram convertidos para valores separados por vírgulas (\emph{CSVs}), para que pudessem ser lidos e manipulados por softwares de planilha.
+Para a obtenção dessas comparações foi usado um \emph{script} que grava os resultados em formato \emph{JSON}, criado por \citeauthor{DiPalma2017}(\citeyear{DiPalma2017}). Em seguida foram extraídos do arquivo apenas os dados que serão usados para essa análise comparativa, que serão detalhados mais a seguir. Após isso os arquivos foram convertidos para valores separados por vírgulas (\emph{CSVs}), para que pudessem ser lidos e manipulados por softwares de planilha.
 
 Planilhas foram usadas para armazenar os resultados das pesquisas e dos testes onde podem ser exibidos em gráficos comparativos para melhor visualização e compreensão dos dados.
 
-\section{Pesquisa de caso}
+\section{Pesquisa de campo}
 
-A pesquisa de caso foi criada usando o sistema de formulários da \emph{Google} (\emph{Google Forms}), em que é possível criar e visualizar os resultados em tempo real.
+A pesquisa de campo foi criada usando o sistema de formulários da \emph{Google} (\emph{Google Forms}), em que é possível criar e visualizar os resultados em tempo real.
 
 O formulário foi feito tanto em português, como em inglês e foi divulgado em grupos de comunidade de desenvolvedores.
 
@@ -28,9 +28,9 @@ O formulário é separado em quatro setores:
 	
 	\item Perguntas generalizadas sobre as cenas produzidas
 	
-	Uma cena ou nível em um jogo é onde a interação entre o jogador, o cenário e seus eventos acontece. Nela podem ter vários tipos de objetos de jogo, com diferentes propriedades, mas o foco nesse é caso é em relação às colisões usadas nelas.
+	Uma cena ou nível em um jogo é onde a interação entre o jogador, o cenário e seus eventos acontece. Nela podem ter vários tipos de objetos de jogo, com diferentes propriedades, mas o foco nesse caso é em relação às colisões usadas nelas.
 	
-	As perguntas nessa seção consistem em perguntar qual o tipo de colisão predominante na maioria das cenas que produzem, que podem ser \emph{Static Collider}, \emph{Rigidbody Collider} e \emph{Kinematic Rigiddbody Collider}. E qual a média de objetos com a propriedade \emph{trigger} ligada usados em cada cena, que pode ter múltiplos valores atribuídos.
+	As perguntas nessa seção consistem em saber qual o tipo de colisão predominante na maioria das cenas que produzem, que podem ser \emph{Static Collider}, \emph{Rigidbody Collider} e \emph{Kinematic Rigiddbody Collider}. E qual a média de objetos com a propriedade \emph{trigger} ligada usados em cada cena, que pode ter múltiplos valores atribuídos.
 	
 	\item Perguntas relacionadas à colisões 2D
 	
@@ -40,7 +40,7 @@ O formulário é separado em quatro setores:
 	
 	\item Perguntas relacionadas à colisões 3D
 	
-	Segue exatamente o mesmo padrão do item anterior sobre colisões 2D, apenas alteradas para 3D. Feitas para ter uma visão á respeito do outro setor especializado da \emph{Unity}.
+	Segue exatamente o mesmo padrão do item anterior sobre colisões 2D, apenas alteradas para 3D. Feitas para ter uma visão á respeito do outro setor da \emph{Unity}.
 	
 	
 \end{itemize}
@@ -98,6 +98,29 @@ Por padrão, o \emph{Profiler} da \emph{Unity}, não é capaz de salvar os dados co
 \end{figure}
 
 Para extrair esses dados, foi usado um \emph{script} em \emph{Javascript} que os atribui para o formato certo para que possam ser convertidos em valores separados por vírgulas através do site \underline{\emph{http://convertcsv.com/json-to-csv.htm}} e depois lidos em um \emph{software} de planilhas que permita a leitura desse formato de valor.
+
+\section{Cenários de comparação}
+
+Cada cenário foi feito usando um dos quatro \emph{colliders} que foram mencionados antes, cada um em \emph{Pre-Runtime} e \emph{Runtime}.
+
+Para obter resultados mais relevantes, cada cena em \emph{Pre-Runtime} foi renderizada com um, dez, cinquenta, cem, quinhentos e mil objetos inseridos na cena antes de sua execução. Já em cenas em que os objetos seriam invocados, o \emph{script} gerava um, dez, cinquenta, cem, quinhentos e mil objetos por segundo durante a execução do programa.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/exemplo_cenario.png}
+	\caption[Exemplo Cenário]{Exemplo de cenário de comparação.}
+	\label{exemplo_cenario}
+\end{figure}
+
+O cenário \emph{Pre-Runtime} consiste de três elementos. O objeto com um tipo de \emph{collider} e \emph{rigid body} atribuídos a ele. Esse objeto é representado pelo personagem em azul.
+
+Um objeto que permanece parado, com \emph{box collider} em todas as comparações, porém, não é atribuído \emph{rigid body} a ele, e sim \emph{trigger}, ou seja, objetos podem atravessá-lo, mas a detecção de colisão ainda ocorre. Este é representado pela plataforma que se encontra logo abaixo do personagem. 
+
+A última plataforma em baixo, é um objeto estático, porém com um \emph{box collider}, ou seja, os objetos não podem atravessá-lo.
+
+Conforme a quantidade de objetos do tipo do personagem aumentar (parâmetro de medição de número de objetos da cena), os próprios são posicionados aleatoriamente na cena, e as plataformas são alongadas para ter uma área de contato maior para os objetos dinâmicos.
+
+O cenário \emph{Runtime} consiste dos mesmos elementos que o cenário \emph{Pre-Runtime}, porém no lugar do personagem já inserido, há um invocador que se mover na cena e invocar o objeto do personagem dentro de um período de tempo.
 
 
 

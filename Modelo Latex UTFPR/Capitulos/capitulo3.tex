@@ -2,9 +2,9 @@
 % CAPÍTULO 3
 \chapter{Proposta}
 
-Este trabalho de conclusão de curso irá se especificar em um dos problemas de conceito técnico, sendo ele relacionado a detecção de colisões no jogo, ou seja, quando dois objetos se interceptam. A intenção do trabalho é realizar as comparações das colisões e fundamentá-las num estudo para evitar as divergências entre informações devido a documentação da ferramenta pouco completa e dados oriundos de outras fontes.
+Este trabalho de conclusão de curso se especifica em um dos problemas de conceito técnico, sendo ele relacionado a detecção de colisões no jogo, ou seja, quando dois objetos se interceptam. A intenção do trabalho foi de realizar as comparações das colisões e fundamentá-las num estudo para evitar as divergências entre informações devido a documentação da ferramenta pouco completa e dados oriundos de outras fontes.
 
-Será adotada uma das \emph{engines} mais populares entre os desenvolvedores \emph{indie} e algumas grandes empresas, a Unity \cite{Unity2017} \cite{Banerjee2017}, também muito utilizada no Brasil de acordo com o Censo da Indústria Brasileira de Jogos Digitais (106  das 133 empresas pesquisadas em 2014, como mostrado na Tabela \ref{tabelaengines}) \cite{fleury2014censo} pelo fato de ter uma burocratização fácil. 
+Foi adotada uma das \emph{engines} mais populares entre os desenvolvedores \emph{indie} e algumas grandes empresas, a Unity \cite{Unity2017} \cite{Banerjee2017}, também muito utilizada no Brasil de acordo com o Censo da Indústria Brasileira de Jogos Digitais (106  das 133 empresas pesquisadas em 2014, como mostrado na Tabela \ref{tabelaengines}) \cite{fleury2014censo} pelo fato de ter uma burocratização fácil. 
 
 \begin{table}[!htb]
 	\centering
@@ -29,26 +29,26 @@ Será adotada uma das \emph{engines} mais populares entre os desenvolvedores \emp
 	\cite{fleury2014censo}
 \end{table}
 
-Realizar comparações dos métodos de colisão oferecidos gratuitamente pela \emph{game engine} Unity.
-Essas comparações são divididas em 2 grandes tipos:
-\emph{Pre-runtime} e \emph{Procedural-runtime}.
+Foram realizadas comparações dos métodos de colisão oferecidos gratuitamente pela \emph{game engine} Unity.
+Essas, foram divididas em 2 tipos:
+\emph{Pre-runtime} e \emph{Runtime}.
 
 \section{Pre-runtime}
 
 Os objetos, seus \emph{colliders}, componentes de física e programação são inseridos na cena antes de serem executados. O programa então é executado, os objetos reagem de acordo com as suas posições na cena e próprias configurações. Os resultados são então coletados.
 
-\section{Procedural-runtime}
+\section{Runtime}
 
 Os objetos são gerados em tempo de execução, ou seja, são invocados durante a execução do programa, de acordo com a programação dos objetos-base, dos controladores e das configurações da cena. O programa é executado, os objetos são gerados em tempo de execução, reagem de acordo com suas configurações de colisão e cena. Os resultados são então coletados.
 
 \section{Enfatização das Comparações}
-As comparações serão feitas usando a interface de duas dimensões da Unity para obter resultados mais simples com esse estudo. Os tipos de \emph{colliders} que terão mais ênfase nas comparações serão \emph{Box, Circle, Polygon e Edge}, pelo fato de serem mais utilizados.%pois são os colliders básicos dos quais os outros tipos são derivados.
+As comparações foram feitas usando a interface de duas dimensões da Unity para obter resultados mais simples com esse estudo. Os tipos de \emph{colliders} que tiveram mais ênfase nas comparações foram \emph{Box, Circle, Polygon e Edge}, pelo fato de serem mais utilizados.%pois são os colliders básicos dos quais os outros tipos são derivados.
 
-As medições incluirão taxa de quadros por segundo (FPS), taxa de consumo do processador, taxa de consumo de memória. Essas medições serão coletadas e analisadas posteriormente.
+As medições incluem taxa de quadros por segundo (FPS), taxa de consumo do processador, taxa de consumo de memória total durante a execução, coleta de lixo de memória, tempo total em milissegundos.
 
-As comparações serão casos sintéticos, ou seja, não será um jogo específico que sofrerá a comparação, mas sim cenários de teste elaborados para estressar os recursos e verificar os limites de cada método de colisão.
+As comparações foram casos sintéticos, ou seja, não foi um jogo específico que sofreu a comparação, mas sim cenários de teste elaborados para estressar os recursos e verificar os limites de cada método de colisão.
 
-O hardware que será utilizado para realizar as comparações é um notebook, com as seguintes configurações:
+O hardware que foi utilizado para realizar as comparações foi um notebook, com as seguintes configurações:
 \begin{itemize}
 	\item Processador: Intel Core i5 4210U @2.4GHz
 	\item Placa de Vídeo: Intel HD Graphics 4400
@@ -58,11 +58,11 @@ O hardware que será utilizado para realizar as comparações é um notebook, com as
 	\item Sistema Operacional: Windows 10 Pro
 \end{itemize}
 
-Também será usado o software gratuito de edição de imagem \emph{Krita} \cite{KritaFoundation2017} para desenvolver os \emph{sprites} que serão usados nas comparações.
+Também foi usado o software gratuito de edição de imagem \emph{Krita} \cite{KritaFoundation2017} para desenvolver os \emph{sprites} que foram usados nas comparações.
 
 \section{Cronograma}
 
-Na tabela \ref{tabela_crono} é apresentado um cronograma com as datas estimativas da progressão do projeto.
+Na tabela \ref{tabela_crono} é apresentado um cronograma com as datas estimadas da progressão do projeto.
 
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}

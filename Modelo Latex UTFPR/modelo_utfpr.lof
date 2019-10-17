@@ -9,7 +9,13 @@
 \contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de BoxCollider2D}}{14}% 
 \contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de PolygonCollider2D}}{15}% 
 \contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de EdgeCollider2D}}{15}% 
-\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo de colis\~ao AABB}}{20}% 
-\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de colis\~ao OBB e outros}}{21}% 
-\contentsline {figure}{\numberline {13}{\ignorespaces Profiler da Unity}}{27}% 
-\contentsline {figure}{\numberline {14}{\ignorespaces Profiler Data Exporter}}{28}% 
+\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo de colis\~ao AABB}}{21}% 
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de colis\~ao OBB e outros}}{22}% 
+\contentsline {figure}{\numberline {13}{\ignorespaces Profiler da Unity}}{28}% 
+\contentsline {figure}{\numberline {14}{\ignorespaces Profiler Data Exporter}}{29}% 
+\contentsline {figure}{\numberline {15}{\ignorespaces Exemplo Cen\'ario}}{30}% 
+\contentsline {figure}{\numberline {16}{\ignorespaces Resultado 10 Objetos Box Static}}{33}% 
+\contentsline {figure}{\numberline {17}{\ignorespaces Resultado 500 Objetos Box Static}}{33}% 
+\contentsline {figure}{\numberline {18}{\ignorespaces Resultado 1000 Objetos Box Static}}{33}% 
+\contentsline {figure}{\numberline {19}{\ignorespaces Resultado 10 Objetos Box Dynamic}}{34}% 
+\contentsline {figure}{\numberline {20}{\ignorespaces Resultado 100 Objetos Box Dynamic}}{34}% 
