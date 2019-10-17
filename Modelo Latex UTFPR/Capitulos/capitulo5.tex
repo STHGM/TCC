@@ -4,7 +4,7 @@
 
 Este capítulo apresentará os resultados mais relevantes das comparações. É categorizado por tipo de \emph{collider}e depois por tipo de cenário (\emph{Pre-Runtime} e \emph{Runtime}).
 
-A maioria dos resultados com poucos objetos no cenário, ou seja, com um e dez objetos, não apresentaram grandes diferenças entre si em questão de performance que pudessem intervir na jogabilidade. Em todos as comparações, os cálculos da física dos objetos foi o que mais consumiu os recursos, que foram aumentando conforme o aumento do número de objetos na cena dependendo do tipo de \emph{collider} usado.
+A maioria dos resultados com poucos objetos no cenário, ou seja, com um e dez objetos, não apresentaram grandes diferenças entre si em questão de performance que pudessem intervir na jogabilidade. Em todas as comparações, os cálculos da física dos objetos foram os que mais consumiram recursos, que foram aumentando conforme o aumento do número de objetos na cena dependendo do tipo de \emph{collider} usado, como pode ser encontrado nos Anexos.
 
 \section{Resultados com \emph{Box Collider}}
 
@@ -57,4 +57,46 @@ A partir de cem objetos por segundo, há uma queda brusca de performance. Foi ger
 	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Box/new/0100_Dynamic.png}
 	\caption[Resultado 100 Objetos Box Dynamic]{Resultado de performance de quinhentos objetos com \emph{box collider} em \emph{Runtime}.}
 	\label{teste_box_100_dynamic}
+\end{figure}
+
+\section{Resultados com \emph{Circle Collider}}
+
+\subsection{\emph{Circle Collider - Pre-Runtime}}
+
+Assim como nos resultados de \emph{box collider}, as três primeiras comparações se mostraram estáveis nas suas medidas, com tempo de uso de CPU entre 0.25 ms e 1 ms e consumo total de memória RAM em cerca de 250 MB como mostrado na Figura \ref{teste_circle_0050_static}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Circle/new/0050_Static.png}
+	\caption[Resultado 0050 Objetos Circle Static]{Resultado de performance de cinquenta objetos com \emph{circle collider} em \emph{Pre-Runtime}.}
+	\label{teste_circle_0050_static}
+\end{figure}
+
+A partir de 100 objetos em diante, o resultado mostra o início de picos de \emph{Garbage Collection}, que aumentam drasticamente de acordo com o número de objetos na cena. No entanto, com mil objetos, o resultado se mostra estável no início, porém com o aumento de colisões entre os objetos, a quantidade de \emph{Garbage Collection} aumenta, como mostrado na Figura \ref{teste_circle_1000_static}, deixando a performance relativamente baixa. Ela mostra-se melhor do que a mesma situação com \emph{box collider}. Logo em seguida, o \emph{Garbage Collection} diminui, e a performance se estabiliza. O \emph{circle collider} apresentou mais \emph{Garbage Collection} que o \emph{box collider}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Circle/new/1000_Static.png}
+	\caption[Resultado 1000 Objetos Circle Static]{Resultado de performance de mil objetos com \emph{circle collider} em \emph{Pre-Runtime}.}
+	\label{teste_circle_1000_static}
+\end{figure}
+
+\subsection{\emph{Circle Collider - Runtime}}
+
+Segue os mesmos padrões de resultado de \emph{box collider}. porém, os picos de \emph{Garbage Collection} só se tornam mais presentes a partir de 50 objetos na cena. E até esse ponto, o resultado ainda se mostra estável, com consumo de CPU variando de 1 ms a 5 ms e memória RAM total em cerca de 240 MB, como mostrado na Figura \ref{teste_circle_0050_dynamic}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Circle/new/0050_Dynamic.png}
+	\caption[Resultado 0050 Objetos Circle Dynamic]{Resultado de performance de cinquenta objetos com \emph{circle collider} em \emph{Runtime}.}
+	\label{teste_circle_0050_dynamic}
+\end{figure}
+
+A partir de cem objetos, os resultados se assemelham aos cenários com \emph{box collider}, com exceção do consumo total de memória RAM, que teve um aumento significativo de 240 MB com cinquenta objetos, para 1.5 GB, como mostrado na Figura \ref{teste_circle_0100_dynamic}. No entanto, os resultados seguintes mostram consumo de total memória RAM semelhante ao próprio, mesmo com o aumento do número de objetos.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Circle/new/0100_Dynamic.png}
+	\caption[Resultado 0100 Objetos Circle Dynamic]{Resultado de performance de cem objetos com \emph{circle collider} em \emph{Runtime}.}
+	\label{teste_circle_0100_dynamic}
 \end{figure}
