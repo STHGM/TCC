@@ -83,7 +83,7 @@ A partir de 100 objetos em diante, o resultado mostra o início de picos de \emph
 
 \subsection{\emph{Circle Collider - Runtime}}
 
-Segue os mesmos padrões de resultado de \emph{box collider}. porém, os picos de \emph{Garbage Collection} só se tornam mais presentes a partir de 50 objetos na cena. E até esse ponto, o resultado ainda se mostra estável, com consumo de CPU variando de 1 ms a 5 ms e memória RAM total em cerca de 240 MB, como mostrado na Figura \ref{teste_circle_0050_dynamic}.
+Segue os mesmos padrões de resultado de \emph{box collider}. porém, os picos de \emph{Garbage Collection} só se tornam mais presentes a partir de 50 objetos por segundo na cena. E até esse ponto, o resultado ainda se mostra estável, com consumo de CPU variando de 1 ms a 5 ms e memória RAM total em cerca de 240 MB, como mostrado na Figura \ref{teste_circle_0050_dynamic}.
 
 \begin{figure}[!htb]
 	\centering
@@ -92,11 +92,44 @@ Segue os mesmos padrões de resultado de \emph{box collider}. porém, os picos de 
 	\label{teste_circle_0050_dynamic}
 \end{figure}
 
-A partir de cem objetos, os resultados se assemelham aos cenários com \emph{box collider}, com exceção do consumo total de memória RAM, que teve um aumento significativo de 240 MB com cinquenta objetos, para 1.5 GB, como mostrado na Figura \ref{teste_circle_0100_dynamic}. No entanto, os resultados seguintes mostram consumo de total memória RAM semelhante ao próprio, mesmo com o aumento do número de objetos.
+A partir de cem objetos por segundo, os resultados se assemelham aos cenários com \emph{box collider}, com exceção do consumo total de memória RAM, que teve um aumento significativo de 240 MB com cinquenta objetos, para 1.5 GB, como mostrado na Figura \ref{teste_circle_0100_dynamic}. No entanto, os resultados seguintes mostram consumo de total memória RAM semelhante ao próprio, mesmo com o aumento do número de objetos.
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Circle/new/0100_Dynamic.png}
 	\caption[Resultado 0100 Objetos Circle Dynamic]{Resultado de performance de cem objetos com \emph{circle collider} em \emph{Runtime}.}
 	\label{teste_circle_0100_dynamic}
+\end{figure}
+
+\section{Resultados com \emph{Edge Collider}}
+
+\subsection{\emph{Edge Collider - Pre-Runtime}}
+
+Os resultados com esse tipo de \emph{collider} mostraram-se estáveis em todos os cenários, tendo baixo consumo de processamento, que com mil objetos chegou a 1 ms, e uso total de memória RAM com pouca variação em comparação com os outros \emph{colliders}, variando entre 250 MB e 350 MB para até 500 objetos, e cerca de 450 MB para mil objetos como demonstrado pela Figura \ref{teste_edge_1000_static}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Circle/new/1000_Static.png}
+	\caption[Resultado 1000 Objetos Edge Static]{Resultado de performance de mil objetos com \emph{edge collider} em \emph{Pre-Runtime}.}
+	\label{teste_edge_1000_static}
+\end{figure}
+
+No entanto foi o que demonstrou a menor precisão em como as colisões ocorrem. Os objetos, mesmo com \emph{rigid body}, se sobrepunham uns entre os outros. Além disso, como esse tipo de \emph{collider} consiste de uma linha contínua, não é apropriado para o uso de personagens ou objetos que requerem uma interação mais dinâmica. Esse tipo de \emph{collider} é mais apropriado para terrenos e plataformas que não requerem uma interação além de uma parte da superfície. Outro problema observado pelo uso de muitos objetos com \emph{edge collider} na mesma cena é que alguns deles podem atravessar outros objetos, mesmo estando com \emph{rigidbody}. Esses problemas podem ser vistos por meio da Figura \ref{teste_edge_1000_static_artifact}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Edge/new/1000_Static_Artifact.png}
+	\caption[Problemas 1000 Objetos Edge Static Artifact]{Problemas de colisão causados pelo uso do tipo \emph{edge collider} em \emph{Pre-Runtime}.}
+	\label{teste_edge_1000_static_artifact}
+\end{figure}
+
+\subsection{\emph{Edge Collider - Runtime}}
+
+Os resultados nessa categoria mostraram-se estáveis em seu percurso, tendo mais performance do que os resultados em \emph{Pre-Runtime}. Com mil objetos por segundo, o tempo de uso de CPU ficou entre 5 ms e 10 ms, e consumo total de memória RAM em cerca de 320 MB, como mostra a Figura . Picos de \emph{Garbage Collection} começam a ser mais frequentes a partir de cem objetos por segundo.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Edge/new/1000_Dynamic.png}
+	\caption[Resultado 1000 Objetos Edge Dynamic]{Resultado de performance de mil objetos com \emph{edge collider} em \emph{Runtime}.}
+	\label{teste_edge_1000_dynamic}
 \end{figure}

@@ -1,25 +1,28 @@
 \babel@toc {brazil}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Exemplo de intera\c c\~ao de eventos}}{10}% 
-\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de intera\c c\~ao de eventos}}{10}% 
-\contentsline {figure}{\numberline {3}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos n\~ao est\~ao colidindo.}}{11}% 
-\contentsline {figure}{\numberline {4}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos est\~ao colidindo e interceptando.}}{12}% 
-\contentsline {figure}{\numberline {5}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos est\~ao colidindo.}}{12}% 
-\contentsline {figure}{\numberline {6}{\ignorespaces C\'odigo colis\~ao de esferas}}{13}% 
-\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de CircleCollider2D}}{14}% 
-\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de BoxCollider2D}}{14}% 
-\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de PolygonCollider2D}}{15}% 
-\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de EdgeCollider2D}}{15}% 
-\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo de colis\~ao AABB}}{21}% 
-\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de colis\~ao OBB e outros}}{22}% 
-\contentsline {figure}{\numberline {13}{\ignorespaces Profiler da Unity}}{28}% 
-\contentsline {figure}{\numberline {14}{\ignorespaces Profiler Data Exporter}}{29}% 
-\contentsline {figure}{\numberline {15}{\ignorespaces Exemplo Cen\'ario}}{30}% 
-\contentsline {figure}{\numberline {16}{\ignorespaces Resultado 10 Objetos Box Static}}{33}% 
-\contentsline {figure}{\numberline {17}{\ignorespaces Resultado 500 Objetos Box Static}}{33}% 
-\contentsline {figure}{\numberline {18}{\ignorespaces Resultado 1000 Objetos Box Static}}{33}% 
-\contentsline {figure}{\numberline {19}{\ignorespaces Resultado 10 Objetos Box Dynamic}}{34}% 
-\contentsline {figure}{\numberline {20}{\ignorespaces Resultado 100 Objetos Box Dynamic}}{34}% 
-\contentsline {figure}{\numberline {21}{\ignorespaces Resultado 0050 Objetos Circle Static}}{35}% 
-\contentsline {figure}{\numberline {22}{\ignorespaces Resultado 1000 Objetos Circle Static}}{35}% 
-\contentsline {figure}{\numberline {23}{\ignorespaces Resultado 0050 Objetos Circle Dynamic}}{36}% 
-\contentsline {figure}{\numberline {24}{\ignorespaces Resultado 0100 Objetos Circle Dynamic}}{36}% 
+\contentsline {figure}{\numberline {1}{\ignorespaces Exemplo de intera\c c\~ao de eventos}}{11}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de intera\c c\~ao de eventos}}{11}% 
+\contentsline {figure}{\numberline {3}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos n\~ao est\~ao colidindo.}}{12}% 
+\contentsline {figure}{\numberline {4}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos est\~ao colidindo e interceptando.}}{13}% 
+\contentsline {figure}{\numberline {5}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos est\~ao colidindo.}}{13}% 
+\contentsline {figure}{\numberline {6}{\ignorespaces C\'odigo colis\~ao de esferas}}{14}% 
+\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de CircleCollider2D}}{15}% 
+\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de BoxCollider2D}}{15}% 
+\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de PolygonCollider2D}}{16}% 
+\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de EdgeCollider2D}}{16}% 
+\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo de colis\~ao AABB}}{22}% 
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de colis\~ao OBB e outros}}{23}% 
+\contentsline {figure}{\numberline {13}{\ignorespaces Profiler da Unity}}{29}% 
+\contentsline {figure}{\numberline {14}{\ignorespaces Profiler Data Exporter}}{30}% 
+\contentsline {figure}{\numberline {15}{\ignorespaces Exemplo Cen\'ario}}{31}% 
+\contentsline {figure}{\numberline {16}{\ignorespaces Resultado 10 Objetos Box Static}}{34}% 
+\contentsline {figure}{\numberline {17}{\ignorespaces Resultado 500 Objetos Box Static}}{34}% 
+\contentsline {figure}{\numberline {18}{\ignorespaces Resultado 1000 Objetos Box Static}}{34}% 
+\contentsline {figure}{\numberline {19}{\ignorespaces Resultado 10 Objetos Box Dynamic}}{35}% 
+\contentsline {figure}{\numberline {20}{\ignorespaces Resultado 100 Objetos Box Dynamic}}{35}% 
+\contentsline {figure}{\numberline {21}{\ignorespaces Resultado 0050 Objetos Circle Static}}{36}% 
+\contentsline {figure}{\numberline {22}{\ignorespaces Resultado 1000 Objetos Circle Static}}{36}% 
+\contentsline {figure}{\numberline {23}{\ignorespaces Resultado 0050 Objetos Circle Dynamic}}{37}% 
+\contentsline {figure}{\numberline {24}{\ignorespaces Resultado 0100 Objetos Circle Dynamic}}{37}% 
+\contentsline {figure}{\numberline {25}{\ignorespaces Resultado 1000 Objetos Edge Static}}{38}% 
+\contentsline {figure}{\numberline {26}{\ignorespaces Problemas 1000 Objetos Edge Static Artifact}}{38}% 
+\contentsline {figure}{\numberline {27}{\ignorespaces Resultado 1000 Objetos Edge Dynamic}}{39}% 
