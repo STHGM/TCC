@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  18 OCT 2019 07:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  19 OCT 2019 17:41
 entering extended mode
 **./modelo_utfpr.tex
 (modelo_utfpr.tex
@@ -785,19 +785,19 @@ Cap\'{\i }tulo 5.
 File: ./Figuras/Testes/Box/new/0010_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0010_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0010_Static.png  used on inpu
-t line 21.
+t line 19.
 (pdftex.def)             Requested size: 341.43307pt x 164.86986pt.
 <./Figuras/Testes/Box/new/0500_Static.png, id=139, 1075.76906pt x 523.20468pt>
 File: ./Figuras/Testes/Box/new/0500_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0500_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0500_Static.png  used on inpu
-t line 28.
+t line 26.
 (pdftex.def)             Requested size: 341.43307pt x 166.05576pt.
 <./Figuras/Testes/Box/new/1000_Static.png, id=140, 1072.75781pt x 516.42938pt>
 File: ./Figuras/Testes/Box/new/1000_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/1000_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/1000_Static.png  used on inpu
-t line 37.
+t line 35.
 (pdftex.def)             Requested size: 341.43307pt x 164.36244pt.
 [33
 
@@ -809,20 +809,20 @@ _Static.png> <./Figuras/Testes/Box/new/1000_Static.png>]
 File: ./Figuras/Testes/Box/new/0010_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0010_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0010_Dynamic.png  used on inp
-ut line 48.
+ut line 46.
 (pdftex.def)             Requested size: 341.43307pt x 164.8517pt.
 <./Figuras/Testes/Box/new/0100_Dynamic.png, id=151, 1077.27469pt x 523.9575pt>
 File: ./Figuras/Testes/Box/new/0100_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0100_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0100_Dynamic.png  used on inp
-ut line 57.
+ut line 55.
 (pdftex.def)             Requested size: 341.43307pt x 166.06284pt.
 <./Figuras/Testes/Circle/new/0050_Static.png, id=152, 1075.76906pt x 521.69907p
 t>
 File: ./Figuras/Testes/Circle/new/0050_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/0050_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/0050_Static.png  used on i
-nput line 70.
+nput line 68.
 (pdftex.def)             Requested size: 341.43307pt x 165.5779pt.
  [35 <./Figuras/Testes/Box/new/0010_Dynamic.png> <./Figuras/Testes/Box/new/0100
 _Dynamic.png>]
@@ -831,14 +831,14 @@ _Dynamic.png>]
 File: ./Figuras/Testes/Circle/new/1000_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/1000_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/1000_Static.png  used on i
-nput line 79.
+nput line 77.
 (pdftex.def)             Requested size: 341.43307pt x 164.8517pt.
 <./Figuras/Testes/Circle/new/0050_Dynamic.png, id=159, 1073.51062pt x 523.20468
 pt>
 File: ./Figuras/Testes/Circle/new/0050_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/0050_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/0050_Dynamic.png  used on 
-input line 90.
+input line 88.
 (pdftex.def)             Requested size: 341.43307pt x 166.40703pt.
 
 [36 <./Figuras/Testes/Circle/new/0050_Static.png> <./Figuras/Testes/Circle/new/
@@ -848,14 +848,14 @@ input line 90.
 File: ./Figuras/Testes/Circle/new/0100_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/0100_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/0100_Dynamic.png  used on 
-input line 99.
+input line 97.
 (pdftex.def)             Requested size: 341.43307pt x 165.95091pt.
  [37 <./Figuras/Testes/Circle/new/0050_Dynamic.png> <./Figuras/Testes/Circle/ne
 w/0100_Dynamic.png>]
 File: ./Figuras/Testes/Circle/new/1000_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/1000_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/1000_Static.png  used on i
-nput line 112.
+nput line 110.
 (pdftex.def)             Requested size: 341.43307pt x 164.8517pt.
 <./Figuras/Testes/Edge/new/1000_Static_Artifact.png, id=172, 654.94687pt x 429.
 85594pt>
@@ -863,7 +863,7 @@ File: ./Figuras/Testes/Edge/new/1000_Static_Artifact.png Graphic file (type png
 )
 <use ./Figuras/Testes/Edge/new/1000_Static_Artifact.png>
 Package pdftex.def Info: ./Figuras/Testes/Edge/new/1000_Static_Artifact.png  us
-ed on input line 121.
+ed on input line 119.
 (pdftex.def)             Requested size: 341.43307pt x 224.09045pt.
  [38 <./Figuras/Testes/Edge/new/1000_Static_Artifact.png>]
 <./Figuras/Testes/Edge/new/1000_Dynamic.png, id=177, 1074.26344pt x 522.45187pt
@@ -871,9 +871,87 @@ ed on input line 121.
 File: ./Figuras/Testes/Edge/new/1000_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Edge/new/1000_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Edge/new/1000_Dynamic.png  used on in
-put line 132.
+put line 130.
 (pdftex.def)             Requested size: 341.43307pt x 166.04802pt.
-) [39 <./Figuras/Testes/Edge/new/1000_Dynamic.png>]
+<./Figuras/Testes/Polygon/new/0010_Static.png, id=178, 1072.75781pt x 518.6878p
+t>
+File: ./Figuras/Testes/Polygon/new/0010_Static.png Graphic file (type png)
+<use ./Figuras/Testes/Polygon/new/0010_Static.png>
+Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0010_Static.png  used on 
+input line 147.
+(pdftex.def)             Requested size: 341.43307pt x 165.08122pt.
+<./Figuras/Testes/Polygon/new/0050_Static.png, id=179, 1074.26344pt x 520.19344
+pt>
+File: ./Figuras/Testes/Polygon/new/0050_Static.png Graphic file (type png)
+<use ./Figuras/Testes/Polygon/new/0050_Static.png>
+Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Static.png  used on 
+input line 156.
+(pdftex.def)             Requested size: 341.43307pt x 165.33023pt.
+ [39 <./Figuras/Testes/Edge/new/1000_Dynamic.png>]
+<./Figuras/Testes/Polygon/new/0100_Static.png, id=184, 1072.75781pt x 517.18219
+pt>
+File: ./Figuras/Testes/Polygon/new/0100_Static.png Graphic file (type png)
+<use ./Figuras/Testes/Polygon/new/0100_Static.png>
+Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0100_Static.png  used on 
+input line 165.
+(pdftex.def)             Requested size: 341.43307pt x 164.60204pt.
+ [40 <./Figuras/Testes/Polygon/new/0010_Static.png> <./Figuras/Testes/Polygon/n
+ew/0050_Static.png> <./Figuras/Testes/Polygon/new/0100_Static.png>]
+<./Figuras/Testes/Polygon/new/0500_Static.png, id=191, 1071.25218pt x 518.6878p
+t>
+File: ./Figuras/Testes/Polygon/new/0500_Static.png Graphic file (type png)
+<use ./Figuras/Testes/Polygon/new/0500_Static.png>
+Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0500_Static.png  used on 
+input line 174.
+(pdftex.def)             Requested size: 341.43307pt x 165.31866pt.
+<./Figuras/Testes/Polygon/new/1000_Static_FPS.png, id=192, 655.69969pt x 453.94
+594pt>
+File: ./Figuras/Testes/Polygon/new/1000_Static_FPS.png Graphic file (type png)
+<use ./Figuras/Testes/Polygon/new/1000_Static_FPS.png>
+Package pdftex.def Info: ./Figuras/Testes/Polygon/new/1000_Static_FPS.png  used
+ on input line 181.
+(pdftex.def)             Requested size: 341.43307pt x 236.3788pt.
+<./Figuras/Testes/Polygon/new/0001_Dynamic.png, id=193, 1078.0275pt x 524.71031
+pt>
+File: ./Figuras/Testes/Polygon/new/0001_Dynamic.png Graphic file (type png)
+<use ./Figuras/Testes/Polygon/new/0001_Dynamic.png>
+Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0001_Dynamic.png  used on
+ input line 192.
+(pdftex.def)             Requested size: 341.43307pt x 166.18935pt.
+ [41 <./Figuras/Testes/Polygon/new/0500_Static.png> <./Figuras/Testes/Polygon/n
+ew/1000_Static_FPS.png>]
+<./Figuras/Testes/Polygon/new/0010_Dynamic.png, id=199, 1076.52188pt x 522.4518
+7pt>
+File: ./Figuras/Testes/Polygon/new/0010_Dynamic.png Graphic file (type png)
+<use ./Figuras/Testes/Polygon/new/0010_Dynamic.png>
+Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0010_Dynamic.png  used on
+ input line 201.
+(pdftex.def)             Requested size: 341.43307pt x 165.70523pt.
+<./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png, id=200, 1074.26344pt x 44
+8.67625pt>
+File: ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png Graphic file (type pn
+g)
+<use ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png>
+Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png  u
+sed on input line 210.
+(pdftex.def)             Requested size: 341.43307pt x 142.60031pt.
+<./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png, id=201, 653.44125pt x 459.2
+1562pt>
+File: ./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png Graphic file (type png)
+
+<use ./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png>
+Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png  use
+d on input line 217.
+(pdftex.def)             Requested size: 341.43307pt x 239.94264pt.
+
+Overfull \hbox (4.88841pt too wide) in paragraph at lines 222--223
+[]\OT1/ptm/m/n/12 Com cem ob-je-tos por se-gundo, o pro-grama ini-cia, por[]em 
+n[]ao pros-se-gue com a execu[][]ao.
+ []
+
+) [42 <./Figuras/Testes/Polygon/new/0001_Dynamic.png> <./Figuras/Testes/Polygon
+/new/0010_Dynamic.png>] [43 <./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.pn
+g> <./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png>]
 \openout2 = `./Capitulos/capitulo6.aux'.
 
 
@@ -884,13 +962,13 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 5.
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 
-LaTeX Warning: Citation `CTAN2009' on page 40 undefined on input line 5.
+LaTeX Warning: Citation `CTAN2009' on page 44 undefined on input line 5.
 
 
-LaTeX Warning: Citation `TeX-Br2009' on page 40 undefined on input line 5.
+LaTeX Warning: Citation `TeX-Br2009' on page 44 undefined on input line 5.
 
 
-LaTeX Warning: Citation `Wikibooks2009' on page 40 undefined on input line 5.
+LaTeX Warning: Citation `Wikibooks2009' on page 44 undefined on input line 5.
 
 
 Overfull \hbox (3.1574pt too wide) in paragraph at lines 5--6
@@ -899,11 +977,11 @@ uado []as Nor-mas para Elabora[][]ao
  []
 
 
-LaTeX Warning: Citation `TeXnicCenter2009' on page 40 undefined on input line 7
+LaTeX Warning: Citation `TeXnicCenter2009' on page 44 undefined on input line 7
 .
 
 
-LaTeX Warning: Citation `MiKTeX2009' on page 40 undefined on input line 7.
+LaTeX Warning: Citation `MiKTeX2009' on page 44 undefined on input line 7.
 
 
 Overfull \hbox (4.29355pt too wide) in paragraph at lines 7--8
@@ -912,10 +990,10 @@ omenda-se o edi-tor T[]XnicCenter (\OT1/ptm/b/n/12 ??\OT1/ptm/m/n/12 ).
  []
 
 
-LaTeX Warning: Citation `JabRef2009' on page 40 undefined on input line 9.
+LaTeX Warning: Citation `JabRef2009' on page 44 undefined on input line 9.
 
 
-LaTeX Warning: Citation `Mendeley2009' on page 40 undefined on input line 9.
+LaTeX Warning: Citation `Mendeley2009' on page 44 undefined on input line 9.
 
 LaTeX Font Info:    Try loading font information for OMS+pcr on input line 9.
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omspcr.fd"
@@ -923,7 +1001,7 @@ File: omspcr.fd
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
-) [40
+) [44
 
 
 
@@ -981,7 +1059,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--94
 problem-you-face-as-a-independent-game-
  []
 
-[41
+[45
 
 
 ]
@@ -1004,7 +1082,7 @@ icia/numero-de-desenvolvedores-de-games-
 
 ) 
 AED: lastpage setting LastPage
-[42]
+[46]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1017,10 +1095,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5389 strings out of 492895
- 81151 string characters out of 3123735
- 177245 words of memory out of 3000000
- 9026 multiletter control sequences out of 15000+200000
+ 5440 strings out of 492895
+ 83370 string characters out of 3123735
+ 177335 words of memory out of 3000000
+ 9071 multiletter control sequences out of 15000+200000
  38815 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,45p,909b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1033,9 +1111,9 @@ nts/type1/urw/courier/ucrr8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX
 TeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/STHGM/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/STHGM/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (43 pages, 1921786 bytes).
+Output written on modelo_utfpr.pdf (47 pages, 2883772 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
+ 250 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

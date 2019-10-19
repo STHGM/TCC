@@ -8,8 +8,6 @@ A maioria dos resultados com poucos objetos no cenário, ou seja, com um e dez ob
 
 \section{Resultados com \emph{Box Collider}}
 
-Nesta seção são apresentados os resultados com o \emph{collider} do tipo \emph{box}.
-
 \subsection{\emph{Box Collider - Pre-Runtime}}
 
 Os resultados apresentaram uma progressão linear conforme o número de objetos foi aumentando com pequenas variações. Nos três primeiros testes com um, dez e cinquenta objetos, os resultados se mostram com performance estável, sem queda bruscas de quadros e sem uso intensivo de CPU e de memória RAM.
@@ -130,6 +128,97 @@ Os resultados nessa categoria mostraram-se estáveis em seu percurso, tendo mais 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Edge/new/1000_Dynamic.png}
-	\caption[Resultado 1000 Objetos Edge Dynamic]{Resultado de performance de mil objetos com \emph{edge collider} em \emph{Runtime}.}
+	\caption[Resultado 1000 Objetos Edge Dynamic]{Resultado de performance de mil objetos por segundo com \emph{edge collider} em \emph{Runtime}.}
 	\label{teste_edge_1000_dynamic}
 \end{figure}
+
+\section{Resultado com \emph{Polygon Collider}}
+
+O \emph{Polygon Collider} é o tipo de \emph{collider} que oferece a melhor precisão de colisão em comparação aos outros. No entanto, é o que requer mais uso de recursos, o que resulta em uma performance baixa se usado com muita frequência.
+
+Devido a isso, os resultados em Runtime a partir de 50 objetos já demonstraram uma queda brusca na performance. Com 100 objetos ou mais não foi possível realizar as medições, pois o programa não respondeu mais ao iniciar a execução.
+
+\subsection{\emph{Polygon Collider - Pre-Runtime}}
+
+Os resultados com um e cem objetos, demonstram boa estabilidade  de consumo de recursos, mantendo o tempo de consumo total da CPU entre 0.1 ms e 1 ms, como mostra a Figura \ref{teste_polygon_0010_static}. O consumo total de memória RAM variou entre 270 MB e 180 MB.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0010_Static.png}
+	\caption[Resultado 0010 Objetos Polygon Static]{Resultado de performance de dez objetos com \emph{polygon collider} em \emph{Pre-Runtime}.}
+	\label{teste_polygon_0010_static}
+\end{figure}
+
+A partir de 50 objetos, houve um consumo maior de CPU, fazendo o tempo total de uso da mesma ser entre 5 ms a 16 ms. No entanto, apesar do consumo total de memória RAM se manteve estável como mostra a Figura \ref{teste_polygon_0050_static}, a performance começa a cair gradativamente.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0050_Static.png}
+	\caption[Resultado 0050 Objetos Polygon Static]{Resultado de performance de cinquenta objetos com \emph{polygon collider} em \emph{Pre-Runtime}.}
+	\label{teste_polygon_0050_static}
+\end{figure}
+
+Com cem objetos a performance diminui pouco, relativamente ao resultado anterior. O consumo total de memória RAM se mantém, e o tempo de consumo da CPU teve um pico de 66 ms, porém, em sua maioria, manteve estável entre 33 ms e 16 ms como mostra a Figura .
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0100_Static.png}
+	\caption[Resultado 0100 Objetos Polygon Static]{Resultado de performance de cem objetos com \emph{polygon collider} em \emph{Pre-Runtime}.}
+	\label{teste_polygon_0100_static}
+\end{figure}
+
+Os resultados com quinhentos e mil objetos demonstraram uma queda drástica na performance, além de uso elevado dos recursos, com consumo total de memória RAM sendo de 0.99 GB e 1.88 GB respectivamente, e em ambos o tempo de consumo de CPU passou de 66 ms, como mostra a Figura \ref{teste_polygon_0500_static}. Com mil objetos, a taxa de quadros por segundo se manteve em 0.6 (1638 ms), como mostra a Figura .
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0500_Static.png}
+	\caption[Resultado 0500 Objetos Polygon Static]{Resultado de performance de quinhentos objetos com \emph{polygon collider} em \emph{Pre-Runtime}.}
+	\label{teste_polygon_0500_static}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/1000_Static_FPS.png}
+	\caption[FPS 1000 Objetos Polygon Static]{Captura de quadros por segundo média aproximada com \emph{polygon collider} em \emph{Pre-Runtime} e mil objetos.}
+	\label{teste_polygon_1000_static_fps}
+\end{figure}
+
+\subsection{\emph{Polygon Collider - Runtime}}
+
+O resultado com um objeto por segundo foi relativamente estável, apresentando tempo de consumo de CPU com média de 1 ms e consumo total de memória RAM com 230 MB, como mostra a Figura \ref{teste_polygon_0001_dynamic}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0001_Dynamic.png}
+	\caption[Resultado 0001 Objetos Polygon Dynamic]{Resultado de performance de um objeto com \emph{polygon collider} em \emph{Runtime}.}
+	\label{teste_polygon_0001_dynamic}
+\end{figure}
+
+A partir de 10 objetos por segundo a performance começa a cair conforme o tempo de execução passa e os objetos são inseridos. Inicialmente o tempo de consumo de CPU era de cerca de 16 ms, porém rapidamente passou de 66 ms como mostra a Figura \ref{teste_polygon_0010_dynamic}. O consumo de memória RAM total foi de cerca de 500 MB.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0010_Dynamic.png}
+	\caption[Resultado 0010 Objetos Polygon Dynamic]{Resultado de performance de dez objetos com \emph{polygon collider} em \emph{Runtime}.}
+	\label{teste_polygon_0010_dynamic}
+\end{figure}
+
+Com 50 Objetos, a performance é comprometida desde o início da execução, fazendo com que o programa travasse com frequência. O tempo de consumo de CPU que foi possível medir passou de 66 ms e consumo total de memória RAM de 335 MB como mostra a Figura \ref{teste_polygon_0050_dynamic} até ser encerrada a execução pelo programa por travar frequentemente. O programa indicou 0.8 quadros por segundo (1209 ms) como mostra a Figura  e se manteve assim durante o resto da execução
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png}
+	\caption[Resultado 0050 Objetos Polygon Dynamic]{Resultado de performance de cinquenta objetos com \emph{polygon collider} em \emph{Runtime}.}
+	\label{teste_polygon_0050_dynamic}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png}
+	\caption[FPS 0050 Objetos Polygon Dynamic]{Captura de quadros por segundo média aproximada com \emph{polygon collider} em \emph{Runtime} e cinquenta objetos.}
+	\label{teste_polygon_0050_dynamic_fps}
+\end{figure}
+
+Com cem objetos por segundo, o programa inicia, porém não prossegue com a execução. Por manter-se parado dessa forma por um longo período de tempo, essa comparação foi cancelada e não foi possível obter resultados.
+
+As comparações com quinhentos e mil objetos por segundo apresentaram o mesmo efeito e também foram cancelados.
