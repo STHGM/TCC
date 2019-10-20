@@ -1,11 +1,25 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CAPÍTULO 5
-\chapter{CONCLUSÃO}  
+\chapter{CONCLUSÃO}
 
-Espera-se que o uso do estilo de formata\c{c}\~ao \LaTeX\ adequado \`as Normas para Elabora\c{c}\~ao de Trabalhos Acad\^emicos da UTFPR ({\ttfamily normas-utf-tex.cls}) facilite a escrita de documentos no \^ambito desta institui\c{c}\~ao e aumente a produtividade de seus autores. Para usu\'arios iniciantes em \LaTeX, al\'em da bibliografia especializada j\'a citada, existe ainda uma s\'erie de recursos~\cite{CTAN2009} e fontes de informa\c{c}\~ao~\cite{TeX-Br2009,Wikibooks2009} dispon\'iveis na Internet.
+\section{Importância}
 
-Recomenda-se o editor de textos Kile como ferramenta de composi\c{c}\~ao de documentos em \LaTeX\ para usu\'arios Linux. Para usu\'arios Windows recomenda-se o editor \TeX nicCenter~\cite{TeXnicCenter2009}. O \LaTeX\ normalmente j\'a faz parte da maioria das distribui\c{c}\~oes Linux, mas no sistema operacional Windows \'e necess\'ario instalar o software \textsc{MiK}\TeX~\cite{MiKTeX2009}.
+As empresas de desenvolvimento de jogos independentes vem crescendo cada vez mais, e a requisição por jogos com melhores performances e desempenho também, já que na maioria das vezes essas empresas independentes são constituídas de pessoas com pouca experiência no desenvolvimento.
 
-Al\'em disso, recomenda-se o uso de um gerenciador de refer\^encias como o JabRef~\cite{JabRef2009} ou Mendeley~\cite{Mendeley2009} para a cataloga\c{c}\~ao bibliogr\'afica em um arquivo \textsc{Bib}\TeX, de forma a facilitar cita\c{c}\~oes atrav\'es do comando {\ttfamily \textbackslash cite\{\}} e outros comandos correlatos do pacote \textsc{abn}\TeX. A lista de refer\^encias deste documento foi gerada automaticamente pelo software \LaTeX\ + \textsc{Bib}\TeX\ a partir do arquivo {\ttfamily reflatex.bib}, que por sua vez foi composto com o gerenciador de refer\^encias JabRef.
+A \emph{Unity} tem contribuído para ajudar no crescimento dessas empresas por ser uma \emph{engine} de fácil burocracia e uso de desenvolvimento. Uma das características do desenvolvimento é uso de colisões de vários tipos. Apesar da documentação sobre colisões da \emph{Unity} ser bem detalhada, ela não é completa em relação a performance, que é o intuito desse Trabalho de Conclusão de Curso.
 
-O estilo de formata\c{c}\~ao \LaTeX\ da UTFPR e este exemplo de utiliza\c{c}\~ao foram elaborados por Diogo Rosa Kuiaski (diogo.kuiaski@gmail.com) e Hugo Vieira Neto (hvieir@utfpr.edu.br), com contribui\c{c}\~oes de C\'esar Vargas Benitez. Sugest\~oes de melhorias s\~ao bem-vindas.
+\section{Resultados}
+
+É possível notar nos resultados que conforme o número de objetos ou número de objetos por segundo aumenta, há um aumento linear no consumo de recursos na maioria dos casos. Com poucos objetos (de um a cinquenta) já inseridos ou inseridos em tempo de execução, os resultados se mostraram semelhantes em cada tipo de \emph{collider}. E algumas observações podem ser feitas.
+
+O tipo de \emph{Collider Edge} é melhor usado com elementos de terreno ou plataformas simples, pelo fato de ser apenas uma linha, e não um objeto com mais dimensão. O \emph{Polygon Collider} é o que oferece a melhor precisão em termos de simulação, no entanto, por ser mais preciso, é o que mais exige recursos, que se usado sem cuidado pode afetar negativamente a performance do jogo.
+
+Os \emph{colliders} do tipo \emph{box} e \emph{circle} são os mais utilizados de acordo com a pesquisa de campo realizada e foram os que se mostraram mais estáveis, ambos em \emph{Pre-Runtime} e \emph{Runtime}. O \emph{circle collider}, no entanto apresentou uma melhor performance gral, porém também foi o que apresentou a maior coleta de lixo (\emph{Garbage Collection}), o que pode indicar alguma falha de otimização desse \emph{collider}, ou uma consequência de sua performance estável.
+
+\section{Trabalhos Futuros}
+
+Melhorias podem ser realizadas nas comparações para obter ainda mais precisão para ser documentada, como mais de um tipo de \emph{collider} ao mesmo tempo, usar os outros tipos de \emph{colliders} mencionados, mais funções em execução, usar objetos com a propriedade \emph{kinematic} ligada, comparações com \emph{raycast}, \emph{linecast} e \emph{overlap}.
+
+Também podem ser feitas melhorias na aquisição dos resultados, como adquirir quantidade de memória RAM para cara quadro e a quantidade de consumo de GPU.
+
+As comparações também podem ser feitas com objetos e colisões em 3D.

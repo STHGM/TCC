@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  19 OCT 2019 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  20 OCT 2019 14:37
 entering extended mode
 **./modelo_utfpr.tex
 (modelo_utfpr.tex
@@ -421,55 +421,115 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisruleclass=\count128
 \@lastruleclass=\count129
 \@thisrulewidth=\dimen139
-) (modelo_utfpr.aux (Capitulos/capitulo1.aux) (Capitulos/capitulo2.aux)
+) ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/svg\svg.sty"
+Package: svg 2019/10/10 v2.02c (include SVG pictures)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrbas
+e.sty"
+Package: scrbase 2019/10/12 v3.27 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlfi
+le.sty"
+Package: scrlfile 2019/10/12 v3.27 KOMA-Script package (loading files)
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
+x.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
+sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\shellesc.sty
+"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/trimspaces\trimspa
+ces.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\svg@box=\box59
+\c@svg@param@lastpage=\count130
+\c@svg@param@currpage=\count131
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\transpare
+nt.sty"
+Package: transparent 2018/11/18 v1.3 Transparency via pdfTeX's color stack (HO)
+
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.s
+ty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)) (modelo_utfpr.aux (Capitulos/capitulo1.aux) (Capitulos/capitulo2.aux)
 (Capitulos/capitulo3.aux) (Capitulos/capitulo4.aux) (Capitulos/capitulo5.aux)
 (Capitulos/capitulo6.aux))
 \openout1 = `modelo_utfpr.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 75.
 
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 74.
+(lastpage)             ! on input line 75.
 
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
+\scratchcounter=\count132
 \scratchdimen=\dimen140
-\scratchbox=\box59
-\nofMPsegments=\count131
-\nofMParguments=\count132
+\scratchbox=\box60
+\nofMPsegments=\count133
+\nofMParguments=\count134
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count133
+\MPscratchCnt=\count135
 \MPscratchDim=\dimen141
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
 \everyMPtoPDFconversion=\toks25
 )
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
 base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
-rr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
 y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
@@ -477,11 +537,7 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
 ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
-.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
+))
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
 .sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
@@ -493,26 +549,7 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
 s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
-x.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-))))
-("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
-mds.sty"
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
-ty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
+)))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
@@ -521,29 +558,29 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 76
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 77
 .
 
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ztmcm.fd
 "
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 76
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 77
 .
 
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omlztmcm.fd
 "
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 76
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 77
 .
 
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsztmcm.fd
 "
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 76
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 77
 .
 
 ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omxztmcm.fd
@@ -551,11 +588,11 @@ LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 76
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
  [1
 
 {C:/Users/STHGM/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -703,7 +740,7 @@ Package pdftex.def Info: ./Figuras/edge-collider-2d.png  used on input line 147
 (pdftex.def)             Requested size: 341.43307pt x 132.877pt.
  [16 <./Figuras/poligon-collider-2d.png> <./Figuras/edge-collider-2d.png>] [17]
 
-Overfull \hbox (11.17822pt too wide) in paragraph at lines 236--237
+Overfull \hbox (11.17822pt too wide) in paragraph at lines 240--241
 \OT1/ptm/m/n/12 nem[]aticos de-vem ser usa-dos em ob-je-tos que po-dem ser mo-v
 i-dos ou ha-bi-li-ta-dos/desabilitados
  []
@@ -712,16 +749,16 @@ i-dos ou ha-bi-li-ta-dos/desabilitados
 <./Figuras/Aabb_01.png, id=91, 301.125pt x 163.3603pt>
 File: ./Figuras/Aabb_01.png Graphic file (type png)
 <use ./Figuras/Aabb_01.png>
-Package pdftex.def Info: ./Figuras/Aabb_01.png  used on input line 366.
+Package pdftex.def Info: ./Figuras/Aabb_01.png  used on input line 370.
 (pdftex.def)             Requested size: 455.24411pt x 246.9941pt.
- [21]
-<./Figuras/Bounding_Volumes.jpg, id=95, 301.125pt x 203.25937pt>
+ [21] [22 <./Figuras/Aabb_01.png>]
+<./Figuras/Bounding_Volumes.jpg, id=99, 301.125pt x 203.25937pt>
 File: ./Figuras/Bounding_Volumes.jpg Graphic file (type jpg)
 <use ./Figuras/Bounding_Volumes.jpg>
-Package pdftex.def Info: ./Figuras/Bounding_Volumes.jpg  used on input line 391
+Package pdftex.def Info: ./Figuras/Bounding_Volumes.jpg  used on input line 395
 .
 (pdftex.def)             Requested size: 341.43307pt x 230.48988pt.
-) [22 <./Figuras/Aabb_01.png>] [23 <./Figuras/Bounding_Volumes.jpg>]
+) [23 <./Figuras/Bounding_Volumes.jpg>]
 \openout2 = `./Capitulos/capitulo3.aux'.
 
  (Capitulos/capitulo3.tex
@@ -781,231 +818,213 @@ Package pdftex.def Info: ./Figuras/exemplo_cenario.png  used on input line 110.
 
  (Capitulos/capitulo5.tex
 Cap\'{\i }tulo 5.
-<./Figuras/Testes/Box/new/0010_Static.png, id=138, 1077.27469pt x 520.19344pt>
-File: ./Figuras/Testes/Box/new/0010_Static.png Graphic file (type png)
-<use ./Figuras/Testes/Box/new/0010_Static.png>
-Package pdftex.def Info: ./Figuras/Testes/Box/new/0010_Static.png  used on inpu
-t line 19.
-(pdftex.def)             Requested size: 341.43307pt x 164.86986pt.
-<./Figuras/Testes/Box/new/0500_Static.png, id=139, 1075.76906pt x 523.20468pt>
-File: ./Figuras/Testes/Box/new/0500_Static.png Graphic file (type png)
-<use ./Figuras/Testes/Box/new/0500_Static.png>
-Package pdftex.def Info: ./Figuras/Testes/Box/new/0500_Static.png  used on inpu
-t line 26.
-(pdftex.def)             Requested size: 341.43307pt x 166.05576pt.
-<./Figuras/Testes/Box/new/1000_Static.png, id=140, 1072.75781pt x 516.42938pt>
-File: ./Figuras/Testes/Box/new/1000_Static.png Graphic file (type png)
-<use ./Figuras/Testes/Box/new/1000_Static.png>
-Package pdftex.def Info: ./Figuras/Testes/Box/new/1000_Static.png  used on inpu
-t line 35.
-(pdftex.def)             Requested size: 341.43307pt x 164.36244pt.
+<./Figuras/Questionario/resultado/04_colliders_2D_mais.png, id=138, 602.25pt x 
+372.39125pt>
+File: ./Figuras/Questionario/resultado/04_colliders_2D_mais.png Graphic file (t
+ype png)
+<use ./Figuras/Questionario/resultado/04_colliders_2D_mais.png>
+Package pdftex.def Info: ./Figuras/Questionario/resultado/04_colliders_2D_mais.
+png  used on input line 17.
+(pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
+<./Figuras/Questionario/resultado/05_mensagens_2D_mais.png, id=139, 602.25pt x 
+372.39125pt>
+File: ./Figuras/Questionario/resultado/05_mensagens_2D_mais.png Graphic file (t
+ype png)
+<use ./Figuras/Questionario/resultado/05_mensagens_2D_mais.png>
+Package pdftex.def Info: ./Figuras/Questionario/resultado/05_mensagens_2D_mais.
+png  used on input line 26.
+(pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
+<./Figuras/Questionario/resultado/06_media_2D.png, id=140, 602.25pt x 372.39125
+pt>
+File: ./Figuras/Questionario/resultado/06_media_2D.png Graphic file (type png)
+<use ./Figuras/Questionario/resultado/06_media_2D.png>
+Package pdftex.def Info: ./Figuras/Questionario/resultado/06_media_2D.png  used
+ on input line 33.
+(pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
 [33
 
 
 
-] [34 <./Figuras/Testes/Box/new/0010_Static.png> <./Figuras/Testes/Box/new/0500
-_Static.png> <./Figuras/Testes/Box/new/1000_Static.png>]
-<./Figuras/Testes/Box/new/0010_Dynamic.png, id=150, 1074.26344pt x 518.6878pt>
+]
+<./Figuras/Testes/Box/new/0010_Static.png, id=144, 1077.27469pt x 520.19344pt>
+File: ./Figuras/Testes/Box/new/0010_Static.png Graphic file (type png)
+<use ./Figuras/Testes/Box/new/0010_Static.png>
+Package pdftex.def Info: ./Figuras/Testes/Box/new/0010_Static.png  used on inpu
+t line 48.
+(pdftex.def)             Requested size: 341.43307pt x 164.86986pt.
+<./Figuras/Testes/Box/new/0500_Static.png, id=145, 1075.76906pt x 523.20468pt>
+File: ./Figuras/Testes/Box/new/0500_Static.png Graphic file (type png)
+<use ./Figuras/Testes/Box/new/0500_Static.png>
+Package pdftex.def Info: ./Figuras/Testes/Box/new/0500_Static.png  used on inpu
+t line 55.
+(pdftex.def)             Requested size: 341.43307pt x 166.05576pt.
+ [34 <./Figuras/Questionario/resultado/04_colliders_2D_mais.png> <./Figuras/Que
+stionario/resultado/05_mensagens_2D_mais.png>]
+<./Figuras/Testes/Box/new/1000_Static.png, id=151, 1072.75781pt x 516.42938pt>
+File: ./Figuras/Testes/Box/new/1000_Static.png Graphic file (type png)
+<use ./Figuras/Testes/Box/new/1000_Static.png>
+Package pdftex.def Info: ./Figuras/Testes/Box/new/1000_Static.png  used on inpu
+t line 64.
+(pdftex.def)             Requested size: 341.43307pt x 164.36244pt.
+ [35 <./Figuras/Questionario/resultado/06_media_2D.png> <./Figuras/Testes/Box/n
+ew/0010_Static.png> <./Figuras/Testes/Box/new/0500_Static.png>]
+<./Figuras/Testes/Box/new/0010_Dynamic.png, id=158, 1074.26344pt x 518.6878pt>
 File: ./Figuras/Testes/Box/new/0010_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0010_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0010_Dynamic.png  used on inp
-ut line 46.
+ut line 75.
 (pdftex.def)             Requested size: 341.43307pt x 164.8517pt.
-<./Figuras/Testes/Box/new/0100_Dynamic.png, id=151, 1077.27469pt x 523.9575pt>
+<./Figuras/Testes/Box/new/0100_Dynamic.png, id=159, 1077.27469pt x 523.9575pt>
 File: ./Figuras/Testes/Box/new/0100_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0100_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0100_Dynamic.png  used on inp
-ut line 55.
+ut line 84.
 (pdftex.def)             Requested size: 341.43307pt x 166.06284pt.
-<./Figuras/Testes/Circle/new/0050_Static.png, id=152, 1075.76906pt x 521.69907p
+ [36 <./Figuras/Testes/Box/new/1000_Static.png> <./Figuras/Testes/Box/new/0010_
+Dynamic.png>]
+<./Figuras/Testes/Circle/new/0050_Static.png, id=166, 1075.76906pt x 521.69907p
 t>
 File: ./Figuras/Testes/Circle/new/0050_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/0050_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/0050_Static.png  used on i
-nput line 68.
+nput line 97.
 (pdftex.def)             Requested size: 341.43307pt x 165.5779pt.
- [35 <./Figuras/Testes/Box/new/0010_Dynamic.png> <./Figuras/Testes/Box/new/0100
-_Dynamic.png>]
-<./Figuras/Testes/Circle/new/1000_Static.png, id=158, 1074.26344pt x 518.6878pt
+<./Figuras/Testes/Circle/new/1000_Static.png, id=167, 1074.26344pt x 518.6878pt
 >
 File: ./Figuras/Testes/Circle/new/1000_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/1000_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/1000_Static.png  used on i
-nput line 77.
+nput line 106.
 (pdftex.def)             Requested size: 341.43307pt x 164.8517pt.
-<./Figuras/Testes/Circle/new/0050_Dynamic.png, id=159, 1073.51062pt x 523.20468
+ [37 <./Figuras/Testes/Box/new/0100_Dynamic.png> <./Figuras/Testes/Circle/new/0
+050_Static.png>]
+<./Figuras/Testes/Circle/new/0050_Dynamic.png, id=173, 1073.51062pt x 523.20468
 pt>
 File: ./Figuras/Testes/Circle/new/0050_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/0050_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/0050_Dynamic.png  used on 
-input line 88.
+input line 117.
 (pdftex.def)             Requested size: 341.43307pt x 166.40703pt.
-
-[36 <./Figuras/Testes/Circle/new/0050_Static.png> <./Figuras/Testes/Circle/new/
-1000_Static.png>]
-<./Figuras/Testes/Circle/new/0100_Dynamic.png, id=166, 1078.0275pt x 523.9575pt
+<./Figuras/Testes/Circle/new/0100_Dynamic.png, id=174, 1078.0275pt x 523.9575pt
 >
 File: ./Figuras/Testes/Circle/new/0100_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/0100_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/0100_Dynamic.png  used on 
-input line 97.
+input line 126.
 (pdftex.def)             Requested size: 341.43307pt x 165.95091pt.
- [37 <./Figuras/Testes/Circle/new/0050_Dynamic.png> <./Figuras/Testes/Circle/ne
-w/0100_Dynamic.png>]
+ [38 <./Figuras/Testes/Circle/new/1000_Static.png> <./Figuras/Testes/Circle/new
+/0050_Dynamic.png>]
 File: ./Figuras/Testes/Circle/new/1000_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/1000_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/1000_Static.png  used on i
-nput line 110.
+nput line 139.
 (pdftex.def)             Requested size: 341.43307pt x 164.8517pt.
-<./Figuras/Testes/Edge/new/1000_Static_Artifact.png, id=172, 654.94687pt x 429.
+ [39 <./Figuras/Testes/Circle/new/0100_Dynamic.png>]
+<./Figuras/Testes/Edge/new/1000_Static_Artifact.png, id=184, 654.94687pt x 429.
 85594pt>
 File: ./Figuras/Testes/Edge/new/1000_Static_Artifact.png Graphic file (type png
 )
 <use ./Figuras/Testes/Edge/new/1000_Static_Artifact.png>
 Package pdftex.def Info: ./Figuras/Testes/Edge/new/1000_Static_Artifact.png  us
-ed on input line 119.
+ed on input line 148.
 (pdftex.def)             Requested size: 341.43307pt x 224.09045pt.
- [38 <./Figuras/Testes/Edge/new/1000_Static_Artifact.png>]
-<./Figuras/Testes/Edge/new/1000_Dynamic.png, id=177, 1074.26344pt x 522.45187pt
+<./Figuras/Testes/Edge/new/1000_Dynamic.png, id=185, 1074.26344pt x 522.45187pt
 >
 File: ./Figuras/Testes/Edge/new/1000_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Edge/new/1000_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Edge/new/1000_Dynamic.png  used on in
-put line 130.
+put line 159.
 (pdftex.def)             Requested size: 341.43307pt x 166.04802pt.
-<./Figuras/Testes/Polygon/new/0010_Static.png, id=178, 1072.75781pt x 518.6878p
+ [40 <./Figuras/Testes/Edge/new/1000_Static_Artifact.png> <./Figuras/Testes/Edg
+e/new/1000_Dynamic.png>]
+<./Figuras/Testes/Polygon/new/0010_Static.png, id=191, 1072.75781pt x 518.6878p
 t>
 File: ./Figuras/Testes/Polygon/new/0010_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0010_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0010_Static.png  used on 
-input line 147.
+input line 176.
 (pdftex.def)             Requested size: 341.43307pt x 165.08122pt.
-<./Figuras/Testes/Polygon/new/0050_Static.png, id=179, 1074.26344pt x 520.19344
+<./Figuras/Testes/Polygon/new/0050_Static.png, id=192, 1074.26344pt x 520.19344
 pt>
 File: ./Figuras/Testes/Polygon/new/0050_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0050_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Static.png  used on 
-input line 156.
+input line 185.
 (pdftex.def)             Requested size: 341.43307pt x 165.33023pt.
- [39 <./Figuras/Testes/Edge/new/1000_Dynamic.png>]
-<./Figuras/Testes/Polygon/new/0100_Static.png, id=184, 1072.75781pt x 517.18219
+<./Figuras/Testes/Polygon/new/0100_Static.png, id=193, 1072.75781pt x 517.18219
 pt>
 File: ./Figuras/Testes/Polygon/new/0100_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0100_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0100_Static.png  used on 
-input line 165.
+input line 194.
 (pdftex.def)             Requested size: 341.43307pt x 164.60204pt.
- [40 <./Figuras/Testes/Polygon/new/0010_Static.png> <./Figuras/Testes/Polygon/n
-ew/0050_Static.png> <./Figuras/Testes/Polygon/new/0100_Static.png>]
-<./Figuras/Testes/Polygon/new/0500_Static.png, id=191, 1071.25218pt x 518.6878p
+<./Figuras/Testes/Polygon/new/0500_Static.png, id=194, 1071.25218pt x 518.6878p
 t>
 File: ./Figuras/Testes/Polygon/new/0500_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0500_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0500_Static.png  used on 
-input line 174.
+input line 203.
 (pdftex.def)             Requested size: 341.43307pt x 165.31866pt.
-<./Figuras/Testes/Polygon/new/1000_Static_FPS.png, id=192, 655.69969pt x 453.94
+[41 <./Figuras/Testes/Polygon/new/0010_Static.png>]
+<./Figuras/Testes/Polygon/new/1000_Static_FPS.png, id=199, 655.69969pt x 453.94
 594pt>
 File: ./Figuras/Testes/Polygon/new/1000_Static_FPS.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/1000_Static_FPS.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/1000_Static_FPS.png  used
- on input line 181.
+ on input line 210.
 (pdftex.def)             Requested size: 341.43307pt x 236.3788pt.
-<./Figuras/Testes/Polygon/new/0001_Dynamic.png, id=193, 1078.0275pt x 524.71031
+ [42 <./Figuras/Testes/Polygon/new/0050_Static.png> <./Figuras/Testes/Polygon/n
+ew/0100_Static.png> <./Figuras/Testes/Polygon/new/0500_Static.png>]
+<./Figuras/Testes/Polygon/new/0001_Dynamic.png, id=207, 1078.0275pt x 524.71031
 pt>
 File: ./Figuras/Testes/Polygon/new/0001_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0001_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0001_Dynamic.png  used on
- input line 192.
+ input line 221.
 (pdftex.def)             Requested size: 341.43307pt x 166.18935pt.
- [41 <./Figuras/Testes/Polygon/new/0500_Static.png> <./Figuras/Testes/Polygon/n
-ew/1000_Static_FPS.png>]
-<./Figuras/Testes/Polygon/new/0010_Dynamic.png, id=199, 1076.52188pt x 522.4518
+<./Figuras/Testes/Polygon/new/0010_Dynamic.png, id=208, 1076.52188pt x 522.4518
 7pt>
 File: ./Figuras/Testes/Polygon/new/0010_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0010_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0010_Dynamic.png  used on
- input line 201.
+ input line 230.
 (pdftex.def)             Requested size: 341.43307pt x 165.70523pt.
-<./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png, id=200, 1074.26344pt x 44
+ [43 <./Figuras/Testes/Polygon/new/1000_Static_FPS.png> <./Figuras/Testes/Polyg
+on/new/0001_Dynamic.png>]
+<./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png, id=214, 1074.26344pt x 44
 8.67625pt>
 File: ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png Graphic file (type pn
 g)
 <use ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png  u
-sed on input line 210.
+sed on input line 239.
 (pdftex.def)             Requested size: 341.43307pt x 142.60031pt.
-<./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png, id=201, 653.44125pt x 459.2
+<./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png, id=215, 653.44125pt x 459.2
 1562pt>
 File: ./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png Graphic file (type png)
 
 <use ./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png  use
-d on input line 217.
+d on input line 246.
 (pdftex.def)             Requested size: 341.43307pt x 239.94264pt.
 
-Overfull \hbox (4.88841pt too wide) in paragraph at lines 222--223
+Overfull \hbox (4.88841pt too wide) in paragraph at lines 251--252
 []\OT1/ptm/m/n/12 Com cem ob-je-tos por se-gundo, o pro-grama ini-cia, por[]em 
 n[]ao pros-se-gue com a execu[][]ao.
  []
 
-) [42 <./Figuras/Testes/Polygon/new/0001_Dynamic.png> <./Figuras/Testes/Polygon
-/new/0010_Dynamic.png>] [43 <./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.pn
-g> <./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png>]
+) [44 <./Figuras/Testes/Polygon/new/0010_Dynamic.png> <./Figuras/Testes/Polygon
+/new/0050_Dynamic_Stats.png>] [45 <./Figuras/Testes/Polygon/new/0050_Dynamic_FP
+S.png>]
 \openout2 = `./Capitulos/capitulo6.aux'.
 
-
-(Capitulos/capitulo6.tex
+ (Capitulos/capitulo6.tex
 Cap\'{\i }tulo 6.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 5.
-("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-
-LaTeX Warning: Citation `CTAN2009' on page 44 undefined on input line 5.
-
-
-LaTeX Warning: Citation `TeX-Br2009' on page 44 undefined on input line 5.
-
-
-LaTeX Warning: Citation `Wikibooks2009' on page 44 undefined on input line 5.
-
-
-Overfull \hbox (3.1574pt too wide) in paragraph at lines 5--6
-[]\OT1/ptm/m/n/12 Espera-se que o uso do es-tilo de formata[][]ao L[]T[]X ade-q
-uado []as Nor-mas para Elabora[][]ao
- []
-
-
-LaTeX Warning: Citation `TeXnicCenter2009' on page 44 undefined on input line 7
-.
-
-
-LaTeX Warning: Citation `MiKTeX2009' on page 44 undefined on input line 7.
-
-
-Overfull \hbox (4.29355pt too wide) in paragraph at lines 7--8
-\OT1/ptm/m/n/12 em L[]T[]X para usu[]arios Li-nux. Para usu[]arios Win-dows rec
-omenda-se o edi-tor T[]XnicCenter (\OT1/ptm/b/n/12 ??\OT1/ptm/m/n/12 ).
- []
-
-
-LaTeX Warning: Citation `JabRef2009' on page 44 undefined on input line 9.
-
-
-LaTeX Warning: Citation `Mendeley2009' on page 44 undefined on input line 9.
-
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 9.
-("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omspcr.fd"
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
-) [44
+[46
 
 
 
-] (modelo_utfpr.bbl
+]) [47] (modelo_utfpr.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
 []\OT1/ptm/m/n/12 BANERJEE, S. \OT1/ptm/b/n/12 7 Most Po-pu-lar Game De-ve-lop-
 ment En-gi-nes You Should
@@ -1059,7 +1078,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--94
 problem-you-face-as-a-independent-game-
  []
 
-[45
+[48
 
 
 ]
@@ -1082,38 +1101,33 @@ icia/numero-de-desenvolvedores-de-games-
 
 ) 
 AED: lastpage setting LastPage
-[46]
+[49]
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 (modelo_utfpr.aux (Capitulos/capitulo1.aux) (Capitulos/capitulo2.aux)
 (Capitulos/capitulo3.aux) (Capitulos/capitulo4.aux) (Capitulos/capitulo5.aux)
-(Capitulos/capitulo6.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(Capitulos/capitulo6.aux)) ) 
 Here is how much of TeX's memory you used:
- 5440 strings out of 492895
- 83370 string characters out of 3123735
- 177335 words of memory out of 3000000
- 9071 multiletter control sequences out of 15000+200000
- 38815 words of font info for 85 fonts, out of 3000000 for 9000
+ 6143 strings out of 492895
+ 98746 string characters out of 3123735
+ 214049 words of memory out of 3000000
+ 9753 multiletter control sequences out of 15000+200000
+ 34991 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,19n,45p,909b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
-}<C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/urw/courier/ucrr8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/STHGM/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/STHGM/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (47 pages, 2883772 bytes).
+ 48i,19n,52p,909b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/f
+onts/enc/dvips/base/8r.enc}<C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/STHGM/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/STHGM/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/STHGM/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/STHGM/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/STH
+GM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on modelo_utfpr.pdf (50 pages, 2931690 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
+ 262 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -112,11 +112,14 @@ Para obter resultados mais relevantes, cada cena em \emph{Pre-Runtime} foi rende
 	\label{exemplo_cenario}
 \end{figure}
 
-O cenário \emph{Pre-Runtime} consiste de três elementos. O objeto com um tipo de \emph{collider} e \emph{rigid body} atribuídos a ele. Esse objeto é representado pelo personagem em azul.
-
-Um objeto que permanece parado, com \emph{box collider} em todas as comparações, porém, não é atribuído \emph{rigid body} a ele, e sim \emph{trigger}, ou seja, objetos podem atravessá-lo, mas a detecção de colisão ainda ocorre. Este é representado pela plataforma que se encontra logo abaixo do personagem. 
-
-A última plataforma em baixo, é um objeto estático, porém com um \emph{box collider}, ou seja, os objetos não podem atravessá-lo.
+O cenário \emph{Pre-Runtime} consiste de três elementos.
+\begin{itemize}
+	\item O objeto com um tipo de \emph{collider} e \emph{rigid body} atribuídos a ele, sem ser do tipo \emph{kinematic}. Esse objeto é representado pelo personagem em azul.
+	
+	\item Um objeto que permanece parado, com \emph{box collider} em todas as comparações, porém, não é atribuído \emph{rigid body} a ele, e sim \emph{trigger}, ou seja, objetos podem atravessá-lo, mas a detecção de colisão ainda ocorre. Este é representado pela plataforma que se encontra logo abaixo do personagem.
+	
+	\item A última plataforma em baixo, é um objeto estático, porém com um \emph{box collider}, ou seja, os objetos não podem atravessá-lo.
+\end{itemize}
 
 Conforme a quantidade de objetos do tipo do personagem aumentar (parâmetro de medição de número de objetos da cena), os próprios são posicionados aleatoriamente na cena, e as plataformas são alongadas para ter uma área de contato maior para os objetos dinâmicos.
 
