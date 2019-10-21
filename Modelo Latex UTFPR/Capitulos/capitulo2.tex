@@ -36,7 +36,7 @@ Na Figura \ref{circle01}, os pontos A e B representam os centros de cada círculo
 	\label{circle01}
 \end{figure}
 
-Na Figura \ref{circle02}, o procedimento é o mesmo para verificação. Nesse caso, há a colisão e ainda há a intersecção entre os círculos. Isso pode ser confirmado ao comparar o comprimento da hipotenusa A-B com a soma dos raios $\overline{AC}$ e $\overline{BD}$ e verificar que o tamanho da hipotenusa é menor que a soma dos raios. Dependendo dos requisitos e do algoritmo, os pontos onde ocorre a intersecção podem ser armazenados, no caso da Figura \ref{circle02} são os pontos E e F.
+Na Figura \ref{circle02}, o procedimento é o mesmo para verificação. Nesse caso, há a colisão e ainda há a intersecção entre os círculos. Isso pode ser confirmado ao comparar o comprimento da hipotenusa $\overline{AB}$ com a soma dos raios $\overline{AC}$ e $\overline{BD}$ e verificar que o tamanho da hipotenusa é menor que a soma dos raios. Dependendo dos requisitos e do algoritmo, os pontos onde ocorre a intersecção podem ser armazenados, no caso da Figura \ref{circle02} são os pontos E e F.
 
 \begin{figure}[!htb]
 	\centering
@@ -54,7 +54,7 @@ Na Figura \ref{circle03}, o procedimento também é o mesmo e nesse existe a colis
 	\label{circle03}
 \end{figure}
 
-Um código semelhante é explicado no livro Programação de Jogos com C++ e DirectX de André Santee, porém com uma esfera ao invés de um círculo, no entanto o conceito se aplica de forma semelhante \cite{Santee2005}.
+Um código semelhante é explicado no livro Programação de Jogos com C++ e \emph{DirectX} de André Santee, porém com uma esfera ao invés de um círculo, no entanto o conceito se aplica de forma semelhante \cite{Santee2005}.
 
 \begin{figure}[!htb]
 	\centering
@@ -65,7 +65,7 @@ Um código semelhante é explicado no livro Programação de Jogos com C++ e DirectX
 
 O código representado na Figura \ref{codesphere} é basicamente dividido em duas etapas: encontrar a diferença na distância do centro das duas esferas utilizando o teorema de Pitágoras. Essa diferença será então verificada se ela é menor ou igual à soma dos raios das esferas.
 
-No código, é criada uma \emph{struct} Sphere (linha 1), que contém os atributos \emph{pos} (linha 3), recebendo a posição do centro da esfera; e \emph{radius} (linha 4), que recebe o valor do raio da esfera, sendo elas as estruturas presentes na simulação. 
+No código, é criada uma \emph{struct} \emph{Sphere} (linha 1), que contém os atributos \emph{pos} (linha 3), recebendo a posição do centro da esfera; e \emph{radius} (linha 4), que recebe o valor do raio da esfera, sendo elas as estruturas presentes na simulação. 
 
 A função \emph{SphereCollision} (linha 7) do tipo booleana retorna falso se as esferas não estiverem colidindo e verdadeiro se estiverem. Ela recebe como parâmetro o endereço de duas estruturas do tipo esfera que serão usadas na detecção, já o último parâmetro recebe o endereço da distância entre os centros das esferas, no entanto esse parâmetro é opcional.
 
@@ -397,6 +397,10 @@ O \emph{Convex Hull} procura atribuir o menor volume convexo para que possa cont
 	\fonte{\cite{Serrano2016}}
 	\label{obb}
 \end{figure}
+
+\subsection{Otimização de Colisões na \emph{Unity}}
+
+Há uma série de otimizações que podem ser realizadas para obter melhor performance nas colisões, algumas dessas otimizações são apresentadas por \citeonline{Armstrong2017}. Um exemplo de otimização que pode ser realizada se a performance está prejudicada é de filtrar as colisões apenas com os tipos necessários que cada uma deve se conectar. O site também fala da importância de ter o planejamento do projeto antes de começar a execução para evitar possíveis problemas durante o desenvolvimento.
 
 %\subsection{Detecção de colisão usando hierarquias de volume envelopado e k-DOPs}
 %O trabalho realizado por \citeauthor{Klosowski1998} (\citeyear{Klosowski1998}), demonstra um novo algoritmo usando hierarquias de volume envelopado e k-DOPs (``discrete orientation polytope''). Além de uma integração com BV-trees.

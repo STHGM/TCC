@@ -5,6 +5,14 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.52 }
 
+\bibitem[Armstrong 2017]{Armstrong2017}
+\abntrefinfo{Armstrong}{ARMSTRONG}{2017}
+{ARMSTRONG, W. \textbf{{Spotlight Team Best Practices: Collision Performance
+  Optimization}}. 2017.
+Acessado em 03 de outubro de 2019.
+Dispon{\'\i}vel em:
+  $<$https://blogs.unity3d.com/pt/2017/07/26/spotlight-team-best-practices-collision-performance-optimization/$>$.}
+
 \bibitem[Banerjee 2017]{Banerjee2017}
 \abntrefinfo{Banerjee}{BANERJEE}{2017}
 {BANERJEE, S. \textbf{{7 Most Popular Game Development Engines You Should
