@@ -2,9 +2,9 @@
 % CAPÍTULO 5
 \chapter{RESULTADOS E DISCUSSÕES}
 
-Este capítulo apresentará os resultados mais relevantes das comparações. É categorizado por tipo de \emph{collider} e em seguida por tipo de cenário (\emph{Pre-Runtime} e \emph{Runtime}).
+Este capítulo apresenta os resultados mais relevantes das comparações. É categorizado por tipo de \emph{collider} e em seguida por tipo de cenário (\emph{Pre-Runtime} e \emph{Runtime}).
 
-A maioria dos resultados com poucos objetos no cenário, ou seja, com um e dez objetos ou objetos gerados por segundo, não apresentaram grandes diferenças entre si em relação a performance que pudessem intervir na jogabilidade. Em todas as comparações, os cálculos da física dos objetos foram os que mais consumiram recursos, que foram aumentando conforme o aumento do número de objetos na cena dependendo do tipo de \emph{collider} usado, mais detalhes podem ser encontrados no apêndice.
+A maioria dos resultados com poucos objetos no cenário, ou seja, com um e dez objetos ou objetos gerados por segundo, não apresentaram grandes diferenças entre si em relação a \emph{performance} que pudessem intervir na jogabilidade. Em todas as comparações, os cálculos da física dos objetos foram os que mais consumiram recursos, que foram aumentando conforme o aumento do número de objetos na cena dependendo do tipo de \emph{collider} usado. Mais detalhes podem ser encontrados no apêndice.
 
 A pesquisa de campo foi realizada com vinte e sete pessoas até o dia dezenove de outro de 2019 (19/10/2019), sendo que dezessete delas responderam através do formulário em português e as dez restantes, no formulário em inglês
 
@@ -19,7 +19,9 @@ De acordo com a pesquisa de campo realizada, cerca de 70\% do uso das colisões s
 	\label{questionario_uso_colliders_2d}
 \end{figure}
 
-Em relação as mensagens usadas, há uma distribuição equilibrada quando o uso é de início e final de contato com a colisão ou trigger, como mostra a Figura \ref{questionario_uso_mensagens_2d}. Já enquanto o contato ainda está ocorrendo é pouco utilizado. O número médio de objetos numa cena podem ser encontrados na Figura \ref{questionario_media_2d}.
+Em relação as mensagens usadas, há uma distribuição equilibrada quando o uso é de início e final de contato com a colisão ou trigger, como mostra a Figura \ref{questionario_uso_mensagens_2d}. Já enquanto o contato ainda está ocorrendo é pouco utilizado.
+
+O número médio de objetos numa cena podem ser encontrados na Figura \ref{questionario_media_2d}. Nesse resultado apenas dois participantes não responderam à pergunta.
 
 \begin{figure}[!htb]
 	\centering
@@ -45,14 +47,14 @@ A partir de cem objetos, apesar de ainda não haver uso intenso de memória e CPU 
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Box/new/0010_Static.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Box/new/0010_Static.png}
 	\caption[Resultado 10 Objetos Box Pre-Runtime]{Resultado de performance de dez objetos com \emph{box collider} em \emph{Pre-Runtime}.}
 	\label{teste_box_10}
 \end{figure}
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Box/new/0500_Static.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Box/new/0500_Static.png}
 	\caption[Resultado 500 Objetos Box Pre-Runtime]{Resultado de performance de quinhentos objetos com \emph{box collider} em \emph{Pre-Runtime}.}
 	\label{teste_box_500}
 \end{figure}
@@ -61,7 +63,7 @@ O resultado com mil objetos foi o mais instável, apresentando um aumento de cons
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Box/new/1000_Static.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Box/new/1000_Static.png}
 	\caption[Resultado 1000 Objetos Box Pre-Runtime]{Resultado de performance de mil objetos com \emph{box collider} em \emph{Pre-Runtime}.}
 	\label{teste_box_1000}
 \end{figure}
@@ -72,7 +74,7 @@ Nos três primeiros testes com um, dez e cinquenta objetos por segundo, os result
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Box/new/0010_Dynamic.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Box/new/0010_Dynamic.png}
 	\caption[Resultado 10 Objetos Box Runtime]{Resultado de performance de dez objetos com \emph{box collider} em \emph{Runtime}.}
 	\label{teste_box_0010_dynamic}
 \end{figure}
@@ -81,7 +83,7 @@ A partir de cem objetos por segundo, há uma queda brusca de performance. Foi ger
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Box/new/0100_Dynamic.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Box/new/0100_Dynamic.png}
 	\caption[Resultado 100 Objetos Box Runtime]{Resultado de performance de quinhentos objetos com \emph{box collider} em \emph{Runtime}.}
 	\label{teste_box_100_dynamic}
 \end{figure}
@@ -94,7 +96,7 @@ Assim como nos resultados de \emph{box collider}, as três primeiras comparações 
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Circle/new/0050_Static.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Circle/new/0050_Static.png}
 	\caption[Resultado 0050 Objetos Circle Pre-Runtime]{Resultado de performance de cinquenta objetos com \emph{circle collider} em \emph{Pre-Runtime}.}
 	\label{teste_circle_0050_static}
 \end{figure}
@@ -103,7 +105,7 @@ A partir de 100 objetos em diante, o resultado mostra o início de picos de \emph
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Circle/new/1000_Static.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Circle/new/1000_Static.png}
 	\caption[Resultado 1000 Objetos Circle Pre-Runtime]{Resultado de performance de mil objetos com \emph{circle collider} em \emph{Pre-Runtime}.}
 	\label{teste_circle_1000_static}
 \end{figure}
@@ -114,7 +116,7 @@ Segue os mesmos padrões de resultado de \emph{box collider}. porém, os picos de 
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Circle/new/0050_Dynamic.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Circle/new/0050_Dynamic.png}
 	\caption[Resultado 50 Objetos Circle Runtime]{Resultado de performance de cinquenta objetos com \emph{circle collider} em \emph{Runtime}.}
 	\label{teste_circle_0050_dynamic}
 \end{figure}
@@ -123,7 +125,7 @@ A partir de cem objetos por segundo, os resultados se assemelham aos cenários co
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Circle/new/0100_Dynamic.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Circle/new/0100_Dynamic.png}
 	\caption[Resultado 100 Objetos Circle Runtime]{Resultado de performance de cem objetos com \emph{circle collider} em \emph{Runtime}.}
 	\label{teste_circle_0100_dynamic}
 \end{figure}
@@ -136,7 +138,7 @@ Os resultados com esse tipo de \emph{collider} mostraram-se estáveis em todos os
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Circle/new/1000_Static.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Circle/new/1000_Static.png}
 	\caption[Resultado 1000 Objetos Edge Pre-Runtime]{Resultado de performance de mil objetos com \emph{edge collider} em \emph{Pre-Runtime}.}
 	\label{teste_edge_1000_static}
 \end{figure}
@@ -156,7 +158,7 @@ Os resultados nessa categoria mostraram-se estáveis em seu percurso, tendo mais 
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Edge/new/1000_Dynamic.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Edge/new/1000_Dynamic.png}
 	\caption[Resultado 1000 Objetos Edge Runtime]{Resultado de performance de mil objetos por segundo com \emph{edge collider} em \emph{Runtime}.}
 	\label{teste_edge_1000_dynamic}
 \end{figure}
@@ -173,7 +175,7 @@ Os resultados com um e cem objetos, demonstram boa estabilidade  de consumo de r
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0010_Static.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Polygon/new/0010_Static.png}
 	\caption[Resultado 10 Objetos Polygon Pre-Runtime]{Resultado de performance de dez objetos com \emph{polygon collider} em \emph{Pre-Runtime}.}
 	\label{teste_polygon_0010_static}
 \end{figure}
@@ -182,7 +184,7 @@ A partir de 50 objetos, houve um consumo maior de CPU, fazendo o tempo total de 
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0050_Static.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Polygon/new/0050_Static.png}
 	\caption[Resultado 50 Objetos Polygon Pre-Runtime]{Resultado de performance de cinquenta objetos com \emph{polygon collider} em \emph{Pre-Runtime}.}
 	\label{teste_polygon_0050_static}
 \end{figure}
@@ -191,7 +193,7 @@ Com cem objetos a performance diminui pouco, relativamente ao resultado anterior
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0100_Static.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Polygon/new/0100_Static.png}
 	\caption[Resultado 100 Objetos Polygon Pre-Runtime]{Resultado de performance de cem objetos com \emph{polygon collider} em \emph{Pre-Runtime}.}
 	\label{teste_polygon_0100_static}
 \end{figure}
@@ -200,7 +202,7 @@ Os resultados com quinhentos e mil objetos demonstraram uma queda drástica na pe
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0500_Static.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Polygon/new/0500_Static.png}
 	\caption[Resultado 500 Objetos Polygon Pre-Runtime]{Resultado de performance de quinhentos objetos com \emph{polygon collider} em \emph{Pre-Runtime}.}
 	\label{teste_polygon_0500_static}
 \end{figure}
@@ -218,7 +220,7 @@ O resultado com um objeto por segundo foi relativamente estável, apresentando te
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0001_Dynamic.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Polygon/new/0001_Dynamic.png}
 	\caption[Resultado 1 Objeto Polygon Runtime]{Resultado de performance de um objeto com \emph{polygon collider} em \emph{Runtime}.}
 	\label{teste_polygon_0001_dynamic}
 \end{figure}
@@ -227,7 +229,7 @@ A partir de 10 objetos por segundo a performance começa a cair conforme o tempo 
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0010_Dynamic.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Polygon/new/0010_Dynamic.png}
 	\caption[Resultado 10 Objetos Polygon Runtime]{Resultado de performance de dez objetos com \emph{polygon collider} em \emph{Runtime}.}
 	\label{teste_polygon_0010_dynamic}
 \end{figure}
@@ -236,7 +238,7 @@ Com 50 Objetos, a performance é comprometida desde o início da execução, fazendo
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png}
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png}
 	\caption[Resultado 50 Objetos Polygon Runtime]{Resultado de performance de cinquenta objetos com \emph{polygon collider} em \emph{Runtime}.}
 	\label{teste_polygon_0050_dynamic}
 \end{figure}

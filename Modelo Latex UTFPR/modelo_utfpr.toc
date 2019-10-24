@@ -31,98 +31,85 @@
 \contentsline {section}{\numberline {4.1}\MakeUppercase {Pesquisa de campo}}{29}% 
 \contentsline {section}{\numberline {4.2}\MakeUppercase {\emph {Profiler} da \emph {Unity}}}{30}% 
 \contentsline {section}{\numberline {4.3}\MakeUppercase {Obten\c c\~ao e filtragem de dados}}{32}% 
-\contentsline {section}{\numberline {4.4}\MakeUppercase {Cen\'arios de compara\c c\~ao}}{33}% 
-\contentsline {chapter}{\numberline {5}\MakeUppercase {RESULTADOS E DISCUSS\~OES}}{35}% 
-\contentsline {section}{\numberline {5.1}\MakeUppercase {Pesquisa de Campo}}{35}% 
+\contentsline {section}{\numberline {4.4}\MakeUppercase {Cen\'arios de compara\c c\~ao}}{32}% 
+\contentsline {chapter}{\numberline {5}\MakeUppercase {RESULTADOS E DISCUSS\~OES}}{34}% 
+\contentsline {section}{\numberline {5.1}\MakeUppercase {Pesquisa de Campo}}{34}% 
 \contentsline {section}{\numberline {5.2}\MakeUppercase {Resultados com \emph {Box Collider}}}{35}% 
 \contentsline {subsection}{\numberline {5.2.1}\emph {Box Collider - Pre-Runtime}}{35}% 
-\contentsline {subsection}{\numberline {5.2.2}\emph {Box Collider - Runtime}}{38}% 
-\contentsline {section}{\numberline {5.3}\MakeUppercase {Resultados com \emph {Circle Collider}}}{39}% 
-\contentsline {subsection}{\numberline {5.3.1}\emph {Circle Collider - Pre-Runtime}}{39}% 
-\contentsline {subsection}{\numberline {5.3.2}\emph {Circle Collider - Runtime}}{40}% 
-\contentsline {section}{\numberline {5.4}\MakeUppercase {Resultados com \emph {Edge Collider}}}{41}% 
-\contentsline {subsection}{\numberline {5.4.1}\emph {Edge Collider - Pre-Runtime}}{41}% 
-\contentsline {subsection}{\numberline {5.4.2}\emph {Edge Collider - Runtime}}{42}% 
-\contentsline {section}{\numberline {5.5}\MakeUppercase {Resultado com \emph {Polygon Collider}}}{43}% 
-\contentsline {subsection}{\numberline {5.5.1}\emph {Polygon Collider - Pre-Runtime}}{43}% 
-\contentsline {subsection}{\numberline {5.5.2}\emph {Polygon Collider - Runtime}}{45}% 
-\contentsline {chapter}{\numberline {6}\MakeUppercase {CONSIDERA\c C\~OES FINAIS}}{48}% 
-\contentsline {section}{\numberline {6.1}\MakeUppercase {Import\^ancia}}{48}% 
-\contentsline {section}{\numberline {6.2}\MakeUppercase {Resultados}}{48}% 
-\contentsline {section}{\numberline {6.3}\MakeUppercase {Trabalhos Futuros}}{49}% 
-\contentsline {chapter}{REFER\^ENCIAS}{50}% 
-\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Box Collider}}}{52}% 
-\contentsline {section}{\numberline {A.1}\MakeUppercase {\emph {Pre-Runtime}}}{52}% 
-\contentsline {subsection}{\numberline {A.1.1}Um Objeto}{52}% 
-\contentsline {subsection}{\numberline {A.1.2}Dez Objetos}{62}% 
-\contentsline {subsection}{\numberline {A.1.3}Cinquenta Objetos}{85}% 
-\contentsline {subsection}{\numberline {A.1.4}Cem Objetos}{134}% 
-\contentsline {subsection}{\numberline {A.1.5}Quinhentos Objetos}{183}% 
-\contentsline {subsection}{\numberline {A.1.6}Mil Objetos}{238}% 
-\contentsline {section}{\numberline {A.2}\MakeUppercase {\emph {Runtime}}}{291}% 
-\contentsline {subsection}{\numberline {A.2.1}Um Objeto por segundo}{291}% 
-\contentsline {subsection}{\numberline {A.2.2}Dez Objetos por segundo}{291}% 
-\contentsline {subsection}{\numberline {A.2.3}Cinquenta Objetos por segundo}{291}% 
-\contentsline {subsection}{\numberline {A.2.4}Cem Objetos por segundo}{291}% 
-\contentsline {subsection}{\numberline {A.2.5}Quinhentos Objetos por segundo}{291}% 
-\contentsline {subsection}{\numberline {A.2.6}Mil Objetos por segundo}{291}% 
-\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Circle Collider}}}{292}% 
-\contentsline {section}{\numberline {B.1}\MakeUppercase {\emph {Pre-Runtime}}}{292}% 
-\contentsline {subsection}{\numberline {B.1.1}Um Objeto}{292}% 
-\contentsline {subsection}{\numberline {B.1.2}Dez Objetos}{292}% 
-\contentsline {subsection}{\numberline {B.1.3}Cinquenta Objetos}{292}% 
-\contentsline {subsection}{\numberline {B.1.4}Cem Objetos}{292}% 
-\contentsline {subsection}{\numberline {B.1.5}Quinhentos Objetos}{292}% 
-\contentsline {subsection}{\numberline {B.1.6}Mil Objetos}{292}% 
-\contentsline {section}{\numberline {B.2}\MakeUppercase {\emph {Runtime}}}{292}% 
-\contentsline {subsection}{\numberline {B.2.1}Um Objeto por segundo}{292}% 
-\contentsline {subsection}{\numberline {B.2.2}Dez Objetos por segundo}{292}% 
-\contentsline {subsection}{\numberline {B.2.3}Cinquenta Objetos por segundo}{292}% 
-\contentsline {subsection}{\numberline {B.2.4}Cem Objetos por segundo}{292}% 
-\contentsline {subsection}{\numberline {B.2.5}Quinhentos Objetos por segundo}{292}% 
-\contentsline {subsection}{\numberline {B.2.6}Mil Objetos por segundo}{292}% 
-\contentsline {chapter}{Ap\^endice{} C{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Circle Collider}}}{293}% 
-\contentsline {section}{\numberline {C.1}\MakeUppercase {\emph {Pre-Runtime}}}{293}% 
-\contentsline {subsection}{\numberline {C.1.1}Um Objeto}{293}% 
-\contentsline {subsection}{\numberline {C.1.2}Dez Objetos}{293}% 
-\contentsline {subsection}{\numberline {C.1.3}Cinquenta Objetos}{293}% 
-\contentsline {subsection}{\numberline {C.1.4}Cem Objetos}{293}% 
-\contentsline {subsection}{\numberline {C.1.5}Quinhentos Objetos}{293}% 
-\contentsline {subsection}{\numberline {C.1.6}Mil Objetos}{293}% 
-\contentsline {section}{\numberline {C.2}\MakeUppercase {\emph {Runtime}}}{293}% 
-\contentsline {subsection}{\numberline {C.2.1}Um Objeto por segundo}{293}% 
-\contentsline {subsection}{\numberline {C.2.2}Dez Objetos por segundo}{293}% 
-\contentsline {subsection}{\numberline {C.2.3}Cinquenta Objetos por segundo}{293}% 
-\contentsline {subsection}{\numberline {C.2.4}Cem Objetos por segundo}{293}% 
-\contentsline {subsection}{\numberline {C.2.5}Quinhentos Objetos por segundo}{293}% 
-\contentsline {subsection}{\numberline {C.2.6}Mil Objetos por segundo}{293}% 
-\contentsline {chapter}{Ap\^endice{} D{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Edge Collider}}}{294}% 
-\contentsline {section}{\numberline {D.1}\MakeUppercase {\emph {Pre-Runtime}}}{294}% 
-\contentsline {subsection}{\numberline {D.1.1}Um Objeto}{294}% 
-\contentsline {subsection}{\numberline {D.1.2}Dez Objetos}{294}% 
-\contentsline {subsection}{\numberline {D.1.3}Cinquenta Objetos}{294}% 
-\contentsline {subsection}{\numberline {D.1.4}Cem Objetos}{294}% 
-\contentsline {subsection}{\numberline {D.1.5}Quinhentos Objetos}{294}% 
-\contentsline {subsection}{\numberline {D.1.6}Mil Objetos}{294}% 
-\contentsline {section}{\numberline {D.2}\MakeUppercase {\emph {Runtime}}}{294}% 
-\contentsline {subsection}{\numberline {D.2.1}Um Objeto por segundo}{294}% 
-\contentsline {subsection}{\numberline {D.2.2}Dez Objetos por segundo}{294}% 
-\contentsline {subsection}{\numberline {D.2.3}Cinquenta Objetos por segundo}{294}% 
-\contentsline {subsection}{\numberline {D.2.4}Cem Objetos por segundo}{294}% 
-\contentsline {subsection}{\numberline {D.2.5}Quinhentos Objetos por segundo}{294}% 
-\contentsline {subsection}{\numberline {D.2.6}Mil Objetos por segundo}{294}% 
-\contentsline {chapter}{Ap\^endice{} E{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Polygon Collider}}}{295}% 
-\contentsline {section}{\numberline {E.1}\MakeUppercase {\emph {Pre-Runtime}}}{295}% 
-\contentsline {subsection}{\numberline {E.1.1}Um Objeto}{295}% 
-\contentsline {subsection}{\numberline {E.1.2}Dez Objetos}{295}% 
-\contentsline {subsection}{\numberline {E.1.3}Cinquenta Objetos}{295}% 
-\contentsline {subsection}{\numberline {E.1.4}Cem Objetos}{295}% 
-\contentsline {subsection}{\numberline {E.1.5}Quinhentos Objetos}{295}% 
-\contentsline {subsection}{\numberline {E.1.6}Mil Objetos}{295}% 
-\contentsline {section}{\numberline {E.2}\MakeUppercase {\emph {Runtime}}}{295}% 
-\contentsline {subsection}{\numberline {E.2.1}Um Objeto por segundo}{295}% 
-\contentsline {subsection}{\numberline {E.2.2}Dez Objetos por segundo}{295}% 
-\contentsline {subsection}{\numberline {E.2.3}Cinquenta Objetos por segundo}{295}% 
-\contentsline {subsection}{\numberline {E.2.4}Cem Objetos por segundo}{295}% 
-\contentsline {subsection}{\numberline {E.2.5}Quinhentos Objetos por segundo}{295}% 
-\contentsline {subsection}{\numberline {E.2.6}Mil Objetos por segundo}{295}% 
+\contentsline {subsection}{\numberline {5.2.2}\emph {Box Collider - Runtime}}{37}% 
+\contentsline {section}{\numberline {5.3}\MakeUppercase {Resultados com \emph {Circle Collider}}}{38}% 
+\contentsline {subsection}{\numberline {5.3.1}\emph {Circle Collider - Pre-Runtime}}{38}% 
+\contentsline {subsection}{\numberline {5.3.2}\emph {Circle Collider - Runtime}}{39}% 
+\contentsline {section}{\numberline {5.4}\MakeUppercase {Resultados com \emph {Edge Collider}}}{40}% 
+\contentsline {subsection}{\numberline {5.4.1}\emph {Edge Collider - Pre-Runtime}}{40}% 
+\contentsline {subsection}{\numberline {5.4.2}\emph {Edge Collider - Runtime}}{41}% 
+\contentsline {section}{\numberline {5.5}\MakeUppercase {Resultado com \emph {Polygon Collider}}}{42}% 
+\contentsline {subsection}{\numberline {5.5.1}\emph {Polygon Collider - Pre-Runtime}}{42}% 
+\contentsline {subsection}{\numberline {5.5.2}\emph {Polygon Collider - Runtime}}{44}% 
+\contentsline {chapter}{\numberline {6}\MakeUppercase {CONSIDERA\c C\~OES FINAIS}}{47}% 
+\contentsline {section}{\numberline {6.1}\MakeUppercase {Import\^ancia}}{47}% 
+\contentsline {section}{\numberline {6.2}\MakeUppercase {Resultados}}{47}% 
+\contentsline {section}{\numberline {6.3}\MakeUppercase {Trabalhos Futuros}}{48}% 
+\contentsline {chapter}{REFER\^ENCIAS}{49}% 
+\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Question\'ario - Pesquisa de Campo}}{51}% 
+\contentsline {chapter}{Ap\^endice{} B{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Resultados do Question\'ario}}{52}% 
+\contentsline {chapter}{Ap\^endice{} C{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Box Collider}}}{53}% 
+\contentsline {section}{\numberline {C.1}\MakeUppercase {\emph {Pre-Runtime}}}{53}% 
+\contentsline {subsection}{\numberline {C.1.1}Um Objeto}{53}% 
+\contentsline {subsection}{\numberline {C.1.2}Dez Objetos}{63}% 
+\contentsline {subsection}{\numberline {C.1.3}Cinquenta Objetos}{86}% 
+\contentsline {subsection}{\numberline {C.1.4}Cem Objetos}{135}% 
+\contentsline {subsection}{\numberline {C.1.5}Quinhentos Objetos}{184}% 
+\contentsline {subsection}{\numberline {C.1.6}Mil Objetos}{239}% 
+\contentsline {section}{\numberline {C.2}\MakeUppercase {\emph {Runtime}}}{292}% 
+\contentsline {subsection}{\numberline {C.2.1}Um Objeto por segundo}{292}% 
+\contentsline {subsection}{\numberline {C.2.2}Dez Objetos por segundo}{322}% 
+\contentsline {subsection}{\numberline {C.2.3}Cinquenta Objetos por segundo}{322}% 
+\contentsline {subsection}{\numberline {C.2.4}Cem Objetos por segundo}{322}% 
+\contentsline {subsection}{\numberline {C.2.5}Quinhentos Objetos por segundo}{322}% 
+\contentsline {subsection}{\numberline {C.2.6}Mil Objetos por segundo}{322}% 
+\contentsline {chapter}{Ap\^endice{} D{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Circle Collider}}}{324}% 
+\contentsline {section}{\numberline {D.1}\MakeUppercase {\emph {Pre-Runtime}}}{324}% 
+\contentsline {subsection}{\numberline {D.1.1}Um Objeto}{324}% 
+\contentsline {subsection}{\numberline {D.1.2}Dez Objetos}{324}% 
+\contentsline {subsection}{\numberline {D.1.3}Cinquenta Objetos}{324}% 
+\contentsline {subsection}{\numberline {D.1.4}Cem Objetos}{324}% 
+\contentsline {subsection}{\numberline {D.1.5}Quinhentos Objetos}{324}% 
+\contentsline {subsection}{\numberline {D.1.6}Mil Objetos}{324}% 
+\contentsline {section}{\numberline {D.2}\MakeUppercase {\emph {Runtime}}}{324}% 
+\contentsline {subsection}{\numberline {D.2.1}Um Objeto por segundo}{324}% 
+\contentsline {subsection}{\numberline {D.2.2}Dez Objetos por segundo}{324}% 
+\contentsline {subsection}{\numberline {D.2.3}Cinquenta Objetos por segundo}{324}% 
+\contentsline {subsection}{\numberline {D.2.4}Cem Objetos por segundo}{324}% 
+\contentsline {subsection}{\numberline {D.2.5}Quinhentos Objetos por segundo}{324}% 
+\contentsline {subsection}{\numberline {D.2.6}Mil Objetos por segundo}{324}% 
+\contentsline {chapter}{Ap\^endice{} E{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Edge Collider}}}{325}% 
+\contentsline {section}{\numberline {E.1}\MakeUppercase {\emph {Pre-Runtime}}}{325}% 
+\contentsline {subsection}{\numberline {E.1.1}Um Objeto}{325}% 
+\contentsline {subsection}{\numberline {E.1.2}Dez Objetos}{325}% 
+\contentsline {subsection}{\numberline {E.1.3}Cinquenta Objetos}{325}% 
+\contentsline {subsection}{\numberline {E.1.4}Cem Objetos}{325}% 
+\contentsline {subsection}{\numberline {E.1.5}Quinhentos Objetos}{325}% 
+\contentsline {subsection}{\numberline {E.1.6}Mil Objetos}{325}% 
+\contentsline {section}{\numberline {E.2}\MakeUppercase {\emph {Runtime}}}{325}% 
+\contentsline {subsection}{\numberline {E.2.1}Um Objeto por segundo}{325}% 
+\contentsline {subsection}{\numberline {E.2.2}Dez Objetos por segundo}{325}% 
+\contentsline {subsection}{\numberline {E.2.3}Cinquenta Objetos por segundo}{325}% 
+\contentsline {subsection}{\numberline {E.2.4}Cem Objetos por segundo}{325}% 
+\contentsline {subsection}{\numberline {E.2.5}Quinhentos Objetos por segundo}{325}% 
+\contentsline {subsection}{\numberline {E.2.6}Mil Objetos por segundo}{325}% 
+\contentsline {chapter}{Ap\^endice{} F{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Polygon Collider}}}{326}% 
+\contentsline {section}{\numberline {F.1}\MakeUppercase {\emph {Pre-Runtime}}}{326}% 
+\contentsline {subsection}{\numberline {F.1.1}Um Objeto}{326}% 
+\contentsline {subsection}{\numberline {F.1.2}Dez Objetos}{326}% 
+\contentsline {subsection}{\numberline {F.1.3}Cinquenta Objetos}{326}% 
+\contentsline {subsection}{\numberline {F.1.4}Cem Objetos}{326}% 
+\contentsline {subsection}{\numberline {F.1.5}Quinhentos Objetos}{326}% 
+\contentsline {subsection}{\numberline {F.1.6}Mil Objetos}{326}% 
+\contentsline {section}{\numberline {F.2}\MakeUppercase {\emph {Runtime}}}{326}% 
+\contentsline {subsection}{\numberline {F.2.1}Um Objeto por segundo}{326}% 
+\contentsline {subsection}{\numberline {F.2.2}Dez Objetos por segundo}{326}% 
+\contentsline {subsection}{\numberline {F.2.3}Cinquenta Objetos por segundo}{326}% 
+\contentsline {subsection}{\numberline {F.2.4}Cem Objetos por segundo}{326}% 
+\contentsline {subsection}{\numberline {F.2.5}Quinhentos Objetos por segundo}{326}% 
+\contentsline {subsection}{\numberline {F.2.6}Mil Objetos por segundo}{326}% 

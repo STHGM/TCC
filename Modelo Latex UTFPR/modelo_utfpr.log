@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  20 OCT 2019 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  24 OCT 2019 00:37
 entering extended mode
 **./modelo_utfpr.tex
 (modelo_utfpr.tex
@@ -619,7 +619,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 54.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 56.
  [7])
 \tf@toc=\write5
 \openout5 = `modelo_utfpr.toc'.
@@ -784,43 +784,45 @@ Cap\'{\i }tulo 4.
 
 
 ]
-Overfull \hbox (22.67401pt too wide) in paragraph at lines 39--40
-[]\OT1/ptm/m/n/12 Os ti-pos de co-lis[]oes apre-sen-ta-das no for-mul[]ario s[]
-ao as mes-mas apre-sen-ta-das na subse[][]ao 2.2.1[].
- []
-
 <./Figuras/profiler_unity_01.png, id=122, 952.30782pt x 475.7775pt>
 File: ./Figuras/profiler_unity_01.png Graphic file (type png)
 <use ./Figuras/profiler_unity_01.png>
 Package pdftex.def Info: ./Figuras/profiler_unity_01.png  used on input line 54
 .
 (pdftex.def)             Requested size: 455.24411pt x 227.44135pt.
-[30] [31 <./Figuras/profiler_unity_01.png>]
-Overfull \hbox (14.90735pt too wide) in paragraph at lines 90--91
+ [30]
+Overfull \hbox (20.10185pt too wide) in paragraph at lines 66--67
+[]\OT1/ptm/m/n/12 As men-sa-gens de \OT1/ptm/m/it/12 On-Col-li-sion2D \OT1/ptm/
+m/n/12 ana-li-sa-das s[]ao as mes-mas apre-sen-ta-das na subse[][]ao 2.2.2[].
+ []
+
+
+Overfull \hbox (14.90735pt too wide) in paragraph at lines 82--83
 []\OT1/ptm/m/n/12 Por padr[]ao, o \OT1/ptm/m/it/12 Pro-fi-ler \OT1/ptm/m/n/12 d
 a \OT1/ptm/m/it/12 Unity\OT1/ptm/m/n/12 , n[]ao []e ca-paz de sal-var os da-dos
  co-le-ta-dos para visualiza[][]ao,
  []
 
+[31 <./Figuras/profiler_unity_01.png>]
 <./Figuras/profiler_data_exporter.png, id=131, 393.72093pt x 290.58563pt>
 File: ./Figuras/profiler_data_exporter.png Graphic file (type png)
 <use ./Figuras/profiler_data_exporter.png>
 Package pdftex.def Info: ./Figuras/profiler_data_exporter.png  used on input li
-ne 94.
+ne 86.
 (pdftex.def)             Requested size: 341.43307pt x 251.9916pt.
-[32 <./Figuras/profiler_data_exporter.png>]
+ [32 <./Figuras/profiler_data_exporter.png>]
 <./Figuras/exemplo_cenario.png, id=136, 660.96938pt x 496.10344pt>
 File: ./Figuras/exemplo_cenario.png Graphic file (type png)
 <use ./Figuras/exemplo_cenario.png>
-Package pdftex.def Info: ./Figuras/exemplo_cenario.png  used on input line 110.
+Package pdftex.def Info: ./Figuras/exemplo_cenario.png  used on input line 102.
 
 (pdftex.def)             Requested size: 341.43307pt x 256.2796pt.
- [33 <./Figuras/exemplo_cenario.png>]) [34]
+) [33 <./Figuras/exemplo_cenario.png>]
 \openout2 = `./Capitulos/capitulo5.aux'.
 
  (Capitulos/capitulo5.tex
 Cap\'{\i }tulo 5.
-<./Figuras/Questionario/resultado/04_colliders_2D_mais.png, id=144, 602.25pt x 
+<./Figuras/Questionario/resultado/04_colliders_2D_mais.png, id=141, 602.25pt x 
 372.39125pt>
 File: ./Figuras/Questionario/resultado/04_colliders_2D_mais.png Graphic file (t
 ype png)
@@ -828,205 +830,207 @@ ype png)
 Package pdftex.def Info: ./Figuras/Questionario/resultado/04_colliders_2D_mais.
 png  used on input line 17.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/05_mensagens_2D_mais.png, id=145, 602.25pt x 
+<./Figuras/Questionario/resultado/05_mensagens_2D_mais.png, id=142, 602.25pt x 
 372.39125pt>
 File: ./Figuras/Questionario/resultado/05_mensagens_2D_mais.png Graphic file (t
 ype png)
 <use ./Figuras/Questionario/resultado/05_mensagens_2D_mais.png>
 Package pdftex.def Info: ./Figuras/Questionario/resultado/05_mensagens_2D_mais.
-png  used on input line 26.
+png  used on input line 28.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/06_media_2D.png, id=146, 602.25pt x 372.39125
+<./Figuras/Questionario/resultado/06_media_2D.png, id=143, 602.25pt x 372.39125
 pt>
 File: ./Figuras/Questionario/resultado/06_media_2D.png Graphic file (type png)
 <use ./Figuras/Questionario/resultado/06_media_2D.png>
 Package pdftex.def Info: ./Figuras/Questionario/resultado/06_media_2D.png  used
- on input line 33.
+ on input line 35.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-[35
+[34
 
 
 
-]
-<./Figuras/Testes/Box/new/0010_Static.png, id=150, 1077.27469pt x 520.19344pt>
+] [35 <./Figuras/Questionario/resultado/04_colliders_2D_mais.png> <./Figuras/Qu
+estionario/resultado/05_mensagens_2D_mais.png>]
+<./Figuras/Testes/Box/new/0010_Static.png, id=152, 1077.27469pt x 434.37282pt>
 File: ./Figuras/Testes/Box/new/0010_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0010_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0010_Static.png  used on inpu
-t line 48.
-(pdftex.def)             Requested size: 341.43307pt x 164.86986pt.
-<./Figuras/Testes/Box/new/0500_Static.png, id=151, 1075.76906pt x 523.20468pt>
+t line 50.
+(pdftex.def)             Requested size: 455.24411pt x 183.56209pt.
+<./Figuras/Testes/Box/new/0500_Static.png, id=153, 1075.76906pt x 434.37282pt>
 File: ./Figuras/Testes/Box/new/0500_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0500_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0500_Static.png  used on inpu
-t line 55.
-(pdftex.def)             Requested size: 341.43307pt x 166.05576pt.
- [36 <./Figuras/Questionario/resultado/04_colliders_2D_mais.png> <./Figuras/Que
-stionario/resultado/05_mensagens_2D_mais.png>]
-<./Figuras/Testes/Box/new/1000_Static.png, id=158, 1072.75781pt x 516.42938pt>
+t line 57.
+(pdftex.def)             Requested size: 455.24411pt x 183.82059pt.
+<./Figuras/Testes/Box/new/1000_Static.png, id=154, 1072.75781pt x 426.84468pt>
 File: ./Figuras/Testes/Box/new/1000_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/1000_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/1000_Static.png  used on inpu
-t line 64.
-(pdftex.def)             Requested size: 341.43307pt x 164.36244pt.
- [37 <./Figuras/Questionario/resultado/06_media_2D.png> <./Figuras/Testes/Box/n
-ew/0010_Static.png> <./Figuras/Testes/Box/new/0500_Static.png>]
-<./Figuras/Testes/Box/new/0010_Dynamic.png, id=165, 1074.26344pt x 518.6878pt>
+t line 66.
+(pdftex.def)             Requested size: 455.24411pt x 181.13629pt.
+ [36 <./Figuras/Questionario/resultado/06_media_2D.png> <./Figuras/Testes/Box/n
+ew/0010_Static.png>]
+<./Figuras/Testes/Box/new/0010_Dynamic.png, id=161, 1074.26344pt x 432.86719pt>
+
 File: ./Figuras/Testes/Box/new/0010_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0010_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0010_Dynamic.png  used on inp
-ut line 75.
-(pdftex.def)             Requested size: 341.43307pt x 164.8517pt.
-<./Figuras/Testes/Box/new/0100_Dynamic.png, id=166, 1077.27469pt x 523.9575pt>
+ut line 77.
+(pdftex.def)             Requested size: 455.24411pt x 183.4344pt.
+<./Figuras/Testes/Box/new/0100_Dynamic.png, id=162, 1077.27469pt x 431.36156pt>
+
 File: ./Figuras/Testes/Box/new/0100_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0100_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0100_Dynamic.png  used on inp
-ut line 84.
-(pdftex.def)             Requested size: 341.43307pt x 166.06284pt.
- [38 <./Figuras/Testes/Box/new/1000_Static.png> <./Figuras/Testes/Box/new/0010_
-Dynamic.png>]
-<./Figuras/Testes/Circle/new/0050_Static.png, id=172, 1075.76906pt x 521.69907p
+ut line 86.
+(pdftex.def)             Requested size: 455.24411pt x 182.28957pt.
+ [37 <./Figuras/Testes/Box/new/0500_Static.png> <./Figuras/Testes/Box/new/1000_
+Static.png>]
+<./Figuras/Testes/Circle/new/0050_Static.png, id=168, 1075.76906pt x 432.86719p
 t>
 File: ./Figuras/Testes/Circle/new/0050_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/0050_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/0050_Static.png  used on i
-nput line 97.
-(pdftex.def)             Requested size: 341.43307pt x 165.5779pt.
-<./Figuras/Testes/Circle/new/1000_Static.png, id=173, 1074.26344pt x 518.6878pt
->
+nput line 99.
+(pdftex.def)             Requested size: 455.24411pt x 183.18341pt.
+<./Figuras/Testes/Circle/new/1000_Static.png, id=169, 1074.26344pt x 431.36156p
+t>
 File: ./Figuras/Testes/Circle/new/1000_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/1000_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/1000_Static.png  used on i
-nput line 106.
-(pdftex.def)             Requested size: 341.43307pt x 164.8517pt.
- [39 <./Figuras/Testes/Box/new/0100_Dynamic.png> <./Figuras/Testes/Circle/new/0
-050_Static.png>]
-<./Figuras/Testes/Circle/new/0050_Dynamic.png, id=179, 1073.51062pt x 523.20468
+nput line 108.
+(pdftex.def)             Requested size: 455.24411pt x 182.79637pt.
+ [38 <./Figuras/Testes/Box/new/0010_Dynamic.png> <./Figuras/Testes/Box/new/0100
+_Dynamic.png>]
+<./Figuras/Testes/Circle/new/0050_Dynamic.png, id=175, 1073.51062pt x 431.36156
 pt>
 File: ./Figuras/Testes/Circle/new/0050_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/0050_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/0050_Dynamic.png  used on 
-input line 117.
-(pdftex.def)             Requested size: 341.43307pt x 166.40703pt.
-<./Figuras/Testes/Circle/new/0100_Dynamic.png, id=180, 1078.0275pt x 523.9575pt
->
+input line 119.
+(pdftex.def)             Requested size: 455.24411pt x 182.92802pt.
+<./Figuras/Testes/Circle/new/0100_Dynamic.png, id=176, 1078.0275pt x 432.11438p
+t>
 File: ./Figuras/Testes/Circle/new/0100_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/0100_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/0100_Dynamic.png  used on 
-input line 126.
-(pdftex.def)             Requested size: 341.43307pt x 165.95091pt.
- [40 <./Figuras/Testes/Circle/new/1000_Static.png> <./Figuras/Testes/Circle/new
-/0050_Dynamic.png>]
+input line 128.
+(pdftex.def)             Requested size: 455.24411pt x 182.48242pt.
+ [39 <./Figuras/Testes/Circle/new/0050_Static.png> <./Figuras/Testes/Circle/new
+/1000_Static.png>]
 File: ./Figuras/Testes/Circle/new/1000_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/1000_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/1000_Static.png  used on i
-nput line 139.
-(pdftex.def)             Requested size: 341.43307pt x 164.8517pt.
- [41 <./Figuras/Testes/Circle/new/0100_Dynamic.png>]
-<./Figuras/Testes/Edge/new/1000_Static_Artifact.png, id=190, 654.94687pt x 429.
+nput line 141.
+(pdftex.def)             Requested size: 455.24411pt x 182.79637pt.
+ [40 <./Figuras/Testes/Circle/new/0050_Dynamic.png> <./Figuras/Testes/Circle/ne
+w/0100_Dynamic.png>]
+<./Figuras/Testes/Edge/new/1000_Static_Artifact.png, id=187, 654.94687pt x 429.
 85594pt>
 File: ./Figuras/Testes/Edge/new/1000_Static_Artifact.png Graphic file (type png
 )
 <use ./Figuras/Testes/Edge/new/1000_Static_Artifact.png>
 Package pdftex.def Info: ./Figuras/Testes/Edge/new/1000_Static_Artifact.png  us
-ed on input line 148.
+ed on input line 150.
 (pdftex.def)             Requested size: 341.43307pt x 224.09045pt.
-<./Figuras/Testes/Edge/new/1000_Dynamic.png, id=191, 1074.26344pt x 522.45187pt
+ [41 <./Figuras/Testes/Edge/new/1000_Static_Artifact.png>]
+<./Figuras/Testes/Edge/new/1000_Dynamic.png, id=192, 1074.26344pt x 432.11438pt
 >
 File: ./Figuras/Testes/Edge/new/1000_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Edge/new/1000_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Edge/new/1000_Dynamic.png  used on in
-put line 159.
-(pdftex.def)             Requested size: 341.43307pt x 166.04802pt.
- [42 <./Figuras/Testes/Edge/new/1000_Static_Artifact.png> <./Figuras/Testes/Edg
-e/new/1000_Dynamic.png>]
-<./Figuras/Testes/Polygon/new/0010_Static.png, id=198, 1072.75781pt x 518.6878p
+put line 161.
+(pdftex.def)             Requested size: 455.24411pt x 183.11539pt.
+<./Figuras/Testes/Polygon/new/0010_Static.png, id=193, 1072.75781pt x 427.5975p
 t>
 File: ./Figuras/Testes/Polygon/new/0010_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0010_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0010_Static.png  used on 
-input line 176.
-(pdftex.def)             Requested size: 341.43307pt x 165.08122pt.
-<./Figuras/Testes/Polygon/new/0050_Static.png, id=199, 1074.26344pt x 520.19344
-pt>
+input line 178.
+(pdftex.def)             Requested size: 455.24411pt x 181.45575pt.
+<./Figuras/Testes/Polygon/new/0050_Static.png, id=194, 1074.26344pt x 433.62pt>
+
 File: ./Figuras/Testes/Polygon/new/0050_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0050_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Static.png  used on 
-input line 185.
-(pdftex.def)             Requested size: 341.43307pt x 165.33023pt.
-<./Figuras/Testes/Polygon/new/0100_Static.png, id=200, 1072.75781pt x 517.18219
+input line 187.
+(pdftex.def)             Requested size: 455.24411pt x 183.75343pt.
+<./Figuras/Testes/Polygon/new/0100_Static.png, id=195, 1072.75781pt x 432.11438
 pt>
 File: ./Figuras/Testes/Polygon/new/0100_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0100_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0100_Static.png  used on 
-input line 194.
-(pdftex.def)             Requested size: 341.43307pt x 164.60204pt.
-<./Figuras/Testes/Polygon/new/0500_Static.png, id=201, 1071.25218pt x 518.6878p
-t>
+input line 196.
+(pdftex.def)             Requested size: 455.24411pt x 183.37254pt.
+ [42 <./Figuras/Testes/Edge/new/1000_Dynamic.png>] [43 <./Figuras/Testes/Polygo
+n/new/0010_Static.png> <./Figuras/Testes/Polygon/new/0050_Static.png> <./Figura
+s/Testes/Polygon/new/0100_Static.png>]
+<./Figuras/Testes/Polygon/new/0500_Static.png, id=207, 1071.25218pt x 431.36156
+pt>
 File: ./Figuras/Testes/Polygon/new/0500_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0500_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0500_Static.png  used on 
-input line 203.
-(pdftex.def)             Requested size: 341.43307pt x 165.31866pt.
-[43 <./Figuras/Testes/Polygon/new/0010_Static.png>]
-<./Figuras/Testes/Polygon/new/1000_Static_FPS.png, id=206, 655.69969pt x 453.94
+input line 205.
+(pdftex.def)             Requested size: 455.24411pt x 183.31636pt.
+<./Figuras/Testes/Polygon/new/1000_Static_FPS.png, id=208, 655.69969pt x 453.94
 594pt>
 File: ./Figuras/Testes/Polygon/new/1000_Static_FPS.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/1000_Static_FPS.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/1000_Static_FPS.png  used
- on input line 210.
+ on input line 212.
 (pdftex.def)             Requested size: 341.43307pt x 236.3788pt.
- [44 <./Figuras/Testes/Polygon/new/0050_Static.png> <./Figuras/Testes/Polygon/n
-ew/0100_Static.png> <./Figuras/Testes/Polygon/new/0500_Static.png>]
-<./Figuras/Testes/Polygon/new/0001_Dynamic.png, id=213, 1078.0275pt x 524.71031
+<./Figuras/Testes/Polygon/new/0001_Dynamic.png, id=209, 1078.0275pt x 431.36156
 pt>
 File: ./Figuras/Testes/Polygon/new/0001_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0001_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0001_Dynamic.png  used on
- input line 221.
-(pdftex.def)             Requested size: 341.43307pt x 166.18935pt.
-<./Figuras/Testes/Polygon/new/0010_Dynamic.png, id=214, 1076.52188pt x 522.4518
-7pt>
+ input line 223.
+(pdftex.def)             Requested size: 455.24411pt x 182.1645pt.
+
+[44 <./Figuras/Testes/Polygon/new/0500_Static.png> <./Figuras/Testes/Polygon/ne
+w/1000_Static_FPS.png>]
+<./Figuras/Testes/Polygon/new/0010_Dynamic.png, id=215, 1076.52188pt x 427.5975
+pt>
 File: ./Figuras/Testes/Polygon/new/0010_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0010_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0010_Dynamic.png  used on
- input line 230.
-(pdftex.def)             Requested size: 341.43307pt x 165.70523pt.
- [45 <./Figuras/Testes/Polygon/new/1000_Static_FPS.png> <./Figuras/Testes/Polyg
-on/new/0001_Dynamic.png>]
-<./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png, id=220, 1074.26344pt x 44
-8.67625pt>
+ input line 232.
+(pdftex.def)             Requested size: 455.24411pt x 180.82288pt.
+<./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png, id=216, 1074.26344pt x 43
+7.38406pt>
 File: ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png Graphic file (type pn
 g)
 <use ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png  u
-sed on input line 239.
-(pdftex.def)             Requested size: 341.43307pt x 142.60031pt.
-<./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png, id=221, 653.44125pt x 459.2
-1562pt>
+sed on input line 241.
+(pdftex.def)             Requested size: 455.24411pt x 185.34851pt.
+<./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png, id=217, 652.68843pt x 450.1
+8187pt>
 File: ./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png Graphic file (type png)
 
 <use ./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png  use
-d on input line 246.
-(pdftex.def)             Requested size: 341.43307pt x 239.94264pt.
+d on input line 248.
+(pdftex.def)             Requested size: 341.43307pt x 235.5041pt.
 
-Overfull \hbox (4.88841pt too wide) in paragraph at lines 251--252
+Overfull \hbox (4.88841pt too wide) in paragraph at lines 253--254
 []\OT1/ptm/m/n/12 Com cem ob-je-tos por se-gundo, o pro-grama ini-cia, por[]em 
 n[]ao pros-se-gue com a execu[][]ao.
  []
 
-) [46 <./Figuras/Testes/Polygon/new/0010_Dynamic.png> <./Figuras/Testes/Polygon
-/new/0050_Dynamic_Stats.png>] [47 <./Figuras/Testes/Polygon/new/0050_Dynamic_FP
-S.png>]
+[45 <./Figuras/Testes/Polygon/new/0001_Dynamic.png> <./Figuras/Testes/Polygon/n
+ew/0010_Dynamic.png>]) [46 <./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png
+> <./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png>]
 \openout2 = `./Capitulos/capitulo6.aux'.
 
  (Capitulos/capitulo6.tex
 Cap\'{\i }tulo 6.
-[48
+[47
 
 
 
-]) [49] (modelo_utfpr.bbl
+]) [48] (modelo_utfpr.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
 []\OT1/ptm/m/n/12 ARMSTRONG, W. \OT1/ptm/b/n/12 Spo-tlight Team Best Prac-ti-ce
 s: Col-li-sion Per-for-mance
@@ -1098,7 +1102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--102
 problem-you-face-as-a-independent-game-
  []
 
-[50
+[49
 
 
 ]
@@ -1119,211 +1123,247 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--143
 icia/numero-de-desenvolvedores-de-games-
  []
 
-) [51]
+) [50]
 \openout2 = `./Pos-Textuais/apendice1.aux'.
 
  (Pos-Textuais/apendice1.tex
 Apendice A.
-
-Underfull \vbox (badness 10000) detected at line 55
- []
+[51
 
 
-Underfull \vbox (badness 10000) detected at line 104
- []
-
+]
+Apendice B.
 [52
 
+]
+Apendice C.
 
-] [53]
-Underfull \vbox (badness 10000) detected at line 194
+Underfull \vbox (badness 10000) detected at line 58
  []
 
 
-Underfull \vbox (badness 10000) detected at line 242
+Underfull \vbox (badness 10000) detected at line 107
  []
 
-[54]
-Underfull \vbox (badness 10000) detected at line 291
+[53
+
+] [54]
+Underfull \vbox (badness 10000) detected at line 197
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 245
  []
 
 [55]
-Underfull \vbox (badness 10000) detected at line 371
+Underfull \vbox (badness 10000) detected at line 294
  []
 
-[56] [57] [58] [59] [60] [61]
-Underfull \vbox (badness 10000) detected at line 733
+[56]
+Underfull \vbox (badness 10000) detected at line 374
  []
 
-[62]
-Underfull \vbox (badness 10000) detected at line 809
+[57] [58] [59] [60] [61] [62]
+Underfull \vbox (badness 10000) detected at line 736
  []
 
 [63]
-Underfull \vbox (badness 10000) detected at line 885
+Underfull \vbox (badness 10000) detected at line 812
  []
 
-[64] [65] [66] [67] [68] [69]
-Underfull \vbox (badness 10000) detected at line 1277
+[64]
+Underfull \vbox (badness 10000) detected at line 888
  []
 
-[70]
-Underfull \vbox (badness 10000) detected at line 1395
+[65] [66] [67] [68] [69] [70]
+Underfull \vbox (badness 10000) detected at line 1280
  []
 
 [71]
-Underfull \vbox (badness 10000) detected at line 1471
+Underfull \vbox (badness 10000) detected at line 1398
  []
 
-[72] [73] [74] [75] [76]
-Underfull \vbox (badness 10000) detected at line 1789
+[72]
+Underfull \vbox (badness 10000) detected at line 1474
  []
 
-[77] [78] [79] [80] [81] [82] [83] [84]
-Underfull \vbox (badness 10000) detected at line 2359
+[73] [74] [75] [76] [77]
+Underfull \vbox (badness 10000) detected at line 1792
  []
 
-[85] [86] [87] [88] [89] [90] [91]
-Underfull \vbox (badness 10000) detected at line 2833
+[78] [79] [80] [81] [82] [83] [84] [85]
+Underfull \vbox (badness 10000) detected at line 2362
  []
 
-[92] [93] [94] [95] [96] [97] [98]
-Underfull \vbox (badness 10000) detected at line 3267
+[86] [87] [88] [89] [90] [91] [92]
+Underfull \vbox (badness 10000) detected at line 2836
  []
 
-[99] [100] [101] [102] [103] [104] [105] [106]
-Underfull \vbox (badness 10000) detected at line 3855
+[93] [94] [95] [96] [97] [98] [99]
+Underfull \vbox (badness 10000) detected at line 3270
  []
 
-[107] [108] [109] [110] [111] [112]
-Underfull \vbox (badness 10000) detected at line 4237
+[100] [101] [102] [103] [104] [105] [106] [107]
+Underfull \vbox (badness 10000) detected at line 3858
  []
 
-[113] [114] [115] [116] [117]
-Underfull \vbox (badness 10000) detected at line 4603
+[108] [109] [110] [111] [112] [113]
+Underfull \vbox (badness 10000) detected at line 4240
  []
 
-[118] [119] [120] [121] [122] [123] [124] [125]
-Underfull \vbox (badness 10000) detected at line 5117
+[114] [115] [116] [117] [118]
+Underfull \vbox (badness 10000) detected at line 4606
  []
 
-[126] [127] [128] [129] [130] [131] [132] [133]
-Underfull \vbox (badness 10000) detected at line 5707
+[119] [120] [121] [122] [123] [124] [125] [126]
+Underfull \vbox (badness 10000) detected at line 5120
  []
 
-[134] [135] [136] [137] [138] [139] [140] [141] [142]
-Underfull \vbox (badness 10000) detected at line 6263
+[127] [128] [129] [130] [131] [132] [133] [134]
+Underfull \vbox (badness 10000) detected at line 5710
  []
 
-[143] [144] [145] [146] [147] [148] [149] [150]
-Underfull \vbox (badness 10000) detected at line 6799
+[135] [136] [137] [138] [139] [140] [141] [142] [143]
+Underfull \vbox (badness 10000) detected at line 6266
  []
 
-[151] [152] [153] [154] [155] [156] [157] [158]
-Underfull \vbox (badness 10000) detected at line 7409
+[144] [145] [146] [147] [148] [149] [150] [151]
+Underfull \vbox (badness 10000) detected at line 6802
  []
 
-[159] [160] [161] [162]
-Underfull \vbox (badness 10000) detected at line 7623
+[152] [153] [154] [155] [156] [157] [158] [159]
+Underfull \vbox (badness 10000) detected at line 7412
  []
 
-[163] [164]
-Underfull \vbox (badness 10000) detected at line 7783
+[160] [161] [162] [163]
+Underfull \vbox (badness 10000) detected at line 7626
  []
 
-[165] [166] [167] [168] [169] [170] [171] [172] [173]
-Underfull \hbox (badness 10000) in paragraph at lines 8350--8350
+[164] [165]
+Underfull \vbox (badness 10000) detected at line 7786
+ []
+
+[166] [167] [168] [169] [170] [171] [172] [173] [174]
+Underfull \hbox (badness 10000) in paragraph at lines 8353--8353
 []\OT1/ptm/b/n/12 Tabela 31\OT1/ptm/m/n/12 : 100 Ob-je-tos Pre-Runtime Box Phy-
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 8393
+Underfull \vbox (badness 10000) detected at line 8396
  []
 
-[174] [175] [176] [177] [178] [179] [180] [181] [182]
-Underfull \vbox (badness 10000) detected at line 9006
+[175] [176] [177] [178] [179] [180] [181] [182] [183]
+Underfull \vbox (badness 10000) detected at line 9009
  []
 
-[183] [184] [185] [186] [187] [188] [189]
-Underfull \vbox (badness 10000) detected at line 9522
+[184] [185] [186] [187] [188] [189] [190]
+Underfull \vbox (badness 10000) detected at line 9525
  []
 
-[190] [191] [192] [193] [194] [195] [196] [197]
-Underfull \vbox (badness 10000) detected at line 10018
+[191] [192] [193] [194] [195] [196] [197] [198]
+Underfull \vbox (badness 10000) detected at line 10021
  []
 
-[198] [199] [200] [201] [202] [203] [204] [205] [206]
-Underfull \vbox (badness 10000) detected at line 10628
+[199] [200] [201] [202] [203] [204] [205] [206] [207]
+Underfull \vbox (badness 10000) detected at line 10631
  []
 
-[207] [208] [209] [210] [211] [212] [213]
-Underfull \vbox (badness 10000) detected at line 11148
+[208] [209] [210] [211] [212] [213] [214]
+Underfull \vbox (badness 10000) detected at line 11151
  []
 
-[214] [215] [216] [217] [218] [219]
-Underfull \vbox (badness 10000) detected at line 11552
+[215] [216] [217] [218] [219] [220]
+Underfull \vbox (badness 10000) detected at line 11555
  []
 
-[220] [221] [222] [223] [224] [225] [226] [227] [228]
-Underfull \hbox (badness 10000) in paragraph at lines 12085--12085
+[221] [222] [223] [224] [225] [226] [227] [228] [229]
+Underfull \hbox (badness 10000) in paragraph at lines 12088--12088
 []\OT1/ptm/b/n/12 Tabela 38\OT1/ptm/m/n/12 : 500 Ob-je-tos Pre-Runtime Box Phy-
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 12128
+Underfull \vbox (badness 10000) detected at line 12131
  []
 
-[229] [230] [231] [232] [233] [234] [235] [236] [237]
-Underfull \vbox (badness 10000) detected at line 12741
+[230] [231] [232] [233] [234] [235] [236] [237] [238]
+Underfull \vbox (badness 10000) detected at line 12744
  []
 
-[238] [239] [240] [241] [242] [243] [244]
-Underfull \vbox (badness 10000) detected at line 13237
+[239] [240] [241] [242] [243] [244] [245]
+Underfull \vbox (badness 10000) detected at line 13240
  []
 
-[245] [246] [247] [248] [249] [250] [251]
-Underfull \vbox (badness 10000) detected at line 13713
+[246] [247] [248] [249] [250] [251] [252]
+Underfull \vbox (badness 10000) detected at line 13716
  []
 
-[252] [253] [254] [255] [256] [257] [258] [259] [260]
-Underfull \vbox (badness 10000) detected at line 14323
+[253] [254] [255] [256] [257] [258] [259] [260] [261]
+Underfull \vbox (badness 10000) detected at line 14326
  []
 
-[261] [262] [263] [264] [265] [266] [267]
-Underfull \vbox (badness 10000) detected at line 14783
+[262] [263] [264] [265] [266] [267] [268]
+Underfull \vbox (badness 10000) detected at line 14786
  []
 
-[268] [269] [270] [271] [272] [273]
-Underfull \vbox (badness 10000) detected at line 15207
+[269] [270] [271] [272] [273] [274]
+Underfull \vbox (badness 10000) detected at line 15210
  []
 
-[274] [275] [276] [277] [278] [279] [280] [281]
-Underfull \hbox (badness 10000) in paragraph at lines 15720--15720
+[275] [276] [277] [278] [279] [280] [281] [282]
+Underfull \hbox (badness 10000) in paragraph at lines 15723--15723
 []\OT1/ptm/b/n/12 Tabela 45\OT1/ptm/m/n/12 : 1000 Ob-je-tos Pre-Runtime Box Phy
 -
  []
 
 
-Underfull \vbox (badness 10000) detected at line 15763
+Underfull \vbox (badness 10000) detected at line 15766
  []
 
-[282] [283] [284] [285] [286] [287] [288] [289] [290] [291]
-Apendice B.
-[292
+[283] [284] [285] [286] [287] [288] [289] [290] [291]
+Underfull \vbox (badness 10000) detected at line 16382
+ []
 
-]
-Apendice C.
-[293
+[292] [293]
+Underfull \vbox (badness 10000) detected at line 16522
+ []
 
-]
+[294] [295]
+Underfull \vbox (badness 10000) detected at line 16616
+ []
+
+[296] [297] [298] [299] [300] [301] [302]
+Underfull \vbox (badness 10000) detected at line 17120
+ []
+
+[303] [304]
+Underfull \vbox (badness 10000) detected at line 17236
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 17286
+ []
+
+[305] [306] [307] [308] [309] [310] [311] [312]
+Underfull \vbox (badness 10000) detected at line 17810
+ []
+
+[313] [314] [315] [316] [317] [318] [319] [320] [321]
+
+LaTeX Warning: Float too large for page by 51.95007pt on input line 18456.
+
+[322] [323]
 Apendice D.
-[294
+[324
 
 ]
 Apendice E.
-) [295
+[325
+
+]
+Apendice F.
+) [326
 
 ] 
 AED: lastpage setting LastPage
@@ -1335,10 +1375,10 @@ AED: lastpage setting LastPage
 (Capitulos/capitulo3.aux) (Capitulos/capitulo4.aux) (Capitulos/capitulo5.aux)
 (Capitulos/capitulo6.aux) (Pos-Textuais/apendice1.aux)) ) 
 Here is how much of TeX's memory you used:
- 6245 strings out of 492895
- 101533 string characters out of 3123735
- 243212 words of memory out of 3000000
- 9845 multiletter control sequences out of 15000+200000
+ 6261 strings out of 492895
+ 101910 string characters out of 3123735
+ 243868 words of memory out of 3000000
+ 9861 multiletter control sequences out of 15000+200000
  36620 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,19n,52p,909b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1351,9 +1391,9 @@ fb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb
 utmbi8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (296 pages, 3473176 bytes).
+Output written on modelo_utfpr.pdf (327 pages, 3517447 bytes).
 PDF statistics:
- 1050 PDF objects out of 1200 (max. 8388607)
+ 1149 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

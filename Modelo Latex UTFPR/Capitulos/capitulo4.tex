@@ -36,7 +36,7 @@ O formulário é separado em quatro setores:
 	
 	Quais os tipos de colisões mais utilizados em um cenário de jogo 2D, bem como as mensagens mais utilizadas para a manipulação de eventos e a média total de objetos com qualquer tipo de colisão em uma cena.
 	
-	Os tipos de colisões apresentadas no formulário são as mesmas apresentadas na subseção~\ref{subsec:colliders2d}. E as mensagens apresentadas são as mesmas já explicadas na subseção~\ref{subsec:mensagenscolliders}.
+	Os tipos de colisões apresentadas no formulário são as mesmas apresentadas na subseção ~\ref{subsec:colliders2d}. E as mensagens apresentadas são as mesmas já explicadas na subseção ~\ref{subsec:mensagenscolliders}.
 	
 	\item Perguntas relacionadas à colisões 3D
 	
@@ -45,7 +45,7 @@ O formulário é separado em quatro setores:
 	
 \end{itemize}
 
-Enquanto o formulário se encontra aberto para ser respondido, os resultados pode ser acompanhados em tempo real. O que permite ter uma visão desde o início dos resultados e como eles vão progredindo com o passar do tempo.
+Enquanto o formulário se encontra aberto para ser respondido, os resultados podem ser acompanhados em tempo real. O que permite ter uma visão desde o início dos resultados e como eles vão progredindo com o passar do tempo.
 
 \section{\emph{Profiler} da \emph{Unity}}
 
@@ -59,35 +59,27 @@ Enquanto o formulário se encontra aberto para ser respondido, os resultados pode
 
 \emph{Profiler} é uma ferramenta que permite a análise em tempo real dos dados e detalhes de uma cena durante sua execução.
 
-Os dados coletados são divididos em vários setores, no entanto, apenas quatro atributos em uso de CPU serão o foco deste projeto, que são porcentagem de uso total, chamadas, memória alocada pelo \emph{Garbage Collector} e tempo total em milissegundos(ms). O \emph{Profiler} permite também que os dados sejam coletados por métodos, os que usaremos como coleta de dados dos atributos anteriormente mencionados são \emph{Physics2D.Simulate}, as mensagens \emph{OnCollision2D} e \emph{OnTrigger2D}.
+Os dados coletados são divididos em vários setores, no entanto, apenas quatro atributos em uso de CPU são o foco deste projeto, que são porcentagem de uso total, chamadas, memória alocada pelo \emph{Garbage Collector} e tempo total em milissegundos(ms). O \emph{Profiler} permite também que os dados sejam coletados por métodos. Serão usados como coleta de dados os atributos já mencionados: \emph{Physics2D.Simulate}, as mensagens \emph{OnCollision2D} e \emph{OnTrigger2D}.
 
 \emph{Physics2D.Simulate} é o método responsável por toda a simulação de física presente na cena, qualquer objeto estático, que tenha massa, corpo rígido ou \emph{trigger} é simulado por ele.
 
-As mensagens de \emph{OnCollision2D} que serão analisadas são as mesmas apresentadas na subseção~\ref{subsec:mensagenscolliders}. No mesmo padrão seguem as mensagens de \emph{OnTrigger2D} na subseção~\ref{subsec:mensagenstriggers}.
+As mensagens de \emph{OnCollision2D} analisadas são as mesmas apresentadas na subseção~\ref{subsec:mensagenscolliders}. No mesmo padrão seguem as mensagens de \emph{OnTrigger2D} na subseção~\ref{subsec:mensagenstriggers}.
 
 \begin{itemize}
-	\item Porcentagem do uso total de CPU
+	\item Porcentagem do uso total de CPU: Porcentagem do uso total de CPU de um método em. determinado quadro.
 	
-	Porcentagem do uso total de CPU de um método em determinado quadro.
+	\item Chamadas (\emph{Calls}): O número de vezes que o método foi chamado em determinado quadro.
 	
-	\item Chamadas (\emph{Calls})
+	\item Memória alocada pelo \emph{Garbage Collector} (\emph{GCMemory}): A quantidade de memória alocada em \emph{bytes} no \emph{Garbage Collector} para a execução do método em determinado quadro.
 	
-	O número de vezes que o método foi chamado em determinado quadro.
-	
-	\item Memória alocada pelo \emph{Garbage Collector} (\emph{GCMemory})
-	
-	A quantidade de memória alocada em \emph{bytes} no \emph{Garbage Collector} para a execução do método em determinado quadro.
-	
-	\item Tempo total em milissegundos (ms)
-	
-	A quantidade de tempo em milissegundos requerida para executar o método em determinado quadro.
+	\item Tempo total em milissegundos (ms): A quantidade de tempo em milissegundos requerida para executar o método em determinado quadro.
 	
 \end{itemize}
 
 
 \section{Obtenção e filtragem de dados}
 
-Por padrão, o \emph{Profiler} da \emph{Unity}, não é capaz de salvar os dados coletados para visualização, comparação e manipulação em outras plataformas. No entanto, é possível fazer isso graças a um \emph{script} criado por \citeauthor{DiPalma2017}. Ele permite exportar os dados de uso de CPU em formato \emph{JSON}, o que permite extrair e comparar apenas os dados que serão usados.
+Por padrão, o \emph{Profiler} da \emph{Unity}, não é capaz de salvar os dados coletados para visualização, comparação e manipulação em outras plataformas. No entanto, é possível fazer isso graças a um \emph{script} criado por \citeonline{DiPalma2017}. Ele permite exportar os dados de uso de CPU em formato \emph{JSON}, o que permite extrair e comparar apenas os dados que serão usados. Sua interface é mostrada na Figura \ref{profilerdataexporter}.
 
 \begin{figure}[!htb]
 	\centering
@@ -97,11 +89,11 @@ Por padrão, o \emph{Profiler} da \emph{Unity}, não é capaz de salvar os dados co
 	\label{profilerdataexporter}
 \end{figure}
 
-Para extrair esses dados, foi usado um \emph{script} em \emph{Javascript} que os atribui para o formato certo para que possam ser convertidos em valores separados por vírgulas através do site \underline{\emph{http://convertcsv.com/json-to-csv.htm}} e depois lidos em um \emph{software} de planilhas que permita a leitura desse formato de valor.
+Para extrair esses dados, foi usado um \emph{script} em \emph{Javascript} que os atribui para o formato certo para que possam ser convertidos em valores separados por vírgulas por meio do site \underline{\emph{http://convertcsv.com/json-to-csv.htm}} e depois lidos em um \emph{software} de planilhas que permita a leitura desse formato de valor.
 
 \section{Cenários de comparação}
 
-Cada cenário foi feito usando um dos quatro \emph{colliders} que foram mencionados antes, cada um em \emph{Pre-Runtime} e \emph{Runtime}.
+Cada cenário foi feito usando um dos quatro \emph{colliders} que foram mencionados antes (subseção \ref{enfatizaComparacoes}), cada um em \emph{Pre-Runtime} e \emph{Runtime}.
 
 Para obter resultados mais relevantes, cada cena em \emph{Pre-Runtime} foi renderizada com um, dez, cinquenta, cem, quinhentos e mil objetos inseridos na cena antes de sua execução. Já em cenas em que os objetos seriam invocados, o \emph{script} gerava um, dez, cinquenta, cem, quinhentos e mil objetos por segundo durante a execução do programa.
 
@@ -112,7 +104,7 @@ Para obter resultados mais relevantes, cada cena em \emph{Pre-Runtime} foi rende
 	\label{exemplo_cenario}
 \end{figure}
 
-O cenário \emph{Pre-Runtime} consiste de três elementos.
+O cenário \emph{Pre-Runtime} consiste de três elementos que são exibidos na Figura \ref{exemplo_cenario}, que é detalhada logo a seguir.
 \begin{itemize}
 	\item O objeto com um tipo de \emph{collider} e \emph{rigid body} atribuídos a ele, sem ser do tipo \emph{kinematic}. Esse objeto é representado pelo personagem em azul.
 	
