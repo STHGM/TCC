@@ -10,31 +10,31 @@ A pesquisa de campo foi realizada com vinte e sete pessoas até o dia dezenove de
 
 \section{Pesquisa de Campo}
 
-De acordo com a pesquisa de campo realizada, cerca de 70\% do uso das colisões são de \emph{Box} e \emph{Circle Collider} para suas cenas em 2D como mostra a Figura \ref{questionario_uso_colliders_2d}.
+De acordo com a pesquisa de campo realizada, cerca de 70\% do uso das colisões são de \emph{Box} e \emph{Circle Collider} para suas cenas em 2D como mostra a Figura \ref{resultado_uso_colliders_2d}.
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.75\textwidth]{./Figuras/Questionario/resultado/04_colliders_2D_mais.png}
 	\caption[Frequência de uso de Colliders 2D]{Frequência de uso de \emph{Colliders} 2D.}
-	\label{questionario_uso_colliders_2d}
+	\label{resultado_uso_colliders_2d}
 \end{figure}
 
-Em relação as mensagens usadas, há uma distribuição equilibrada quando o uso é de início e final de contato com a colisão ou trigger, como mostra a Figura \ref{questionario_uso_mensagens_2d}. Já enquanto o contato ainda está ocorrendo é pouco utilizado.
+Em relação as mensagens usadas, há uma distribuição equilibrada quando o uso é de início e final de contato com a colisão ou trigger, como mostra a Figura \ref{resultado_uso_mensagens_2d}. Já enquanto o contato ainda está ocorrendo é pouco utilizado.
 
-O número médio de objetos numa cena podem ser encontrados na Figura \ref{questionario_media_2d}. Nesse resultado apenas dois participantes não responderam à pergunta.
+O número médio de objetos numa cena podem ser encontrados na Figura \ref{resultado_media_2d}. Nesse resultado apenas dois participantes não responderam à pergunta.
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.75\textwidth]{./Figuras/Questionario/resultado/05_mensagens_2D_mais.png}
-	\caption[Frequência de uso de Colliders 2D]{Frequência de uso de \emph{Colliders} 2D.}
-	\label{questionario_uso_mensagens_2d}
+	\caption[Frequência de uso de mensagens de Colliders 2D]{Frequência de uso de mensagens de \emph{Colliders} 2D.}
+	\label{resultado_uso_mensagens_2d}
 \end{figure}
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.75\textwidth]{./Figuras/Questionario/resultado/06_media_2D.png}
-	\caption[Frequência de uso de Colliders 2D]{Frequência de uso de \emph{Colliders} 2D.}
-	\label{questionario_media_2d}
+	\caption[Média de objetos com Colliders 2D presentes em uma cena]{Média de objetos come \emph{Colliders} 2D presentes em uma cena.}
+	\label{resultado_media_2d}
 \end{figure}
 
 \section{Resultados com \emph{Box Collider}}
@@ -70,7 +70,7 @@ O resultado com mil objetos foi o mais instável, apresentando um aumento de cons
 
 \subsection{\emph{Box Collider - Runtime}}
 
-Nos três primeiros testes com um, dez e cinquenta objetos por segundo, os resultados se mostram com performance estável, porém com picos de \emph{Garbage Collection} contantes conforme os objetos eram invocados pelo script de invocação. O consumo total de memória RAM mostra ser menor do que os resultados em \emph{Pre-Runtime}.
+Nos três primeiros testes com um, dez e cinquenta objetos por segundo, os resultados se mostram com performance estável, porém com picos de \emph{Garbage Collection} contantes conforme os objetos eram invocados pelo script de invocação. O consumo total de memória RAM mostra ser menor do que os resultados em \emph{Pre-Runtime}, como mostra a Figura \ref{teste_box_0010_dynamic}.
 
 \begin{figure}[!htb]
 	\centering
@@ -154,7 +154,7 @@ No entanto foi o que demonstrou a menor precisão em como as colisões ocorrem. Os
 
 \subsection{\emph{Edge Collider - Runtime}}
 
-Os resultados nessa categoria mostraram-se estáveis em seu percurso, tendo mais performance do que os resultados em \emph{Pre-Runtime}. Com mil objetos por segundo, o tempo de uso de CPU ficou entre 5 ms e 10 ms, e consumo total de memória RAM em cerca de 320 MB, como mostra a Figura . Picos de \emph{Garbage Collection} começam a ser mais frequentes a partir de cem objetos por segundo.
+Os resultados nessa categoria mostraram-se estáveis em seu percurso, tendo mais performance do que os resultados em \emph{Pre-Runtime}. Com mil objetos por segundo, o tempo de uso de CPU ficou entre 5 ms e 10 ms, e consumo total de memória RAM em cerca de 320 MB, como mostra a Figura \ref{teste_edge_1000_dynamic}. Picos de \emph{Garbage Collection} começam a ser mais frequentes a partir de cem objetos por segundo.
 
 \begin{figure}[!htb]
 	\centering
@@ -189,7 +189,7 @@ A partir de 50 objetos, houve um consumo maior de CPU, fazendo o tempo total de 
 	\label{teste_polygon_0050_static}
 \end{figure}
 
-Com cem objetos a performance diminui pouco, relativamente ao resultado anterior. O consumo total de memória RAM se mantém, e o tempo de consumo da CPU teve um pico de 66 ms, porém, em sua maioria, manteve estável entre 33 ms e 16 ms como mostra a Figura .
+Com cem objetos a performance diminui pouco, relativamente ao resultado anterior. O consumo total de memória RAM se mantém, e o tempo de consumo da CPU teve um pico de 66 ms, porém, em sua maioria, manteve estável entre 33 ms e 16 ms como mostra a Figura \ref{teste_polygon_0100_static}.
 
 \begin{figure}[!htb]
 	\centering
@@ -253,3 +253,13 @@ Com 50 Objetos, a performance é comprometida desde o início da execução, fazendo
 Com cem objetos por segundo, o programa inicia, porém não prossegue com a execução. Por manter-se parado dessa forma por um longo período de tempo, essa comparação foi cancelada e não foi possível obter resultados.
 
 As comparações com quinhentos e mil objetos por segundo apresentaram o mesmo efeito e também foram cancelados.
+
+\section{Visão Geral dos resultados}
+
+Como foi possível observar pela análise dos resultados, a maioria das comparações com um alto número de objetos já inseridos na cena ou objetos gerados por segundo, exigiram mais dos recursos da máquina, causando degradação da performance durante a execução. Em certos casos o programa travou e não foi possível obter nenhum resultado.
+
+As comparações com poucos objetos não demonstraram grandes diferenças entre si.
+
+O tipo de \emph{collider} que requisitou maior quantidade de recursos na maioria de suas comparações certamente foi o \emph{Polygon Collider}, pelo fato de ser um tipo de colisão que tenta se encaixar melhor com o formato do objeto original. Isso gera uma precisão melhor na colisão, porém em excesso, causa degradação da performance.
+
+Em comparação com os \emph{colliders} mais utilizados (\emph{Box collider 2D} e \emph{Circle Collider 2D}), de acordo com a pesquisa de campo, eles mostram resultados de performance melhores e, muitas vezes, se encaixam no escopo do que é necessário para ser realizado nas colisões de um devido jogo. Se o jogo ou alguns objetos da cena não necessitarem muita precisão da colisão, as formas básicas podem ser o suficiente para o funcionamento e escopo do jogo.

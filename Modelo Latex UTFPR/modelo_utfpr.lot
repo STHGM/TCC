@@ -1,54 +1,6 @@
 \babel@toc {brazil}{}
-\contentsline {table}{\numberline {1}{\ignorespaces Quando mensagens de \emph {trigger} s\~ao enviadas de acordo com o tipo de colis\~ao}}{21}% 
-\contentsline {table}{\numberline {2}{\ignorespaces Quando mensagens de \emph {trigger} s\~ao enviadas de acordo com o tipo de colis\~ao}}{21}% 
-\contentsline {table}{\numberline {3}{\ignorespaces Tabela de Engines mais utilizadas no Brasil}}{26}% 
-\contentsline {table}{\numberline {4}{\ignorespaces Cronograma de progresso estimado do trabalho}}{28}% 
-\contentsline {table}{\numberline {5}{1 Objeto Pre-Runtime Box OnCollisionEnter2D}}{53}% 
-\contentsline {table}{\numberline {6}{1 Objeto Pre-Runtime Box OnCollisionStay2D}}{54}% 
-\contentsline {table}{\numberline {7}{1 Objeto Pre-Runtime Box OnTriggerEnter2D}}{55}% 
-\contentsline {table}{\numberline {8}{1 Objeto Pre-Runtime Box OnTriggerExit2D}}{56}% 
-\contentsline {table}{\numberline {9}{1 Objeto Pre-Runtime Box OnTriggerStay2D}}{56}% 
-\contentsline {table}{\numberline {10}{1 Objeto Pre-Runtime Box Physics2DSimulate}}{57}% 
-\contentsline {table}{\numberline {11}{10 Objetos Pre-Runtime Box OnCollisionEnter2D}}{63}% 
-\contentsline {table}{\numberline {12}{10 Objetos Pre-Runtime Box OnCollisionExit2D}}{64}% 
-\contentsline {table}{\numberline {13}{10 Objetos Pre-Runtime Box OnCollisionStay2D}}{65}% 
-\contentsline {table}{\numberline {14}{10 Objetos Pre-Runtime Box OnTriggerEnter2D}}{71}% 
-\contentsline {table}{\numberline {15}{10 Objetos Pre-Runtime Box OnTriggerExit2D}}{72}% 
-\contentsline {table}{\numberline {16}{10 Objetos Pre-Runtime Box OnTriggerStay2D}}{73}% 
-\contentsline {table}{\numberline {17}{10 Objetos Pre-Runtime Box Physics2DSimulate}}{78}% 
-\contentsline {table}{\numberline {18}{50 Objetos Pre-Runtime Box OnCollisionEnter2D}}{86}% 
-\contentsline {table}{\numberline {19}{50 Objetos Pre-Runtime Box OnCollisionExit2D}}{93}% 
-\contentsline {table}{\numberline {20}{50 Objetos Pre-Runtime Box OnCollisionStay2D}}{100}% 
-\contentsline {table}{\numberline {21}{50 Objetos Pre-Runtime Box OnTriggerEnter2D}}{108}% 
-\contentsline {table}{\numberline {22}{50 Objetos Pre-Runtime Box OnTriggerExit2D}}{114}% 
-\contentsline {table}{\numberline {23}{50 Objetos Pre-Runtime Box OnTriggerStay2D}}{119}% 
-\contentsline {table}{\numberline {24}{50 Objetos Pre-Runtime Box Physics2DSimulate}}{127}% 
-\contentsline {table}{\numberline {25}{100 Objetos Pre-Runtime Box OnCollisionEnter2D}}{136}% 
-\contentsline {table}{\numberline {26}{100 Objetos Pre-Runtime Box OnCollisionExit2D}}{144}% 
-\contentsline {table}{\numberline {27}{100 Objetos Pre-Runtime Box OnCollisionStay2D}}{152}% 
-\contentsline {table}{\numberline {28}{100 Objetos Pre-Runtime Box OnTriggerEnter2D}}{161}% 
-\contentsline {table}{\numberline {29}{100 Objetos Pre-Runtime Box OnTriggerExit2D}}{164}% 
-\contentsline {table}{\numberline {30}{100 Objetos Pre-Runtime Box OnTriggerStay2D}}{166}% 
-\contentsline {table}{\numberline {31}{100 Objetos Pre-Runtime Box Physics2DSimulate}}{175}% 
-\contentsline {table}{\numberline {32}{500 Objetos Pre-Runtime Box OnCollisionEnter2D}}{184}% 
-\contentsline {table}{\numberline {33}{500 Objetos Pre-Runtime Box OnCollisionExit2D}}{192}% 
-\contentsline {table}{\numberline {34}{500 Objetos Pre-Runtime Box OnCollisionStay2D}}{199}% 
-\contentsline {table}{\numberline {35}{500 Objetos Pre-Runtime Box OnTriggerEnter2D}}{208}% 
-\contentsline {table}{\numberline {36}{500 Objetos Pre-Runtime Box OnTriggerExit2D}}{215}% 
-\contentsline {table}{\numberline {37}{500 Objetos Pre-Runtime Box OnTriggerStay2D}}{221}% 
-\contentsline {table}{\numberline {38}{500 Objetos Pre-Runtime Box Physics2DSimulate}}{230}% 
-\contentsline {table}{\numberline {39}{1000 Objetos Pre-Runtime Box OnCollisionEnter2D}}{239}% 
-\contentsline {table}{\numberline {40}{1000 Objetos Pre-Runtime Box OnCollisionExit2D}}{246}% 
-\contentsline {table}{\numberline {41}{1000 Objetos Pre-Runtime Box OnCollisionStay2D}}{253}% 
-\contentsline {table}{\numberline {42}{1000 Objetos Pre-Runtime Box OnTriggerEnter2D}}{262}% 
-\contentsline {table}{\numberline {43}{1000 Objetos Pre-Runtime Box OnTriggerExit2D}}{269}% 
-\contentsline {table}{\numberline {44}{1000 Objetos Pre-Runtime Box OnTriggerStay2D}}{275}% 
-\contentsline {table}{\numberline {45}{1000 Objetos Pre-Runtime Box Physics2DSimulate}}{283}% 
-\contentsline {table}{\numberline {46}{1 Objeto Runtime Box OnCollisionEnter2D}}{292}% 
-\contentsline {table}{\numberline {47}{1 Objeto Runtime Box OnCollisionExit2D}}{294}% 
-\contentsline {table}{\numberline {48}{1 Objeto Runtime Box OnCollisionStay2D}}{296}% 
-\contentsline {table}{\numberline {49}{1 Objeto Runtime Box OnTriggerEnter2D}}{303}% 
-\contentsline {table}{\numberline {50}{1 Objeto Runtime Box OnTriggerExit2D}}{305}% 
-\contentsline {table}{\numberline {51}{1 Objeto Runtime Box OnTriggerStay2D}}{305}% 
-\contentsline {table}{\numberline {52}{1 Objeto Runtime Box Physics2DSimulate}}{313}% 
-\contentsline {table}{\numberline {53}{\ignorespaces 1 Objeto Runtime Box Spawn}}{323}% 
+\contentsline {table}{\numberline {1}{\ignorespaces Quando mensagens de \emph {trigger} s\~ao enviadas de acordo com o tipo de colis\~ao}}{20}% 
+\contentsline {table}{\numberline {2}{\ignorespaces Quando mensagens de \emph {trigger} s\~ao enviadas de acordo com o tipo de colis\~ao}}{20}% 
+\contentsline {table}{\numberline {3}{\ignorespaces Tabela de Engines mais utilizadas no Brasil}}{25}% 
+\contentsline {table}{\numberline {4}{\ignorespaces Cronograma de progresso estimado do trabalho}}{27}% 
+\contentsline {table}{\numberline {5}{Exemplo das tabelas presentes no ap\^endice remoto}}{62}% 
