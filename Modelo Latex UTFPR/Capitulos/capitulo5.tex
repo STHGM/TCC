@@ -131,6 +131,7 @@ A partir de cem objetos por segundo, os resultados se assemelham aos cenários co
 \end{figure}
 
 \section{Resultados com \emph{Edge Collider}}
+\label{edge-resultados}
 
 \subsection{\emph{Edge Collider - Pre-Runtime}}
 
@@ -256,10 +257,245 @@ As comparações com quinhentos e mil objetos por segundo apresentaram o mesmo efe
 
 \section{Visão Geral dos resultados}
 
-Como foi possível observar pela análise dos resultados, a maioria das comparações com um alto número de objetos já inseridos na cena ou objetos gerados por segundo, exigiram mais dos recursos da máquina, causando degradação da performance durante a execução. Em certos casos o programa travou e não foi possível obter nenhum resultado.
+Como foi possível observar pela análise dos resultados, a maioria das comparações com um alto número de objetos já inseridos na cena ou objetos gerados por segundo, exigiram mais dos recursos da máquina, causando degradação da performance durante a execução. E nos casos do \emph{Polygon collider} com cem objetos por segundo em diante o programa travou e não foi possível obter resultados.
 
 As comparações com poucos objetos não demonstraram grandes diferenças entre si.
 
-O tipo de \emph{collider} que requisitou maior quantidade de recursos na maioria de suas comparações certamente foi o \emph{Polygon Collider}, pelo fato de ser um tipo de colisão que tenta se encaixar melhor com o formato do objeto original. Isso gera uma precisão melhor na colisão, porém em excesso, causa degradação da performance.
+O tipo de \emph{collider} que requisitou maior quantidade de recursos na maioria de suas comparações certamente foi o \emph{Polygon Collider}, pelo fato de ser um tipo de colisão que tenta se encaixar melhor com o formato do objeto original. Isso gera uma precisão melhor na colisão, porém em excesso, causa degradação da performance. No entanto, se o não usado com muita frequência e o escopo exigir precisão, é possível usá-lo sem perder muita performance.
 
-Em comparação com os \emph{colliders} mais utilizados (\emph{Box collider 2D} e \emph{Circle Collider 2D}), de acordo com a pesquisa de campo, eles mostram resultados de performance melhores e, muitas vezes, se encaixam no escopo do que é necessário para ser realizado nas colisões de um devido jogo. Se o jogo ou alguns objetos da cena não necessitarem muita precisão da colisão, as formas básicas podem ser o suficiente para o funcionamento e escopo do jogo.
+Em comparação com os \emph{colliders} mais utilizados (\emph{Box collider 2D} e \emph{Circle Collider 2D}), de acordo com a pesquisa de campo na Figura \ref{resultado_uso_colliders_2d}, eles mostram resultados de performance melhores e, muitas vezes, se encaixam no escopo do que é necessário para ser realizado nas colisões de um devido jogo. Se o jogo ou alguns objetos da cena não necessitarem muita precisão da colisão, as formas básicas podem ser o suficiente para o funcionamento e escopo do jogo.
+
+A seguir são mostrados os principais gráficos dos resultados com cinquenta objetos inseridos antes de executar o programa e cinquenta objetos por segundo durante a execução. Cinquenta objetos por ser um número médio mais próximo da quantidade de objetos usados por cena de acordo com a pesquisa de campo na Figura \ref{resultado_media_2d}.
+
+O atributo física foi removido da maioria dos gráficos por obstruir a visualização dos outros atributos que, na maioria dos casos apresentam valores muito menores que os da física, mais informações dos dados brutos podem ser encontradas no apêndice \ref{chap:apendiceC}. E todos os métodos apresentados nos gráficos são referentes aos métodos da interface 2D da \emph{Unity}, por exemplo: \emph{TriggerStay = TriggerStay2D}. Métodos \emph{Collision} foram abreviados, por exemplo: \emph{ColEnter = CollisionEnter2D}.
+
+Os resultados com \emph{Edge Collider} não foram incluídos por serem os mais estáveis, como mencionado na seção \ref{edge-resultados}.
+
+\subsection{Comparações em Pre-Runtime}
+
+É possível observar nos gráficos de porcentagem de uso total da CPU das Figuras \ref{grafico_box_static_percent}, \ref{grafico_circle_static_percent} e \ref{grafico_polygon_static_percent} que os \emph{colliders Box} e \emph{Circle} apresentaram resultados bem semelhantes, com picos chegando a 1.4\% do uso total da CPU, e média variando entre 0.02\% e 0.05\%. O \emph{Polygon collider} apresentou resultados semelhantes também, porém com a diferença nos picos, chegando a 2.5\% de uso total da CPU.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Box/Pre-Runtime/50_Percent_NP.png}
+	\caption[Gráfico de porcentagem de uso da CPU com 50 objetos Box Collider em Pre-Runtime]{Gráfico de porcentagem de uso da CPU com 50 objetos \emph{Box Collider} em \emph{Pre-Runtime}.}
+	\label{grafico_box_static_percent}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Circle/Pre-Runtime/50_Percent_NP.png}
+	\caption[Gráfico de porcentagem de uso da CPU com 50 objetos Circle Collider em Pre-Runtime]{Gráfico de porcentagem de uso da CPU com 50 objetos \emph{Circle Collider} em \emph{Pre-Runtime}.}
+	\label{grafico_circle_static_percent}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Polygon/Pre-Runtime/50_Percent_NP.png}
+	\caption[Gráfico de porcentagem de uso da CPU com 50 objetos Polygon Collider em Pre-Runtime]{Gráfico de porcentagem de uso da CPU com 50 objetos \emph{Polygon Collider} em \emph{Pre-Runtime}.}
+	\label{grafico_polygon_static_percent}
+\end{figure}
+
+
+Em relação ao número de vezes que os métodos que foram chamados durante a execução, são mostrados nos gráficos das Figuras \ref{grafico_box_static_calls}, \ref{grafico_circle_static_calls} e \ref{grafico_polygon_static_calls}. É possível observar que o método \emph{CollisionStay2D} foi o que mais requisitou chamadas, e o segundo que mais requisitou foi o \emph{TriggerStay2D}. Também é possível notar que com o \emph{collider Polygon} houve maior número de chamadas durante a execução, que se mantiveram estáveis com o decorrer do tempo.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Box/Pre-Runtime/50_Calls_NP.png}
+	\caption[Gráfico de número de vezes que o método foi chamado com 50 objetos Box Collider em Pre-Runtime]{Gráfico de número de vezes que o método foi chamado com 50 objetos \emph{Box Collider} em \emph{Pre-Runtime}.}
+	\label{grafico_box_static_calls}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Circle/Pre-Runtime/50_Calls_NP.png}
+	\caption[Gráfico de número de vezes que o método foi chamado com 50 objetos Circle Collider em Pre-Runtime]{Gráfico de número de vezes que o método foi chamado com 50 objetos \emph{Circle Collider} em \emph{Pre-Runtime}.}
+	\label{grafico_circle_static_calls}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Polygon/Pre-Runtime/50_Calls_NP.png}
+	\caption[Gráfico de número de vezes que o método foi chamado com 50 objetos Polygon Collider em Pre-Runtime]{Gráfico de número de vezes que o método foi chamado com 50 objetos \emph{Polygon Collider} em \emph{Pre-Runtime}.}
+	\label{grafico_polygon_static_calls}
+\end{figure}
+
+
+O tempo em milissegundos exigido para a execução de cada método é exibido nos gráficos das Figuras \ref{grafico_box_static_time}, \ref{grafico_circle_static_time} e \ref{grafico_polygon_static_time}. E a partir deles é possível observar que novamente os métodos \emph{CollisionStay2D} e \emph{TriggerStay2D} foram os que mais exigiram do recurso. É possível também notar que o \emph{Circle collider} apresentou melhor performance em relação ao \emph{Box collider}. O \emph{Polygon collider} continua sendo o menos performático.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Box/Pre-Runtime/50_Time_NP.png}
+	\caption[Gráfico de tempo em milissegundos exigido pelo processador para executar o método com 50 objetos Box Collider em Pre-Runtime]{Gráfico de tempo em milissegundos exigido pelo processador para executar o método com 50 objetos \emph{Box Collider} em \emph{Pre-Runtime}.}
+	\label{grafico_box_static_time}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Circle/Pre-Runtime/50_Time_NP.png}
+	\caption[Gráfico de tempo em milissegundos exigido pelo processador para executar o método com 50 objetos Circle Collider em Pre-Runtime]{Gráfico de tempo em milissegundos exigido pelo processador para executar o método com 50 objetos \emph{Circle Collider} em \emph{Pre-Runtime}.}
+	\label{grafico_circle_static_time}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Polygon/Pre-Runtime/50_Time_NP.png}
+	\caption[Gráfico de tempo em milissegundos exigido pelo processador para executar o método com 50 objetos Polygon Collider em Pre-Runtime]{Gráfico de tempo em milissegundos exigido pelo processador para executar o método com 50 objetos \emph{Polygon Collider} em \emph{Pre-Runtime}.}
+	\label{grafico_polygon_static_time}
+\end{figure}
+
+
+A coleta de lixo (\emph{Garbage Collection}) desses métodos com os \emph{colliders} mencionados só mostrou variâncias quando o atributo física está presente. Sem ele, os métodos não mostraram alteração de quantidade de coleta de lixo, com exceção do \emph{Polygon collider} que apresentou apenas 32 bytes no quadro 41 com o \emph{TriggerEnter2D} e depois para zero, como mostra o gráfico na Figura \ref{grafico_polygon_static_gc}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_NP.png}
+	\caption[Gráfico de quantidade de Garbage Collection em bytes com 50 objetos Polygon Collider em Pre-Runtime]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos \emph{Polygon Collider} em \emph{Pre-Runtime}.}
+	\label{grafico_polygon_static_gc}
+\end{figure}
+
+A seguir é exibido nos gráficos das Figuras \ref{grafico_box_static_gc}, \ref{grafico_circle_static_gc} e \ref{grafico_polygon_static_gc_p}, o \emph{Garbage Collection} com física. Com isso é possível observar que o \emph{Circle collider} apresentou total estabilidade de 30000 \emph{bytes}, com alguns picos de quase 60000 \emph{bytes}, porém foi o único que já iniciou com \emph{Garbage Collection}. Os \emph{colliders Box} e \emph{Polygon} foram aumentando com o passar do tempo.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Box/Pre-Runtime/50_GCMemory_P.png}
+	\caption[Gráfico de quantidade de Garbage Collection em bytes com 50 objetos Box Collider em Pre-Runtime com física]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos \emph{Box Collider} em \emph{Pre-Runtime} com física.}
+	\label{grafico_box_static_gc}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Circle/Pre-Runtime/50_GCMemory_P.png}
+	\caption[Gráfico dequantidade de Garbage Collection em bytes com 50 objetos Circle Collider em Pre-Runtime com física]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos \emph{Circle Collider} em \emph{Pre-Runtime} com física.}
+	\label{grafico_circle_static_gc}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_P.png}
+	\caption[Gráfico de quantidade de Garbage Collection em bytes com 50 objetos Polygon Collider em Pre-Runtime com física]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos \emph{Polygon Collider} em \emph{Pre-Runtime} com física.}
+	\label{grafico_polygon_static_gc_p}
+\end{figure}
+
+
+\subsection{Comparações em \emph{Runtime}}
+
+Nas comparações a seguir foi adicionado o atributo \emph{Spawn}, referente ao método que invoca os objetos em tempo de execução, para ser medido.
+
+Com os gráficos de porcentagem de uso total da CPU mostrados nas Figuras \ref{grafico_box_dynamic_percent}, \ref{grafico_circle_dynamic_percent} e \ref{grafico_polygon_dynamic_percent}, é possível notar que o \emph{Circle collider} se mostrou mais estável e mais performático que o \emph{Box collider}. O \emph{Polygon collider} apresenta pouca amostra de dados por ser o resultado que começou a apresentar travamentos no programa, o que justifica o limite baixo.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Box/Runtime/50_Percent_NP.png}
+	\caption[Gráfico de porcentagem de uso da CPU com 50 objetos por segundo Box Collider em Runtime]{Gráfico de porcentagem de uso da CPU com 50 objetos por segundo \emph{Box Collider} em \emph{Runtime}.}
+	\label{grafico_box_dynamic_percent}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Circle/Runtime/50_Percent_NP.png}
+	\caption[Gráfico de porcentagem de uso da CPU com 50 objetos Circle Collider em Runtime]{Gráfico de porcentagem de uso da CPU com 50 objetos \emph{Circle Collider} em \emph{Runtime}.}
+	\label{grafico_circle_dynamic_percent}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Polygon/Runtime/50_Percent_NP.png}
+	\caption[Gráfico de porcentagem de uso da CPU com 50 objetos po segundo Polygon Collider em Runtime]{Gráfico de porcentagem de uso da CPU com 50 objetos por segundo \emph{Polygon Collider} em \emph{Runtime}.}
+	\label{grafico_polygon_dynamic_percent}
+\end{figure}
+
+
+Em relação ao número de vezes que os métodos que foram chamados durante a execução, são mostrados nos gráficos das Figuras \ref{grafico_box_dynamic_calls}, \ref{grafico_circle_dynamic_calls} e \ref{grafico_polygon_dynamic_calls}. É possível notar que o \emph{Circle collider} demonstrou ser bem mais performático e estável nesse quesito em relação ao \emph{Box collider}. O \emph{Polygon collider} mostrou um aumento conforme o passar do tempo, ultrapassando o total do \emph{Circle} e \emph{Box collider} em menos tempo que os mesmos.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Box/Runtime/50_Calls_NP.png}
+	\caption[Gráfico de número de vezes que o método foi chamado com 50 objetos Box Collider em Runtime]{Gráfico de número de vezes que o método foi chamado com 50 objetos por segundo \emph{Box Collider} em \emph{Runtime}.}
+	\label{grafico_box_dynamic_calls}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Circle/Runtime/50_Calls_NP.png}
+	\caption[Gráfico de número de vezes que o método foi chamado com 50 objetos por segundo Circle Collider em Runtime]{Gráfico de número de vezes que o método foi chamado com 50 objetos \emph{Circle Collider} em \emph{Runtime}.}
+	\label{grafico_circle_dynamic_calls}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Polygon/Runtime/50_Calls_NP.png}
+	\caption[Gráfico de número de vezes que o método foi chamado com 50 objetos por segundo Polygon Collider em Runtime]{Gráfico de número de vezes que o método foi chamado com 50 objetos \emph{Polygon Collider} em \emph{Runtime}.}
+	\label{grafico_polygon_dynamic_calls}
+\end{figure}
+
+
+O tempo em milissegundos exigido para a execução de cada método é exibido nos gráficos das Figuras \ref{grafico_box_dynamic_time}, \ref{grafico_circle_dynamic_time} e \ref{grafico_polygon_dynamic_time}. E a partir deles é possível observar que o \emph{Circle} e \emph{Box collider} mostraram-se estáveis, com o método \emph{Spawn} exigindo mais tempo em ambos, e o \emph{CollisionStay2D} para o \emph{Box collider}.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Box/Runtime/50_Time_NP.png}
+	\caption[Gráfico de tempo em milissegundos exigido pelo processador para executar o método com 50 objetos por segundo Box Collider em Runtime]{Gráfico de tempo em milissegundos exigido pelo processador para executar o método com 50 objetos por segundo \emph{Box Collider} em \emph{Runtime}.}
+	\label{grafico_box_dynamic_time}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Circle/Runtime/50_Time_NP.png}
+	\caption[Gráfico de tempo em milissegundos exigido pelo processador para executar o método com 50 objetos por segundo Circle Collider em Pre-Runtime]{Gráfico de tempo em milissegundos exigido pelo processador para executar o método com 50 objetos por segundo \emph{Circle Collider} em \emph{Runtime}.}
+	\label{grafico_circle_dynamic_time}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Polygon/Runtime/50_Time_NP.png}
+	\caption[Gráfico de tempo em milissegundos exigido pelo processador para executar o método com 50 objetos por segundo Polygon Collider em Runtime]{Gráfico de tempo em milissegundos exigido pelo processador para executar o método com 50 objetos por segundo \emph{Polygon Collider} em \emph{Runtime}.}
+	\label{grafico_polygon_dynamic_time}
+\end{figure}
+
+
+A seguir é exibido nos gráficos das Figuras \ref{grafico_box_dynamic_gc}, \ref{grafico_circle_dynamic_gc} e \ref{grafico_polygon_dynamic_gc}, o \emph{Garbage Collection} dos métodos. Em todos os gráficos é possível notar que o método spawn foi o mais usado no \emph{Garbage Collection}, sendo o \emph{Circle collider} o mais estável deles.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Box/Runtime/50_GCMemory_NP.png}
+	\caption[Gráfico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Box Collider em Runtime]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos por segundo \emph{Box Collider} em \emph{Runtime}.}
+	\label{grafico_box_dynamic_gc}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Circle/Runtime/50_GCMemory_NP.png}
+	\caption[Gráfico dequantidade de Garbage Collection em bytes com 50 objetos por segundo Circle Collider em Runtime]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos por segundo \emph{Circle Collider} em \emph{Runtime}.}
+	\label{grafico_circle_dynamic_gc}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Polygon/Runtime/50_GCMemory_NP.png}
+	\caption[Gráfico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Polygon Collider em Runtime]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos por segundo \emph{Polygon Collider} em \emph{Runtime}.}
+	\label{grafico_polygon_dynamic_gc}
+\end{figure}
+
+Os gráficos a seguir apresentados pelas Figuras \ref{grafico_box_dynamic_gc_p}, \ref{grafico_circle_dynamic_gc_p} e \ref{grafico_polygon_dynamic_gc_p}, o \emph{Garbage Collection} dos métodos, porém com o atributo física sendo visualizado. Neles é possível observar que o \emph{Box collider} apresenta aumento de coleta de lixo conforme os quadros são renderizados e o \emph{Circle collider} apresenta pouca estabilidade, porém tem menos coleta de lixo. Já o \emph{Polygon collider} é o mais instável, chegando ao dobro da coleta de lixo em comparação aos outros, mesmo com uma quantidade menor de quadros.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Box/Runtime/50_GCMemory_P.png}
+	\caption[Gráfico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Box Collider em Runtime com física]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos por segundo \emph{Box Collider} em \emph{Runtime} com física.}
+	\label{grafico_box_dynamic_gc_p}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Circle/Runtime/50_GCMemory_P.png}
+	\caption[Gráfico dequantidade de Garbage Collection em bytes com 50 objetos por segundo Circle Collider em Runtime com física]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos por segundo \emph{Circle Collider} em \emph{Runtime} com física.}
+	\label{grafico_circle_dynamic_gc_p}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Polygon/Runtime/50_GCMemory_P.png}
+	\caption[Gráfico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Polygon Collider em Runtime com física]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos por segundo \emph{Polygon Collider} em \emph{Runtime} com física.}
+	\label{grafico_polygon_dynamic_gc_p}
+\end{figure}

@@ -1,58 +1,86 @@
 \babel@toc {brazil}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Exemplo de intera\c c\~ao de eventos}}{12}% 
-\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de intera\c c\~ao de eventos}}{12}% 
-\contentsline {figure}{\numberline {3}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos n\~ao est\~ao colidindo.}}{13}% 
-\contentsline {figure}{\numberline {4}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos est\~ao colidindo e interceptando.}}{14}% 
-\contentsline {figure}{\numberline {5}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos est\~ao colidindo.}}{14}% 
-\contentsline {figure}{\numberline {6}{\ignorespaces C\'odigo colis\~ao de esferas}}{15}% 
-\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de CircleCollider2D}}{16}% 
-\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de BoxCollider2D}}{16}% 
-\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de PolygonCollider2D}}{17}% 
-\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de EdgeCollider2D}}{17}% 
-\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo de colis\~ao AABB}}{23}% 
-\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de colis\~ao OBB e outros}}{24}% 
-\contentsline {figure}{\numberline {13}{\ignorespaces Profiler da Unity}}{30}% 
-\contentsline {figure}{\numberline {14}{\ignorespaces Profiler Data Exporter}}{31}% 
-\contentsline {figure}{\numberline {15}{\ignorespaces Exemplo Cen\'ario}}{32}% 
-\contentsline {figure}{\numberline {16}{\ignorespaces Frequ\^encia de uso de Colliders 2D}}{34}% 
-\contentsline {figure}{\numberline {17}{\ignorespaces Frequ\^encia de uso de mensagens de Colliders 2D}}{34}% 
-\contentsline {figure}{\numberline {18}{\ignorespaces M\'edia de objetos com Colliders 2D presentes em uma cena}}{35}% 
-\contentsline {figure}{\numberline {19}{\ignorespaces Resultado 10 Objetos Box Pre-Runtime}}{35}% 
-\contentsline {figure}{\numberline {20}{\ignorespaces Resultado 500 Objetos Box Pre-Runtime}}{36}% 
-\contentsline {figure}{\numberline {21}{\ignorespaces Resultado 1000 Objetos Box Pre-Runtime}}{36}% 
-\contentsline {figure}{\numberline {22}{\ignorespaces Resultado 10 Objetos Box Runtime}}{37}% 
-\contentsline {figure}{\numberline {23}{\ignorespaces Resultado 100 Objetos Box Runtime}}{37}% 
-\contentsline {figure}{\numberline {24}{\ignorespaces Resultado 0050 Objetos Circle Pre-Runtime}}{38}% 
-\contentsline {figure}{\numberline {25}{\ignorespaces Resultado 1000 Objetos Circle Pre-Runtime}}{38}% 
-\contentsline {figure}{\numberline {26}{\ignorespaces Resultado 50 Objetos Circle Runtime}}{39}% 
-\contentsline {figure}{\numberline {27}{\ignorespaces Resultado 100 Objetos Circle Runtime}}{39}% 
-\contentsline {figure}{\numberline {28}{\ignorespaces Resultado 1000 Objetos Edge Pre-Runtime}}{40}% 
-\contentsline {figure}{\numberline {29}{\ignorespaces Problemas 1000 Objetos Edge Pre-Runtime}}{40}% 
-\contentsline {figure}{\numberline {30}{\ignorespaces Resultado 1000 Objetos Edge Runtime}}{41}% 
-\contentsline {figure}{\numberline {31}{\ignorespaces Resultado 10 Objetos Polygon Pre-Runtime}}{42}% 
-\contentsline {figure}{\numberline {32}{\ignorespaces Resultado 50 Objetos Polygon Pre-Runtime}}{42}% 
-\contentsline {figure}{\numberline {33}{\ignorespaces Resultado 100 Objetos Polygon Pre-Runtime}}{42}% 
-\contentsline {figure}{\numberline {34}{\ignorespaces Resultado 500 Objetos Polygon Pre-Runtime}}{43}% 
-\contentsline {figure}{\numberline {35}{\ignorespaces Quadros por segundo 1000 Objetos Polygon Pre-Runtime}}{43}% 
-\contentsline {figure}{\numberline {36}{\ignorespaces Resultado 1 Objeto Polygon Runtime}}{44}% 
-\contentsline {figure}{\numberline {37}{\ignorespaces Resultado 10 Objetos Polygon Runtime}}{44}% 
-\contentsline {figure}{\numberline {38}{\ignorespaces Resultado 50 Objetos Polygon Runtime}}{45}% 
-\contentsline {figure}{\numberline {39}{\ignorespaces Quadros por segundo 50 Objetos Polygon Runtime}}{45}% 
-\contentsline {figure}{\numberline {40}{\ignorespaces Pergunta 1 do question\'ario}}{51}% 
-\contentsline {figure}{\numberline {41}{\ignorespaces Pergunta 2 do question\'ario}}{51}% 
-\contentsline {figure}{\numberline {42}{\ignorespaces Pergunta 3 do question\'ario}}{52}% 
-\contentsline {figure}{\numberline {43}{\ignorespaces Pergunta 4 do question\'ario}}{52}% 
-\contentsline {figure}{\numberline {44}{\ignorespaces Pergunta 5 do question\'ario}}{53}% 
-\contentsline {figure}{\numberline {45}{\ignorespaces Pergunta 6 do question\'ario}}{53}% 
-\contentsline {figure}{\numberline {46}{\ignorespaces Pergunta 7 do question\'ario}}{54}% 
-\contentsline {figure}{\numberline {47}{\ignorespaces Pergunta 8 do question\'ario}}{54}% 
-\contentsline {figure}{\numberline {48}{\ignorespaces Pergunta 9 do question\'ario}}{55}% 
-\contentsline {figure}{\numberline {49}{\ignorespaces Respostas Pergunta 1 do question\'ario}}{56}% 
-\contentsline {figure}{\numberline {50}{\ignorespaces Respostas Pergunta 2 do question\'ario}}{56}% 
-\contentsline {figure}{\numberline {51}{\ignorespaces Respostas Pergunta 3 do question\'ario}}{57}% 
-\contentsline {figure}{\numberline {52}{\ignorespaces Respostas Pergunta 4 do question\'ario}}{57}% 
-\contentsline {figure}{\numberline {53}{\ignorespaces Respostas Pergunta 5 do question\'ario}}{58}% 
-\contentsline {figure}{\numberline {54}{\ignorespaces Respostas Pergunta 6 do question\'ario}}{58}% 
-\contentsline {figure}{\numberline {55}{\ignorespaces Respostas Pergunta 7 do question\'ario}}{59}% 
-\contentsline {figure}{\numberline {56}{\ignorespaces Respostas Pergunta 8 do question\'ario}}{59}% 
-\contentsline {figure}{\numberline {57}{\ignorespaces Respostas Pergunta 9 do question\'ario}}{60}% 
+\contentsline {figure}{\numberline {1}{\ignorespaces Exemplo de intera\c c\~ao de eventos}}{13}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de intera\c c\~ao de eventos}}{13}% 
+\contentsline {figure}{\numberline {3}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos n\~ao est\~ao colidindo.}}{14}% 
+\contentsline {figure}{\numberline {4}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos est\~ao colidindo e interceptando.}}{15}% 
+\contentsline {figure}{\numberline {5}{\ignorespaces Colis\~ao de C\IeC {\'\i }rculos: C\IeC {\'\i }rculos est\~ao colidindo.}}{15}% 
+\contentsline {figure}{\numberline {6}{\ignorespaces C\'odigo colis\~ao de esferas}}{16}% 
+\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de CircleCollider2D}}{17}% 
+\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de BoxCollider2D}}{17}% 
+\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de PolygonCollider2D}}{18}% 
+\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de EdgeCollider2D}}{18}% 
+\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo de colis\~ao AABB}}{24}% 
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de colis\~ao OBB e outros}}{25}% 
+\contentsline {figure}{\numberline {13}{\ignorespaces Profiler da Unity}}{31}% 
+\contentsline {figure}{\numberline {14}{\ignorespaces Profiler Data Exporter}}{32}% 
+\contentsline {figure}{\numberline {15}{\ignorespaces Exemplo Cen\'ario}}{33}% 
+\contentsline {figure}{\numberline {16}{\ignorespaces Frequ\^encia de uso de Colliders 2D}}{35}% 
+\contentsline {figure}{\numberline {17}{\ignorespaces Frequ\^encia de uso de mensagens de Colliders 2D}}{35}% 
+\contentsline {figure}{\numberline {18}{\ignorespaces M\'edia de objetos com Colliders 2D presentes em uma cena}}{36}% 
+\contentsline {figure}{\numberline {19}{\ignorespaces Resultado 10 Objetos Box Pre-Runtime}}{36}% 
+\contentsline {figure}{\numberline {20}{\ignorespaces Resultado 500 Objetos Box Pre-Runtime}}{37}% 
+\contentsline {figure}{\numberline {21}{\ignorespaces Resultado 1000 Objetos Box Pre-Runtime}}{37}% 
+\contentsline {figure}{\numberline {22}{\ignorespaces Resultado 10 Objetos Box Runtime}}{38}% 
+\contentsline {figure}{\numberline {23}{\ignorespaces Resultado 100 Objetos Box Runtime}}{38}% 
+\contentsline {figure}{\numberline {24}{\ignorespaces Resultado 0050 Objetos Circle Pre-Runtime}}{39}% 
+\contentsline {figure}{\numberline {25}{\ignorespaces Resultado 1000 Objetos Circle Pre-Runtime}}{39}% 
+\contentsline {figure}{\numberline {26}{\ignorespaces Resultado 50 Objetos Circle Runtime}}{40}% 
+\contentsline {figure}{\numberline {27}{\ignorespaces Resultado 100 Objetos Circle Runtime}}{40}% 
+\contentsline {figure}{\numberline {28}{\ignorespaces Resultado 1000 Objetos Edge Pre-Runtime}}{41}% 
+\contentsline {figure}{\numberline {29}{\ignorespaces Problemas 1000 Objetos Edge Pre-Runtime}}{41}% 
+\contentsline {figure}{\numberline {30}{\ignorespaces Resultado 1000 Objetos Edge Runtime}}{42}% 
+\contentsline {figure}{\numberline {31}{\ignorespaces Resultado 10 Objetos Polygon Pre-Runtime}}{43}% 
+\contentsline {figure}{\numberline {32}{\ignorespaces Resultado 50 Objetos Polygon Pre-Runtime}}{43}% 
+\contentsline {figure}{\numberline {33}{\ignorespaces Resultado 100 Objetos Polygon Pre-Runtime}}{43}% 
+\contentsline {figure}{\numberline {34}{\ignorespaces Resultado 500 Objetos Polygon Pre-Runtime}}{44}% 
+\contentsline {figure}{\numberline {35}{\ignorespaces Quadros por segundo 1000 Objetos Polygon Pre-Runtime}}{44}% 
+\contentsline {figure}{\numberline {36}{\ignorespaces Resultado 1 Objeto Polygon Runtime}}{45}% 
+\contentsline {figure}{\numberline {37}{\ignorespaces Resultado 10 Objetos Polygon Runtime}}{45}% 
+\contentsline {figure}{\numberline {38}{\ignorespaces Resultado 50 Objetos Polygon Runtime}}{46}% 
+\contentsline {figure}{\numberline {39}{\ignorespaces Quadros por segundo 50 Objetos Polygon Runtime}}{46}% 
+\contentsline {figure}{\numberline {40}{\ignorespaces Gr\'afico de porcentagem de uso da CPU com 50 objetos Box Collider em Pre-Runtime}}{48}% 
+\contentsline {figure}{\numberline {41}{\ignorespaces Gr\'afico de porcentagem de uso da CPU com 50 objetos Circle Collider em Pre-Runtime}}{48}% 
+\contentsline {figure}{\numberline {42}{\ignorespaces Gr\'afico de porcentagem de uso da CPU com 50 objetos Polygon Collider em Pre-Runtime}}{49}% 
+\contentsline {figure}{\numberline {43}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos Box Collider em Pre-Runtime}}{49}% 
+\contentsline {figure}{\numberline {44}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos Circle Collider em Pre-Runtime}}{50}% 
+\contentsline {figure}{\numberline {45}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos Polygon Collider em Pre-Runtime}}{50}% 
+\contentsline {figure}{\numberline {46}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos Box Collider em Pre-Runtime}}{51}% 
+\contentsline {figure}{\numberline {47}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos Circle Collider em Pre-Runtime}}{51}% 
+\contentsline {figure}{\numberline {48}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos Polygon Collider em Pre-Runtime}}{52}% 
+\contentsline {figure}{\numberline {49}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos Polygon Collider em Pre-Runtime}}{52}% 
+\contentsline {figure}{\numberline {50}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos Box Collider em Pre-Runtime com f\IeC {\'\i }sica}}{53}% 
+\contentsline {figure}{\numberline {51}{\ignorespaces Gr\'afico dequantidade de Garbage Collection em bytes com 50 objetos Circle Collider em Pre-Runtime com f\IeC {\'\i }sica}}{53}% 
+\contentsline {figure}{\numberline {52}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos Polygon Collider em Pre-Runtime com f\IeC {\'\i }sica}}{54}% 
+\contentsline {figure}{\numberline {53}{\ignorespaces Gr\'afico de porcentagem de uso da CPU com 50 objetos por segundo Box Collider em Runtime}}{54}% 
+\contentsline {figure}{\numberline {54}{\ignorespaces Gr\'afico de porcentagem de uso da CPU com 50 objetos Circle Collider em Runtime}}{55}% 
+\contentsline {figure}{\numberline {55}{\ignorespaces Gr\'afico de porcentagem de uso da CPU com 50 objetos po segundo Polygon Collider em Runtime}}{55}% 
+\contentsline {figure}{\numberline {56}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos Box Collider em Runtime}}{56}% 
+\contentsline {figure}{\numberline {57}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos por segundo Circle Collider em Runtime}}{56}% 
+\contentsline {figure}{\numberline {58}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos por segundo Polygon Collider em Runtime}}{57}% 
+\contentsline {figure}{\numberline {59}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos por segundo Box Collider em Runtime}}{57}% 
+\contentsline {figure}{\numberline {60}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos por segundo Circle Collider em Pre-Runtime}}{58}% 
+\contentsline {figure}{\numberline {61}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos por segundo Polygon Collider em Runtime}}{58}% 
+\contentsline {figure}{\numberline {62}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Box Collider em Runtime}}{59}% 
+\contentsline {figure}{\numberline {63}{\ignorespaces Gr\'afico dequantidade de Garbage Collection em bytes com 50 objetos por segundo Circle Collider em Runtime}}{59}% 
+\contentsline {figure}{\numberline {64}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Polygon Collider em Runtime}}{60}% 
+\contentsline {figure}{\numberline {65}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Box Collider em Runtime com f\IeC {\'\i }sica}}{60}% 
+\contentsline {figure}{\numberline {66}{\ignorespaces Gr\'afico dequantidade de Garbage Collection em bytes com 50 objetos por segundo Circle Collider em Runtime com f\IeC {\'\i }sica}}{61}% 
+\contentsline {figure}{\numberline {67}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Polygon Collider em Runtime com f\IeC {\'\i }sica}}{61}% 
+\contentsline {figure}{\numberline {68}{\ignorespaces Pergunta 1 do question\'ario}}{66}% 
+\contentsline {figure}{\numberline {69}{\ignorespaces Pergunta 2 do question\'ario}}{66}% 
+\contentsline {figure}{\numberline {70}{\ignorespaces Pergunta 3 do question\'ario}}{67}% 
+\contentsline {figure}{\numberline {71}{\ignorespaces Pergunta 4 do question\'ario}}{67}% 
+\contentsline {figure}{\numberline {72}{\ignorespaces Pergunta 5 do question\'ario}}{68}% 
+\contentsline {figure}{\numberline {73}{\ignorespaces Pergunta 6 do question\'ario}}{68}% 
+\contentsline {figure}{\numberline {74}{\ignorespaces Pergunta 7 do question\'ario}}{69}% 
+\contentsline {figure}{\numberline {75}{\ignorespaces Pergunta 8 do question\'ario}}{69}% 
+\contentsline {figure}{\numberline {76}{\ignorespaces Pergunta 9 do question\'ario}}{70}% 
+\contentsline {figure}{\numberline {77}{\ignorespaces Respostas Pergunta 1 do question\'ario}}{71}% 
+\contentsline {figure}{\numberline {78}{\ignorespaces Respostas Pergunta 2 do question\'ario}}{71}% 
+\contentsline {figure}{\numberline {79}{\ignorespaces Respostas Pergunta 3 do question\'ario}}{72}% 
+\contentsline {figure}{\numberline {80}{\ignorespaces Respostas Pergunta 4 do question\'ario}}{72}% 
+\contentsline {figure}{\numberline {81}{\ignorespaces Respostas Pergunta 5 do question\'ario}}{73}% 
+\contentsline {figure}{\numberline {82}{\ignorespaces Respostas Pergunta 6 do question\'ario}}{73}% 
+\contentsline {figure}{\numberline {83}{\ignorespaces Respostas Pergunta 7 do question\'ario}}{74}% 
+\contentsline {figure}{\numberline {84}{\ignorespaces Respostas Pergunta 8 do question\'ario}}{74}% 
+\contentsline {figure}{\numberline {85}{\ignorespaces Respostas Pergunta 9 do question\'ario}}{75}% 

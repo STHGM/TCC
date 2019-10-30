@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  27 OCT 2019 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  30 OCT 2019 02:35
 entering extended mode
 **./modelo_utfpr.tex
 (modelo_utfpr.tex
@@ -624,29 +624,30 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 ] (modelo_utfpr.lof [3
 
-])
+] [4])
 \tf@lof=\write3
 \openout3 = `modelo_utfpr.lof'.
 
- [4] (modelo_utfpr.lot)
+ [5] (modelo_utfpr.lot)
 \tf@lot=\write4
 \openout4 = `modelo_utfpr.lot'.
 
- [5
+ [6
 
-] (modelo_utfpr.toc [6
+]
+(modelo_utfpr.toc [7
 
 
 ])
 \tf@toc=\write5
 \openout5 = `modelo_utfpr.toc'.
 
- [7]
+ [8]
 \openout2 = `./Capitulos/capitulo1.aux'.
 
  (Capitulos/capitulo1.tex
 Cap\'{\i }tulo 1.
-[9
+[10
 
 
 
@@ -663,12 +664,12 @@ Overfull \hbox (1.24268pt too wide) in paragraph at lines 53--58
 n[]arios e com-pa-rar os re-sul-ta-dos en-tre eles. Ser[]ao tamb[]em
  []
 
-) [10] [11]
+) [11] [12]
 \openout2 = `./Capitulos/capitulo2.aux'.
 
  (Capitulos/capitulo2.tex
 Cap\'{\i }tulo 2.
-<./Figuras/exemplo_bola_botao_01.png, id=42, 662.475pt x 313.9228pt>
+<./Figuras/exemplo_bola_botao_01.png, id=46, 662.475pt x 313.9228pt>
 File: ./Figuras/exemplo_bola_botao_01.png Graphic file (type png)
 <use ./Figuras/exemplo_bola_botao_01.png>
 Package pdftex.def Info: ./Figuras/exemplo_bola_botao_01.png  used on input lin
@@ -680,42 +681,42 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-<./Figuras/exemplo_bola_botao_02.png, id=44, 659.46375pt x 312.41719pt>
+<./Figuras/exemplo_bola_botao_02.png, id=48, 659.46375pt x 312.41719pt>
 File: ./Figuras/exemplo_bola_botao_02.png Graphic file (type png)
 <use ./Figuras/exemplo_bola_botao_02.png>
 Package pdftex.def Info: ./Figuras/exemplo_bola_botao_02.png  used on input lin
 e 21.
 (pdftex.def)             Requested size: 227.62206pt x 107.83171pt.
-[12
+[13
 
 
 
  <./Figuras/exemplo_bola_botao_01.png> <./Figuras/exemplo_bola_botao_02.png>]
-<./Figuras/exemplo_col_circulos_01_TP.png, id=51, 469.00218pt x 344.78813pt>
+<./Figuras/exemplo_col_circulos_01_TP.png, id=54, 469.00218pt x 344.78813pt>
 File: ./Figuras/exemplo_col_circulos_01_TP.png Graphic file (type png)
 <use ./Figuras/exemplo_col_circulos_01_TP.png>
 Package pdftex.def Info: ./Figuras/exemplo_col_circulos_01_TP.png  used on inpu
 t line 34.
 (pdftex.def)             Requested size: 227.62206pt x 167.33252pt.
-<./Figuras/exemplo_col_circulos_03_TP.png, id=52, 504.38437pt x 353.06906pt>
+<./Figuras/exemplo_col_circulos_03_TP.png, id=55, 504.38437pt x 353.06906pt>
 File: ./Figuras/exemplo_col_circulos_03_TP.png Graphic file (type png)
 <use ./Figuras/exemplo_col_circulos_03_TP.png>
 Package pdftex.def Info: ./Figuras/exemplo_col_circulos_03_TP.png  used on inpu
 t line 43.
 (pdftex.def)             Requested size: 227.62206pt x 159.33752pt.
-<./Figuras/exemplo_col_circulos_04_TP.png, id=53, 485.56406pt x 389.20406pt>
+<./Figuras/exemplo_col_circulos_04_TP.png, id=56, 485.56406pt x 389.20406pt>
 File: ./Figuras/exemplo_col_circulos_04_TP.png Graphic file (type png)
 <use ./Figuras/exemplo_col_circulos_04_TP.png>
 Package pdftex.def Info: ./Figuras/exemplo_col_circulos_04_TP.png  used on inpu
 t line 52.
 (pdftex.def)             Requested size: 227.62206pt x 182.44489pt.
-<./Figuras/code_sphere.png, id=54, 499.11469pt x 281.55188pt>
+<./Figuras/code_sphere.png, id=57, 499.11469pt x 281.55188pt>
 File: ./Figuras/code_sphere.png Graphic file (type png)
 <use ./Figuras/code_sphere.png>
 Package pdftex.def Info: ./Figuras/code_sphere.png  used on input line 61.
 (pdftex.def)             Requested size: 455.24411pt x 256.81406pt.
- [13 <./Figuras/exemplo_col_circulos_01_TP.png>] [14 <./Figuras/exemplo_col_cir
-culos_03_TP.png> <./Figuras/exemplo_col_circulos_04_TP.png>] [15 <./Figuras/cod
+ [14 <./Figuras/exemplo_col_circulos_01_TP.png>] [15 <./Figuras/exemplo_col_cir
+culos_03_TP.png> <./Figuras/exemplo_col_circulos_04_TP.png>] [16 <./Figuras/cod
 e_sphere.png>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 104.
 
@@ -725,7 +726,7 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
-<./Figuras/circle-collider-2d.png, id=68, 444.15938pt x 148.30406pt>
+<./Figuras/circle-collider-2d.png, id=71, 444.15938pt x 148.30406pt>
 File: ./Figuras/circle-collider-2d.png Graphic file (type png)
 <use ./Figuras/circle-collider-2d.png>
 Package pdftex.def Info: ./Figuras/circle-collider-2d.png  used on input line 1
@@ -733,7 +734,7 @@ Package pdftex.def Info: ./Figuras/circle-collider-2d.png  used on input line 1
 (pdftex.def)             Requested size: 341.43307pt x 114.00438pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 112.
-<./Figuras/box.png, id=69, 594.22pt x 234.8775pt>
+<./Figuras/box.png, id=72, 594.22pt x 234.8775pt>
 File: ./Figuras/box.png Graphic file (type png)
 <use ./Figuras/box.png>
 Package pdftex.def Info: ./Figuras/box.png  used on input line 123.
@@ -744,40 +745,40 @@ Overfull \hbox (3.05449pt too wide) in paragraph at lines 131--132
 tm/m/it/12 Poly-gon-Col-li-der2D \OT1/ptm/m/n/12 n[]ao tem restri[][]ao
  []
 
-[16 <./Figuras/circle-collider-2d.png> <./Figuras/box.png>]
-<./Figuras/poligon-collider-2d.png, id=76, 439.6425pt x 166.37157pt>
+[17 <./Figuras/circle-collider-2d.png> <./Figuras/box.png>]
+<./Figuras/poligon-collider-2d.png, id=79, 439.6425pt x 166.37157pt>
 File: ./Figuras/poligon-collider-2d.png Graphic file (type png)
 <use ./Figuras/poligon-collider-2d.png>
 Package pdftex.def Info: ./Figuras/poligon-collider-2d.png  used on input line 
 135.
 (pdftex.def)             Requested size: 341.43307pt x 129.21078pt.
-<./Figuras/edge-collider-2d.png, id=77, 444.91219pt x 173.14688pt>
+<./Figuras/edge-collider-2d.png, id=80, 444.91219pt x 173.14688pt>
 File: ./Figuras/edge-collider-2d.png Graphic file (type png)
 <use ./Figuras/edge-collider-2d.png>
 Package pdftex.def Info: ./Figuras/edge-collider-2d.png  used on input line 147
 .
 (pdftex.def)             Requested size: 341.43307pt x 132.877pt.
- [17 <./Figuras/poligon-collider-2d.png> <./Figuras/edge-collider-2d.png>] [18]
+ [18 <./Figuras/poligon-collider-2d.png> <./Figuras/edge-collider-2d.png>] [19]
 
 Overfull \hbox (11.17822pt too wide) in paragraph at lines 240--241
 \OT1/ptm/m/n/12 nem[]aticos de-vem ser usa-dos em ob-je-tos que po-dem ser mo-v
 i-dos ou ha-bi-li-ta-dos/desabilitados
  []
 
-[19] [20] [21]
-<./Figuras/Aabb_01.png, id=94, 301.125pt x 163.3603pt>
+[20] [21] [22]
+<./Figuras/Aabb_01.png, id=97, 301.125pt x 163.3603pt>
 File: ./Figuras/Aabb_01.png Graphic file (type png)
 <use ./Figuras/Aabb_01.png>
 Package pdftex.def Info: ./Figuras/Aabb_01.png  used on input line 370.
 (pdftex.def)             Requested size: 455.24411pt x 246.9941pt.
- [22] [23 <./Figuras/Aabb_01.png>]
-<./Figuras/Bounding_Volumes.jpg, id=102, 301.125pt x 203.25937pt>
+ [23] [24 <./Figuras/Aabb_01.png>]
+<./Figuras/Bounding_Volumes.jpg, id=106, 301.125pt x 203.25937pt>
 File: ./Figuras/Bounding_Volumes.jpg Graphic file (type jpg)
 <use ./Figuras/Bounding_Volumes.jpg>
 Package pdftex.def Info: ./Figuras/Bounding_Volumes.jpg  used on input line 395
 .
 (pdftex.def)             Requested size: 341.43307pt x 230.48988pt.
-) [24 <./Figuras/Bounding_Volumes.jpg>]
+) [25 <./Figuras/Bounding_Volumes.jpg>]
 \openout2 = `./Capitulos/capitulo3.aux'.
 
  (Capitulos/capitulo3.tex
@@ -787,27 +788,27 @@ Overfull \hbox (32.81496pt too wide) in paragraph at lines 11--27
  [][] 
  []
 
-[25
+[26
 
 
 
-] [26]) [27]
+] [27]) [28]
 \openout2 = `./Capitulos/capitulo4.aux'.
 
  (Capitulos/capitulo4.tex
 Cap\'{\i }tulo 4.
-[28
+[29
 
 
 
 ]
-<./Figuras/profiler_unity_01.png, id=119, 952.30782pt x 475.7775pt>
+<./Figuras/profiler_unity_01.png, id=122, 952.30782pt x 475.7775pt>
 File: ./Figuras/profiler_unity_01.png Graphic file (type png)
 <use ./Figuras/profiler_unity_01.png>
 Package pdftex.def Info: ./Figuras/profiler_unity_01.png  used on input line 54
 .
 (pdftex.def)             Requested size: 455.24411pt x 227.44135pt.
- [29]
+ [30]
 Overfull \hbox (20.10185pt too wide) in paragraph at lines 66--67
 []\OT1/ptm/m/n/12 As men-sa-gens de \OT1/ptm/m/it/12 On-Col-li-sion2D \OT1/ptm/
 m/n/12 ana-li-sa-das s[]ao as mes-mas apre-sen-ta-das na subse[][]ao 2.2.2[].
@@ -820,26 +821,26 @@ a \OT1/ptm/m/it/12 Unity\OT1/ptm/m/n/12 , n[]ao []e ca-paz de sal-var os da-dos
  co-le-ta-dos para visualiza[][]ao,
  []
 
-[30 <./Figuras/profiler_unity_01.png>]
-<./Figuras/profiler_data_exporter.png, id=128, 393.72093pt x 290.58563pt>
+[31 <./Figuras/profiler_unity_01.png>]
+<./Figuras/profiler_data_exporter.png, id=131, 393.72093pt x 290.58563pt>
 File: ./Figuras/profiler_data_exporter.png Graphic file (type png)
 <use ./Figuras/profiler_data_exporter.png>
 Package pdftex.def Info: ./Figuras/profiler_data_exporter.png  used on input li
 ne 86.
 (pdftex.def)             Requested size: 341.43307pt x 251.9916pt.
- [31 <./Figuras/profiler_data_exporter.png>]
-<./Figuras/exemplo_cenario.png, id=133, 660.96938pt x 496.10344pt>
+ [32 <./Figuras/profiler_data_exporter.png>]
+<./Figuras/exemplo_cenario.png, id=136, 660.96938pt x 496.10344pt>
 File: ./Figuras/exemplo_cenario.png Graphic file (type png)
 <use ./Figuras/exemplo_cenario.png>
 Package pdftex.def Info: ./Figuras/exemplo_cenario.png  used on input line 102.
 
 (pdftex.def)             Requested size: 341.43307pt x 256.2796pt.
-) [32 <./Figuras/exemplo_cenario.png>]
+) [33 <./Figuras/exemplo_cenario.png>]
 \openout2 = `./Capitulos/capitulo5.aux'.
 
  (Capitulos/capitulo5.tex
 Cap\'{\i }tulo 5.
-<./Figuras/Questionario/resultado/04_colliders_2D_mais.png, id=138, 602.25pt x 
+<./Figuras/Questionario/resultado/04_colliders_2D_mais.png, id=141, 602.25pt x 
 372.39125pt>
 File: ./Figuras/Questionario/resultado/04_colliders_2D_mais.png Graphic file (t
 ype png)
@@ -847,7 +848,7 @@ ype png)
 Package pdftex.def Info: ./Figuras/Questionario/resultado/04_colliders_2D_mais.
 png  used on input line 17.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/05_mensagens_2D_mais.png, id=139, 602.25pt x 
+<./Figuras/Questionario/resultado/05_mensagens_2D_mais.png, id=142, 602.25pt x 
 372.39125pt>
 File: ./Figuras/Questionario/resultado/05_mensagens_2D_mais.png Graphic file (t
 ype png)
@@ -855,200 +856,456 @@ ype png)
 Package pdftex.def Info: ./Figuras/Questionario/resultado/05_mensagens_2D_mais.
 png  used on input line 28.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/06_media_2D.png, id=140, 602.25pt x 372.39125
+<./Figuras/Questionario/resultado/06_media_2D.png, id=143, 602.25pt x 372.39125
 pt>
 File: ./Figuras/Questionario/resultado/06_media_2D.png Graphic file (type png)
 <use ./Figuras/Questionario/resultado/06_media_2D.png>
 Package pdftex.def Info: ./Figuras/Questionario/resultado/06_media_2D.png  used
  on input line 35.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-[33
+[34
 
 
 
-] [34 <./Figuras/Questionario/resultado/04_colliders_2D_mais.png> <./Figuras/Qu
+] [35 <./Figuras/Questionario/resultado/04_colliders_2D_mais.png> <./Figuras/Qu
 estionario/resultado/05_mensagens_2D_mais.png>]
-<./Figuras/Testes/Box/new/0010_Static.png, id=149, 1077.27469pt x 434.37282pt>
+<./Figuras/Testes/Box/new/0010_Static.png, id=152, 1077.27469pt x 434.37282pt>
 File: ./Figuras/Testes/Box/new/0010_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0010_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0010_Static.png  used on inpu
 t line 50.
 (pdftex.def)             Requested size: 455.24411pt x 183.56209pt.
-<./Figuras/Testes/Box/new/0500_Static.png, id=150, 1075.76906pt x 434.37282pt>
+<./Figuras/Testes/Box/new/0500_Static.png, id=153, 1075.76906pt x 434.37282pt>
 File: ./Figuras/Testes/Box/new/0500_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0500_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0500_Static.png  used on inpu
 t line 57.
 (pdftex.def)             Requested size: 455.24411pt x 183.82059pt.
-<./Figuras/Testes/Box/new/1000_Static.png, id=151, 1072.75781pt x 426.84468pt>
+<./Figuras/Testes/Box/new/1000_Static.png, id=154, 1072.75781pt x 426.84468pt>
 File: ./Figuras/Testes/Box/new/1000_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/1000_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/1000_Static.png  used on inpu
 t line 66.
 (pdftex.def)             Requested size: 455.24411pt x 181.13629pt.
- [35 <./Figuras/Questionario/resultado/06_media_2D.png> <./Figuras/Testes/Box/n
+ [36 <./Figuras/Questionario/resultado/06_media_2D.png> <./Figuras/Testes/Box/n
 ew/0010_Static.png>]
-<./Figuras/Testes/Box/new/0010_Dynamic.png, id=157, 1074.26344pt x 432.86719pt>
+<./Figuras/Testes/Box/new/0010_Dynamic.png, id=161, 1074.26344pt x 432.86719pt>
 
 File: ./Figuras/Testes/Box/new/0010_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0010_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0010_Dynamic.png  used on inp
 ut line 77.
 (pdftex.def)             Requested size: 455.24411pt x 183.4344pt.
-<./Figuras/Testes/Box/new/0100_Dynamic.png, id=158, 1077.27469pt x 431.36156pt>
+<./Figuras/Testes/Box/new/0100_Dynamic.png, id=162, 1077.27469pt x 431.36156pt>
 
 File: ./Figuras/Testes/Box/new/0100_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0100_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Box/new/0100_Dynamic.png  used on inp
 ut line 86.
 (pdftex.def)             Requested size: 455.24411pt x 182.28957pt.
- [36 <./Figuras/Testes/Box/new/0500_Static.png> <./Figuras/Testes/Box/new/1000_
+ [37 <./Figuras/Testes/Box/new/0500_Static.png> <./Figuras/Testes/Box/new/1000_
 Static.png>]
-<./Figuras/Testes/Circle/new/0050_Static.png, id=165, 1075.76906pt x 432.86719p
+<./Figuras/Testes/Circle/new/0050_Static.png, id=168, 1075.76906pt x 432.86719p
 t>
 File: ./Figuras/Testes/Circle/new/0050_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/0050_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/0050_Static.png  used on i
 nput line 99.
 (pdftex.def)             Requested size: 455.24411pt x 183.18341pt.
-<./Figuras/Testes/Circle/new/1000_Static.png, id=166, 1074.26344pt x 431.36156p
+<./Figuras/Testes/Circle/new/1000_Static.png, id=169, 1074.26344pt x 431.36156p
 t>
 File: ./Figuras/Testes/Circle/new/1000_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/1000_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/1000_Static.png  used on i
 nput line 108.
 (pdftex.def)             Requested size: 455.24411pt x 182.79637pt.
- [37 <./Figuras/Testes/Box/new/0010_Dynamic.png> <./Figuras/Testes/Box/new/0100
+ [38 <./Figuras/Testes/Box/new/0010_Dynamic.png> <./Figuras/Testes/Box/new/0100
 _Dynamic.png>]
-<./Figuras/Testes/Circle/new/0050_Dynamic.png, id=172, 1073.51062pt x 431.36156
+<./Figuras/Testes/Circle/new/0050_Dynamic.png, id=175, 1073.51062pt x 431.36156
 pt>
 File: ./Figuras/Testes/Circle/new/0050_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/0050_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/0050_Dynamic.png  used on 
 input line 119.
 (pdftex.def)             Requested size: 455.24411pt x 182.92802pt.
-<./Figuras/Testes/Circle/new/0100_Dynamic.png, id=173, 1078.0275pt x 432.11438p
+<./Figuras/Testes/Circle/new/0100_Dynamic.png, id=176, 1078.0275pt x 432.11438p
 t>
 File: ./Figuras/Testes/Circle/new/0100_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/0100_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/0100_Dynamic.png  used on 
 input line 128.
 (pdftex.def)             Requested size: 455.24411pt x 182.48242pt.
- [38 <./Figuras/Testes/Circle/new/0050_Static.png> <./Figuras/Testes/Circle/new
+ [39 <./Figuras/Testes/Circle/new/0050_Static.png> <./Figuras/Testes/Circle/new
 /1000_Static.png>]
 File: ./Figuras/Testes/Circle/new/1000_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Circle/new/1000_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Circle/new/1000_Static.png  used on i
-nput line 141.
+nput line 142.
 (pdftex.def)             Requested size: 455.24411pt x 182.79637pt.
- [39 <./Figuras/Testes/Circle/new/0050_Dynamic.png> <./Figuras/Testes/Circle/ne
+ [40 <./Figuras/Testes/Circle/new/0050_Dynamic.png> <./Figuras/Testes/Circle/ne
 w/0100_Dynamic.png>]
-<./Figuras/Testes/Edge/new/1000_Static_Artifact.png, id=184, 654.94687pt x 429.
+<./Figuras/Testes/Edge/new/1000_Static_Artifact.png, id=187, 654.94687pt x 429.
 85594pt>
 File: ./Figuras/Testes/Edge/new/1000_Static_Artifact.png Graphic file (type png
 )
 <use ./Figuras/Testes/Edge/new/1000_Static_Artifact.png>
 Package pdftex.def Info: ./Figuras/Testes/Edge/new/1000_Static_Artifact.png  us
-ed on input line 150.
+ed on input line 151.
 (pdftex.def)             Requested size: 341.43307pt x 224.09045pt.
- [40 <./Figuras/Testes/Edge/new/1000_Static_Artifact.png>]
-<./Figuras/Testes/Edge/new/1000_Dynamic.png, id=189, 1074.26344pt x 432.11438pt
+ [41 <./Figuras/Testes/Edge/new/1000_Static_Artifact.png>]
+<./Figuras/Testes/Edge/new/1000_Dynamic.png, id=192, 1074.26344pt x 432.11438pt
 >
 File: ./Figuras/Testes/Edge/new/1000_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Edge/new/1000_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Edge/new/1000_Dynamic.png  used on in
-put line 161.
+put line 162.
 (pdftex.def)             Requested size: 455.24411pt x 183.11539pt.
-<./Figuras/Testes/Polygon/new/0010_Static.png, id=190, 1072.75781pt x 427.5975p
+<./Figuras/Testes/Polygon/new/0010_Static.png, id=193, 1072.75781pt x 427.5975p
 t>
 File: ./Figuras/Testes/Polygon/new/0010_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0010_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0010_Static.png  used on 
-input line 178.
+input line 179.
 (pdftex.def)             Requested size: 455.24411pt x 181.45575pt.
-<./Figuras/Testes/Polygon/new/0050_Static.png, id=191, 1074.26344pt x 433.62pt>
+<./Figuras/Testes/Polygon/new/0050_Static.png, id=194, 1074.26344pt x 433.62pt>
 
 File: ./Figuras/Testes/Polygon/new/0050_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0050_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Static.png  used on 
-input line 187.
+input line 188.
 (pdftex.def)             Requested size: 455.24411pt x 183.75343pt.
-<./Figuras/Testes/Polygon/new/0100_Static.png, id=192, 1072.75781pt x 432.11438
+<./Figuras/Testes/Polygon/new/0100_Static.png, id=195, 1072.75781pt x 432.11438
 pt>
 File: ./Figuras/Testes/Polygon/new/0100_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0100_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0100_Static.png  used on 
-input line 196.
+input line 197.
 (pdftex.def)             Requested size: 455.24411pt x 183.37254pt.
- [41 <./Figuras/Testes/Edge/new/1000_Dynamic.png>] [42 <./Figuras/Testes/Polygo
+ [42 <./Figuras/Testes/Edge/new/1000_Dynamic.png>] [43 <./Figuras/Testes/Polygo
 n/new/0010_Static.png> <./Figuras/Testes/Polygon/new/0050_Static.png> <./Figura
 s/Testes/Polygon/new/0100_Static.png>]
-<./Figuras/Testes/Polygon/new/0500_Static.png, id=204, 1071.25218pt x 431.36156
+<./Figuras/Testes/Polygon/new/0500_Static.png, id=207, 1071.25218pt x 431.36156
 pt>
 File: ./Figuras/Testes/Polygon/new/0500_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0500_Static.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0500_Static.png  used on 
-input line 205.
+input line 206.
 (pdftex.def)             Requested size: 455.24411pt x 183.31636pt.
-<./Figuras/Testes/Polygon/new/1000_Static_FPS.png, id=205, 655.69969pt x 453.94
+<./Figuras/Testes/Polygon/new/1000_Static_FPS.png, id=208, 655.69969pt x 453.94
 594pt>
 File: ./Figuras/Testes/Polygon/new/1000_Static_FPS.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/1000_Static_FPS.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/1000_Static_FPS.png  used
- on input line 212.
+ on input line 213.
 (pdftex.def)             Requested size: 341.43307pt x 236.3788pt.
-<./Figuras/Testes/Polygon/new/0001_Dynamic.png, id=206, 1078.0275pt x 431.36156
+<./Figuras/Testes/Polygon/new/0001_Dynamic.png, id=209, 1078.0275pt x 431.36156
 pt>
 File: ./Figuras/Testes/Polygon/new/0001_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0001_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0001_Dynamic.png  used on
- input line 223.
+ input line 224.
 (pdftex.def)             Requested size: 455.24411pt x 182.1645pt.
 
-[43 <./Figuras/Testes/Polygon/new/0500_Static.png> <./Figuras/Testes/Polygon/ne
+[44 <./Figuras/Testes/Polygon/new/0500_Static.png> <./Figuras/Testes/Polygon/ne
 w/1000_Static_FPS.png>]
-<./Figuras/Testes/Polygon/new/0010_Dynamic.png, id=212, 1076.52188pt x 427.5975
+<./Figuras/Testes/Polygon/new/0010_Dynamic.png, id=215, 1076.52188pt x 427.5975
 pt>
 File: ./Figuras/Testes/Polygon/new/0010_Dynamic.png Graphic file (type png)
 <use ./Figuras/Testes/Polygon/new/0010_Dynamic.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0010_Dynamic.png  used on
- input line 232.
+ input line 233.
 (pdftex.def)             Requested size: 455.24411pt x 180.82288pt.
-<./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png, id=213, 1074.26344pt x 43
+<./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png, id=216, 1074.26344pt x 43
 7.38406pt>
 File: ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png Graphic file (type pn
 g)
 <use ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png  u
-sed on input line 241.
+sed on input line 242.
 (pdftex.def)             Requested size: 455.24411pt x 185.34851pt.
-<./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png, id=214, 652.68843pt x 450.1
+<./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png, id=217, 652.68843pt x 450.1
 8187pt>
 File: ./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png Graphic file (type png)
 
 <use ./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png>
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png  use
-d on input line 248.
+d on input line 249.
 (pdftex.def)             Requested size: 341.43307pt x 235.5041pt.
 
-Overfull \hbox (4.88841pt too wide) in paragraph at lines 253--254
+Overfull \hbox (4.88841pt too wide) in paragraph at lines 254--255
 []\OT1/ptm/m/n/12 Com cem ob-je-tos por se-gundo, o pro-grama ini-cia, por[]em 
 n[]ao pros-se-gue com a execu[][]ao.
  []
 
-[44 <./Figuras/Testes/Polygon/new/0001_Dynamic.png> <./Figuras/Testes/Polygon/n
-ew/0010_Dynamic.png>] [45 <./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png>
- <./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png>]) [46]
+[45 <./Figuras/Testes/Polygon/new/0001_Dynamic.png> <./Figuras/Testes/Polygon/n
+ew/0010_Dynamic.png>] [46 <./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png>
+ <./Figuras/Testes/Polygon/new/0050_Dynamic_FPS.png>] [47]
+<./Figuras/Graficos/Box/Pre-Runtime/50_Percent_NP.png, id=231, 362.3136pt x 217
+.7736pt>
+File: ./Figuras/Graficos/Box/Pre-Runtime/50_Percent_NP.png Graphic file (type p
+ng)
+<use ./Figuras/Graficos/Box/Pre-Runtime/50_Percent_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Box/Pre-Runtime/50_Percent_NP.png  
+used on input line 280.
+(pdftex.def)             Requested size: 341.43307pt x 205.22226pt.
+<./Figuras/Graficos/Circle/Pre-Runtime/50_Percent_NP.png, id=232, 362.3136pt x 
+217.7736pt>
+File: ./Figuras/Graficos/Circle/Pre-Runtime/50_Percent_NP.png Graphic file (typ
+e png)
+<use ./Figuras/Graficos/Circle/Pre-Runtime/50_Percent_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Circle/Pre-Runtime/50_Percent_NP.pn
+g  used on input line 287.
+(pdftex.def)             Requested size: 341.43307pt x 205.22226pt.
+<./Figuras/Graficos/Polygon/Pre-Runtime/50_Percent_NP.png, id=233, 359.9046pt x
+ 217.7736pt>
+File: ./Figuras/Graficos/Polygon/Pre-Runtime/50_Percent_NP.png Graphic file (ty
+pe png)
+<use ./Figuras/Graficos/Polygon/Pre-Runtime/50_Percent_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Polygon/Pre-Runtime/50_Percent_NP.p
+ng  used on input line 294.
+(pdftex.def)             Requested size: 341.43307pt x 206.61125pt.
+
+Overfull \hbox (7.68422pt too wide) in paragraph at lines 300--301
+[]\OT1/ptm/m/n/12 Em rela[][]ao ao n[]umero de ve-zes que os m[]etodos que fo-r
+am cha-ma-dos du-rante a execu[][]ao,
+ []
+
+[48 <./Figuras/Graficos/Box/Pre-Runtime/50_Percent_NP.png> <./Figuras/Graficos/
+Circle/Pre-Runtime/50_Percent_NP.png>]
+<./Figuras/Graficos/Box/Pre-Runtime/50_Calls_NP.png, id=240, 362.3136pt x 217.7
+736pt>
+File: ./Figuras/Graficos/Box/Pre-Runtime/50_Calls_NP.png Graphic file (type png
+)
+<use ./Figuras/Graficos/Box/Pre-Runtime/50_Calls_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Box/Pre-Runtime/50_Calls_NP.png  us
+ed on input line 304.
+(pdftex.def)             Requested size: 341.43307pt x 205.22226pt.
+<./Figuras/Graficos/Circle/Pre-Runtime/50_Calls_NP.png, id=241, 362.3136pt x 21
+7.7736pt>
+File: ./Figuras/Graficos/Circle/Pre-Runtime/50_Calls_NP.png Graphic file (type 
+png)
+<use ./Figuras/Graficos/Circle/Pre-Runtime/50_Calls_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Circle/Pre-Runtime/50_Calls_NP.png 
+ used on input line 311.
+(pdftex.def)             Requested size: 341.43307pt x 205.22226pt.
+<./Figuras/Graficos/Polygon/Pre-Runtime/50_Calls_NP.png, id=242, 363.759pt x 21
+7.7736pt>
+File: ./Figuras/Graficos/Polygon/Pre-Runtime/50_Calls_NP.png Graphic file (type
+ png)
+<use ./Figuras/Graficos/Polygon/Pre-Runtime/50_Calls_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Polygon/Pre-Runtime/50_Calls_NP.png
+  used on input line 318.
+(pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
+<./Figuras/Graficos/Box/Pre-Runtime/50_Time_NP.png, id=243, 362.3136pt x 217.77
+36pt>
+File: ./Figuras/Graficos/Box/Pre-Runtime/50_Time_NP.png Graphic file (type png)
+
+<use ./Figuras/Graficos/Box/Pre-Runtime/50_Time_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Box/Pre-Runtime/50_Time_NP.png  use
+d on input line 328.
+(pdftex.def)             Requested size: 341.43307pt x 205.22226pt.
+<./Figuras/Graficos/Circle/Pre-Runtime/50_Time_NP.png, id=244, 362.3136pt x 217
+.7736pt>
+File: ./Figuras/Graficos/Circle/Pre-Runtime/50_Time_NP.png Graphic file (type p
+ng)
+<use ./Figuras/Graficos/Circle/Pre-Runtime/50_Time_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Circle/Pre-Runtime/50_Time_NP.png  
+used on input line 335.
+(pdftex.def)             Requested size: 341.43307pt x 205.22226pt.
+<./Figuras/Graficos/Polygon/Pre-Runtime/50_Time_NP.png, id=245, 359.9046pt x 21
+7.7736pt>
+File: ./Figuras/Graficos/Polygon/Pre-Runtime/50_Time_NP.png Graphic file (type 
+png)
+<use ./Figuras/Graficos/Polygon/Pre-Runtime/50_Time_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Polygon/Pre-Runtime/50_Time_NP.png 
+ used on input line 342.
+(pdftex.def)             Requested size: 341.43307pt x 206.61125pt.
+ [49 <./Figuras/Graficos/Polygon/Pre-Runtime/50_Percent_NP.png> <./Figuras/Graf
+icos/Box/Pre-Runtime/50_Calls_NP.png>]
+<./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_NP.png, id=251, 363.759pt x
+ 217.7736pt>
+File: ./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_NP.png Graphic file (t
+ype png)
+<use ./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_NP.
+png  used on input line 352.
+(pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
+<./Figuras/Graficos/Box/Pre-Runtime/50_GCMemory_P.png, id=252, 362.3136pt x 217
+.7736pt>
+File: ./Figuras/Graficos/Box/Pre-Runtime/50_GCMemory_P.png Graphic file (type p
+ng)
+<use ./Figuras/Graficos/Box/Pre-Runtime/50_GCMemory_P.png>
+Package pdftex.def Info: ./Figuras/Graficos/Box/Pre-Runtime/50_GCMemory_P.png  
+used on input line 361.
+(pdftex.def)             Requested size: 341.43307pt x 205.22226pt.
+<./Figuras/Graficos/Circle/Pre-Runtime/50_GCMemory_P.png, id=253, 362.3136pt x 
+217.7736pt>
+File: ./Figuras/Graficos/Circle/Pre-Runtime/50_GCMemory_P.png Graphic file (typ
+e png)
+<use ./Figuras/Graficos/Circle/Pre-Runtime/50_GCMemory_P.png>
+Package pdftex.def Info: ./Figuras/Graficos/Circle/Pre-Runtime/50_GCMemory_P.pn
+g  used on input line 368.
+(pdftex.def)             Requested size: 341.43307pt x 205.22226pt.
+<./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_P.png, id=254, 363.759pt x 
+217.7736pt>
+File: ./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_P.png Graphic file (ty
+pe png)
+<use ./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_P.png>
+Package pdftex.def Info: ./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_P.p
+ng  used on input line 375.
+(pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
+
+[50 <./Figuras/Graficos/Circle/Pre-Runtime/50_Calls_NP.png> <./Figuras/Graficos
+/Polygon/Pre-Runtime/50_Calls_NP.png>]
+<./Figuras/Graficos/Box/Runtime/50_Percent_NP.png, id=260, 363.759pt x 214.8828
+pt>
+File: ./Figuras/Graficos/Box/Runtime/50_Percent_NP.png Graphic file (type png)
+<use ./Figuras/Graficos/Box/Runtime/50_Percent_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Box/Runtime/50_Percent_NP.png  used
+ on input line 389.
+(pdftex.def)             Requested size: 341.43307pt x 201.69803pt.
+<./Figuras/Graficos/Circle/Runtime/50_Percent_NP.png, id=261, 363.759pt x 215.3
+646pt>
+File: ./Figuras/Graficos/Circle/Runtime/50_Percent_NP.png Graphic file (type pn
+g)
+<use ./Figuras/Graficos/Circle/Runtime/50_Percent_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Circle/Runtime/50_Percent_NP.png  u
+sed on input line 396.
+(pdftex.def)             Requested size: 341.43307pt x 202.15027pt.
+<./Figuras/Graficos/Polygon/Runtime/50_Percent_NP.png, id=262, 363.2772pt x 215
+.3646pt>
+File: ./Figuras/Graficos/Polygon/Runtime/50_Percent_NP.png Graphic file (type p
+ng)
+<use ./Figuras/Graficos/Polygon/Runtime/50_Percent_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Polygon/Runtime/50_Percent_NP.png  
+used on input line 403.
+(pdftex.def)             Requested size: 341.43307pt x 202.4263pt.
+
+Overfull \hbox (7.68422pt too wide) in paragraph at lines 409--410
+[]\OT1/ptm/m/n/12 Em rela[][]ao ao n[]umero de ve-zes que os m[]etodos que fo-r
+am cha-ma-dos du-rante a execu[][]ao,
+ []
+
+[51 <./Figuras/Graficos/Box/Pre-Runtime/50_Time_NP.png> <./Figuras/Graficos/Cir
+cle/Pre-Runtime/50_Time_NP.png>]
+<./Figuras/Graficos/Box/Runtime/50_Calls_NP.png, id=268, 363.759pt x 217.7736pt
+>
+File: ./Figuras/Graficos/Box/Runtime/50_Calls_NP.png Graphic file (type png)
+<use ./Figuras/Graficos/Box/Runtime/50_Calls_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Box/Runtime/50_Calls_NP.png  used o
+n input line 413.
+(pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
+<./Figuras/Graficos/Circle/Runtime/50_Calls_NP.png, id=269, 364.2408pt x 217.77
+36pt>
+File: ./Figuras/Graficos/Circle/Runtime/50_Calls_NP.png Graphic file (type png)
+
+<use ./Figuras/Graficos/Circle/Runtime/50_Calls_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Circle/Runtime/50_Calls_NP.png  use
+d on input line 420.
+(pdftex.def)             Requested size: 341.43307pt x 204.14894pt.
+<./Figuras/Graficos/Polygon/Runtime/50_Calls_NP.png, id=270, 363.759pt x 217.77
+36pt>
+File: ./Figuras/Graficos/Polygon/Runtime/50_Calls_NP.png Graphic file (type png
+)
+<use ./Figuras/Graficos/Polygon/Runtime/50_Calls_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Polygon/Runtime/50_Calls_NP.png  us
+ed on input line 427.
+(pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
+<./Figuras/Graficos/Box/Runtime/50_Time_NP.png, id=271, 359.4228pt x 217.7736pt
+>
+File: ./Figuras/Graficos/Box/Runtime/50_Time_NP.png Graphic file (type png)
+<use ./Figuras/Graficos/Box/Runtime/50_Time_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Box/Runtime/50_Time_NP.png  used on
+ input line 437.
+(pdftex.def)             Requested size: 341.43307pt x 206.8804pt.
+<./Figuras/Graficos/Circle/Runtime/50_Time_NP.png, id=272, 359.4228pt x 217.773
+6pt>
+File: ./Figuras/Graficos/Circle/Runtime/50_Time_NP.png Graphic file (type png)
+<use ./Figuras/Graficos/Circle/Runtime/50_Time_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Circle/Runtime/50_Time_NP.png  used
+ on input line 444.
+(pdftex.def)             Requested size: 341.43307pt x 206.8804pt.
+<./Figuras/Graficos/Polygon/Runtime/50_Time_NP.png, id=273, 359.9046pt x 217.77
+36pt>
+File: ./Figuras/Graficos/Polygon/Runtime/50_Time_NP.png Graphic file (type png)
+
+<use ./Figuras/Graficos/Polygon/Runtime/50_Time_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Polygon/Runtime/50_Time_NP.png  use
+d on input line 451.
+(pdftex.def)             Requested size: 341.43307pt x 206.61125pt.
+ [52 <./Figuras/Graficos/Polygon/Pre-Runtime/50_Time_NP.png> <./Figuras/Grafico
+s/Polygon/Pre-Runtime/50_GCMemory_NP.png>]
+<./Figuras/Graficos/Box/Runtime/50_GCMemory_NP.png, id=279, 363.759pt x 217.773
+6pt>
+File: ./Figuras/Graficos/Box/Runtime/50_GCMemory_NP.png Graphic file (type png)
+
+<use ./Figuras/Graficos/Box/Runtime/50_GCMemory_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Box/Runtime/50_GCMemory_NP.png  use
+d on input line 461.
+(pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
+<./Figuras/Graficos/Circle/Runtime/50_GCMemory_NP.png, id=280, 364.2408pt x 217
+.7736pt>
+File: ./Figuras/Graficos/Circle/Runtime/50_GCMemory_NP.png Graphic file (type p
+ng)
+<use ./Figuras/Graficos/Circle/Runtime/50_GCMemory_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Circle/Runtime/50_GCMemory_NP.png  
+used on input line 468.
+(pdftex.def)             Requested size: 341.43307pt x 204.14894pt.
+<./Figuras/Graficos/Polygon/Runtime/50_GCMemory_NP.png, id=281, 363.759pt x 217
+.7736pt>
+File: ./Figuras/Graficos/Polygon/Runtime/50_GCMemory_NP.png Graphic file (type 
+png)
+<use ./Figuras/Graficos/Polygon/Runtime/50_GCMemory_NP.png>
+Package pdftex.def Info: ./Figuras/Graficos/Polygon/Runtime/50_GCMemory_NP.png 
+ used on input line 475.
+(pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
+<./Figuras/Graficos/Box/Runtime/50_GCMemory_P.png, id=282, 364.2408pt x 217.773
+6pt>
+File: ./Figuras/Graficos/Box/Runtime/50_GCMemory_P.png Graphic file (type png)
+<use ./Figuras/Graficos/Box/Runtime/50_GCMemory_P.png>
+Package pdftex.def Info: ./Figuras/Graficos/Box/Runtime/50_GCMemory_P.png  used
+ on input line 484.
+(pdftex.def)             Requested size: 341.43307pt x 204.14894pt.
+<./Figuras/Graficos/Circle/Runtime/50_GCMemory_P.png, id=283, 364.2408pt x 217.
+7736pt>
+File: ./Figuras/Graficos/Circle/Runtime/50_GCMemory_P.png Graphic file (type pn
+g)
+<use ./Figuras/Graficos/Circle/Runtime/50_GCMemory_P.png>
+Package pdftex.def Info: ./Figuras/Graficos/Circle/Runtime/50_GCMemory_P.png  u
+sed on input line 491.
+(pdftex.def)             Requested size: 341.43307pt x 204.14894pt.
+<./Figuras/Graficos/Polygon/Runtime/50_GCMemory_P.png, id=284, 363.759pt x 217.
+7736pt>
+File: ./Figuras/Graficos/Polygon/Runtime/50_GCMemory_P.png Graphic file (type p
+ng)
+<use ./Figuras/Graficos/Polygon/Runtime/50_GCMemory_P.png>
+Package pdftex.def Info: ./Figuras/Graficos/Polygon/Runtime/50_GCMemory_P.png  
+used on input line 498.
+(pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
+)
+[53 <./Figuras/Graficos/Box/Pre-Runtime/50_GCMemory_P.png> <./Figuras/Graficos/
+Circle/Pre-Runtime/50_GCMemory_P.png>] [54 <./Figuras/Graficos/Polygon/Pre-Runt
+ime/50_GCMemory_P.png> <./Figuras/Graficos/Box/Runtime/50_Percent_NP.png>]
+[55 <./Figuras/Graficos/Circle/Runtime/50_Percent_NP.png> <./Figuras/Graficos/P
+olygon/Runtime/50_Percent_NP.png>] [56 <./Figuras/Graficos/Box/Runtime/50_Calls
+_NP.png> <./Figuras/Graficos/Circle/Runtime/50_Calls_NP.png>] [57 <./Figuras/Gr
+aficos/Polygon/Runtime/50_Calls_NP.png> <./Figuras/Graficos/Box/Runtime/50_Time
+_NP.png>] [58 <./Figuras/Graficos/Circle/Runtime/50_Time_NP.png> <./Figuras/Gra
+ficos/Polygon/Runtime/50_Time_NP.png>] [59 <./Figuras/Graficos/Box/Runtime/50_G
+CMemory_NP.png> <./Figuras/Graficos/Circle/Runtime/50_GCMemory_NP.png>]
+[60 <./Figuras/Graficos/Polygon/Runtime/50_GCMemory_NP.png> <./Figuras/Graficos
+/Box/Runtime/50_GCMemory_P.png>] [61 <./Figuras/Graficos/Circle/Runtime/50_GCMe
+mory_P.png> <./Figuras/Graficos/Polygon/Runtime/50_GCMemory_P.png>]
 \openout2 = `./Capitulos/capitulo6.aux'.
 
 
 (Capitulos/capitulo6.tex
 Cap\'{\i }tulo 6.
-[47
+[62
 
 
 
-]) [48] (modelo_utfpr.bbl
+]) [63] (modelo_utfpr.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
 []\OT1/ptm/m/n/12 ARMSTRONG, W. \OT1/ptm/b/n/12 Spo-tlight Team Best Prac-ti-ce
 s: Col-li-sion Per-for-mance
@@ -1120,7 +1377,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--102
 problem-you-face-as-a-independent-game-
  []
 
-[49
+[64
 
 
 ]
@@ -1141,89 +1398,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--143
 icia/numero-de-desenvolvedores-de-games-
  []
 
-) [50]
+) [65]
 \openout2 = `./Pos-Textuais/apendice1.aux'.
 
  (Pos-Textuais/apendice1.tex
 Apendice A.
-<./Figuras/Questionario/01_voce_e.png, id=242, 575.14874pt x 248.42813pt>
+<./Figuras/Questionario/01_voce_e.png, id=345, 575.14874pt x 248.42813pt>
 File: ./Figuras/Questionario/01_voce_e.png Graphic file (type png)
 <use ./Figuras/Questionario/01_voce_e.png>
 Package pdftex.def Info: ./Figuras/Questionario/01_voce_e.png  used on input li
 ne 9.
 (pdftex.def)             Requested size: 341.43307pt x 147.4811pt.
-<./Figuras/Questionario/02_cena_completa.png, id=243, 572.1375pt x 187.45032pt>
+<./Figuras/Questionario/02_cena_completa.png, id=346, 572.1375pt x 187.45032pt>
 
 File: ./Figuras/Questionario/02_cena_completa.png Graphic file (type png)
 <use ./Figuras/Questionario/02_cena_completa.png>
 Package pdftex.def Info: ./Figuras/Questionario/02_cena_completa.png  used on i
 nput line 16.
 (pdftex.def)             Requested size: 341.43307pt x 111.86467pt.
-<./Figuras/Questionario/03_objetos_trigger.png, id=244, 576.65437pt x 316.18124
+<./Figuras/Questionario/03_objetos_trigger.png, id=347, 576.65437pt x 316.18124
 pt>
 File: ./Figuras/Questionario/03_objetos_trigger.png Graphic file (type png)
 <use ./Figuras/Questionario/03_objetos_trigger.png>
 Package pdftex.def Info: ./Figuras/Questionario/03_objetos_trigger.png  used on
  input line 23.
 (pdftex.def)             Requested size: 341.43307pt x 187.21591pt.
-<./Figuras/Questionario/04_colliders_2D_mais.png, id=245, 453.19313pt x 320.698
+<./Figuras/Questionario/04_colliders_2D_mais.png, id=348, 453.19313pt x 320.698
 12pt>
 File: ./Figuras/Questionario/04_colliders_2D_mais.png Graphic file (type png)
 <use ./Figuras/Questionario/04_colliders_2D_mais.png>
 Package pdftex.def Info: ./Figuras/Questionario/04_colliders_2D_mais.png  used 
 on input line 30.
 (pdftex.def)             Requested size: 341.43307pt x 241.61423pt.
-<./Figuras/Questionario/05_mensagens_2D_mais.png, id=246, 523.20468pt x 313.922
+<./Figuras/Questionario/05_mensagens_2D_mais.png, id=349, 523.20468pt x 313.922
 8pt>
 File: ./Figuras/Questionario/05_mensagens_2D_mais.png Graphic file (type png)
 <use ./Figuras/Questionario/05_mensagens_2D_mais.png>
 Package pdftex.def Info: ./Figuras/Questionario/05_mensagens_2D_mais.png  used 
 on input line 37.
 (pdftex.def)             Requested size: 341.43307pt x 204.86171pt.
-<./Figuras/Questionario/06_media_2D.png, id=247, 545.78906pt x 310.15875pt>
+<./Figuras/Questionario/06_media_2D.png, id=350, 545.78906pt x 310.15875pt>
 File: ./Figuras/Questionario/06_media_2D.png Graphic file (type png)
 <use ./Figuras/Questionario/06_media_2D.png>
 Package pdftex.def Info: ./Figuras/Questionario/06_media_2D.png  used on input 
 line 44.
 (pdftex.def)             Requested size: 341.43307pt x 194.02858pt.
-<./Figuras/Questionario/07_colliders_3D_mais.png, id=248, 435.87843pt x 317.686
+<./Figuras/Questionario/07_colliders_3D_mais.png, id=351, 435.87843pt x 317.686
 87pt>
 File: ./Figuras/Questionario/07_colliders_3D_mais.png Graphic file (type png)
 <use ./Figuras/Questionario/07_colliders_3D_mais.png>
 Package pdftex.def Info: ./Figuras/Questionario/07_colliders_3D_mais.png  used 
 on input line 51.
 (pdftex.def)             Requested size: 341.43307pt x 248.8515pt.
-<./Figuras/Questionario/08_mensagens_3D_mais.png, id=249, 520.19344pt x 326.720
+<./Figuras/Questionario/08_mensagens_3D_mais.png, id=352, 520.19344pt x 326.720
 63pt>
 File: ./Figuras/Questionario/08_mensagens_3D_mais.png Graphic file (type png)
 <use ./Figuras/Questionario/08_mensagens_3D_mais.png>
 Package pdftex.def Info: ./Figuras/Questionario/08_mensagens_3D_mais.png  used 
 on input line 58.
 (pdftex.def)             Requested size: 341.43307pt x 214.44476pt.
-<./Figuras/Questionario/09_media_3D.png, id=250, 545.78906pt x 306.39468pt>
+<./Figuras/Questionario/09_media_3D.png, id=353, 545.78906pt x 306.39468pt>
 File: ./Figuras/Questionario/09_media_3D.png Graphic file (type png)
 <use ./Figuras/Questionario/09_media_3D.png>
 Package pdftex.def Info: ./Figuras/Questionario/09_media_3D.png  used on input 
 line 65.
 (pdftex.def)             Requested size: 341.43307pt x 191.67386pt.
-[51
+[66
 
 
  <./Figuras/Questionario/01_voce_e.png> <./Figuras/Questionario/02_cena_complet
-a.png>] [52 <./Figuras/Questionario/03_objetos_trigger.png> <./Figuras/Question
-ario/04_colliders_2D_mais.png>] [53 <./Figuras/Questionario/05_mensagens_2D_mai
-s.png> <./Figuras/Questionario/06_media_2D.png>] [54 <./Figuras/Questionario/07
+a.png>] [67 <./Figuras/Questionario/03_objetos_trigger.png> <./Figuras/Question
+ario/04_colliders_2D_mais.png>] [68 <./Figuras/Questionario/05_mensagens_2D_mai
+s.png> <./Figuras/Questionario/06_media_2D.png>] [69 <./Figuras/Questionario/07
 _colliders_3D_mais.png> <./Figuras/Questionario/08_mensagens_3D_mais.png>]
-[55 <./Figuras/Questionario/09_media_3D.png>]
+[70 <./Figuras/Questionario/09_media_3D.png>]
 Apendice B.
-<./Figuras/Questionario/resultado/01_voce_e.png, id=276, 602.25pt x 372.39125pt
+<./Figuras/Questionario/resultado/01_voce_e.png, id=379, 602.25pt x 372.39125pt
 >
 File: ./Figuras/Questionario/resultado/01_voce_e.png Graphic file (type png)
 <use ./Figuras/Questionario/resultado/01_voce_e.png>
 Package pdftex.def Info: ./Figuras/Questionario/resultado/01_voce_e.png  used o
 n input line 76.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/02_cena_completa.png, id=277, 602.25pt x 372.
+<./Figuras/Questionario/resultado/02_cena_completa.png, id=380, 602.25pt x 372.
 39125pt>
 File: ./Figuras/Questionario/resultado/02_cena_completa.png Graphic file (type 
 png)
@@ -1231,7 +1488,7 @@ png)
 Package pdftex.def Info: ./Figuras/Questionario/resultado/02_cena_completa.png 
  used on input line 83.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/03_objetos_trigger.png, id=278, 602.25pt x 37
+<./Figuras/Questionario/resultado/03_objetos_trigger.png, id=381, 602.25pt x 37
 2.39125pt>
 File: ./Figuras/Questionario/resultado/03_objetos_trigger.png Graphic file (typ
 e png)
@@ -1256,7 +1513,7 @@ File: ./Figuras/Questionario/resultado/06_media_2D.png Graphic file (type png)
 Package pdftex.def Info: ./Figuras/Questionario/resultado/06_media_2D.png  used
  on input line 111.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/07_colliders_3D_mais.png, id=279, 602.25pt x 
+<./Figuras/Questionario/resultado/07_colliders_3D_mais.png, id=382, 602.25pt x 
 372.39125pt>
 File: ./Figuras/Questionario/resultado/07_colliders_3D_mais.png Graphic file (t
 ype png)
@@ -1264,7 +1521,7 @@ ype png)
 Package pdftex.def Info: ./Figuras/Questionario/resultado/07_colliders_3D_mais.
 png  used on input line 118.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/08_mensagens_3D_mais.png, id=280, 602.25pt x 
+<./Figuras/Questionario/resultado/08_mensagens_3D_mais.png, id=383, 602.25pt x 
 372.39125pt>
 File: ./Figuras/Questionario/resultado/08_mensagens_3D_mais.png Graphic file (t
 ype png)
@@ -1272,28 +1529,28 @@ ype png)
 Package pdftex.def Info: ./Figuras/Questionario/resultado/08_mensagens_3D_mais.
 png  used on input line 125.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/09_media_3D.png, id=281, 602.25pt x 372.39125
+<./Figuras/Questionario/resultado/09_media_3D.png, id=384, 602.25pt x 372.39125
 pt>
 File: ./Figuras/Questionario/resultado/09_media_3D.png Graphic file (type png)
 <use ./Figuras/Questionario/resultado/09_media_3D.png>
 Package pdftex.def Info: ./Figuras/Questionario/resultado/09_media_3D.png  used
  on input line 132.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-[56
+[71
 
  <./Figuras/Questionario/resultado/01_voce_e.png> <./Figuras/Questionario/resul
-tado/02_cena_completa.png>] [57 <./Figuras/Questionario/resultado/03_objetos_tr
-igger.png>] [58] [59 <./Figuras/Questionario/resultado/07_colliders_3D_mais.png
-> <./Figuras/Questionario/resultado/08_mensagens_3D_mais.png>] [60 <./Figuras/Q
+tado/02_cena_completa.png>] [72 <./Figuras/Questionario/resultado/03_objetos_tr
+igger.png>] [73] [74 <./Figuras/Questionario/resultado/07_colliders_3D_mais.png
+> <./Figuras/Questionario/resultado/08_mensagens_3D_mais.png>] [75 <./Figuras/Q
 uestionario/resultado/09_media_3D.png>]
 Apendice C.
-[61
+[76
 
 ]
-Underfull \vbox (badness 10000) detected at line 210
+Underfull \vbox (badness 10000) detected at line 211
  []
 
-) [62] 
+) [77] 
 AED: lastpage setting LastPage
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
@@ -1303,10 +1560,10 @@ AED: lastpage setting LastPage
 (Capitulos/capitulo3.aux) (Capitulos/capitulo4.aux) (Capitulos/capitulo5.aux)
 (Capitulos/capitulo6.aux) (Pos-Textuais/apendice1.aux)) ) 
 Here is how much of TeX's memory you used:
- 6354 strings out of 492895
- 104538 string characters out of 3123735
- 220262 words of memory out of 3000000
- 9944 multiletter control sequences out of 15000+200000
+ 6507 strings out of 492895
+ 112030 string characters out of 3123735
+ 220562 words of memory out of 3000000
+ 10086 multiletter control sequences out of 15000+200000
  34991 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,19n,52p,909b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1319,9 +1576,9 @@ fb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb
 utmbi8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (63 pages, 3121240 bytes).
+Output written on modelo_utfpr.pdf (78 pages, 4027576 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
+ 437 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 266 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
