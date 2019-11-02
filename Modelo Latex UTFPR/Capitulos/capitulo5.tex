@@ -366,7 +366,7 @@ A seguir é exibido nos gráficos das Figuras \ref{grafico_box_static_gc}, \ref{gr
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Circle/Pre-Runtime/50_GCMemory_P.png}
-	\caption[Gráfico dequantidade de Garbage Collection em bytes com 50 objetos Circle Collider em Pre-Runtime com física]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos \emph{Circle Collider} em \emph{Pre-Runtime} com física.}
+	\caption[Gráfico de quantidade de Garbage Collection em bytes com 50 objetos Circle Collider em Pre-Runtime com física]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos \emph{Circle Collider} em \emph{Pre-Runtime} com física.}
 	\label{grafico_circle_static_gc}
 \end{figure}
 
@@ -375,6 +375,57 @@ A seguir é exibido nos gráficos das Figuras \ref{grafico_box_static_gc}, \ref{gr
 	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_P.png}
 	\caption[Gráfico de quantidade de Garbage Collection em bytes com 50 objetos Polygon Collider em Pre-Runtime com física]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos \emph{Polygon Collider} em \emph{Pre-Runtime} com física.}
 	\label{grafico_polygon_static_gc_p}
+\end{figure}
+
+As Figuras \ref{grafico_box_static}, \ref{grafico_circle_static} e \ref{grafico_polygon_static} apresentam o gráfico geral de resultados dos \emph{colliders Box, Circle} e \emph{Polygon} no cenário \emph{Pre-Runtime}. Neles é possível observar o consumo total de memória RAM, bem como a progressão de milissegundos necessários para renderizar os quadros. A tabela \ref{tabela_ms_to_fps} a seguir mostra a conversão de alguns valores em milissegundos para FPS (Quadros por segundo) para melhor entendimento dos gráficos.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[]
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|l|}
+			\hline
+			\multicolumn{2}{|l|}{Conversão milissegundos para FPS} \\ \hline
+			1 ms & 1000 FPS \\ \hline
+			2 ms & 500 FPS \\ \hline
+			4.17 ms & 240 FPS \\ \hline
+			8.34 ms & 120 FPS \\ \hline
+			10 ms & 100 FPS \\ \hline
+			16.67 ms & 60 FPS \\ \hline
+			33.34 ms & 30 FPS \\ \hline
+			66.67 ms & 15 FPS \\ \hline
+			100 ms & 10 FPS \\ \hline
+			200 ms & 5 FPS \\ \hline
+			1000 ms & 1 FPS \\ \hline
+			1250 ms & 0.8 FPS \\ \hline
+			2000 ms & 0.5 FPS \\ \hline
+			5000 ms & 0.2 FPS \\ \hline
+			10000 ms & 0.1 FPS \\ \hline
+		\end{tabular}%
+	}
+	\caption{Tabela de conversão de milissegundos para FPS (quadros por segundo).}
+	\label{tabela_ms_to_fps}
+\end{table}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Box/new/0050_Static.png}
+	\caption[Gráfico do resultado de Box Collider com 50 objetos em Pre-Runtime]{Gráfico do resultado de \emph{Box Collider} com 50 objetos em \emph{Pre-Runtime}.}
+	\label{grafico_box_static}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Circle/new/0050_Static.png}
+	\caption[Gráfico do resultado de Circle Collider com 50 objetos em Pre-Runtime]{Gráfico do resultado de \emph{Circle Collider} com 50 objetos em \emph{Pre-Runtime}.}
+	\label{grafico_circle_static}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Polygon/new/0050_Static.png}
+	\caption[Gráfico do resultado de Polygon Collider com 50 objetos em Pre-Runtime]{Gráfico do resultado de Polygon Collider com 50 objetos em \emph{Pre-Runtime}.}
+	\label{grafico_polygon_static}
 \end{figure}
 
 
@@ -498,4 +549,27 @@ Os gráficos a seguir apresentados pelas Figuras \ref{grafico_box_dynamic_gc_p}, 
 	\includegraphics[width=0.75\textwidth]{./Figuras/Graficos/Polygon/Runtime/50_GCMemory_P.png}
 	\caption[Gráfico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Polygon Collider em Runtime com física]{Gráfico de quantidade de \emph{Garbage Collection} em \emph{bytes} com 50 objetos por segundo \emph{Polygon Collider} em \emph{Runtime} com física.}
 	\label{grafico_polygon_dynamic_gc_p}
+\end{figure}
+
+As Figuras \ref{grafico_box_dynamic}, \ref{grafico_circle_dynamic} e \ref{grafico_polygon_dynamic} apresentam o gráfico geral de resultados dos \emph{colliders Box, Circle} e \emph{Polygon} no cenário \emph{Runtime}. Neles é possível observar o consumo total de memória RAM, bem como a progressão de milissegundos necessários para renderizar os quadros. Novamente, a tabela \ref{tabela_ms_to_fps} pode ser usada como referência para as conversões.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Box/new/0050_Dynamic.png}
+	\caption[Gráfico do resultado de Box Collider com 50 objetos em Runtime]{Gráfico do resultado de \emph{Box Collider} com 50 objetos em \emph{Runtime}.}
+	\label{grafico_box_dynamic}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Circle/new/0050_Dynamic.png}
+	\caption[Gráfico do resultado de Circle Collider com 50 objetos em Runtime]{Gráfico do resultado de \emph{Circle Collider} com 50 objetos em \emph{Runtime}.}
+	\label{grafico_circle_dynamic}
+\end{figure}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png}
+	\caption[Gráfico do resultado de Polygon Collider com 50 objetos em Runtime]{Gráfico do resultado de Polygon Collider com 50 objetos em \emph{Runtime}.}
+	\label{grafico_polygon_dynamic}
 \end{figure}

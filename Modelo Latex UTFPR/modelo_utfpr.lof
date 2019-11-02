@@ -46,41 +46,47 @@
 \contentsline {figure}{\numberline {45}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos Polygon Collider em Pre-Runtime}}{50}% 
 \contentsline {figure}{\numberline {46}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos Box Collider em Pre-Runtime}}{51}% 
 \contentsline {figure}{\numberline {47}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos Circle Collider em Pre-Runtime}}{51}% 
-\contentsline {figure}{\numberline {48}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos Polygon Collider em Pre-Runtime}}{52}% 
-\contentsline {figure}{\numberline {49}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos Polygon Collider em Pre-Runtime}}{52}% 
-\contentsline {figure}{\numberline {50}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos Box Collider em Pre-Runtime com f\IeC {\'\i }sica}}{53}% 
-\contentsline {figure}{\numberline {51}{\ignorespaces Gr\'afico dequantidade de Garbage Collection em bytes com 50 objetos Circle Collider em Pre-Runtime com f\IeC {\'\i }sica}}{53}% 
-\contentsline {figure}{\numberline {52}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos Polygon Collider em Pre-Runtime com f\IeC {\'\i }sica}}{54}% 
-\contentsline {figure}{\numberline {53}{\ignorespaces Gr\'afico de porcentagem de uso da CPU com 50 objetos por segundo Box Collider em Runtime}}{54}% 
-\contentsline {figure}{\numberline {54}{\ignorespaces Gr\'afico de porcentagem de uso da CPU com 50 objetos Circle Collider em Runtime}}{55}% 
-\contentsline {figure}{\numberline {55}{\ignorespaces Gr\'afico de porcentagem de uso da CPU com 50 objetos po segundo Polygon Collider em Runtime}}{55}% 
-\contentsline {figure}{\numberline {56}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos Box Collider em Runtime}}{56}% 
-\contentsline {figure}{\numberline {57}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos por segundo Circle Collider em Runtime}}{56}% 
-\contentsline {figure}{\numberline {58}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos por segundo Polygon Collider em Runtime}}{57}% 
-\contentsline {figure}{\numberline {59}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos por segundo Box Collider em Runtime}}{57}% 
-\contentsline {figure}{\numberline {60}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos por segundo Circle Collider em Pre-Runtime}}{58}% 
-\contentsline {figure}{\numberline {61}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos por segundo Polygon Collider em Runtime}}{58}% 
-\contentsline {figure}{\numberline {62}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Box Collider em Runtime}}{59}% 
-\contentsline {figure}{\numberline {63}{\ignorespaces Gr\'afico dequantidade de Garbage Collection em bytes com 50 objetos por segundo Circle Collider em Runtime}}{59}% 
-\contentsline {figure}{\numberline {64}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Polygon Collider em Runtime}}{60}% 
-\contentsline {figure}{\numberline {65}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Box Collider em Runtime com f\IeC {\'\i }sica}}{60}% 
-\contentsline {figure}{\numberline {66}{\ignorespaces Gr\'afico dequantidade de Garbage Collection em bytes com 50 objetos por segundo Circle Collider em Runtime com f\IeC {\'\i }sica}}{61}% 
-\contentsline {figure}{\numberline {67}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Polygon Collider em Runtime com f\IeC {\'\i }sica}}{61}% 
-\contentsline {figure}{\numberline {68}{\ignorespaces Pergunta 1 do question\'ario}}{66}% 
-\contentsline {figure}{\numberline {69}{\ignorespaces Pergunta 2 do question\'ario}}{66}% 
-\contentsline {figure}{\numberline {70}{\ignorespaces Pergunta 3 do question\'ario}}{67}% 
-\contentsline {figure}{\numberline {71}{\ignorespaces Pergunta 4 do question\'ario}}{67}% 
-\contentsline {figure}{\numberline {72}{\ignorespaces Pergunta 5 do question\'ario}}{68}% 
-\contentsline {figure}{\numberline {73}{\ignorespaces Pergunta 6 do question\'ario}}{68}% 
-\contentsline {figure}{\numberline {74}{\ignorespaces Pergunta 7 do question\'ario}}{69}% 
-\contentsline {figure}{\numberline {75}{\ignorespaces Pergunta 8 do question\'ario}}{69}% 
-\contentsline {figure}{\numberline {76}{\ignorespaces Pergunta 9 do question\'ario}}{70}% 
-\contentsline {figure}{\numberline {77}{\ignorespaces Respostas Pergunta 1 do question\'ario}}{71}% 
-\contentsline {figure}{\numberline {78}{\ignorespaces Respostas Pergunta 2 do question\'ario}}{71}% 
-\contentsline {figure}{\numberline {79}{\ignorespaces Respostas Pergunta 3 do question\'ario}}{72}% 
-\contentsline {figure}{\numberline {80}{\ignorespaces Respostas Pergunta 4 do question\'ario}}{72}% 
-\contentsline {figure}{\numberline {81}{\ignorespaces Respostas Pergunta 5 do question\'ario}}{73}% 
-\contentsline {figure}{\numberline {82}{\ignorespaces Respostas Pergunta 6 do question\'ario}}{73}% 
-\contentsline {figure}{\numberline {83}{\ignorespaces Respostas Pergunta 7 do question\'ario}}{74}% 
-\contentsline {figure}{\numberline {84}{\ignorespaces Respostas Pergunta 8 do question\'ario}}{74}% 
-\contentsline {figure}{\numberline {85}{\ignorespaces Respostas Pergunta 9 do question\'ario}}{75}% 
+\contentsline {figure}{\numberline {48}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos Polygon Collider em Pre-Runtime}}{53}% 
+\contentsline {figure}{\numberline {49}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos Polygon Collider em Pre-Runtime}}{53}% 
+\contentsline {figure}{\numberline {50}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos Box Collider em Pre-Runtime com f\IeC {\'\i }sica}}{54}% 
+\contentsline {figure}{\numberline {51}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos Circle Collider em Pre-Runtime com f\IeC {\'\i }sica}}{54}% 
+\contentsline {figure}{\numberline {52}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos Polygon Collider em Pre-Runtime com f\IeC {\'\i }sica}}{55}% 
+\contentsline {figure}{\numberline {53}{\ignorespaces Gr\'afico do resultado de Box Collider com 50 objetos em Pre-Runtime}}{55}% 
+\contentsline {figure}{\numberline {54}{\ignorespaces Gr\'afico do resultado de Circle Collider com 50 objetos em Pre-Runtime}}{56}% 
+\contentsline {figure}{\numberline {55}{\ignorespaces Gr\'afico do resultado de Polygon Collider com 50 objetos em Pre-Runtime}}{56}% 
+\contentsline {figure}{\numberline {56}{\ignorespaces Gr\'afico de porcentagem de uso da CPU com 50 objetos por segundo Box Collider em Runtime}}{57}% 
+\contentsline {figure}{\numberline {57}{\ignorespaces Gr\'afico de porcentagem de uso da CPU com 50 objetos Circle Collider em Runtime}}{57}% 
+\contentsline {figure}{\numberline {58}{\ignorespaces Gr\'afico de porcentagem de uso da CPU com 50 objetos po segundo Polygon Collider em Runtime}}{58}% 
+\contentsline {figure}{\numberline {59}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos Box Collider em Runtime}}{58}% 
+\contentsline {figure}{\numberline {60}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos por segundo Circle Collider em Runtime}}{59}% 
+\contentsline {figure}{\numberline {61}{\ignorespaces Gr\'afico de n\'umero de vezes que o m\'etodo foi chamado com 50 objetos por segundo Polygon Collider em Runtime}}{59}% 
+\contentsline {figure}{\numberline {62}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos por segundo Box Collider em Runtime}}{60}% 
+\contentsline {figure}{\numberline {63}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos por segundo Circle Collider em Pre-Runtime}}{60}% 
+\contentsline {figure}{\numberline {64}{\ignorespaces Gr\'afico de tempo em milissegundos exigido pelo processador para executar o m\'etodo com 50 objetos por segundo Polygon Collider em Runtime}}{61}% 
+\contentsline {figure}{\numberline {65}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Box Collider em Runtime}}{61}% 
+\contentsline {figure}{\numberline {66}{\ignorespaces Gr\'afico dequantidade de Garbage Collection em bytes com 50 objetos por segundo Circle Collider em Runtime}}{62}% 
+\contentsline {figure}{\numberline {67}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Polygon Collider em Runtime}}{62}% 
+\contentsline {figure}{\numberline {68}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Box Collider em Runtime com f\IeC {\'\i }sica}}{63}% 
+\contentsline {figure}{\numberline {69}{\ignorespaces Gr\'afico dequantidade de Garbage Collection em bytes com 50 objetos por segundo Circle Collider em Runtime com f\IeC {\'\i }sica}}{63}% 
+\contentsline {figure}{\numberline {70}{\ignorespaces Gr\'afico de quantidade de Garbage Collection em bytes com 50 objetos por segundo Polygon Collider em Runtime com f\IeC {\'\i }sica}}{64}% 
+\contentsline {figure}{\numberline {71}{\ignorespaces Gr\'afico do resultado de Box Collider com 50 objetos em Runtime}}{64}% 
+\contentsline {figure}{\numberline {72}{\ignorespaces Gr\'afico do resultado de Circle Collider com 50 objetos em Runtime}}{64}% 
+\contentsline {figure}{\numberline {73}{\ignorespaces Gr\'afico do resultado de Polygon Collider com 50 objetos em Runtime}}{65}% 
+\contentsline {figure}{\numberline {74}{\ignorespaces Pergunta 1 do question\'ario}}{70}% 
+\contentsline {figure}{\numberline {75}{\ignorespaces Pergunta 2 do question\'ario}}{70}% 
+\contentsline {figure}{\numberline {76}{\ignorespaces Pergunta 3 do question\'ario}}{71}% 
+\contentsline {figure}{\numberline {77}{\ignorespaces Pergunta 4 do question\'ario}}{71}% 
+\contentsline {figure}{\numberline {78}{\ignorespaces Pergunta 5 do question\'ario}}{72}% 
+\contentsline {figure}{\numberline {79}{\ignorespaces Pergunta 6 do question\'ario}}{72}% 
+\contentsline {figure}{\numberline {80}{\ignorespaces Pergunta 7 do question\'ario}}{73}% 
+\contentsline {figure}{\numberline {81}{\ignorespaces Pergunta 8 do question\'ario}}{73}% 
+\contentsline {figure}{\numberline {82}{\ignorespaces Pergunta 9 do question\'ario}}{74}% 
+\contentsline {figure}{\numberline {83}{\ignorespaces Respostas Pergunta 1 do question\'ario}}{75}% 
+\contentsline {figure}{\numberline {84}{\ignorespaces Respostas Pergunta 2 do question\'ario}}{75}% 
+\contentsline {figure}{\numberline {85}{\ignorespaces Respostas Pergunta 3 do question\'ario}}{76}% 
+\contentsline {figure}{\numberline {86}{\ignorespaces Respostas Pergunta 4 do question\'ario}}{76}% 
+\contentsline {figure}{\numberline {87}{\ignorespaces Respostas Pergunta 5 do question\'ario}}{77}% 
+\contentsline {figure}{\numberline {88}{\ignorespaces Respostas Pergunta 6 do question\'ario}}{77}% 
+\contentsline {figure}{\numberline {89}{\ignorespaces Respostas Pergunta 7 do question\'ario}}{78}% 
+\contentsline {figure}{\numberline {90}{\ignorespaces Respostas Pergunta 8 do question\'ario}}{78}% 
+\contentsline {figure}{\numberline {91}{\ignorespaces Respostas Pergunta 9 do question\'ario}}{79}% 
