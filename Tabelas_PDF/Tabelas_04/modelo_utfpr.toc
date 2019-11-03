@@ -1,0 +1,16 @@
+\babel@toc {brazil}{}
+\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Polygon Collider}}}{}% 
+\contentsline {section}{\numberline {A.1}\MakeUppercase {\emph {Pre-Runtime}}}{}% 
+\contentsline {subsection}{\numberline {A.1.1}Um Objeto}{}% 
+\contentsline {subsection}{\numberline {A.1.2}Dez Objetos}{}% 
+\contentsline {subsection}{\numberline {A.1.3}Cinquenta Objetos}{}% 
+\contentsline {subsection}{\numberline {A.1.4}Cem Objetos}{}% 
+\contentsline {subsection}{\numberline {A.1.5}Quinhentos Objetos}{}% 
+\contentsline {subsection}{\numberline {A.1.6}Mil Objetos}{}% 
+\contentsline {section}{\numberline {A.2}\MakeUppercase {\emph {Runtime}}}{}% 
+\contentsline {subsection}{\numberline {A.2.1}Um Objeto por segundo}{}% 
+\contentsline {subsection}{\numberline {A.2.2}Dez Objetos por segundo}{}% 
+\contentsline {subsection}{\numberline {A.2.3}Cinquenta Objetos por segundo}{}% 
+\contentsline {subsection}{\numberline {A.2.4}Cem Objetos por segundo}{}% 
+\contentsline {subsection}{\numberline {A.2.5}Quinhentos Objetos por segundo}{}% 
+\contentsline {subsection}{\numberline {A.2.6}Mil Objetos por segundo}{}% 
