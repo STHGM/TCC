@@ -1,0 +1,4 @@
+Tabelas_01 = Tabelas de Box
+Tabelas_02 = Tabelas Circle
+Tabelas_03 = Tabelas Edge
+Tabelas_04 = Tabelas Polygon
