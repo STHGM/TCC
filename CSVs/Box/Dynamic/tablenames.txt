@@ -1,49 +1,49 @@
-1 Objeto Runtime Box OnCollisionEnter2D
-1 Objeto Runtime Box OnCollisionExit2D
-1 Objeto Runtime Box OnCollisionStay2D
-1 Objeto Runtime Box OnTriggerEnter2D
-1 Objeto Runtime Box OnTriggerExit2D
-1 Objeto Runtime Box OnTriggerStay2D
-1 Objeto Runtime Box Physics2DSimulate
-1 Objeto Runtime Box Spawn
-10 Objetos Runtime Box OnCollisionEnter2D
-10 Objetos Runtime Box OnCollisionExit2D
-10 Objetos Runtime Box OnCollisionStay2D
-10 Objetos Runtime Box OnTriggerEnter2D
-10 Objetos Runtime Box OnTriggerExit2D
-10 Objetos Runtime Box OnTriggerStay2D
-10 Objetos Runtime Box Physics2DSimulate
-10 Objetos Runtime Box Spawn
-50 Objetos Runtime Box OnCollisionEnter2D
-50 Objetos Runtime Box OnCollisionExit2D
-50 Objetos Runtime Box OnCollisionStay2D
-50 Objetos Runtime Box OnTriggerEnter2D
-50 Objetos Runtime Box OnTriggerExit2D
-50 Objetos Runtime Box OnTriggerStay2D
-50 Objetos Runtime Box Physics2DSimulate
-50 Objetos Runtime Box Spawn
-100 Objetos Runtime Box OnCollisionEnter2D
-100 Objetos Runtime Box OnCollisionExit2D
-100 Objetos Runtime Box OnCollisionStay2D
-100 Objetos Runtime Box OnTriggerEnter2D
-100 Objetos Runtime Box OnTriggerExit2D
-100 Objetos Runtime Box OnTriggerStay2D
-100 Objetos Runtime Box Physics2DSimulate
-100 Objetos Runtime Box Spawn
-500 Objetos Runtime Box OnCollisionEnter2D
-500 Objetos Runtime Box OnCollisionExit2D
-500 Objetos Runtime Box OnCollisionStay2D
-500 Objetos Runtime Box OnTriggerEnter2D
-500 Objetos Runtime Box OnTriggerExit2D
-500 Objetos Runtime Box OnTriggerStay2D
-500 Objetos Runtime Box Physics2DSimulate
-500 Objetos Runtime Box Spawn
-1000 Objetos Runtime Box OnCollisionEnter2D
-1000 Objetos Runtime Box OnCollisionExit2D
-1000 Objetos Runtime Box OnCollisionStay2D
-1000 Objetos Runtime Box OnTriggerEnter2D
-1000 Objetos Runtime Box OnTriggerExit2D
-1000 Objetos Runtime Box OnTriggerStay2D
-1000 Objetos Runtime Box Physics2DSimulate
-1000 Objetos Runtime Box Spawn
+1 Objeto por segundo Runtime Box OnCollisionEnter2D
+1 Objeto por segundo Runtime Box OnCollisionExit2D
+1 Objeto por segundo Runtime Box OnCollisionStay2D
+1 Objeto por segundo Runtime Box OnTriggerEnter2D
+1 Objeto por segundo Runtime Box OnTriggerExit2D
+1 Objeto por segundo Runtime Box OnTriggerStay2D
+1 Objeto por segundo Runtime Box Physics2DSimulate
+1 Objeto por segundo Runtime Box Spawn
+10 Objetos por segundo Runtime Box OnCollisionEnter2D
+10 Objetos por segundo Runtime Box OnCollisionExit2D
+10 Objetos por segundo Runtime Box OnCollisionStay2D
+10 Objetos por segundo Runtime Box OnTriggerEnter2D
+10 Objetos por segundo Runtime Box OnTriggerExit2D
+10 Objetos por segundo Runtime Box OnTriggerStay2D
+10 Objetos por segundo Runtime Box Physics2DSimulate
+10 Objetos por segundo Runtime Box Spawn
+50 Objetos por segundo Runtime Box OnCollisionEnter2D
+50 Objetos por segundo Runtime Box OnCollisionExit2D
+50 Objetos por segundo Runtime Box OnCollisionStay2D
+50 Objetos por segundo Runtime Box OnTriggerEnter2D
+50 Objetos por segundo Runtime Box OnTriggerExit2D
+50 Objetos por segundo Runtime Box OnTriggerStay2D
+50 Objetos por segundo Runtime Box Physics2DSimulate
+50 Objetos por segundo Runtime Box Spawn
+100 Objetos por segundo Runtime Box OnCollisionEnter2D
+100 Objetos por segundo Runtime Box OnCollisionExit2D
+100 Objetos por segundo Runtime Box OnCollisionStay2D
+100 Objetos por segundo Runtime Box OnTriggerEnter2D
+100 Objetos por segundo Runtime Box OnTriggerExit2D
+100 Objetos por segundo Runtime Box OnTriggerStay2D
+100 Objetos por segundo Runtime Box Physics2DSimulate
+100 Objetos por segundo Runtime Box Spawn
+500 Objetos por segundo Runtime Box OnCollisionEnter2D
+500 Objetos por segundo Runtime Box OnCollisionExit2D
+500 Objetos por segundo Runtime Box OnCollisionStay2D
+500 Objetos por segundo Runtime Box OnTriggerEnter2D
+500 Objetos por segundo Runtime Box OnTriggerExit2D
+500 Objetos por segundo Runtime Box OnTriggerStay2D
+500 Objetos por segundo Runtime Box Physics2DSimulate
+500 Objetos por segundo Runtime Box Spawn
+1000 Objetos por segundo Runtime Box OnCollisionEnter2D
+1000 Objetos por segundo Runtime Box OnCollisionExit2D
+1000 Objetos por segundo Runtime Box OnCollisionStay2D
+1000 Objetos por segundo Runtime Box OnTriggerEnter2D
+1000 Objetos por segundo Runtime Box OnTriggerExit2D
+1000 Objetos por segundo Runtime Box OnTriggerStay2D
+1000 Objetos por segundo Runtime Box Physics2DSimulate
+1000 Objetos por segundo Runtime Box Spawn
 filenames.txt
