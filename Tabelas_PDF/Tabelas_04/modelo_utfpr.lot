@@ -1,69 +1,69 @@
 \babel@toc {brazil}{}
-\contentsline {table}{\numberline {1}{1 Objeto Pre-Runtime Polygon OnCollisionEnter2D}}{8}% 
-\contentsline {table}{\numberline {2}{1 Objeto Pre-Runtime Polygon OnCollisionExit2D}}{11}% 
-\contentsline {table}{\numberline {3}{1 Objeto Pre-Runtime Polygon OnCollisionStay2D}}{14}% 
-\contentsline {table}{\numberline {4}{1 Objeto Pre-Runtime Polygon OnTriggerEnter2D}}{19}% 
-\contentsline {table}{\numberline {5}{1 Objeto Pre-Runtime Polygon OnTriggerExit2D}}{20}% 
-\contentsline {table}{\numberline {6}{1 Objeto Pre-Runtime Polygon OnTriggerStay2D}}{21}% 
-\contentsline {table}{\numberline {7}{1 Objeto Pre-Runtime Polygon Physics2DSimulate}}{23}% 
-\contentsline {table}{\numberline {8}{10 Objetos Pre-Runtime Polygon OnCollisionEnter2D}}{31}% 
-\contentsline {table}{\numberline {9}{10 Objetos Pre-Runtime Polygon OnCollisionExit2D}}{36}% 
-\contentsline {table}{\numberline {10}{10 Objetos Pre-Runtime Polygon OnCollisionStay2D}}{40}% 
-\contentsline {table}{\numberline {11}{10 Objetos Pre-Runtime Polygon OnTriggerEnter2D}}{47}% 
-\contentsline {table}{\numberline {12}{10 Objetos Pre-Runtime Polygon OnTriggerExit2D}}{49}% 
-\contentsline {table}{\numberline {13}{10 Objetos Pre-Runtime Polygon OnTriggerStay2D}}{52}% 
-\contentsline {table}{\numberline {14}{10 Objetos Pre-Runtime Polygon Physics2DSimulate}}{57}% 
-\contentsline {table}{\numberline {15}{50 Objetos Pre-Runtime Polygon OnCollisionEnter2D}}{66}% 
-\contentsline {table}{\numberline {16}{50 Objetos Pre-Runtime Polygon OnCollisionExit2D}}{73}% 
-\contentsline {table}{\numberline {17}{50 Objetos Pre-Runtime Polygon OnCollisionStay2D}}{81}% 
-\contentsline {table}{\numberline {18}{50 Objetos Pre-Runtime Polygon OnTriggerEnter2D}}{88}% 
-\contentsline {table}{\numberline {19}{50 Objetos Pre-Runtime Polygon OnTriggerExit2D}}{95}% 
-\contentsline {table}{\numberline {20}{50 Objetos Pre-Runtime Polygon OnTriggerStay2D}}{101}% 
-\contentsline {table}{\numberline {21}{50 Objetos Pre-Runtime Polygon Physics2DSimulate}}{109}% 
-\contentsline {table}{\numberline {22}{100 Objetos Pre-Runtime Polygon OnCollisionEnter2D}}{118}% 
-\contentsline {table}{\numberline {23}{100 Objetos Pre-Runtime Polygon OnCollisionExit2D}}{125}% 
-\contentsline {table}{\numberline {24}{100 Objetos Pre-Runtime Polygon OnCollisionStay2D}}{133}% 
-\contentsline {table}{\numberline {25}{100 Objetos Pre-Runtime Polygon OnTriggerEnter2D}}{140}% 
-\contentsline {table}{\numberline {26}{100 Objetos Pre-Runtime Polygon OnTriggerExit2D}}{145}% 
-\contentsline {table}{\numberline {27}{100 Objetos Pre-Runtime Polygon OnTriggerStay2D}}{148}% 
-\contentsline {table}{\numberline {28}{100 Objetos Pre-Runtime Polygon Physics2DSimulate}}{156}% 
-\contentsline {table}{\numberline {29}{500 Objetos Pre-Runtime Polygon OnCollisionEnter2D}}{165}% 
-\contentsline {table}{\numberline {30}{500 Objetos Pre-Runtime Polygon OnCollisionExit2D}}{174}% 
-\contentsline {table}{\numberline {31}{500 Objetos Pre-Runtime Polygon OnCollisionStay2D}}{182}% 
-\contentsline {table}{\numberline {32}{500 Objetos Pre-Runtime Polygon OnTriggerEnter2D}}{190}% 
-\contentsline {table}{\numberline {33}{500 Objetos Pre-Runtime Polygon OnTriggerExit2D}}{193}% 
-\contentsline {table}{\numberline {34}{500 Objetos Pre-Runtime Polygon OnTriggerStay2D}}{196}% 
-\contentsline {table}{\numberline {35}{500 Objetos Pre-Runtime Polygon Physics2DSimulate}}{205}% 
-\contentsline {table}{\numberline {36}{1000 Objetos Pre-Runtime Polygon OnCollisionEnter2D}}{214}% 
-\contentsline {table}{\numberline {37}{1000 Objetos Pre-Runtime Polygon OnCollisionExit2D}}{223}% 
-\contentsline {table}{\numberline {38}{1000 Objetos Pre-Runtime Polygon OnCollisionExit2D}}{232}% 
-\contentsline {table}{\numberline {39}{1000 Objetos Pre-Runtime Polygon OnCollisionStay2D}}{241}% 
-\contentsline {table}{\numberline {40}{1000 Objetos Pre-Runtime Polygon OnTriggerEnter2D}}{250}% 
-\contentsline {table}{\numberline {41}{1000 Objetos Pre-Runtime Polygon OnTriggerExit2D}}{255}% 
-\contentsline {table}{\numberline {42}{1000 Objetos Pre-Runtime Polygon OnTriggerStay2D}}{263}% 
-\contentsline {table}{\numberline {43}{1000 Objetos Pre-Runtime Polygon Physics2DSimulate}}{272}% 
-\contentsline {table}{\numberline {44}{1 Objeto por segundo Runtime Polygon OnCollisionEnter2D}}{281}% 
-\contentsline {table}{\numberline {45}{1 Objeto por segundo Runtime Polygon OnCollisionExit2D}}{285}% 
-\contentsline {table}{\numberline {46}{1 Objeto por segundo Runtime Polygon OnCollisionStay2D}}{289}% 
-\contentsline {table}{\numberline {47}{1 Objeto por segundo Runtime Polygon OnTriggerEnter2D}}{297}% 
-\contentsline {table}{\numberline {48}{1 Objeto por segundo Runtime Polygon OnTriggerExit2D}}{299}% 
-\contentsline {table}{\numberline {49}{1 Objeto por segundo Runtime Polygon OnTriggerStay2D}}{301}% 
-\contentsline {table}{\numberline {50}{1 Objeto por segundo Runtime Polygon Physics2DSimulate}}{307}% 
-\contentsline {table}{\numberline {51}{1 Objeto por segundo Runtime Polygon Spawn1 Objeto por segundo Runtime Polygon Spawn}}{316}% 
-\contentsline {table}{\numberline {52}{1 Objeto por segundo Runtime Polygon Spawn1 Objeto por segundo Runtime Polygon Spawn}}{318}% 
-\contentsline {table}{\numberline {53}{10 Objetos por segundo Runtime Polygon OnCollisionEnter2D}}{319}% 
-\contentsline {table}{\numberline {54}{10 Objetos por segundo Runtime Polygon OnCollisionExit2D}}{326}% 
-\contentsline {table}{\numberline {55}{10 Objetos por segundo Runtime Polygon OnCollisionStay2D}}{333}% 
-\contentsline {table}{\numberline {56}{10 Objetos por segundo Runtime Polygon OnTriggerEnter2D}}{340}% 
-\contentsline {table}{\numberline {57}{10 Objetos por segundo Runtime Polygon OnTriggerExit2D}}{345}% 
-\contentsline {table}{\numberline {58}{10 Objetos por segundo Runtime Polygon OnTriggerStay2D}}{349}% 
-\contentsline {table}{\numberline {59}{10 Objetos por segundo Runtime Polygon Physics2DSimulate}}{355}% 
-\contentsline {table}{\numberline {60}{10 Objetos por segundo Runtime Polygon Spawn}}{362}% 
-\contentsline {table}{\numberline {61}{50 Objetos por segundo Runtime Polygon OnCollisionEnter2D}}{369}% 
-\contentsline {table}{\numberline {62}{50 Objetos por segundo Runtime Polygon OnCollisionExit2D}}{370}% 
-\contentsline {table}{\numberline {63}{50 Objetos por segundo Runtime Polygon OnCollisionStay2D}}{372}% 
-\contentsline {table}{\numberline {64}{50 Objetos por segundo Runtime Polygon OnTriggerEnter2D}}{373}% 
-\contentsline {table}{\numberline {65}{50 Objetos por segundo Runtime Polygon OnTriggerExit2D}}{374}% 
-\contentsline {table}{\numberline {66}{50 Objetos por segundo Runtime Polygon OnTriggerStay2D}}{375}% 
-\contentsline {table}{\numberline {67}{50 Objetos por segundo Runtime Polygon Physics2DSimulate}}{376}% 
-\contentsline {table}{\numberline {68}{50 Objetos por segundo Runtime Polygon Spawn}}{378}% 
+\contentsline {table}{\numberline {1}{1 Objeto Pre-Runtime Polygon OnCollisionEnter2D}}{7}% 
+\contentsline {table}{\numberline {2}{1 Objeto Pre-Runtime Polygon OnCollisionExit2D}}{10}% 
+\contentsline {table}{\numberline {3}{1 Objeto Pre-Runtime Polygon OnCollisionStay2D}}{13}% 
+\contentsline {table}{\numberline {4}{1 Objeto Pre-Runtime Polygon OnTriggerEnter2D}}{18}% 
+\contentsline {table}{\numberline {5}{1 Objeto Pre-Runtime Polygon OnTriggerExit2D}}{19}% 
+\contentsline {table}{\numberline {6}{1 Objeto Pre-Runtime Polygon OnTriggerStay2D}}{20}% 
+\contentsline {table}{\numberline {7}{1 Objeto Pre-Runtime Polygon Physics2DSimulate}}{22}% 
+\contentsline {table}{\numberline {8}{10 Objetos Pre-Runtime Polygon OnCollisionEnter2D}}{30}% 
+\contentsline {table}{\numberline {9}{10 Objetos Pre-Runtime Polygon OnCollisionExit2D}}{35}% 
+\contentsline {table}{\numberline {10}{10 Objetos Pre-Runtime Polygon OnCollisionStay2D}}{39}% 
+\contentsline {table}{\numberline {11}{10 Objetos Pre-Runtime Polygon OnTriggerEnter2D}}{46}% 
+\contentsline {table}{\numberline {12}{10 Objetos Pre-Runtime Polygon OnTriggerExit2D}}{48}% 
+\contentsline {table}{\numberline {13}{10 Objetos Pre-Runtime Polygon OnTriggerStay2D}}{51}% 
+\contentsline {table}{\numberline {14}{10 Objetos Pre-Runtime Polygon Physics2DSimulate}}{56}% 
+\contentsline {table}{\numberline {15}{50 Objetos Pre-Runtime Polygon OnCollisionEnter2D}}{65}% 
+\contentsline {table}{\numberline {16}{50 Objetos Pre-Runtime Polygon OnCollisionExit2D}}{72}% 
+\contentsline {table}{\numberline {17}{50 Objetos Pre-Runtime Polygon OnCollisionStay2D}}{80}% 
+\contentsline {table}{\numberline {18}{50 Objetos Pre-Runtime Polygon OnTriggerEnter2D}}{87}% 
+\contentsline {table}{\numberline {19}{50 Objetos Pre-Runtime Polygon OnTriggerExit2D}}{94}% 
+\contentsline {table}{\numberline {20}{50 Objetos Pre-Runtime Polygon OnTriggerStay2D}}{100}% 
+\contentsline {table}{\numberline {21}{50 Objetos Pre-Runtime Polygon Physics2DSimulate}}{108}% 
+\contentsline {table}{\numberline {22}{100 Objetos Pre-Runtime Polygon OnCollisionEnter2D}}{117}% 
+\contentsline {table}{\numberline {23}{100 Objetos Pre-Runtime Polygon OnCollisionExit2D}}{124}% 
+\contentsline {table}{\numberline {24}{100 Objetos Pre-Runtime Polygon OnCollisionStay2D}}{132}% 
+\contentsline {table}{\numberline {25}{100 Objetos Pre-Runtime Polygon OnTriggerEnter2D}}{139}% 
+\contentsline {table}{\numberline {26}{100 Objetos Pre-Runtime Polygon OnTriggerExit2D}}{144}% 
+\contentsline {table}{\numberline {27}{100 Objetos Pre-Runtime Polygon OnTriggerStay2D}}{147}% 
+\contentsline {table}{\numberline {28}{100 Objetos Pre-Runtime Polygon Physics2DSimulate}}{155}% 
+\contentsline {table}{\numberline {29}{500 Objetos Pre-Runtime Polygon OnCollisionEnter2D}}{164}% 
+\contentsline {table}{\numberline {30}{500 Objetos Pre-Runtime Polygon OnCollisionExit2D}}{173}% 
+\contentsline {table}{\numberline {31}{500 Objetos Pre-Runtime Polygon OnCollisionStay2D}}{181}% 
+\contentsline {table}{\numberline {32}{500 Objetos Pre-Runtime Polygon OnTriggerEnter2D}}{189}% 
+\contentsline {table}{\numberline {33}{500 Objetos Pre-Runtime Polygon OnTriggerExit2D}}{192}% 
+\contentsline {table}{\numberline {34}{500 Objetos Pre-Runtime Polygon OnTriggerStay2D}}{195}% 
+\contentsline {table}{\numberline {35}{500 Objetos Pre-Runtime Polygon Physics2DSimulate}}{204}% 
+\contentsline {table}{\numberline {36}{1000 Objetos Pre-Runtime Polygon OnCollisionEnter2D}}{213}% 
+\contentsline {table}{\numberline {37}{1000 Objetos Pre-Runtime Polygon OnCollisionExit2D}}{222}% 
+\contentsline {table}{\numberline {38}{1000 Objetos Pre-Runtime Polygon OnCollisionExit2D}}{231}% 
+\contentsline {table}{\numberline {39}{1000 Objetos Pre-Runtime Polygon OnCollisionStay2D}}{240}% 
+\contentsline {table}{\numberline {40}{1000 Objetos Pre-Runtime Polygon OnTriggerEnter2D}}{249}% 
+\contentsline {table}{\numberline {41}{1000 Objetos Pre-Runtime Polygon OnTriggerExit2D}}{254}% 
+\contentsline {table}{\numberline {42}{1000 Objetos Pre-Runtime Polygon OnTriggerStay2D}}{262}% 
+\contentsline {table}{\numberline {43}{1000 Objetos Pre-Runtime Polygon Physics2DSimulate}}{271}% 
+\contentsline {table}{\numberline {44}{1 Objeto por segundo Runtime Polygon OnCollisionEnter2D}}{280}% 
+\contentsline {table}{\numberline {45}{1 Objeto por segundo Runtime Polygon OnCollisionExit2D}}{284}% 
+\contentsline {table}{\numberline {46}{1 Objeto por segundo Runtime Polygon OnCollisionStay2D}}{288}% 
+\contentsline {table}{\numberline {47}{1 Objeto por segundo Runtime Polygon OnTriggerEnter2D}}{296}% 
+\contentsline {table}{\numberline {48}{1 Objeto por segundo Runtime Polygon OnTriggerExit2D}}{298}% 
+\contentsline {table}{\numberline {49}{1 Objeto por segundo Runtime Polygon OnTriggerStay2D}}{300}% 
+\contentsline {table}{\numberline {50}{1 Objeto por segundo Runtime Polygon Physics2DSimulate}}{306}% 
+\contentsline {table}{\numberline {51}{1 Objeto por segundo Runtime Polygon Spawn1 Objeto por segundo Runtime Polygon Spawn}}{315}% 
+\contentsline {table}{\numberline {52}{1 Objeto por segundo Runtime Polygon Spawn1 Objeto por segundo Runtime Polygon Spawn}}{317}% 
+\contentsline {table}{\numberline {53}{10 Objetos por segundo Runtime Polygon OnCollisionEnter2D}}{318}% 
+\contentsline {table}{\numberline {54}{10 Objetos por segundo Runtime Polygon OnCollisionExit2D}}{325}% 
+\contentsline {table}{\numberline {55}{10 Objetos por segundo Runtime Polygon OnCollisionStay2D}}{332}% 
+\contentsline {table}{\numberline {56}{10 Objetos por segundo Runtime Polygon OnTriggerEnter2D}}{339}% 
+\contentsline {table}{\numberline {57}{10 Objetos por segundo Runtime Polygon OnTriggerExit2D}}{344}% 
+\contentsline {table}{\numberline {58}{10 Objetos por segundo Runtime Polygon OnTriggerStay2D}}{348}% 
+\contentsline {table}{\numberline {59}{10 Objetos por segundo Runtime Polygon Physics2DSimulate}}{354}% 
+\contentsline {table}{\numberline {60}{10 Objetos por segundo Runtime Polygon Spawn}}{361}% 
+\contentsline {table}{\numberline {61}{50 Objetos por segundo Runtime Polygon OnCollisionEnter2D}}{368}% 
+\contentsline {table}{\numberline {62}{50 Objetos por segundo Runtime Polygon OnCollisionExit2D}}{369}% 
+\contentsline {table}{\numberline {63}{50 Objetos por segundo Runtime Polygon OnCollisionStay2D}}{371}% 
+\contentsline {table}{\numberline {64}{50 Objetos por segundo Runtime Polygon OnTriggerEnter2D}}{372}% 
+\contentsline {table}{\numberline {65}{50 Objetos por segundo Runtime Polygon OnTriggerExit2D}}{373}% 
+\contentsline {table}{\numberline {66}{50 Objetos por segundo Runtime Polygon OnTriggerStay2D}}{374}% 
+\contentsline {table}{\numberline {67}{50 Objetos por segundo Runtime Polygon Physics2DSimulate}}{375}% 
+\contentsline {table}{\numberline {68}{50 Objetos por segundo Runtime Polygon Spawn}}{377}% 

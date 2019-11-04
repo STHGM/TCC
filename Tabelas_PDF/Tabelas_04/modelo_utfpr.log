@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  3 NOV 2019 22:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  4 NOV 2019 01:22
 entering extended mode
 **./modelo_utfpr.tex
 (modelo_utfpr.tex
@@ -628,62 +628,57 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ] [2
 
 
-] (modelo_utfpr.lof)
-\tf@lof=\write3
-\openout3 = `modelo_utfpr.lof'.
-
- [3
-
-] (modelo_utfpr.lot [4
+] (modelo_utfpr.lot [3
 
 ])
-\tf@lot=\write4
-\openout4 = `modelo_utfpr.lot'.
+\tf@lot=\write3
+\openout3 = `modelo_utfpr.lot'.
 
- [5] (modelo_utfpr.toc
+ [4] (modelo_utfpr.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 2.
 )
-\tf@toc=\write5
-\openout5 = `modelo_utfpr.toc'.
+\tf@toc=\write4
+\openout4 = `modelo_utfpr.toc'.
 
- [6
+ [5
 
 
 ]
 \openout2 = `./Pos-Textuais/apendice1.aux'.
 
- (Pos-Textuais/apendice1.tex
+
+(Pos-Textuais/apendice1.tex
 Apendice A.
 
 Underfull \vbox (badness 10000) detected at line 59
  []
 
-[8
+[7
 
 
 
-] [9] [10]
+] [8] [9]
 Underfull \vbox (badness 10000) detected at line 277
  []
 
-[11] [12] [13]
+[10] [11] [12]
 Underfull \vbox (badness 10000) detected at line 471
  []
 
-[14] [15] [16] [17] [18]
+[13] [14] [15] [16] [17]
 Underfull \vbox (badness 10000) detected at line 833
  []
 
-[19]
+[18]
 Underfull \vbox (badness 10000) detected at line 895
  []
 
-[20]
+[19]
 Underfull \vbox (badness 10000) detected at line 957
  []
 
-[21]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 1016--1016
 []\OT1/ptm/b/n/12 Tabela 7\OT1/ptm/m/n/12 : 1 Ob-jeto Pre-Runtime Poly-gon Phy-
 
@@ -693,31 +688,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 1016--1016
 Underfull \vbox (badness 10000) detected at line 1059
  []
 
-[22] [23] [24] [25] [26] [27] [28] [29] [30]
+[21] [22] [23] [24] [25] [26] [27] [28] [29]
 Underfull \vbox (badness 10000) detected at line 1656
  []
 
-[31] [32] [33] [34] [35]
+[30] [31] [32] [33] [34]
 Underfull \vbox (badness 10000) detected at line 1954
  []
 
-[36] [37] [38] [39]
+[35] [36] [37] [38]
 Underfull \vbox (badness 10000) detected at line 2248
  []
 
-[40] [41] [42] [43] [44] [45] [46]
+[39] [40] [41] [42] [43] [44] [45]
 Underfull \vbox (badness 10000) detected at line 2738
  []
 
-[47] [48]
+[46] [47]
 Underfull \vbox (badness 10000) detected at line 2880
  []
 
-[49] [50] [51]
+[48] [49] [50]
 Underfull \vbox (badness 10000) detected at line 3062
  []
 
-[52] [53] [54] [55] [56]
+[51] [52] [53] [54] [55]
 Underfull \hbox (badness 5345) in paragraph at lines 3353--3353
 []\OT1/ptm/b/n/12 Tabela 14\OT1/ptm/m/n/12 : 10 Ob-je-tos Pre-Runtime Poly-gon 
 Phy-
@@ -727,31 +722,31 @@ Phy-
 Underfull \vbox (badness 10000) detected at line 3396
  []
 
-[57] [58] [59] [60] [61] [62] [63] [64] [65]
+[56] [57] [58] [59] [60] [61] [62] [63] [64]
 Underfull \vbox (badness 10000) detected at line 4005
  []
 
-[66] [67] [68] [69] [70] [71] [72]
+[65] [66] [67] [68] [69] [70] [71]
 Underfull \vbox (badness 10000) detected at line 4515
  []
 
-[73] [74] [75] [76] [77] [78] [79]
+[72] [73] [74] [75] [76] [77] [78]
 Underfull \vbox (badness 10000) detected at line 5005
  []
 
-[80] [81] [82] [83] [84] [85] [86] [87]
+[79] [80] [81] [82] [83] [84] [85] [86]
 Underfull \vbox (badness 10000) detected at line 5515
  []
 
-[88] [89] [90] [91] [92] [93] [94]
+[87] [88] [89] [90] [91] [92] [93]
 Underfull \vbox (badness 10000) detected at line 5981
  []
 
-[95] [96] [97] [98] [99] [100]
+[94] [95] [96] [97] [98] [99]
 Underfull \vbox (badness 10000) detected at line 6385
  []
 
-[101] [102] [103] [104] [105] [106] [107] [108]
+[100] [101] [102] [103] [104] [105] [106] [107]
 Underfull \hbox (badness 5345) in paragraph at lines 6892--6892
 []\OT1/ptm/b/n/12 Tabela 21\OT1/ptm/m/n/12 : 50 Ob-je-tos Pre-Runtime Poly-gon 
 Phy-
@@ -761,31 +756,31 @@ Phy-
 Underfull \vbox (badness 10000) detected at line 6935
  []
 
-[109] [110] [111] [112] [113] [114] [115] [116] [117]
+[108] [109] [110] [111] [112] [113] [114] [115] [116]
 Underfull \vbox (badness 10000) detected at line 7544
  []
 
-[118] [119] [120] [121] [122] [123] [124]
+[117] [118] [119] [120] [121] [122] [123]
 Underfull \vbox (badness 10000) detected at line 8052
  []
 
-[125] [126] [127] [128] [129] [130] [131] [132]
+[124] [125] [126] [127] [128] [129] [130] [131]
 Underfull \vbox (badness 10000) detected at line 8560
  []
 
-[133] [134] [135] [136] [137] [138] [139]
+[132] [133] [134] [135] [136] [137] [138]
 Underfull \vbox (badness 10000) detected at line 9068
  []
 
-[140] [141] [142] [143] [144]
+[139] [140] [141] [142] [143]
 Underfull \vbox (badness 10000) detected at line 9384
  []
 
-[145] [146] [147]
+[144] [145] [146]
 Underfull \vbox (badness 10000) detected at line 9600
  []
 
-[148] [149] [150] [151] [152] [153] [154] [155]
+[147] [148] [149] [150] [151] [152] [153] [154]
 Underfull \hbox (badness 3568) in paragraph at lines 10125--10125
 []\OT1/ptm/b/n/12 Tabela 28\OT1/ptm/m/n/12 : 100 Ob-je-tos Pre-Runtime Poly-gon
  Phy-
@@ -795,31 +790,31 @@ Underfull \hbox (badness 3568) in paragraph at lines 10125--10125
 Underfull \vbox (badness 10000) detected at line 10168
  []
 
-[156] [157] [158] [159] [160] [161] [162] [163] [164]
+[155] [156] [157] [158] [159] [160] [161] [162] [163]
 Underfull \vbox (badness 10000) detected at line 10776
  []
 
-[165] [166] [167] [168] [169] [170] [171] [172] [173]
+[164] [165] [166] [167] [168] [169] [170] [171] [172]
 Underfull \vbox (badness 10000) detected at line 11338
  []
 
-[174] [175] [176] [177] [178] [179] [180] [181]
+[173] [174] [175] [176] [177] [178] [179] [180]
 Underfull \vbox (badness 10000) detected at line 11900
  []
 
-[182] [183] [184] [185] [186] [187] [188] [189]
+[181] [182] [183] [184] [185] [186] [187] [188]
 Underfull \vbox (badness 10000) detected at line 12462
  []
 
-[190] [191] [192]
+[189] [190] [191]
 Underfull \vbox (badness 10000) detected at line 12652
  []
 
-[193] [194] [195]
+[192] [193] [194]
 Underfull \vbox (badness 10000) detected at line 12882
  []
 
-[196] [197] [198] [199] [200] [201] [202] [203] [204]
+[195] [196] [197] [198] [199] [200] [201] [202] [203]
 Underfull \hbox (badness 3568) in paragraph at lines 13421--13421
 []\OT1/ptm/b/n/12 Tabela 35\OT1/ptm/m/n/12 : 500 Ob-je-tos Pre-Runtime Poly-gon
  Phy-
@@ -829,145 +824,145 @@ Underfull \hbox (badness 3568) in paragraph at lines 13421--13421
 Underfull \vbox (badness 10000) detected at line 13464
  []
 
-[205] [206] [207] [208] [209] [210] [211] [212] [213]
+[204] [205] [206] [207] [208] [209] [210] [211] [212]
 Underfull \vbox (badness 10000) detected at line 14065
  []
 
-[214] [215] [216] [217] [218] [219] [220] [221] [222]
+[213] [214] [215] [216] [217] [218] [219] [220] [221]
 Underfull \vbox (badness 10000) detected at line 14673
  []
 
-[223] [224] [225] [226] [227] [228] [229] [230] [231]
+[222] [223] [224] [225] [226] [227] [228] [229] [230]
 Underfull \vbox (badness 10000) detected at line 15280
  []
 
-[232] [233] [234] [235] [236] [237] [238] [239]
+[231] [232] [233] [234] [235] [236] [237] [238]
 Underfull \vbox (badness 10000) detected at line 15888
  []
 
-[240] [241] [242] [243] [244] [245] [246] [247] [248]
+[239] [240] [241] [242] [243] [244] [245] [246] [247]
 Underfull \vbox (badness 10000) detected at line 16496
  []
 
-[249] [250] [251] [252] [253] [254]
+[248] [249] [250] [251] [252] [253]
 Underfull \vbox (badness 10000) detected at line 16896
  []
 
-[255] [256] [257] [258] [259] [260] [261] [262]
+[254] [255] [256] [257] [258] [259] [260] [261]
 Underfull \vbox (badness 10000) detected at line 17388
  []
 
-[263] [264] [265] [266] [267] [268] [269] [270]
+[262] [263] [264] [265] [266] [267] [268] [269]
 Underfull \hbox (badness 2237) in paragraph at lines 17953--17953
 []\OT1/ptm/b/n/12 Tabela 43\OT1/ptm/m/n/12 : 1000 Ob-je-tos Pre-Runtime Poly-go
 n Phy-
  []
 
-[271]
+[270]
 Underfull \vbox (badness 10000) detected at line 17996
  []
 
-[272] [273] [274] [275] [276] [277] [278] [279]
+[271] [272] [273] [274] [275] [276] [277] [278]
 Underfull \vbox (badness 10000) detected at line 18611
  []
 
-[280] [281] [282] [283] [284]
+[279] [280] [281] [282] [283]
 Underfull \vbox (badness 10000) detected at line 18911
  []
 
-[285] [286] [287] [288]
+[284] [285] [286] [287]
 Underfull \vbox (badness 10000) detected at line 19183
  []
 
-[289] [290] [291] [292] [293] [294] [295] [296]
+[288] [289] [290] [291] [292] [293] [294] [295]
 Underfull \vbox (badness 10000) detected at line 19703
  []
 
-[297] [298]
+[296] [297]
 Underfull \vbox (badness 10000) detected at line 19859
  []
 
-[299] [300]
+[298] [299]
 Underfull \vbox (badness 10000) detected at line 19995
  []
 
-[301] [302] [303] [304] [305] [306]
+[300] [301] [302] [303] [304] [305]
 Underfull \vbox (badness 10000) detected at line 20423
  []
 
-[307] [308] [309] [310] [311] [312] [313] [314] [315]
+[306] [307] [308] [309] [310] [311] [312] [313] [314]
 Underfull \vbox (badness 10000) detected at line 21019
  []
 
-[316]
+[315]
 Underfull \vbox (badness 10000) detected at line 21130
  []
 
-[317] [318]
+[316] [317]
 Underfull \vbox (badness 10000) detected at line 21246
  []
 
-[319] [320] [321] [322] [323] [324] [325]
+[318] [319] [320] [321] [322] [323] [324]
 Underfull \vbox (badness 10000) detected at line 21720
  []
 
-[326] [327] [328] [329] [330] [331] [332]
+[325] [326] [327] [328] [329] [330] [331]
 Underfull \vbox (badness 10000) detected at line 22178
  []
 
-[333] [334] [335] [336] [337] [338] [339]
+[332] [333] [334] [335] [336] [337] [338]
 Underfull \vbox (badness 10000) detected at line 22652
  []
 
-[340] [341] [342] [343] [344]
+[339] [340] [341] [342] [343]
 Underfull \vbox (badness 10000) detected at line 22978
  []
 
-[345] [346] [347] [348]
+[344] [345] [346] [347]
 Underfull \vbox (badness 10000) detected at line 23300
  []
 
-[349] [350] [351] [352] [353] [354]
+[348] [349] [350] [351] [352] [353]
 Underfull \vbox (badness 10000) detected at line 23658
  []
 
-[355] [356] [357] [358] [359] [360] [361]
+[354] [355] [356] [357] [358] [359] [360]
 Underfull \vbox (badness 10000) detected at line 24132
  []
 
-[362] [363] [364] [365] [366] [367] [368]
+[361] [362] [363] [364] [365] [366] [367]
 Underfull \vbox (badness 10000) detected at line 24610
  []
 
-[369]
+[368]
 Underfull \vbox (badness 10000) detected at line 24708
  []
 
-[370]
+[369]
 Underfull \vbox (badness 10000) detected at line 24806
  []
 
-[371] [372]
+[370] [371]
 Underfull \vbox (badness 10000) detected at line 24904
  []
 
-[373]
+[372]
 Underfull \vbox (badness 10000) detected at line 24986
  []
 
-[374]
+[373]
 Underfull \vbox (badness 10000) detected at line 25048
  []
 
-[375]
+[374]
 Underfull \vbox (badness 10000) detected at line 25130
  []
 
-[376] [377]
+[375] [376]
 Underfull \vbox (badness 10000) detected at line 25228
  []
 
-[378]) [379] 
+[377]) [378] 
 AED: lastpage setting LastPage
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
@@ -979,22 +974,22 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5945 strings out of 492895
- 91314 string characters out of 3123735
- 244223 words of memory out of 3000000
- 9634 multiletter control sequences out of 15000+200000
+ 5941 strings out of 492895
+ 91229 string characters out of 3123735
+ 244226 words of memory out of 3000000
+ 9633 multiletter control sequences out of 15000+200000
  23545 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,8n,52p,550b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,8n,52p,543b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
 .pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
 mbi8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/tim
 es/utmr8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (380 pages, 868647 bytes).
+Output written on modelo_utfpr.pdf (379 pages, 867993 bytes).
 PDF statistics:
- 1237 PDF objects out of 1440 (max. 8388607)
+ 1234 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

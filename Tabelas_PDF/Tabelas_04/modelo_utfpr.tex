@@ -51,17 +51,17 @@
 \palavraschave{Jogos Digitais, Unity, Game Engine, Colisão, 2D, Desenvolvimento} % palavras-chave do trabalho
 \keywords{Digital Games, Unity, Game Engine, Collision, 2D, Development} % palavras-chave do trabalho em ingles
 
-\comentario{\UTFPRdocumentodata\ apresentada à disciplina de Trabalho de Conclusão de Curso da \ABNTinstituicaodata\ como requisito parcial para obten\c{c}\~ao do grau de Bacharel em Engenharia de Software.}
+\comentario{\UTFPRdocumentodata\ apresentado à disciplina de Trabalho de Conclusão de Curso da \ABNTinstituicaodata\ como requisito parcial para obten\c{c}\~ao do grau de Bacharel em Engenharia de Software.}
 
-\orientador{Doutor Paulo Augusto Nardi} % nome do orientador do trabalho
+\orientador{Prof. Dr. Paulo Augusto Nardi} % nome do orientador do trabalho
 %\orientador[Orientadora:]{Nome da Orientadora} % <- no caso de orientadora, usar esta sintaxe
 %\coorientador{Nome do Co-orientador} % nome do co-orientador do trabalho, caso exista
 %\coorientador[Co-orientadora:]{Nome da Co-orientadora} % <- no caso de co-orientadora, usar esta sintaxe
 %\coorientador[Co-orientadores:]{Nome do Co-orientador} % no caso de 2 co-orientadores, usar esta sintaxe
 %\coorientadorb{Nome do Co-orientador 2}	% este comando inclui o nome do 2o co-orientador
 
-            % % %  TERMO DE APROVAÇÃO  % % % % 
-            % % %  OBRIGATÓRIO PREENCHIMENTO % % % %
+% % %  TERMO DE APROVAÇÃO  % % % % 
+% % %  OBRIGATÓRIO PREENCHIMENTO % % % %
 \local{Cornélio Procópio} % cidade
 \data{\the\year} % ano automatico
 \localdia{Cornélio Procópio,  XX/XX/XXXX}
@@ -74,110 +74,110 @@
 
 %---------- Inicio do Documento ----------
 \begin{document}
-
-\capa % geracao automatica da capa (OBRIGATÓRIO)
-\folhaderosto % geracao automatica da folha de rosto (OBRIGATÓRIO)
-%\termodeaprovacao  % (OBRIGATÓRIO)
-
-% dedicatória (opcional)
-%\begin{dedicatoria}
-%Texto da dedicat\'oria.
-%\end{dedicatoria}
-
-% agradecimentos (opcional)
-%\begin{agradecimentos}
-%Texto dos agradecimentos.
-%\end{agradecimentos}
-
-% epigrafe (opcional)
-%\begin{epigrafe}
-%Texto da ep\'igrafe.
-%\end{epigrafe}
-
-%resumo (OBRIGATÓRIO)
-\begin{resumo}
-As colisões em jogos apresentam um fator importante durante seu desenvolvimento, pois elas irão influenciar no funcionamento da física e manipulação de eventos. Devido a isso, a escolha de qual o tipo de colisão deverá ser aplicada para determinado objeto ou evento deve ser bem organizada, com o intuito de causar o mínimo ou nenhuma falha durante a execução do jogo. Este trabalho apresentará as vantagens e desvantagens que cada colisão presente na plataforma de desenvolvimento de jogos (game engine) Unity oferece.
-\end{resumo}
-
-%abstract (OBRIGATÓRIO)
-\begin{abstract}
-Collisions in games present an important factor during its development, because they will conduct the operation of physics and event manipulation. Due to that, the choice of which collision type must be applied to a specific object or event should be well organized, with the intention to cause the minimum or no fail during the game execution. This work will show the advantages and disadvantages that each collision available on the game development platform (game engine) Unity can offer.
-\end{abstract}
-
-% listas (opcionais, mas recomenda-se a partir de 5 elementos)
-\listadefiguras % geracao automatica da lista de figuras
-\listadetabelas % geracao automatica da lista de tabelas
-%\listadesiglas % geracao automatica da lista de siglas
-%\listadesimbolos % geracao automatica da lista de simbolos
-
-% sumario (OBRIGATÓRIO)
-\sumario % geracao automatica do sumario
-
-%---------- Inicio do Texto ----------
-% recomenda-se a escrita de cada capitulo em um arquivo texto separado (exemplo: intro.tex, fund.tex, exper.tex, concl.tex, etc.) e a posterior inclusao dos mesmos no mestre do documento utilizando o comando \input{}, da seguinte forma:
-%\input{intro.tex}
-%\input{fund.tex}
-%\input{exper.tex}
-%\input{concl.tex}
-
-%---------- Introdução 
-%\include{./Capitulos/capitulo1} 
-%---------- Fundamentação 
-%\include{./Capitulos/capitulo2} 
-
-%\include{./Capitulos/capitulo3}
-
-%\include{./Capitulos/capitulo4} 
-%---------- Resultados
-%\include{./Capitulos/capitulo5} 
-%---------- Conclusão 
-%\include{./Capitulos/capitulo6} 
-
-
-%---------- Referencias ----------
-%\bibliography{./Referencias/reflatex} % % geracao automatica das referencias a partir do arquivo reflatex.bib
-
-%---------- Apendices (opcionais) ----------
-%\apendice
-%\chapter{Nome do Ap\^endice A}
-\include{./Pos-Textuais/apendice1}
-
-%Use o comando {\ttfamily \textbackslash apendice} e depois comandos {\ttfamily \textbackslash chapter\{\}} para gerar t\'itulos de ap\^en-dices.
-
-%\apendice
-%\chapter{Nome do Ap\^endice B}
-
-%Use o comando {\ttfamily \textbackslash apendice} e depois comandos {\ttfamily \textbackslash chapter\{\}} para gerar t\'itulos de ap\^en-dices.
-
-% ---------- Anexos (opcionais) ----------
-%\anexo
-%\chapter{Nome do Anexo}
-%Use o comando {\ttfamily \textbackslash anexo} e depois comandos {\ttfamily \textbackslash chapter\{\}} para gerar t\'itulos de anexos.
-
-% --------- Lista de siglas --------
-%\textbf{* Observa\c{c}\~oes:} a lista de siglas nao realiza a ordenacao das siglas em ordem alfabetica
-% Em breve isso sera implementado, enquanto isso:
-%\textbf{Sugest\~ao:} crie outro arquivo .tex para siglas e utilize o comando \sigla{sigla}{descri\c{c}\~ao}.
-%Para incluir este arquivo no final do arquivo, utilize o comando \input{arquivo.tex}.
-%Assim, Todas as siglas serao geradas na ultima pagina. Entao, devera excluir a ultima pagina da versao final do arquivo
-% PDF do seu documento.
-
-%-------- Citacoes ---------
-% - Utilize o comando \citeonline{...} para citacoes com o seguinte formato: Autor et al. (2011).
-% Este tipo de formato eh utilizado no comeco do paragrafo. P.ex.: \citeonline{autor2011}
-
-% - Utilize o comando \cite{...} para citacoeses no meio ou final do paragrafo. P.ex.: \cite{autor2011}
-
-%-------- Titulos com nomes cientificos (titulo, capitulos e secoes) ----------
-% Regra para escrita de nomes cientificos:
-% Os nomes devem ser escritos em italico, 
-%a primeira letra do primeiro nome deve ser em maiusculo e o restante em minusculo (inclusive a primeira letra do segundo nome).
-% VEJA os exemplos abaixo.
-% 
-% 1) voce nao quer que a secao fique com uppercase (caixa alta) automaticamente:
-%\section[nouppercase]{\MakeUppercase{Estudo dos efeitos da radiacao ultravioleta C e TFD em celulas de} {\textit{Saccharomyces boulardii}}
-%
-% 2) por padrao os cases (maiusculas/minuscula) sao ajustados automaticamente, voce nao precisa usar makeuppercase e afins.
-% \section{Introducao} % a introducao sera posta no texto como INTRODUCAO, automaticamente, como a norma indica.
-
+	
+	\capa % geracao automatica da capa (OBRIGATÓRIO)
+	\folhaderosto % geracao automatica da folha de rosto (OBRIGATÓRIO)
+	%\termodeaprovacao  % (OBRIGATÓRIO)
+	
+	% dedicatória (opcional)
+	%\begin{dedicatoria}
+	%Texto da dedicat\'oria.
+	%\end{dedicatoria}
+	
+	% agradecimentos (opcional)
+	%\begin{agradecimentos}
+	%Texto dos agradecimentos.
+	%\end{agradecimentos}
+	
+	% epigrafe (opcional)
+	%\begin{epigrafe}
+	%Texto da ep\'igrafe.
+	%\end{epigrafe}
+	
+	%resumo (OBRIGATÓRIO)
+	\begin{resumo}
+		As colisões em jogos apresentam um fator importante durante seu desenvolvimento, pois elas influenciam no funcionamento da física e manipulação de eventos. Devido a isso, a escolha de qual o tipo de colisão deve ser aplicada para determinado objeto ou evento deve ser bem organizada, com o intuito de causar o mínimo ou nenhuma falha durante a execução do jogo. Este trabalho apresenta as vantagens e desvantagens que cada colisão presente na plataforma de desenvolvimento de jogos (game engine) Unity oferece.
+	\end{resumo}
+	
+	%abstract (OBRIGATÓRIO)
+	\begin{abstract}
+		Collisions in games present an important factor during its development, because they will conduct the operation of physics and event manipulation. Due to that, the choice of which collision type must be applied to a specific object or event should be well organized, with the intention to cause the minimum or no fail during the game execution. This work will show the advantages and disadvantages that each collision available on the game development platform (game engine) Unity can offer.
+	\end{abstract}
+	
+	% listas (opcionais, mas recomenda-se a partir de 5 elementos)
+	%\listadefiguras % geracao automatica da lista de figuras
+	\listadetabelas % geracao automatica da lista de tabelas
+	%\listadesiglas % geracao automatica da lista de siglas
+	%\listadesimbolos % geracao automatica da lista de simbolos
+	
+	% sumario (OBRIGATÓRIO)
+	\sumario % geracao automatica do sumario
+	
+	%---------- Inicio do Texto ----------
+	% recomenda-se a escrita de cada capitulo em um arquivo texto separado (exemplo: intro.tex, fund.tex, exper.tex, concl.tex, etc.) e a posterior inclusao dos mesmos no mestre do documento utilizando o comando \input{}, da seguinte forma:
+	%\input{intro.tex}
+	%\input{fund.tex}
+	%\input{exper.tex}
+	%\input{concl.tex}
+	
+	%---------- Introdução 
+	%\include{./Capitulos/capitulo1} 
+	%---------- Fundamentação 
+	%\include{./Capitulos/capitulo2} 
+	
+	%\include{./Capitulos/capitulo3}
+	
+	%\include{./Capitulos/capitulo4} 
+	%---------- Resultados
+	%\include{./Capitulos/capitulo5} 
+	%---------- Conclusão 
+	%\include{./Capitulos/capitulo6} 
+	
+	
+	%---------- Referencias ----------
+	%\bibliography{./Referencias/reflatex} % % geracao automatica das referencias a partir do arquivo reflatex.bib
+	
+	%---------- Apendices (opcionais) ----------
+	%\apendice
+	%\chapter{Nome do Ap\^endice A}
+	\include{./Pos-Textuais/apendice1}
+	
+	%Use o comando {\ttfamily \textbackslash apendice} e depois comandos {\ttfamily \textbackslash chapter\{\}} para gerar t\'itulos de ap\^en-dices.
+	
+	%\apendice
+	%\chapter{Nome do Ap\^endice B}
+	
+	%Use o comando {\ttfamily \textbackslash apendice} e depois comandos {\ttfamily \textbackslash chapter\{\}} para gerar t\'itulos de ap\^en-dices.
+	
+	% ---------- Anexos (opcionais) ----------
+	%\anexo
+	%\chapter{Nome do Anexo}
+	%Use o comando {\ttfamily \textbackslash anexo} e depois comandos {\ttfamily \textbackslash chapter\{\}} para gerar t\'itulos de anexos.
+	
+	% --------- Lista de siglas --------
+	%\textbf{* Observa\c{c}\~oes:} a lista de siglas nao realiza a ordenacao das siglas em ordem alfabetica
+	% Em breve isso sera implementado, enquanto isso:
+	%\textbf{Sugest\~ao:} crie outro arquivo .tex para siglas e utilize o comando \sigla{sigla}{descri\c{c}\~ao}.
+	%Para incluir este arquivo no final do arquivo, utilize o comando \input{arquivo.tex}.
+	%Assim, Todas as siglas serao geradas na ultima pagina. Entao, devera excluir a ultima pagina da versao final do arquivo
+	% PDF do seu documento.
+	
+	%-------- Citacoes ---------
+	% - Utilize o comando \citeonline{...} para citacoes com o seguinte formato: Autor et al. (2011).
+	% Este tipo de formato eh utilizado no comeco do paragrafo. P.ex.: \citeonline{autor2011}
+	
+	% - Utilize o comando \cite{...} para citacoeses no meio ou final do paragrafo. P.ex.: \cite{autor2011}
+	
+	%-------- Titulos com nomes cientificos (titulo, capitulos e secoes) ----------
+	% Regra para escrita de nomes cientificos:
+	% Os nomes devem ser escritos em italico, 
+	%a primeira letra do primeiro nome deve ser em maiusculo e o restante em minusculo (inclusive a primeira letra do segundo nome).
+	% VEJA os exemplos abaixo.
+	% 
+	% 1) voce nao quer que a secao fique com uppercase (caixa alta) automaticamente:
+	%\section[nouppercase]{\MakeUppercase{Estudo dos efeitos da radiacao ultravioleta C e TFD em celulas de} {\textit{Saccharomyces boulardii}}
+	%
+	% 2) por padrao os cases (maiusculas/minuscula) sao ajustados automaticamente, voce nao precisa usar makeuppercase e afins.
+	% \section{Introducao} % a introducao sera posta no texto como INTRODUCAO, automaticamente, como a norma indica.
+	
 \end{document}
