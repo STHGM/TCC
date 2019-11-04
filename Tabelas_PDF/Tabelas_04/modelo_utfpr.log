@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  3 NOV 2019 21:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  3 NOV 2019 22:14
 entering extended mode
 **./modelo_utfpr.tex
 (modelo_utfpr.tex
@@ -510,6 +510,10 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 LaTeX Warning: Label `1000 Objetos Pre-Runtime Polygon OnCollisionExit2D' multi
 ply defined.
 
+
+LaTeX Warning: Label `1 Objeto por segundo Runtime Polygon Spawn' multiply defi
+ned.
+
 ))
 \openout1 = `modelo_utfpr.aux'.
 
@@ -630,13 +634,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
  [3
 
-] (modelo_utfpr.lot)
+] (modelo_utfpr.lot [4
+
+])
 \tf@lot=\write4
 \openout4 = `modelo_utfpr.lot'.
 
- [4
-
-] [5] (modelo_utfpr.toc
+ [5] (modelo_utfpr.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 2.
 )
@@ -863,8 +867,107 @@ n Phy-
 Underfull \vbox (badness 10000) detected at line 17996
  []
 
-[272] [273] [274] [275] [276] [277] [278] [279]) [280] [281]
+[272] [273] [274] [275] [276] [277] [278] [279]
+Underfull \vbox (badness 10000) detected at line 18611
+ []
 
+[280] [281] [282] [283] [284]
+Underfull \vbox (badness 10000) detected at line 18911
+ []
+
+[285] [286] [287] [288]
+Underfull \vbox (badness 10000) detected at line 19183
+ []
+
+[289] [290] [291] [292] [293] [294] [295] [296]
+Underfull \vbox (badness 10000) detected at line 19703
+ []
+
+[297] [298]
+Underfull \vbox (badness 10000) detected at line 19859
+ []
+
+[299] [300]
+Underfull \vbox (badness 10000) detected at line 19995
+ []
+
+[301] [302] [303] [304] [305] [306]
+Underfull \vbox (badness 10000) detected at line 20423
+ []
+
+[307] [308] [309] [310] [311] [312] [313] [314] [315]
+Underfull \vbox (badness 10000) detected at line 21019
+ []
+
+[316]
+Underfull \vbox (badness 10000) detected at line 21130
+ []
+
+[317] [318]
+Underfull \vbox (badness 10000) detected at line 21246
+ []
+
+[319] [320] [321] [322] [323] [324] [325]
+Underfull \vbox (badness 10000) detected at line 21720
+ []
+
+[326] [327] [328] [329] [330] [331] [332]
+Underfull \vbox (badness 10000) detected at line 22178
+ []
+
+[333] [334] [335] [336] [337] [338] [339]
+Underfull \vbox (badness 10000) detected at line 22652
+ []
+
+[340] [341] [342] [343] [344]
+Underfull \vbox (badness 10000) detected at line 22978
+ []
+
+[345] [346] [347] [348]
+Underfull \vbox (badness 10000) detected at line 23300
+ []
+
+[349] [350] [351] [352] [353] [354]
+Underfull \vbox (badness 10000) detected at line 23658
+ []
+
+[355] [356] [357] [358] [359] [360] [361]
+Underfull \vbox (badness 10000) detected at line 24132
+ []
+
+[362] [363] [364] [365] [366] [367] [368]
+Underfull \vbox (badness 10000) detected at line 24610
+ []
+
+[369]
+Underfull \vbox (badness 10000) detected at line 24708
+ []
+
+[370]
+Underfull \vbox (badness 10000) detected at line 24806
+ []
+
+[371] [372]
+Underfull \vbox (badness 10000) detected at line 24904
+ []
+
+[373]
+Underfull \vbox (badness 10000) detected at line 24986
+ []
+
+[374]
+Underfull \vbox (badness 10000) detected at line 25048
+ []
+
+[375]
+Underfull \vbox (badness 10000) detected at line 25130
+ []
+
+[376] [377]
+Underfull \vbox (badness 10000) detected at line 25228
+ []
+
+[378]) [379] 
 AED: lastpage setting LastPage
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
@@ -876,10 +979,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5897 strings out of 492895
- 89876 string characters out of 3123735
- 241968 words of memory out of 3000000
- 9586 multiletter control sequences out of 15000+200000
+ 5945 strings out of 492895
+ 91314 string characters out of 3123735
+ 244223 words of memory out of 3000000
+ 9634 multiletter control sequences out of 15000+200000
  23545 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,8n,52p,550b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -889,9 +992,9 @@ Here is how much of TeX's memory you used:
 mbi8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/tim
 es/utmr8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (282 pages, 656212 bytes).
+Output written on modelo_utfpr.pdf (380 pages, 868647 bytes).
 PDF statistics:
- 923 PDF objects out of 1000 (max. 8388607)
+ 1237 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

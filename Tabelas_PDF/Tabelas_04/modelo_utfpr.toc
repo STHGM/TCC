@@ -7,10 +7,7 @@
 \contentsline {subsection}{\numberline {A.1.4}Cem Objetos}{118}% 
 \contentsline {subsection}{\numberline {A.1.5}Quinhentos Objetos}{165}% 
 \contentsline {subsection}{\numberline {A.1.6}Mil Objetos}{214}% 
-\contentsline {section}{\numberline {A.2}\MakeUppercase {\emph {Runtime}}}{}% 
-\contentsline {subsection}{\numberline {A.2.1}Um Objeto por segundo}{}% 
-\contentsline {subsection}{\numberline {A.2.2}Dez Objetos por segundo}{}% 
-\contentsline {subsection}{\numberline {A.2.3}Cinquenta Objetos por segundo}{}% 
-\contentsline {subsection}{\numberline {A.2.4}Cem Objetos por segundo}{}% 
-\contentsline {subsection}{\numberline {A.2.5}Quinhentos Objetos por segundo}{}% 
-\contentsline {subsection}{\numberline {A.2.6}Mil Objetos por segundo}{}% 
+\contentsline {section}{\numberline {A.2}\MakeUppercase {\emph {Runtime}}}{280}% 
+\contentsline {subsection}{\numberline {A.2.1}Um Objeto por segundo}{280}% 
+\contentsline {subsection}{\numberline {A.2.2}Dez Objetos por segundo}{319}% 
+\contentsline {subsection}{\numberline {A.2.3}Cinquenta Objetos por segundo}{369}% 
