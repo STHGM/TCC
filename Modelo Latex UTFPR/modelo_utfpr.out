@@ -1,0 +1,62 @@
+\BOOKMARK [0][-]{chapter.listoftables.1}{Introdu\347\343o}{}% 1
+\BOOKMARK [1][-]{section.listoftables.1.1}{Problematiza\347\343o}{chapter.listoftables.1}% 2
+\BOOKMARK [1][-]{section.listoftables.1.2}{Justificativa}{chapter.listoftables.1}% 3
+\BOOKMARK [1][-]{section.listoftables.1.3}{Objetivos}{chapter.listoftables.1}% 4
+\BOOKMARK [2][-]{subsection.listoftables.1.3.1}{Objetivo Geral}{section.listoftables.1.3}% 5
+\BOOKMARK [2][-]{subsection.listoftables.1.3.2}{Objetivos Espec\355ficos}{section.listoftables.1.3}% 6
+\BOOKMARK [1][-]{section.listoftables.1.4}{Organiza\347\343o do Trabalho}{chapter.listoftables.1}% 7
+\BOOKMARK [0][-]{chapter.listoftables.2}{FUNDAMENTA\307\303O TE\323RICA}{}% 8
+\BOOKMARK [1][-]{section.listoftables.2.1}{Conceitos b\341sicos de colis\343o}{chapter.listoftables.2}% 9
+\BOOKMARK [1][-]{section.listoftables.2.2}{F\355sica na Unity}{chapter.listoftables.2}% 10
+\BOOKMARK [2][-]{subsection.listoftables.2.2.1}{Colliders 2D}{section.listoftables.2.2}% 11
+\BOOKMARK [2][-]{subsection.listoftables.2.2.2}{Mensagens dos Colliders}{section.listoftables.2.2}% 12
+\BOOKMARK [2][-]{subsection.listoftables.2.2.3}{Mensagens dos Triggers}{section.listoftables.2.2}% 13
+\BOOKMARK [2][-]{subsection.listoftables.2.2.4}{Intera\347\365es de Colliders}{section.listoftables.2.2}% 14
+\BOOKMARK [2][-]{subsection.listoftables.2.2.5}{Fun\347\365es da Physics2D}{section.listoftables.2.2}% 15
+\BOOKMARK [2][-]{subsection.listoftables.2.2.6}{Subdivis\365es das fun\347\365es da Physics2D}{section.listoftables.2.2}% 16
+\BOOKMARK [2][-]{subsection.listoftables.2.2.7}{Subdivis\365es dos Overlaps}{section.listoftables.2.2}% 17
+\BOOKMARK [1][-]{section.listoftables.2.3}{Trabalhos Relacionados}{chapter.listoftables.2}% 18
+\BOOKMARK [2][-]{subsection.listoftables.2.3.1}{AABB \(Axis Alligned Bounding Box\)}{section.listoftables.2.3}% 19
+\BOOKMARK [2][-]{subsection.listoftables.2.3.2}{OBB \(Oriented Bounding Box\)}{section.listoftables.2.3}% 20
+\BOOKMARK [2][-]{subsection.listoftables.2.3.3}{Bounding Sphere}{section.listoftables.2.3}% 21
+\BOOKMARK [2][-]{subsection.listoftables.2.3.4}{Convex Hull}{section.listoftables.2.3}% 22
+\BOOKMARK [2][-]{subsection.listoftables.2.3.5}{Otimiza\347\343o de Colis\365es na Unity}{section.listoftables.2.3}% 23
+\BOOKMARK [0][-]{chapter.listoftables.3}{Proposta}{}% 24
+\BOOKMARK [1][-]{section.listoftables.3.1}{Pre-runtime}{chapter.listoftables.3}% 25
+\BOOKMARK [1][-]{section.listoftables.3.2}{Runtime}{chapter.listoftables.3}% 26
+\BOOKMARK [1][-]{section.listoftables.3.3}{Enfatiza\347\343o das Compara\347\365es}{chapter.listoftables.3}% 27
+\BOOKMARK [1][-]{section.listoftables.3.4}{Cronograma}{chapter.listoftables.3}% 28
+\BOOKMARK [0][-]{chapter.listoftables.4}{METODOLOGIAS}{}% 29
+\BOOKMARK [1][-]{section.listoftables.4.1}{Pesquisa de campo}{chapter.listoftables.4}% 30
+\BOOKMARK [1][-]{section.listoftables.4.2}{Profiler da Unity}{chapter.listoftables.4}% 31
+\BOOKMARK [1][-]{section.listoftables.4.3}{Obten\347\343o e filtragem de dados}{chapter.listoftables.4}% 32
+\BOOKMARK [1][-]{section.listoftables.4.4}{Cen\341rios de compara\347\343o}{chapter.listoftables.4}% 33
+\BOOKMARK [0][-]{chapter.listoftables.5}{RESULTADOS E DISCUSS\325ES}{}% 34
+\BOOKMARK [1][-]{section.listoftables.5.1}{Pesquisa de Campo}{chapter.listoftables.5}% 35
+\BOOKMARK [1][-]{section.listoftables.5.2}{Resultados com Box Collider}{chapter.listoftables.5}% 36
+\BOOKMARK [2][-]{subsection.listoftables.5.2.1}{Box Collider - Pre-Runtime}{section.listoftables.5.2}% 37
+\BOOKMARK [2][-]{subsection.listoftables.5.2.2}{Box Collider - Runtime}{section.listoftables.5.2}% 38
+\BOOKMARK [1][-]{section.listoftables.5.3}{Resultados com Circle Collider}{chapter.listoftables.5}% 39
+\BOOKMARK [2][-]{subsection.listoftables.5.3.1}{Circle Collider - Pre-Runtime}{section.listoftables.5.3}% 40
+\BOOKMARK [2][-]{subsection.listoftables.5.3.2}{Circle Collider - Runtime}{section.listoftables.5.3}% 41
+\BOOKMARK [1][-]{section.listoftables.5.4}{Resultados com Edge Collider}{chapter.listoftables.5}% 42
+\BOOKMARK [2][-]{subsection.listoftables.5.4.1}{Edge Collider - Pre-Runtime}{section.listoftables.5.4}% 43
+\BOOKMARK [2][-]{subsection.listoftables.5.4.2}{Edge Collider - Runtime}{section.listoftables.5.4}% 44
+\BOOKMARK [1][-]{section.listoftables.5.5}{Resultado com Polygon Collider}{chapter.listoftables.5}% 45
+\BOOKMARK [2][-]{subsection.listoftables.5.5.1}{Polygon Collider - Pre-Runtime}{section.listoftables.5.5}% 46
+\BOOKMARK [2][-]{subsection.listoftables.5.5.2}{Polygon Collider - Runtime}{section.listoftables.5.5}% 47
+\BOOKMARK [1][-]{section.listoftables.5.6}{Vis\343o Geral dos resultados}{chapter.listoftables.5}% 48
+\BOOKMARK [2][-]{subsection.listoftables.5.6.1}{Compara\347\365es em Pre-Runtime}{section.listoftables.5.6}% 49
+\BOOKMARK [2][-]{subsection.listoftables.5.6.2}{Compara\347\365es em Runtime}{section.listoftables.5.6}% 50
+\BOOKMARK [0][-]{chapter.listoftables.6}{CONSIDERA\307\325ES FINAIS}{}% 51
+\BOOKMARK [1][-]{section.listoftables.6.1}{Import\342ncia}{chapter.listoftables.6}% 52
+\BOOKMARK [1][-]{section.listoftables.6.2}{Resultados}{chapter.listoftables.6}% 53
+\BOOKMARK [1][-]{section.listoftables.6.3}{Trabalhos Futuros}{chapter.listoftables.6}% 54
+\BOOKMARK [0][-]{section.listoftables.6.3}{REFER\312NCIAS}{}% 55
+\BOOKMARK [0][-]{appendix.A}{Ap\352ndice A \205 Question\341rio - Pesquisa de Campo}{}% 56
+\BOOKMARK [0][-]{appendix.B}{Ap\352ndice B \205 Resultados do Question\341rio}{}% 57
+\BOOKMARK [0][-]{appendix.C}{Ap\352ndice C \205 Tabelas de Resultados das Compara\347\365es}{}% 58
+\BOOKMARK [1][-]{section.C.1}{Tabelas de Resultados das Compara\347\365es - Box Collider}{appendix.C}% 59
+\BOOKMARK [1][-]{section.C.2}{Tabelas de Resultados das Compara\347\365es - Circle Collider}{appendix.C}% 60
+\BOOKMARK [1][-]{section.C.3}{Tabelas de Resultados das Compara\347\365es - Edge Collider}{appendix.C}% 61
+\BOOKMARK [1][-]{section.C.4}{Tabelas de Resultados das Compara\347\365es - Polygon Collider}{appendix.C}% 62

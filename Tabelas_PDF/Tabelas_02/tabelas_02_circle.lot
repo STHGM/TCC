@@ -1,0 +1,91 @@
+\babel@toc {brazil}{}
+\contentsline {table}{\numberline {1}{1 Objeto Pre-Runtime Circle OnCollisionEnter2D}}{7}% 
+\contentsline {table}{\numberline {2}{1 Objeto Pre-Runtime Circle OnCollisionStay2D}}{8}% 
+\contentsline {table}{\numberline {3}{1 Objeto Pre-Runtime Circle OnTriggerEnter2D}}{10}% 
+\contentsline {table}{\numberline {4}{1 Objeto Pre-Runtime Circle OnTriggerExit2D}}{11}% 
+\contentsline {table}{\numberline {5}{1 Objeto Pre-Runtime Circle OnTriggerStay2D}}{12}% 
+\contentsline {table}{\numberline {6}{1 Objeto Pre-Runtime Circle Physics2DSimulate}}{13}% 
+\contentsline {table}{\numberline {7}{10 Objetos Pre-Runtime Circle OnCollisionEnter2D}}{21}% 
+\contentsline {table}{\numberline {8}{10 Objetos Pre-Runtime Circle OnCollisionExit2D}}{25}% 
+\contentsline {table}{\numberline {9}{10 Objetos Pre-Runtime Circle OnCollisionStay2D}}{27}% 
+\contentsline {table}{\numberline {10}{10 Objetos Pre-Runtime Circle OnTriggerEnter2D}}{34}% 
+\contentsline {table}{\numberline {11}{10 Objetos Pre-Runtime Circle OnTriggerExit2D}}{36}% 
+\contentsline {table}{\numberline {12}{10 Objetos Pre-Runtime Circle OnTriggerStay2D}}{39}% 
+\contentsline {table}{\numberline {13}{10 Objetos Pre-Runtime Circle Physics2DSimulate}}{45}% 
+\contentsline {table}{\numberline {14}{50 Objetos Pre-Runtime Circle OnCollisionEnter2D}}{54}% 
+\contentsline {table}{\numberline {15}{50 Objetos Pre-Runtime Circle OnCollisionEnter2D}}{61}% 
+\contentsline {table}{\numberline {16}{50 Objetos Pre-Runtime Circle OnCollisionExit2D}}{68}% 
+\contentsline {table}{\numberline {17}{50 Objetos Pre-Runtime Circle OnCollisionStay2D}}{75}% 
+\contentsline {table}{\numberline {18}{50 Objetos Pre-Runtime Circle OnTriggerEnter2D}}{84}% 
+\contentsline {table}{\numberline {19}{50 Objetos Pre-Runtime Circle OnTriggerExit2D}}{92}% 
+\contentsline {table}{\numberline {20}{50 Objetos Pre-Runtime Circle OnTriggerStay2D}}{99}% 
+\contentsline {table}{\numberline {21}{50 Objetos Pre-Runtime Circle Physics2DSimulate}}{107}% 
+\contentsline {table}{\numberline {22}{100 Objetos Pre-Runtime Circle OnCollisionEnter2D}}{116}% 
+\contentsline {table}{\numberline {23}{100 Objetos Pre-Runtime Circle OnCollisionExit2D}}{123}% 
+\contentsline {table}{\numberline {24}{100 Objetos Pre-Runtime Circle OnCollisionStay2D}}{131}% 
+\contentsline {table}{\numberline {25}{100 Objetos Pre-Runtime Circle OnCollisionStay2D}}{140}% 
+\contentsline {table}{\numberline {26}{100 Objetos Pre-Runtime Circle OnTriggerExit2D}}{148}% 
+\contentsline {table}{\numberline {27}{100 Objetos Pre-Runtime Circle OnTriggerStay2D}}{154}% 
+\contentsline {table}{\numberline {28}{100 Objetos Pre-Runtime Circle Physics2DSimulate}}{162}% 
+\contentsline {table}{\numberline {29}{500 Objetos Pre-Runtime Circle OnCollisionEnter2D}}{171}% 
+\contentsline {table}{\numberline {30}{500 Objetos Pre-Runtime Circle OnCollisionExit2D}}{178}% 
+\contentsline {table}{\numberline {31}{500 Objetos Pre-Runtime Circle OnCollisionStay2D}}{186}% 
+\contentsline {table}{\numberline {32}{500 Objetos Pre-Runtime Circle OnTriggerEnter2D}}{194}% 
+\contentsline {table}{\numberline {33}{500 Objetos Pre-Runtime Circle OnTriggerExit2D}}{203}% 
+\contentsline {table}{\numberline {34}{500 Objetos Pre-Runtime Circle OnTriggerStay2D}}{210}% 
+\contentsline {table}{\numberline {35}{500 Objetos Pre-Runtime Circle Physics2DSimulate}}{218}% 
+\contentsline {table}{\numberline {36}{1000 Objetos Pre-Runtime Circle OnCollisionEnter2D}}{227}% 
+\contentsline {table}{\numberline {37}{1000 Objetos Pre-Runtime Circle OnCollisionExit2D}}{234}% 
+\contentsline {table}{\numberline {38}{1000 Objetos Pre-Runtime Circle OnCollisionStay2D}}{242}% 
+\contentsline {table}{\numberline {39}{1000 Objetos Pre-Runtime Circle OnTriggerEnter2D}}{251}% 
+\contentsline {table}{\numberline {40}{1000 Objetos Pre-Runtime Circle OnTriggerExit2D}}{259}% 
+\contentsline {table}{\numberline {41}{1000 Objetos Pre-Runtime Circle OnTriggerStay2D}}{266}% 
+\contentsline {table}{\numberline {42}{1000 Objetos Pre-Runtime Circle Physics2DSimulate}}{275}% 
+\contentsline {table}{\numberline {43}{1 Objeto por segundo Runtime Circle OnCollisionEnter2D}}{284}% 
+\contentsline {table}{\numberline {44}{1 Objeto por segundo Runtime Circle OnCollisionExit2D}}{288}% 
+\contentsline {table}{\numberline {45}{1 Objeto por segundo Runtime Circle OnCollisionStay2D}}{291}% 
+\contentsline {table}{\numberline {46}{1 Objeto por segundo Runtime Circle OnTriggerEnter2D}}{298}% 
+\contentsline {table}{\numberline {47}{1 Objeto por segundo Runtime Circle OnTriggerExit2D}}{301}% 
+\contentsline {table}{\numberline {48}{1 Objeto por segundo Runtime Circle OnTriggerStay2D}}{303}% 
+\contentsline {table}{\numberline {49}{1 Objeto por segundo Runtime Circle Physics2DSimulate}}{310}% 
+\contentsline {table}{\numberline {50}{1 Objeto por segundo Runtime Circle Spawn}}{319}% 
+\contentsline {table}{\numberline {51}{10 Objetos por segundo Runtime Circle OnCollisionEnter2D}}{321}% 
+\contentsline {table}{\numberline {52}{10 Objetos por segundo Runtime Circle OnCollisionExit2D}}{330}% 
+\contentsline {table}{\numberline {53}{10 Objetos por segundo Runtime Circle OnCollisionStay2D}}{338}% 
+\contentsline {table}{\numberline {54}{10 Objetos por segundo Runtime Circle OnTriggerEnter2D}}{347}% 
+\contentsline {table}{\numberline {55}{10 Objetos por segundo Runtime Circle OnTriggerExit2D}}{354}% 
+\contentsline {table}{\numberline {56}{10 Objetos por segundo Runtime Circle OnTriggerStay2D}}{361}% 
+\contentsline {table}{\numberline {57}{10 Objetos por segundo Runtime Circle Physics2DSimulate}}{369}% 
+\contentsline {table}{\numberline {58}{10 Objetos por segundo Runtime Circle Spawn}}{377}% 
+\contentsline {table}{\numberline {59}{50 Objetos por segundo Runtime Circle OnCollisionEnter2D}}{381}% 
+\contentsline {table}{\numberline {60}{50 Objetos por segundo Runtime Circle OnCollisionExit2D}}{390}% 
+\contentsline {table}{\numberline {61}{50 Objetos por segundo Runtime Circle OnCollisionStay2D}}{399}% 
+\contentsline {table}{\numberline {62}{50 Objetos por segundo Runtime Circle OnTriggerEnter2D}}{408}% 
+\contentsline {table}{\numberline {63}{50 Objetos por segundo Runtime Circle OnTriggerExit2D}}{414}% 
+\contentsline {table}{\numberline {64}{50 Objetos por segundo Runtime Circle OnTriggerStay2D}}{417}% 
+\contentsline {table}{\numberline {65}{50 Objetos por segundo Runtime Circle Physics2DSimulate}}{425}% 
+\contentsline {table}{\numberline {66}{50 Objetos por segundo Runtime Circle Spawn}}{434}% 
+\contentsline {table}{\numberline {67}{100 Objetos por segundo Runtime Circle OnCollisionEnter2D}}{440}% 
+\contentsline {table}{\numberline {68}{100 Objetos por segundo Runtime Circle OnCollisionExit2D}}{449}% 
+\contentsline {table}{\numberline {69}{100 Objetos por segundo Runtime Circle OnCollisionStay2D}}{458}% 
+\contentsline {table}{\numberline {70}{100 Objetos por segundo Runtime Circle OnTriggerEnter2D}}{467}% 
+\contentsline {table}{\numberline {71}{100 Objetos por segundo Runtime Circle OnTriggerExit2D}}{475}% 
+\contentsline {table}{\numberline {72}{100 Objetos por segundo Runtime Circle OnTriggerStay2D}}{484}% 
+\contentsline {table}{\numberline {73}{100 Objetos por segundo Runtime Circle Physics2DSimulate}}{492}% 
+\contentsline {table}{\numberline {74}{100 Objetos por segundo Runtime Circle Spawn}}{501}% 
+\contentsline {table}{\numberline {75}{500 Objetos por segundo Runtime Circle OnCollisionEnter2D}}{510}% 
+\contentsline {table}{\numberline {76}{500 Objetos por segundo Runtime Circle OnCollisionExit2D}}{517}% 
+\contentsline {table}{\numberline {77}{500 Objetos por segundo Runtime Circle OnCollisionStay2D}}{524}% 
+\contentsline {table}{\numberline {78}{500 Objetos por segundo Runtime Circle OnTriggerEnter2D}}{531}% 
+\contentsline {table}{\numberline {79}{500 Objetos por segundo Runtime Circle OnTriggerExit2D}}{537}% 
+\contentsline {table}{\numberline {80}{500 Objetos por segundo Runtime Circle OnTriggerStay2D}}{543}% 
+\contentsline {table}{\numberline {81}{500 Objetos por segundo Runtime Circle Physics2DSimulate}}{549}% 
+\contentsline {table}{\numberline {82}{500 Objetos por segundo Runtime Circle Spawn}}{556}% 
+\contentsline {table}{\numberline {83}{1000 Objetos por segundo Runtime Circle OnCollisionEnter2D}}{563}% 
+\contentsline {table}{\numberline {84}{1000 Objetos por segundo Runtime Circle OnCollisionExit2D}}{570}% 
+\contentsline {table}{\numberline {85}{1000 Objetos por segundo Runtime Circle OnCollisionStay2D}}{577}% 
+\contentsline {table}{\numberline {86}{1000 Objetos por segundo Runtime Circle OnTriggerEnter2D}}{584}% 
+\contentsline {table}{\numberline {87}{1000 Objetos por segundo Runtime Circle OnTriggerExit2D}}{590}% 
+\contentsline {table}{\numberline {88}{1000 Objetos por segundo Runtime Circle OnTriggerStay2D}}{596}% 
+\contentsline {table}{\numberline {89}{1000 Objetos por segundo Runtime Circle Physics2DSimulate}}{601}% 
+\contentsline {table}{\numberline {90}{1000 Objetos por segundo Runtime Circle Spawn}}{608}% 

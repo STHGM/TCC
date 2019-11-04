@@ -1,0 +1,90 @@
+\babel@toc {brazil}{}
+\contentsline {table}{\numberline {1}{1 Objeto Pre-Runtime Box OnCollisionEnter2D}}{7}% 
+\contentsline {table}{\numberline {2}{1 Objeto Pre-Runtime Box OnCollisionStay2D}}{8}% 
+\contentsline {table}{\numberline {3}{1 Objeto Pre-Runtime Box OnTriggerEnter2D}}{9}% 
+\contentsline {table}{\numberline {4}{1 Objeto Pre-Runtime Box OnTriggerExit2D}}{10}% 
+\contentsline {table}{\numberline {5}{1 Objeto Pre-Runtime Box OnTriggerStay2D}}{11}% 
+\contentsline {table}{\numberline {6}{1 Objeto Pre-Runtime Box Physics2DSimulate}}{13}% 
+\contentsline {table}{\numberline {7}{10 Objetos Pre-Runtime Box OnCollisionEnter2D}}{18}% 
+\contentsline {table}{\numberline {8}{10 Objetos Pre-Runtime Box OnCollisionExit2D}}{20}% 
+\contentsline {table}{\numberline {9}{10 Objetos Pre-Runtime Box OnCollisionStay2D}}{21}% 
+\contentsline {table}{\numberline {10}{10 Objetos Pre-Runtime Box OnTriggerEnter2D}}{27}% 
+\contentsline {table}{\numberline {11}{10 Objetos Pre-Runtime Box OnTriggerExit2D}}{29}% 
+\contentsline {table}{\numberline {12}{10 Objetos Pre-Runtime Box OnTriggerStay2D}}{30}% 
+\contentsline {table}{\numberline {13}{10 Objetos Pre-Runtime Box Physics2DSimulate}}{35}% 
+\contentsline {table}{\numberline {14}{50 Objetos Pre-Runtime Box OnCollisionEnter2D}}{44}% 
+\contentsline {table}{\numberline {15}{50 Objetos Pre-Runtime Box OnCollisionExit2D}}{51}% 
+\contentsline {table}{\numberline {16}{50 Objetos Pre-Runtime Box OnCollisionStay2D}}{57}% 
+\contentsline {table}{\numberline {17}{50 Objetos Pre-Runtime Box OnTriggerEnter2D}}{66}% 
+\contentsline {table}{\numberline {18}{50 Objetos Pre-Runtime Box OnTriggerExit2D}}{71}% 
+\contentsline {table}{\numberline {19}{50 Objetos Pre-Runtime Box OnTriggerStay2D}}{77}% 
+\contentsline {table}{\numberline {20}{50 Objetos Pre-Runtime Box Physics2DSimulate}}{85}% 
+\contentsline {table}{\numberline {21}{100 Objetos Pre-Runtime Box OnCollisionEnter2D}}{94}% 
+\contentsline {table}{\numberline {22}{100 Objetos Pre-Runtime Box OnCollisionExit2D}}{102}% 
+\contentsline {table}{\numberline {23}{100 Objetos Pre-Runtime Box OnCollisionStay2D}}{110}% 
+\contentsline {table}{\numberline {24}{100 Objetos Pre-Runtime Box OnTriggerEnter2D}}{119}% 
+\contentsline {table}{\numberline {25}{100 Objetos Pre-Runtime Box OnTriggerExit2D}}{122}% 
+\contentsline {table}{\numberline {26}{100 Objetos Pre-Runtime Box OnTriggerStay2D}}{125}% 
+\contentsline {table}{\numberline {27}{100 Objetos Pre-Runtime Box Physics2DSimulate}}{134}% 
+\contentsline {table}{\numberline {28}{500 Objetos Pre-Runtime Box OnCollisionEnter2D}}{143}% 
+\contentsline {table}{\numberline {29}{500 Objetos Pre-Runtime Box OnCollisionExit2D}}{151}% 
+\contentsline {table}{\numberline {30}{500 Objetos Pre-Runtime Box OnCollisionStay2D}}{158}% 
+\contentsline {table}{\numberline {31}{500 Objetos Pre-Runtime Box OnTriggerEnter2D}}{167}% 
+\contentsline {table}{\numberline {32}{500 Objetos Pre-Runtime Box OnTriggerExit2D}}{175}% 
+\contentsline {table}{\numberline {33}{500 Objetos Pre-Runtime Box OnTriggerStay2D}}{181}% 
+\contentsline {table}{\numberline {34}{500 Objetos Pre-Runtime Box Physics2DSimulate}}{189}% 
+\contentsline {table}{\numberline {35}{1000 Objetos Pre-Runtime Box OnCollisionEnter2D}}{198}% 
+\contentsline {table}{\numberline {36}{1000 Objetos Pre-Runtime Box OnCollisionExit2D}}{206}% 
+\contentsline {table}{\numberline {37}{1000 Objetos Pre-Runtime Box OnCollisionStay2D}}{213}% 
+\contentsline {table}{\numberline {38}{1000 Objetos Pre-Runtime Box OnTriggerEnter2D}}{222}% 
+\contentsline {table}{\numberline {39}{1000 Objetos Pre-Runtime Box OnTriggerExit2D}}{229}% 
+\contentsline {table}{\numberline {40}{1000 Objetos Pre-Runtime Box OnTriggerStay2D}}{235}% 
+\contentsline {table}{\numberline {41}{1000 Objetos Pre-Runtime Box Physics2DSimulate}}{244}% 
+\contentsline {table}{\numberline {42}{1 Objeto por segundo Runtime Box OnCollisionEnter2D}}{253}% 
+\contentsline {table}{\numberline {43}{1 Objeto por segundo Runtime Box OnCollisionExit2D}}{255}% 
+\contentsline {table}{\numberline {44}{1 Objeto por segundo Runtime Box OnCollisionStay2D}}{257}% 
+\contentsline {table}{\numberline {45}{1 Objeto por segundo Runtime Box OnTriggerEnter2D}}{264}% 
+\contentsline {table}{\numberline {46}{1 Objeto por segundo Runtime Box OnTriggerExit2D}}{266}% 
+\contentsline {table}{\numberline {47}{1 Objeto por segundo Runtime Box OnTriggerStay2D}}{267}% 
+\contentsline {table}{\numberline {48}{1 Objeto por segundo Runtime Box Physics2DSimulate}}{275}% 
+\contentsline {table}{\numberline {49}{1 Objeto por segundo Runtime Box Spawn}}{284}% 
+\contentsline {table}{\numberline {50}{10 Objetos por segundo Runtime Box OnCollisionEnter2D}}{285}% 
+\contentsline {table}{\numberline {51}{10 Objetos por segundo Runtime Box OnCollisionExit2D}}{294}% 
+\contentsline {table}{\numberline {52}{10 Objetos por segundo Runtime Box OnCollisionStay2D}}{302}% 
+\contentsline {table}{\numberline {53}{10 Objetos por segundo Runtime Box OnTriggerEnter2D}}{311}% 
+\contentsline {table}{\numberline {54}{10 Objetos por segundo Runtime Box OnTriggerExit2D}}{315}% 
+\contentsline {table}{\numberline {55}{10 Objetos por segundo Runtime Box OnTriggerStay2D}}{318}% 
+\contentsline {table}{\numberline {56}{10 Objetos por segundo Runtime Box Physics2DSimulate}}{325}% 
+\contentsline {table}{\numberline {57}{10 Objetos por segundo Runtime Box Spawn}}{334}% 
+\contentsline {table}{\numberline {58}{50 Objetos por segundo Runtime Box OnCollisionEnter2D}}{342}% 
+\contentsline {table}{\numberline {59}{50 Objetos por segundo Runtime Box OnCollisionExit2D}}{350}% 
+\contentsline {table}{\numberline {60}{50 Objetos por segundo Runtime Box OnCollisionStay2D}}{359}% 
+\contentsline {table}{\numberline {61}{50 Objetos por segundo Runtime Box OnTriggerEnter2D}}{368}% 
+\contentsline {table}{\numberline {62}{50 Objetos por segundo Runtime Box OnTriggerExit2D}}{374}% 
+\contentsline {table}{\numberline {63}{50 Objetos por segundo Runtime Box OnTriggerStay2D}}{381}% 
+\contentsline {table}{\numberline {64}{50 Objetos por segundo Runtime Box Physics2DSimulate}}{388}% 
+\contentsline {table}{\numberline {65}{50 Objetos por segundo Runtime Box Spawn}}{397}% 
+\contentsline {table}{\numberline {66}{100 Objetos por segundo Runtime Box OnCollisionEnter2D}}{405}% 
+\contentsline {table}{\numberline {67}{100 Objetos por segundo Runtime Box OnCollisionExit2D}}{412}% 
+\contentsline {table}{\numberline {68}{100 Objetos por segundo Runtime Box OnCollisionStay2D}}{419}% 
+\contentsline {table}{\numberline {69}{100 Objetos por segundo Runtime Box OnTriggerEnter2D}}{426}% 
+\contentsline {table}{\numberline {70}{100 Objetos por segundo Runtime Box OnTriggerExit2D}}{432}% 
+\contentsline {table}{\numberline {71}{100 Objetos por segundo Runtime Box OnTriggerStay2D}}{437}% 
+\contentsline {table}{\numberline {72}{100 Objetos por segundo Runtime Box Physics2DSimulate}}{443}% 
+\contentsline {table}{\numberline {73}{100 Objetos por segundo Runtime Box Spawn}}{450}% 
+\contentsline {table}{\numberline {74}{500 Objetos por segundo Runtime Box OnCollisionEnter2D}}{457}% 
+\contentsline {table}{\numberline {75}{500 Objetos por segundo Runtime Box OnCollisionExit2D}}{462}% 
+\contentsline {table}{\numberline {76}{500 Objetos por segundo Runtime Box OnCollisionStay2D}}{467}% 
+\contentsline {table}{\numberline {77}{500 Objetos por segundo Runtime Box OnTriggerEnter2D}}{472}% 
+\contentsline {table}{\numberline {78}{500 Objetos por segundo Runtime Box OnTriggerExit2D}}{476}% 
+\contentsline {table}{\numberline {79}{500 Objetos por segundo Runtime Box OnTriggerStay2D}}{480}% 
+\contentsline {table}{\numberline {80}{500 Objetos por segundo Runtime Box Physics2DSimulate}}{484}% 
+\contentsline {table}{\numberline {81}{500 Objetos por segundo Runtime Box Spawn}}{489}% 
+\contentsline {table}{\numberline {82}{1000 Objetos por segundo Runtime Box OnCollisionEnter2D}}{494}% 
+\contentsline {table}{\numberline {83}{1000 Objetos por segundo Runtime Box OnCollisionExit2D}}{499}% 
+\contentsline {table}{\numberline {84}{1000 Objetos por segundo Runtime Box OnCollisionStay2D}}{504}% 
+\contentsline {table}{\numberline {85}{1000 Objetos por segundo Runtime Box OnTriggerEnter2D}}{509}% 
+\contentsline {table}{\numberline {86}{1000 Objetos por segundo Runtime Box OnTriggerExit2D}}{514}% 
+\contentsline {table}{\numberline {87}{1000 Objetos por segundo Runtime Box OnTriggerStay2D}}{517}% 
+\contentsline {table}{\numberline {88}{1000 Objetos por segundo Runtime Box Physics2DSimulate}}{521}% 
+\contentsline {table}{\numberline {89}{1000 Objetos por segundo Runtime Box Spawn}}{527}% 

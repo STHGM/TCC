@@ -1,0 +1,16 @@
+\babel@toc {brazil}{}
+\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Circle Collider}}}{7}% 
+\contentsline {section}{\numberline {A.1}\MakeUppercase {\emph {Pre-Runtime}}}{7}% 
+\contentsline {subsection}{\numberline {A.1.1}Um Objeto}{7}% 
+\contentsline {subsection}{\numberline {A.1.2}Dez Objetos}{21}% 
+\contentsline {subsection}{\numberline {A.1.3}Cinquenta Objetos}{54}% 
+\contentsline {subsection}{\numberline {A.1.4}Cem Objetos}{116}% 
+\contentsline {subsection}{\numberline {A.1.5}Quinhentos Objetos}{170}% 
+\contentsline {subsection}{\numberline {A.1.6}Mil Objetos}{227}% 
+\contentsline {section}{\numberline {A.2}\MakeUppercase {\emph {Runtime}}}{284}% 
+\contentsline {subsection}{\numberline {A.2.1}Um Objeto por segundo}{284}% 
+\contentsline {subsection}{\numberline {A.2.2}Dez Objetos por segundo}{321}% 
+\contentsline {subsection}{\numberline {A.2.3}Cinquenta Objetos por segundo}{381}% 
+\contentsline {subsection}{\numberline {A.2.4}Cem Objetos por segundo}{440}% 
+\contentsline {subsection}{\numberline {A.2.5}Quinhentos Objetos por segundo}{510}% 
+\contentsline {subsection}{\numberline {A.2.6}Mil Objetos por segundo}{563}% 

@@ -1,0 +1,1078 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  4 NOV 2019 01:32
+entering extended mode
+**./tabelas_02_circle.tex
+(tabelas_02_circle.tex
+LaTeX2e <2018-12-01>
+(normas-utf-tex.cls (cvs-id.def)
+Document Class: normas-utf-tex 2011/06/19 v2.0
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/07/19 3.33 The Babel package
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
+"
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-portuges\por
+tuges.ldf"
+Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/07/19 3.33 Babel common definitions
+\babel@savecnt=\count80
+\U@D=\dimen102
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
+ef")
+\bbl@dirlevel=\count81
+)
+\l@brazil = a dialect from \language\l@portuges 
+Package babel Info: Making " an active character on input line 145.
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\latin1.def"
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+)) ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty
+"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lastpage\lastpage.
+sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bigfoot\perpage.st
+y"
+Package: perpage 2014/10/25 2.0 Reset/sort counters per page
+\c@abspage=\count82
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
+sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip41
+\f@nch@O@elh=\skip42
+\f@nch@O@erh=\skip43
+\f@nch@O@olh=\skip44
+\f@nch@O@orh=\skip45
+\f@nch@O@elf=\skip46
+\f@nch@O@erf=\skip47
+\f@nch@O@olf=\skip48
+\f@nch@O@orf=\skip49
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (abnt.cls (cvs-id.def)
+Document Class: abnt 2006/09/09 v1.32 Classe abnt (NBR6024, NBR6027, NBR6028, N
+BR14724)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count83
+\calc@Bcount=\count84
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count85
+\calc@Cskip=\skip52
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.sty
+"
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count86
+\mult@box=\box27
+\multicol@leftmargin=\dimen105
+\c@unbalance=\count87
+\c@collectmore=\count88
+\doublecol@number=\count89
+\multicoltolerance=\count90
+\multicolpretolerance=\count91
+\full@width=\dimen106
+\page@free=\dimen107
+\premulticols=\dimen108
+\postmulticols=\dimen109
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box28
+\last@line=\box29
+\maxbalancingoverflow=\dimen110
+\mult@rightbox=\box30
+\mult@grightbox=\box31
+\mult@gfirstbox=\box32
+\mult@firstbox=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\c@columnbadness=\count92
+\c@finalcolumnbadness=\count93
+\last@try=\dimen111
+\multicolovershoot=\dimen112
+\multicolundershoot=\dimen113
+\mult@nat@firstbox=\box51
+\colbreak@box=\box52
+\mc@col@check@num=\count94
+) (abntex-abrev.sty (cvs-id.def)
+Package: abntex-abrev 2005/11/14 v1.4 Abreviacoes
+ (nbr10522-1988.def (cvs-id.def)
+File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:19
+88)
+)
+(abntex-abrev-pt_BR.def (cvs-id.def)
+File: abntex-abrev-pt_BR.def 2005/11/14 v1.3 definicao de abntex-abrev, traduca
+o de termos en_US/pt_BR
+)) (abntex-text.sty (cvs-id.def)
+Package: abntex-text 2005/11/14 v1.1 abnTeX text replacements
+
+(abntex-text-pt_BR.def (cvs-id.def)
+File: abntex-text-pt_BR.def 2005/12/21 v1.2 Definicao de nomes em Portugues/Bra
+sil (pt_BR)
+)) (abntex-default-design.sty (cvs-id.def)
+Package: abntex-default-design 2005/06/22 v1.2 Definicoes de design padrao do a
+bntex
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/relsize\relsize.st
+y"
+Package: relsize 2013/03/29 ver 4.1
+
+
+Package relsize Warning: Failed to get list of defined font sizes.
+(relsize)                Size scaling will attempt arbitrary sizes..
+
+)
+\ABNTanapindent=\skip55
+\ABNTsignwidth=\skip56
+\ABNTsignthickness=\skip57
+\ABNTsignskip=\skip58
+) (nbr6027-1989.def) (nbr14724-2001.def)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count95
+\c@chapter=\count96
+\c@section=\count97
+\c@subsection=\count98
+\c@subsubsection=\count99
+\c@paragraph=\count100
+\c@subparagraph=\count101
+\c@figure=\count102
+\c@table=\count103
+\abovecaptionskip=\skip59
+\belowcaptionskip=\skip60
+\bibindent=\dimen114
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\setspace.
+sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\mathptmx.st
+y"
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\helvet.sty"
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfirst.
+sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/chngcntr\chngcntr.
+sty"
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+\c@absfigure=\count104
+\c@abstable=\count105
+\c@absequation=\count106
+) (abntcite.sty (cvs-id.def)
+Package: abntcite 2006/04/25 v1.30 Chamadas de referencias no texto (NBR10520, 
+NBR10522)
+\minimumbiblabelwidth=\skip61
+\ABCIauxlen=\skip62
+\c@ABCIaux=\count107
+\c@ABCImax=\count108
+ (nbr10520-2002.def (cvs-id.def)
+File: nbr10520-2002.def 2006/04/25 v1.4 Definicoes para abntcite (NBR10520:2002
+)
+)
+\biblabelsep=\skip63
+LaTeX Info: Redefining \newblock on input line 466.
+LaTeX Info: Redefining \cite on input line 493.
+\ABCItoken=\toks17
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.st
+y"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count109
+\LTcapwidth=\dimen115
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@cols=\count110
+\LT@rows=\count111
+\c@LT@tables=\count112
+\c@LT@chunks=\count113
+\LT@p@ftn=\toks18
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+y"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip68
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen116
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen117
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count114
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count115
+\leftroot@=\count116
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count117
+\DOTSCASE@=\count118
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box57
+\strutbox@=\box58
+\big@size=\dimen118
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count119
+\c@MaxMatrixCols=\count120
+\dotsspace@=\muskip10
+\c@parentequation=\count121
+\dspbrk@lvl=\count122
+\tag@help=\toks20
+\row@=\count123
+\column@=\count124
+\maxfields@=\count125
+\andhelp@=\toks21
+\eqnshift@=\dimen119
+\alignsep@=\dimen120
+\tagshift@=\dimen121
+\tagwidth@=\dimen122
+\totwidth@=\dimen123
+\lineht@=\dimen124
+\@envbody=\toks22
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.
+sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen127
+\lightrulewidth=\dimen128
+\cmidrulewidth=\dimen129
+\belowrulesep=\dimen130
+\belowbottomsep=\dimen131
+\aboverulesep=\dimen132
+\abovetopsep=\dimen133
+\cmidrulesep=\dimen134
+\cmidrulekern=\dimen135
+\defaultaddspace=\dimen136
+\@cmidla=\count126
+\@cmidlb=\count127
+\@aboverulesep=\dimen137
+\@belowrulesep=\dimen138
+\@thisruleclass=\count128
+\@lastruleclass=\count129
+\@thisrulewidth=\dimen139
+) ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/svg\svg.sty"
+Package: svg 2019/10/10 v2.02c (include SVG pictures)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrbas
+e.sty"
+Package: scrbase 2019/10/12 v3.27 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlfi
+le.sty"
+Package: scrlfile 2019/10/12 v3.27 KOMA-Script package (loading files)
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
+x.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
+sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\shellesc.sty
+"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/trimspaces\trimspa
+ces.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\svg@box=\box59
+\c@svg@param@lastpage=\count130
+\c@svg@param@currpage=\count131
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\transpare
+nt.sty"
+Package: transparent 2018/11/18 v1.3 Transparency via pdfTeX's color stack (HO)
+
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.s
+ty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/supertabular\super
+tabular.sty"
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count132
+\ST@wd=\dimen140
+\ST@rightskip=\skip71
+\ST@leftskip=\skip72
+\ST@parfillskip=\skip73
+\ST@pageleft=\dimen141
+\ST@headht=\dimen142
+\ST@tailht=\dimen143
+\ST@pagesofar=\dimen144
+\ST@pboxht=\dimen145
+\ST@lineht=\dimen146
+\ST@stretchht=\dimen147
+\ST@prevht=\dimen148
+\ST@toadd=\dimen149
+\ST@dimen=\dimen150
+\ST@pbox=\box60
+) (tabelas_02_circle.aux (Pos-Textuais/apendice1.aux
+
+LaTeX Warning: Label `50 Objetos Pre-Runtime Circle OnCollisionEnter2D' multipl
+y defined.
+
+
+LaTeX Warning: Label `100 Objetos Pre-Runtime Circle OnCollisionStay2D' multipl
+y defined.
+
+))
+\openout1 = `tabelas_02_circle.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 76.
+ ("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 76.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count133
+\scratchdimen=\dimen151
+\scratchbox=\box61
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen152
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks25
+)
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
+ekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetke
+ys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
+s.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 78
+.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ztmcm.fd
+"
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 78
+.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omlztmcm.fd
+"
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 78
+.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsztmcm.fd
+"
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 78
+.
+
+("C:\Users\STHGM\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omxztmcm.fd
+"
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+ [1
+
+{C:/Users/STHGM/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[1] [1
+
+
+] [2
+
+
+] (tabelas_02_circle.lot [3
+
+])
+\tf@lot=\write3
+\openout3 = `tabelas_02_circle.lot'.
+
+ [4] (tabelas_02_circle.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 2.
+)
+\tf@toc=\write4
+\openout4 = `tabelas_02_circle.toc'.
+
+ [5
+
+
+]
+\openout2 = `./Pos-Textuais/apendice1.aux'.
+
+
+(Pos-Textuais/apendice1.tex
+Apendice A.
+
+Underfull \vbox (badness 10000) detected at line 59
+ []
+
+[7
+
+
+
+]
+Underfull \vbox (badness 10000) detected at line 133
+ []
+
+[8]
+Underfull \vbox (badness 10000) detected at line 247
+ []
+
+[9] [10]
+Underfull \vbox (badness 10000) detected at line 321
+ []
+
+[11]
+Underfull \vbox (badness 10000) detected at line 395
+ []
+
+[12]
+Underfull \vbox (badness 10000) detected at line 509
+ []
+
+[13] [14] [15] [16] [17] [18] [19] [20]
+Underfull \vbox (badness 10000) detected at line 1038
+ []
+
+[21] [22] [23] [24]
+Underfull \vbox (badness 10000) detected at line 1326
+ []
+
+[25]
+Underfull \vbox (badness 10000) detected at line 1414
+ []
+
+[26] [27] [28] [29] [30] [31] [32] [33]
+Underfull \vbox (badness 10000) detected at line 1914
+ []
+
+[34] [35]
+Underfull \vbox (badness 10000) detected at line 2066
+ []
+
+[36] [37] [38]
+Underfull \vbox (badness 10000) detected at line 2242
+ []
+
+[39] [40] [41] [42] [43] [44]
+Underfull \hbox (badness 10000) in paragraph at lines 2623--2623
+[]\OT1/ptm/b/n/12 Tabela 13\OT1/ptm/m/n/12 : 10 Ob-je-tos Pre-Runtime Cir-cle P
+hy-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2666
+ []
+
+[45] [46] [47] [48] [49] [50] [51] [52] [53]
+Underfull \vbox (badness 10000) detected at line 3265
+ []
+
+[54] [55] [56] [57] [58] [59] [60]
+Underfull \vbox (badness 10000) detected at line 3754
+ []
+
+[61] [62] [63] [64] [65] [66] [67]
+Underfull \vbox (badness 10000) detected at line 4244
+ []
+
+[68] [69] [70] [71] [72] [73] [74]
+Underfull \vbox (badness 10000) detected at line 4734
+ []
+
+[75] [76] [77] [78] [79] [80] [81] [82] [83]
+Underfull \vbox (badness 10000) detected at line 5340
+ []
+
+[84] [85] [86] [87] [88] [89] [90] [91]
+Underfull \vbox (badness 10000) detected at line 5841
+ []
+
+[92] [93] [94] [95] [96] [97] [98]
+Underfull \vbox (badness 10000) detected at line 6319
+ []
+
+[99] [100] [101] [102] [103] [104] [105] [106]
+Underfull \hbox (badness 10000) in paragraph at lines 6826--6826
+[]\OT1/ptm/b/n/12 Tabela 21\OT1/ptm/m/n/12 : 50 Ob-je-tos Pre-Runtime Cir-cle P
+hy-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 6869
+ []
+
+[107] [108] [109] [110] [111] [112] [113] [114] [115]
+Underfull \vbox (badness 10000) detected at line 7479
+ []
+
+[116] [117] [118] [119] [120] [121] [122]
+Underfull \vbox (badness 10000) detected at line 7987
+ []
+
+[123] [124] [125] [126] [127] [128] [129] [130]
+Underfull \vbox (badness 10000) detected at line 8495
+ []
+
+[131] [132] [133] [134] [135] [136] [137] [138]
+Underfull \vbox (badness 10000) detected at line 9099
+ []
+
+[139] [140] [141] [142] [143] [144] [145] [146] [147]
+Underfull \vbox (badness 10000) detected at line 9703
+ []
+
+[148] [149] [150] [151] [152] [153]
+Underfull \vbox (badness 10000) detected at line 10055
+ []
+
+[154] [155] [156] [157] [158] [159] [160]
+Underfull \hbox (badness 7099) in paragraph at lines 10560--10560
+[]\OT1/ptm/b/n/12 Tabela 28\OT1/ptm/m/n/12 : 100 Ob-je-tos Pre-Runtime Cir-cle 
+Phy-
+ []
+
+[161]
+Underfull \vbox (badness 10000) detected at line 10603
+ []
+
+[162] [163] [164] [165] [166] [167] [168] [169]
+Underfull \vbox (badness 10000) detected at line 11210
+ []
+
+[170] [171] [172] [173] [174] [175] [176] [177]
+Underfull \vbox (badness 10000) detected at line 11718
+ []
+
+[178] [179] [180] [181] [182] [183] [184]
+Underfull \vbox (badness 10000) detected at line 12226
+ []
+
+[185] [186] [187] [188] [189] [190] [191] [192] [193]
+Underfull \vbox (badness 10000) detected at line 12830
+ []
+
+[194] [195] [196] [197] [198] [199] [200] [201] [202]
+Underfull \vbox (badness 10000) detected at line 13398
+ []
+
+[203] [204] [205] [206] [207] [208] [209]
+Underfull \vbox (badness 10000) detected at line 13874
+ []
+
+[210] [211] [212] [213] [214] [215] [216] [217]
+Underfull \hbox (badness 7099) in paragraph at lines 14399--14399
+[]\OT1/ptm/b/n/12 Tabela 35\OT1/ptm/m/n/12 : 500 Ob-je-tos Pre-Runtime Cir-cle 
+Phy-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 14442
+ []
+
+[218] [219] [220] [221] [222] [223] [224] [225] [226]
+Underfull \vbox (badness 10000) detected at line 15050
+ []
+
+[227] [228] [229] [230] [231] [232] [233]
+Underfull \vbox (badness 10000) detected at line 15554
+ []
+
+[234] [235] [236] [237] [238] [239] [240] [241]
+Underfull \vbox (badness 10000) detected at line 16058
+ []
+
+[242] [243] [244] [245] [246] [247] [248] [249] [250]
+Underfull \vbox (badness 10000) detected at line 16658
+ []
+
+[251] [252] [253] [254] [255] [256] [257] [258]
+Underfull \vbox (badness 10000) detected at line 17222
+ []
+
+[259] [260] [261] [262] [263] [264] [265]
+Underfull \vbox (badness 10000) detected at line 17726
+ []
+
+[266] [267] [268] [269] [270] [271] [272] [273] [274]
+Underfull \hbox (badness 4913) in paragraph at lines 18247--18247
+[]\OT1/ptm/b/n/12 Tabela 42\OT1/ptm/m/n/12 : 1000 Ob-je-tos Pre-Runtime Cir-cle
+ Phy-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 18290
+ []
+
+[275] [276] [277] [278] [279] [280] [281] [282] [283]
+Underfull \vbox (badness 10000) detected at line 18897
+ []
+
+[284] [285] [286]
+Underfull \vbox (badness 10000) detected at line 19165
+ []
+
+[287] [288] [289]
+Underfull \vbox (badness 10000) detected at line 19365
+ []
+
+[290] [291] [292] [293] [294] [295] [296] [297]
+Underfull \vbox (badness 10000) detected at line 19877
+ []
+
+[298] [299] [300]
+Underfull \vbox (badness 10000) detected at line 20057
+ []
+
+[301]
+Underfull \vbox (badness 10000) detected at line 20181
+ []
+
+[302] [303] [304] [305] [306] [307] [308] [309]
+Underfull \vbox (badness 10000) detected at line 20713
+ []
+
+[310] [311] [312] [313] [314] [315] [316] [317] [318]
+Underfull \vbox (badness 10000) detected at line 21301
+ []
+
+[319] [320]
+Underfull \vbox (badness 10000) detected at line 21428
+ []
+
+[321] [322] [323] [324] [325] [326] [327] [328] [329]
+Underfull \vbox (badness 10000) detected at line 22024
+ []
+
+[330] [331] [332] [333] [334] [335] [336] [337]
+Underfull \vbox (badness 10000) detected at line 22620
+ []
+
+[338] [339] [340] [341] [342] [343] [344] [345] [346]
+Underfull \vbox (badness 10000) detected at line 23216
+ []
+
+[347] [348] [349] [350] [351] [352] [353]
+Underfull \vbox (badness 10000) detected at line 23704
+ []
+
+[354] [355] [356] [357] [358] [359] [360]
+Underfull \vbox (badness 10000) detected at line 24184
+ []
+
+[361] [362] [363] [364] [365] [366] [367] [368]
+Underfull \vbox (badness 10000) detected at line 24704
+ []
+
+[369] [370] [371] [372] [373] [374] [375] [376]
+Underfull \vbox (badness 10000) detected at line 25224
+ []
+
+[377] [378] [379] [380]
+Underfull \vbox (badness 10000) detected at line 25559
+ []
+
+[381] [382] [383] [384] [385] [386] [387] [388] [389]
+Underfull \vbox (badness 10000) detected at line 26157
+ []
+
+[390] [391] [392] [393] [394] [395] [396] [397] [398]
+Underfull \vbox (badness 10000) detected at line 26755
+ []
+
+[399] [400] [401] [402] [403] [404] [405] [406] [407]
+Underfull \vbox (badness 10000) detected at line 27353
+ []
+
+[408] [409] [410] [411] [412]
+Underfull \vbox (badness 10000) detected at line 27739
+ []
+
+[413] [414] [415] [416]
+Underfull \vbox (badness 10000) detected at line 28003
+ []
+
+[417] [418] [419] [420] [421] [422] [423] [424]
+Underfull \vbox (badness 10000) detected at line 28505
+ []
+
+[425] [426] [427] [428] [429] [430] [431] [432] [433]
+Underfull \vbox (badness 10000) detected at line 29103
+ []
+
+[434] [435] [436] [437] [438] [439]
+Underfull \vbox (badness 10000) detected at line 29572
+ []
+
+[440] [441] [442] [443] [444] [445] [446] [447] [448]
+Underfull \vbox (badness 10000) detected at line 30176
+ []
+
+[449] [450] [451] [452] [453] [454] [455] [456] [457]
+Underfull \vbox (badness 10000) detected at line 30780
+ []
+
+[458] [459] [460] [461] [462] [463] [464] [465] [466]
+Underfull \vbox (badness 10000) detected at line 31384
+ []
+
+[467] [468] [469] [470] [471] [472] [473] [474]
+Underfull \vbox (badness 10000) detected at line 31952
+ []
+
+[475] [476] [477] [478] [479] [480] [481] [482]
+Underfull \vbox (badness 10000) detected at line 32500
+ []
+
+[483] [484] [485] [486] [487] [488] [489] [490] [491]
+Underfull \vbox (badness 10000) detected at line 33068
+ []
+
+[492] [493] [494] [495] [496] [497] [498] [499] [500]
+Underfull \vbox (badness 10000) detected at line 33672
+ []
+
+[501] [502] [503] [504] [505] [506] [507] [508] [509]
+Underfull \vbox (badness 10000) detected at line 34279
+ []
+
+[510] [511] [512] [513] [514] [515] [516]
+Underfull \vbox (badness 10000) detected at line 34761
+ []
+
+[517] [518] [519] [520] [521] [522] [523]
+Underfull \vbox (badness 10000) detected at line 35243
+ []
+
+[524] [525] [526] [527] [528] [529] [530]
+Underfull \vbox (badness 10000) detected at line 35725
+ []
+
+[531] [532] [533] [534] [535] [536]
+Underfull \vbox (badness 10000) detected at line 36131
+ []
+
+[537] [538] [539] [540] [541]
+Underfull \vbox (badness 10000) detected at line 36517
+ []
+
+[542] [543] [544] [545] [546] [547]
+Underfull \vbox (badness 10000) detected at line 36923
+ []
+
+[548] [549] [550] [551] [552] [553] [554] [555]
+Underfull \vbox (badness 10000) detected at line 37405
+ []
+
+[556] [557] [558] [559] [560] [561] [562]
+Underfull \vbox (badness 10000) detected at line 37890
+ []
+
+[563] [564] [565] [566] [567] [568] [569]
+Underfull \vbox (badness 10000) detected at line 38382
+ []
+
+[570] [571] [572] [573] [574] [575] [576]
+Underfull \vbox (badness 10000) detected at line 38874
+ []
+
+[577] [578] [579] [580] [581] [582] [583]
+Underfull \vbox (badness 10000) detected at line 39366
+ []
+
+[584] [585] [586] [587] [588] [589]
+Underfull \vbox (badness 10000) detected at line 39742
+ []
+
+[590] [591] [592] [593] [594]
+Underfull \vbox (badness 10000) detected at line 40118
+ []
+
+[595] [596] [597] [598] [599] [600]
+Underfull \vbox (badness 10000) detected at line 40494
+ []
+
+[601] [602] [603] [604] [605] [606] [607]
+Underfull \vbox (badness 10000) detected at line 40986
+ []
+
+[608] [609] [610] [611] [612] [613] [614]) [615]
+
+AED: lastpage setting LastPage
++-------------------------------------------------------------------+
+| Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
+|                  http://abntex.codigolivre.org.br                 |
++-------------------------------------------------------------------+
+(tabelas_02_circle.aux (Pos-Textuais/apendice1.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5985 strings out of 492895
+ 92631 string characters out of 3123735
+ 246242 words of memory out of 3000000
+ 9677 multiletter control sequences out of 15000+200000
+ 23545 words of font info for 51 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 48i,8n,52p,548b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}<C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
+.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/ut
+mbi8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmr8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on tabelas_02_circle.pdf (616 pages, 1410771 bytes).
+PDF statistics:
+ 1992 PDF objects out of 2073 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

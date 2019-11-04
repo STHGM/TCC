@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  3 NOV 2019 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  4 NOV 2019 02:46
 entering extended mode
 **./modelo_utfpr.tex
 (modelo_utfpr.tex
@@ -1161,10 +1161,6 @@ ng  used on input line 375.
 
 [50 <./Figuras/Graficos/Circle/Pre-Runtime/50_Calls_NP.png> <./Figuras/Graficos
 /Polygon/Pre-Runtime/50_Calls_NP.png>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 384.
-
 <./Figuras/Testes/Box/new/0050_Static.png, id=260, 1074.26344pt x 427.5975pt>
 File: ./Figuras/Testes/Box/new/0050_Static.png Graphic file (type png)
 <use ./Figuras/Testes/Box/new/0050_Static.png>
@@ -1181,16 +1177,16 @@ File: ./Figuras/Testes/Polygon/new/0050_Static.png Graphic file (type png)
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Static.png  used on 
 input line 426.
 (pdftex.def)             Requested size: 455.24411pt x 183.75343pt.
-[51 <./Figuras/Graficos/Box/Pre-Runtime/50_Time_NP.png> <./Figuras/Graficos/Cir
-cle/Pre-Runtime/50_Time_NP.png>] [52]
-<./Figuras/Graficos/Box/Runtime/50_Percent_NP.png, id=269, 363.759pt x 214.8828
+ [51 <./Figuras/Graficos/Box/Pre-Runtime/50_Time_NP.png> <./Figuras/Graficos/Ci
+rcle/Pre-Runtime/50_Time_NP.png>]
+<./Figuras/Graficos/Box/Runtime/50_Percent_NP.png, id=266, 363.759pt x 214.8828
 pt>
 File: ./Figuras/Graficos/Box/Runtime/50_Percent_NP.png Graphic file (type png)
 <use ./Figuras/Graficos/Box/Runtime/50_Percent_NP.png>
 Package pdftex.def Info: ./Figuras/Graficos/Box/Runtime/50_Percent_NP.png  used
  on input line 440.
 (pdftex.def)             Requested size: 341.43307pt x 201.69803pt.
-<./Figuras/Graficos/Circle/Runtime/50_Percent_NP.png, id=270, 363.759pt x 215.3
+<./Figuras/Graficos/Circle/Runtime/50_Percent_NP.png, id=267, 363.759pt x 215.3
 646pt>
 File: ./Figuras/Graficos/Circle/Runtime/50_Percent_NP.png Graphic file (type pn
 g)
@@ -1198,7 +1194,7 @@ g)
 Package pdftex.def Info: ./Figuras/Graficos/Circle/Runtime/50_Percent_NP.png  u
 sed on input line 447.
 (pdftex.def)             Requested size: 341.43307pt x 202.15027pt.
-<./Figuras/Graficos/Polygon/Runtime/50_Percent_NP.png, id=271, 363.2772pt x 215
+<./Figuras/Graficos/Polygon/Runtime/50_Percent_NP.png, id=268, 363.2772pt x 215
 .3646pt>
 File: ./Figuras/Graficos/Polygon/Runtime/50_Percent_NP.png Graphic file (type p
 ng)
@@ -1212,16 +1208,16 @@ Overfull \hbox (7.68422pt too wide) in paragraph at lines 460--461
 am cha-ma-dos du-rante a execu[][]ao,
  []
 
-[53 <./Figuras/Graficos/Polygon/Pre-Runtime/50_Time_NP.png> <./Figuras/Graficos
+[52 <./Figuras/Graficos/Polygon/Pre-Runtime/50_Time_NP.png> <./Figuras/Graficos
 /Polygon/Pre-Runtime/50_GCMemory_NP.png>]
-<./Figuras/Graficos/Box/Runtime/50_Calls_NP.png, id=277, 363.759pt x 217.7736pt
+<./Figuras/Graficos/Box/Runtime/50_Calls_NP.png, id=274, 363.759pt x 217.7736pt
 >
 File: ./Figuras/Graficos/Box/Runtime/50_Calls_NP.png Graphic file (type png)
 <use ./Figuras/Graficos/Box/Runtime/50_Calls_NP.png>
 Package pdftex.def Info: ./Figuras/Graficos/Box/Runtime/50_Calls_NP.png  used o
 n input line 464.
 (pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
-<./Figuras/Graficos/Circle/Runtime/50_Calls_NP.png, id=278, 364.2408pt x 217.77
+<./Figuras/Graficos/Circle/Runtime/50_Calls_NP.png, id=275, 364.2408pt x 217.77
 36pt>
 File: ./Figuras/Graficos/Circle/Runtime/50_Calls_NP.png Graphic file (type png)
 
@@ -1229,7 +1225,7 @@ File: ./Figuras/Graficos/Circle/Runtime/50_Calls_NP.png Graphic file (type png)
 Package pdftex.def Info: ./Figuras/Graficos/Circle/Runtime/50_Calls_NP.png  use
 d on input line 471.
 (pdftex.def)             Requested size: 341.43307pt x 204.14894pt.
-<./Figuras/Graficos/Polygon/Runtime/50_Calls_NP.png, id=279, 363.759pt x 217.77
+<./Figuras/Graficos/Polygon/Runtime/50_Calls_NP.png, id=276, 363.759pt x 217.77
 36pt>
 File: ./Figuras/Graficos/Polygon/Runtime/50_Calls_NP.png Graphic file (type png
 )
@@ -1237,21 +1233,21 @@ File: ./Figuras/Graficos/Polygon/Runtime/50_Calls_NP.png Graphic file (type png
 Package pdftex.def Info: ./Figuras/Graficos/Polygon/Runtime/50_Calls_NP.png  us
 ed on input line 478.
 (pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
-<./Figuras/Graficos/Box/Runtime/50_Time_NP.png, id=280, 359.4228pt x 217.7736pt
+<./Figuras/Graficos/Box/Runtime/50_Time_NP.png, id=277, 359.4228pt x 217.7736pt
 >
 File: ./Figuras/Graficos/Box/Runtime/50_Time_NP.png Graphic file (type png)
 <use ./Figuras/Graficos/Box/Runtime/50_Time_NP.png>
 Package pdftex.def Info: ./Figuras/Graficos/Box/Runtime/50_Time_NP.png  used on
  input line 488.
 (pdftex.def)             Requested size: 341.43307pt x 206.8804pt.
-<./Figuras/Graficos/Circle/Runtime/50_Time_NP.png, id=281, 359.4228pt x 217.773
+<./Figuras/Graficos/Circle/Runtime/50_Time_NP.png, id=278, 359.4228pt x 217.773
 6pt>
 File: ./Figuras/Graficos/Circle/Runtime/50_Time_NP.png Graphic file (type png)
 <use ./Figuras/Graficos/Circle/Runtime/50_Time_NP.png>
 Package pdftex.def Info: ./Figuras/Graficos/Circle/Runtime/50_Time_NP.png  used
  on input line 495.
 (pdftex.def)             Requested size: 341.43307pt x 206.8804pt.
-<./Figuras/Graficos/Polygon/Runtime/50_Time_NP.png, id=282, 359.9046pt x 217.77
+<./Figuras/Graficos/Polygon/Runtime/50_Time_NP.png, id=279, 359.9046pt x 217.77
 36pt>
 File: ./Figuras/Graficos/Polygon/Runtime/50_Time_NP.png Graphic file (type png)
 
@@ -1259,9 +1255,9 @@ File: ./Figuras/Graficos/Polygon/Runtime/50_Time_NP.png Graphic file (type png)
 Package pdftex.def Info: ./Figuras/Graficos/Polygon/Runtime/50_Time_NP.png  use
 d on input line 502.
 (pdftex.def)             Requested size: 341.43307pt x 206.61125pt.
- [54 <./Figuras/Graficos/Box/Pre-Runtime/50_GCMemory_P.png> <./Figuras/Graficos
+ [53 <./Figuras/Graficos/Box/Pre-Runtime/50_GCMemory_P.png> <./Figuras/Graficos
 /Circle/Pre-Runtime/50_GCMemory_P.png>]
-<./Figuras/Graficos/Box/Runtime/50_GCMemory_NP.png, id=289, 363.759pt x 217.773
+<./Figuras/Graficos/Box/Runtime/50_GCMemory_NP.png, id=285, 363.759pt x 217.773
 6pt>
 File: ./Figuras/Graficos/Box/Runtime/50_GCMemory_NP.png Graphic file (type png)
 
@@ -1269,7 +1265,7 @@ File: ./Figuras/Graficos/Box/Runtime/50_GCMemory_NP.png Graphic file (type png)
 Package pdftex.def Info: ./Figuras/Graficos/Box/Runtime/50_GCMemory_NP.png  use
 d on input line 512.
 (pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
-<./Figuras/Graficos/Circle/Runtime/50_GCMemory_NP.png, id=290, 364.2408pt x 217
+<./Figuras/Graficos/Circle/Runtime/50_GCMemory_NP.png, id=286, 364.2408pt x 217
 .7736pt>
 File: ./Figuras/Graficos/Circle/Runtime/50_GCMemory_NP.png Graphic file (type p
 ng)
@@ -1277,7 +1273,7 @@ ng)
 Package pdftex.def Info: ./Figuras/Graficos/Circle/Runtime/50_GCMemory_NP.png  
 used on input line 519.
 (pdftex.def)             Requested size: 341.43307pt x 204.14894pt.
-<./Figuras/Graficos/Polygon/Runtime/50_GCMemory_NP.png, id=291, 363.759pt x 217
+<./Figuras/Graficos/Polygon/Runtime/50_GCMemory_NP.png, id=287, 363.759pt x 217
 .7736pt>
 File: ./Figuras/Graficos/Polygon/Runtime/50_GCMemory_NP.png Graphic file (type 
 png)
@@ -1285,14 +1281,19 @@ png)
 Package pdftex.def Info: ./Figuras/Graficos/Polygon/Runtime/50_GCMemory_NP.png 
  used on input line 526.
 (pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
-<./Figuras/Graficos/Box/Runtime/50_GCMemory_P.png, id=292, 364.2408pt x 217.773
+<./Figuras/Graficos/Box/Runtime/50_GCMemory_P.png, id=288, 364.2408pt x 217.773
 6pt>
 File: ./Figuras/Graficos/Box/Runtime/50_GCMemory_P.png Graphic file (type png)
 <use ./Figuras/Graficos/Box/Runtime/50_GCMemory_P.png>
 Package pdftex.def Info: ./Figuras/Graficos/Box/Runtime/50_GCMemory_P.png  used
  on input line 535.
 (pdftex.def)             Requested size: 341.43307pt x 204.14894pt.
-<./Figuras/Graficos/Circle/Runtime/50_GCMemory_P.png, id=293, 364.2408pt x 217.
+ [54 <./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_P.png>]
+
+LaTeX Warning: Text page 55 contains only floats.
+
+[55 <./Figuras/Testes/Box/new/0050_Static.png>]
+<./Figuras/Graficos/Circle/Runtime/50_GCMemory_P.png, id=298, 364.2408pt x 217.
 7736pt>
 File: ./Figuras/Graficos/Circle/Runtime/50_GCMemory_P.png Graphic file (type pn
 g)
@@ -1300,7 +1301,7 @@ g)
 Package pdftex.def Info: ./Figuras/Graficos/Circle/Runtime/50_GCMemory_P.png  u
 sed on input line 542.
 (pdftex.def)             Requested size: 341.43307pt x 204.14894pt.
-<./Figuras/Graficos/Polygon/Runtime/50_GCMemory_P.png, id=294, 363.759pt x 217.
+<./Figuras/Graficos/Polygon/Runtime/50_GCMemory_P.png, id=299, 363.759pt x 217.
 7736pt>
 File: ./Figuras/Graficos/Polygon/Runtime/50_GCMemory_P.png Graphic file (type p
 ng)
@@ -1308,8 +1309,6 @@ ng)
 Package pdftex.def Info: ./Figuras/Graficos/Polygon/Runtime/50_GCMemory_P.png  
 used on input line 549.
 (pdftex.def)             Requested size: 341.43307pt x 204.41145pt.
- [55 <./Figuras/Graficos/Polygon/Pre-Runtime/50_GCMemory_P.png> <./Figuras/Test
-es/Box/new/0050_Static.png>]
 <./Figuras/Testes/Box/new/0050_Dynamic.png, id=300, 1075.76906pt x 429.10312pt>
 
 File: ./Figuras/Testes/Box/new/0050_Dynamic.png Graphic file (type png)
@@ -1328,27 +1327,28 @@ g)
 Package pdftex.def Info: ./Figuras/Testes/Polygon/new/0050_Dynamic_Stats.png  u
 sed on input line 572.
 (pdftex.def)             Requested size: 455.24411pt x 185.34851pt.
-) [56] [57 <./Figuras/Graficos/Box/Runtime/50_Percent_NP.png> <./Figuras/Grafic
-os/Circle/Runtime/50_Percent_NP.png>] [58 <./Figuras/Graficos/Polygon/Runtime/5
-0_Percent_NP.png> <./Figuras/Graficos/Box/Runtime/50_Calls_NP.png>] [59 <./Figu
-ras/Graficos/Circle/Runtime/50_Calls_NP.png> <./Figuras/Graficos/Polygon/Runtim
-e/50_Calls_NP.png>] [60 <./Figuras/Graficos/Box/Runtime/50_Time_NP.png> <./Figu
-ras/Graficos/Circle/Runtime/50_Time_NP.png>]
-[61 <./Figuras/Graficos/Polygon/Runtime/50_Time_NP.png> <./Figuras/Graficos/Box
-/Runtime/50_GCMemory_NP.png>] [62 <./Figuras/Graficos/Circle/Runtime/50_GCMemor
-y_NP.png> <./Figuras/Graficos/Polygon/Runtime/50_GCMemory_NP.png>] [63 <./Figur
-as/Graficos/Box/Runtime/50_GCMemory_P.png> <./Figuras/Graficos/Circle/Runtime/5
-0_GCMemory_P.png>] [64 <./Figuras/Graficos/Polygon/Runtime/50_GCMemory_P.png> <
-./Figuras/Testes/Box/new/0050_Dynamic.png>] [65]
+) [56 <./Figuras/Graficos/Box/Runtime/50_Percent_NP.png> <./Figuras/Graficos/Ci
+rcle/Runtime/50_Percent_NP.png>] [57 <./Figuras/Graficos/Polygon/Runtime/50_Per
+cent_NP.png> <./Figuras/Graficos/Box/Runtime/50_Calls_NP.png>] [58 <./Figuras/G
+raficos/Circle/Runtime/50_Calls_NP.png> <./Figuras/Graficos/Polygon/Runtime/50_
+Calls_NP.png>] [59 <./Figuras/Graficos/Box/Runtime/50_Time_NP.png> <./Figuras/G
+raficos/Circle/Runtime/50_Time_NP.png>] [60 <./Figuras/Graficos/Polygon/Runtime
+/50_Time_NP.png> <./Figuras/Graficos/Box/Runtime/50_GCMemory_NP.png>] [61 <./Fi
+guras/Graficos/Circle/Runtime/50_GCMemory_NP.png> <./Figuras/Graficos/Polygon/R
+untime/50_GCMemory_NP.png>]
+[62 <./Figuras/Graficos/Box/Runtime/50_GCMemory_P.png> <./Figuras/Graficos/Circ
+le/Runtime/50_GCMemory_P.png>] [63 <./Figuras/Graficos/Polygon/Runtime/50_GCMem
+ory_P.png> <./Figuras/Testes/Box/new/0050_Dynamic.png>] [64]
 \openout2 = `./Capitulos/capitulo6.aux'.
 
- (Capitulos/capitulo6.tex
+
+(Capitulos/capitulo6.tex
 Cap\'{\i }tulo 6.
-[66
+[65
 
 
 
-]) [67] (modelo_utfpr.bbl
+]) [66] (modelo_utfpr.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
 []\OT1/ptm/m/n/12 ARMSTRONG, W. \OT1/ptm/b/n/12 Spo-tlight Team Best Prac-ti-ce
 s: Col-li-sion Per-for-mance
@@ -1420,7 +1420,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--102
 problem-you-face-as-a-independent-game-
  []
 
-[68
+[67
 
 
 ]
@@ -1441,89 +1441,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--143
 icia/numero-de-desenvolvedores-de-games-
  []
 
-) [69]
+) [68]
 \openout2 = `./Pos-Textuais/apendice1.aux'.
 
  (Pos-Textuais/apendice1.tex
 Apendice A.
-<./Figuras/Questionario/01_voce_e.png, id=362, 575.14874pt x 248.42813pt>
+<./Figuras/Questionario/01_voce_e.png, id=359, 575.14874pt x 248.42813pt>
 File: ./Figuras/Questionario/01_voce_e.png Graphic file (type png)
 <use ./Figuras/Questionario/01_voce_e.png>
 Package pdftex.def Info: ./Figuras/Questionario/01_voce_e.png  used on input li
 ne 9.
 (pdftex.def)             Requested size: 341.43307pt x 147.4811pt.
-<./Figuras/Questionario/02_cena_completa.png, id=363, 572.1375pt x 187.45032pt>
+<./Figuras/Questionario/02_cena_completa.png, id=360, 572.1375pt x 187.45032pt>
 
 File: ./Figuras/Questionario/02_cena_completa.png Graphic file (type png)
 <use ./Figuras/Questionario/02_cena_completa.png>
 Package pdftex.def Info: ./Figuras/Questionario/02_cena_completa.png  used on i
 nput line 16.
 (pdftex.def)             Requested size: 341.43307pt x 111.86467pt.
-<./Figuras/Questionario/03_objetos_trigger.png, id=364, 576.65437pt x 316.18124
+<./Figuras/Questionario/03_objetos_trigger.png, id=361, 576.65437pt x 316.18124
 pt>
 File: ./Figuras/Questionario/03_objetos_trigger.png Graphic file (type png)
 <use ./Figuras/Questionario/03_objetos_trigger.png>
 Package pdftex.def Info: ./Figuras/Questionario/03_objetos_trigger.png  used on
  input line 23.
 (pdftex.def)             Requested size: 341.43307pt x 187.21591pt.
-<./Figuras/Questionario/04_colliders_2D_mais.png, id=365, 453.19313pt x 320.698
+<./Figuras/Questionario/04_colliders_2D_mais.png, id=362, 453.19313pt x 320.698
 12pt>
 File: ./Figuras/Questionario/04_colliders_2D_mais.png Graphic file (type png)
 <use ./Figuras/Questionario/04_colliders_2D_mais.png>
 Package pdftex.def Info: ./Figuras/Questionario/04_colliders_2D_mais.png  used 
 on input line 30.
 (pdftex.def)             Requested size: 341.43307pt x 241.61423pt.
-<./Figuras/Questionario/05_mensagens_2D_mais.png, id=366, 523.20468pt x 313.922
+<./Figuras/Questionario/05_mensagens_2D_mais.png, id=363, 523.20468pt x 313.922
 8pt>
 File: ./Figuras/Questionario/05_mensagens_2D_mais.png Graphic file (type png)
 <use ./Figuras/Questionario/05_mensagens_2D_mais.png>
 Package pdftex.def Info: ./Figuras/Questionario/05_mensagens_2D_mais.png  used 
 on input line 37.
 (pdftex.def)             Requested size: 341.43307pt x 204.86171pt.
-<./Figuras/Questionario/06_media_2D.png, id=367, 545.78906pt x 310.15875pt>
+<./Figuras/Questionario/06_media_2D.png, id=364, 545.78906pt x 310.15875pt>
 File: ./Figuras/Questionario/06_media_2D.png Graphic file (type png)
 <use ./Figuras/Questionario/06_media_2D.png>
 Package pdftex.def Info: ./Figuras/Questionario/06_media_2D.png  used on input 
 line 44.
 (pdftex.def)             Requested size: 341.43307pt x 194.02858pt.
-<./Figuras/Questionario/07_colliders_3D_mais.png, id=368, 435.87843pt x 317.686
+<./Figuras/Questionario/07_colliders_3D_mais.png, id=365, 435.87843pt x 317.686
 87pt>
 File: ./Figuras/Questionario/07_colliders_3D_mais.png Graphic file (type png)
 <use ./Figuras/Questionario/07_colliders_3D_mais.png>
 Package pdftex.def Info: ./Figuras/Questionario/07_colliders_3D_mais.png  used 
 on input line 51.
 (pdftex.def)             Requested size: 341.43307pt x 248.8515pt.
-<./Figuras/Questionario/08_mensagens_3D_mais.png, id=369, 520.19344pt x 326.720
+<./Figuras/Questionario/08_mensagens_3D_mais.png, id=366, 520.19344pt x 326.720
 63pt>
 File: ./Figuras/Questionario/08_mensagens_3D_mais.png Graphic file (type png)
 <use ./Figuras/Questionario/08_mensagens_3D_mais.png>
 Package pdftex.def Info: ./Figuras/Questionario/08_mensagens_3D_mais.png  used 
 on input line 58.
 (pdftex.def)             Requested size: 341.43307pt x 214.44476pt.
-<./Figuras/Questionario/09_media_3D.png, id=370, 545.78906pt x 306.39468pt>
+<./Figuras/Questionario/09_media_3D.png, id=367, 545.78906pt x 306.39468pt>
 File: ./Figuras/Questionario/09_media_3D.png Graphic file (type png)
 <use ./Figuras/Questionario/09_media_3D.png>
 Package pdftex.def Info: ./Figuras/Questionario/09_media_3D.png  used on input 
 line 65.
 (pdftex.def)             Requested size: 341.43307pt x 191.67386pt.
-[70
+[69
 
 
  <./Figuras/Questionario/01_voce_e.png> <./Figuras/Questionario/02_cena_complet
-a.png>] [71 <./Figuras/Questionario/03_objetos_trigger.png> <./Figuras/Question
-ario/04_colliders_2D_mais.png>] [72 <./Figuras/Questionario/05_mensagens_2D_mai
-s.png> <./Figuras/Questionario/06_media_2D.png>] [73 <./Figuras/Questionario/07
+a.png>] [70 <./Figuras/Questionario/03_objetos_trigger.png> <./Figuras/Question
+ario/04_colliders_2D_mais.png>] [71 <./Figuras/Questionario/05_mensagens_2D_mai
+s.png> <./Figuras/Questionario/06_media_2D.png>] [72 <./Figuras/Questionario/07
 _colliders_3D_mais.png> <./Figuras/Questionario/08_mensagens_3D_mais.png>]
-[74 <./Figuras/Questionario/09_media_3D.png>]
+[73 <./Figuras/Questionario/09_media_3D.png>]
 Apendice B.
-<./Figuras/Questionario/resultado/01_voce_e.png, id=396, 602.25pt x 372.39125pt
+<./Figuras/Questionario/resultado/01_voce_e.png, id=393, 602.25pt x 372.39125pt
 >
 File: ./Figuras/Questionario/resultado/01_voce_e.png Graphic file (type png)
 <use ./Figuras/Questionario/resultado/01_voce_e.png>
 Package pdftex.def Info: ./Figuras/Questionario/resultado/01_voce_e.png  used o
 n input line 76.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/02_cena_completa.png, id=397, 602.25pt x 372.
+<./Figuras/Questionario/resultado/02_cena_completa.png, id=394, 602.25pt x 372.
 39125pt>
 File: ./Figuras/Questionario/resultado/02_cena_completa.png Graphic file (type 
 png)
@@ -1531,7 +1531,7 @@ png)
 Package pdftex.def Info: ./Figuras/Questionario/resultado/02_cena_completa.png 
  used on input line 83.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/03_objetos_trigger.png, id=398, 602.25pt x 37
+<./Figuras/Questionario/resultado/03_objetos_trigger.png, id=395, 602.25pt x 37
 2.39125pt>
 File: ./Figuras/Questionario/resultado/03_objetos_trigger.png Graphic file (typ
 e png)
@@ -1556,7 +1556,7 @@ File: ./Figuras/Questionario/resultado/06_media_2D.png Graphic file (type png)
 Package pdftex.def Info: ./Figuras/Questionario/resultado/06_media_2D.png  used
  on input line 111.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/07_colliders_3D_mais.png, id=399, 602.25pt x 
+<./Figuras/Questionario/resultado/07_colliders_3D_mais.png, id=396, 602.25pt x 
 372.39125pt>
 File: ./Figuras/Questionario/resultado/07_colliders_3D_mais.png Graphic file (t
 ype png)
@@ -1564,7 +1564,7 @@ ype png)
 Package pdftex.def Info: ./Figuras/Questionario/resultado/07_colliders_3D_mais.
 png  used on input line 118.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/08_mensagens_3D_mais.png, id=400, 602.25pt x 
+<./Figuras/Questionario/resultado/08_mensagens_3D_mais.png, id=397, 602.25pt x 
 372.39125pt>
 File: ./Figuras/Questionario/resultado/08_mensagens_3D_mais.png Graphic file (t
 ype png)
@@ -1572,25 +1572,75 @@ ype png)
 Package pdftex.def Info: ./Figuras/Questionario/resultado/08_mensagens_3D_mais.
 png  used on input line 125.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-<./Figuras/Questionario/resultado/09_media_3D.png, id=401, 602.25pt x 372.39125
+<./Figuras/Questionario/resultado/09_media_3D.png, id=398, 602.25pt x 372.39125
 pt>
 File: ./Figuras/Questionario/resultado/09_media_3D.png Graphic file (type png)
 <use ./Figuras/Questionario/resultado/09_media_3D.png>
 Package pdftex.def Info: ./Figuras/Questionario/resultado/09_media_3D.png  used
  on input line 132.
 (pdftex.def)             Requested size: 341.43307pt x 211.12877pt.
-[75
+[74
 
  <./Figuras/Questionario/resultado/01_voce_e.png> <./Figuras/Questionario/resul
-tado/02_cena_completa.png>] [76 <./Figuras/Questionario/resultado/03_objetos_tr
-igger.png>] [77] [78 <./Figuras/Questionario/resultado/07_colliders_3D_mais.png
-> <./Figuras/Questionario/resultado/08_mensagens_3D_mais.png>] [79 <./Figuras/Q
+tado/02_cena_completa.png>] [75 <./Figuras/Questionario/resultado/03_objetos_tr
+igger.png>] [76] [77 <./Figuras/Questionario/resultado/07_colliders_3D_mais.png
+> <./Figuras/Questionario/resultado/08_mensagens_3D_mais.png>] [78 <./Figuras/Q
 uestionario/resultado/09_media_3D.png>]
 Apendice C.
-[80
+
+Overfull \hbox (52.34691pt too wide) in paragraph at lines 145--146
+[]$[]$ 
+ []
+
+
+Overfull \hbox (37.2627pt too wide) in paragraph at lines 149--150
+[]$[]$ 
+ []
+
+[79
 
 ]
-Underfull \vbox (badness 10000) detected at line 211
+Underfull \vbox (badness 10000) detected at line 219
+ []
+
+[80]
+Overfull \hbox (24.1943pt too wide) in paragraph at lines 228--229
+[]$[]$ 
+ []
+
+
+Overfull \hbox (31.52724pt too wide) in paragraph at lines 232--233
+[]$[]$ 
+ []
+
+
+Overfull \hbox (24.96329pt too wide) in paragraph at lines 238--239
+[]$[]$ 
+ []
+
+
+Overfull \hbox (19.53899pt too wide) in paragraph at lines 242--243
+[]$[]$ 
+ []
+
+
+Overfull \hbox (26.21071pt too wide) in paragraph at lines 248--249
+[]$[]$ 
+ []
+
+
+Overfull \hbox (20.96684pt too wide) in paragraph at lines 252--253
+[]$[]$ 
+ []
+
+
+Overfull \hbox (37.05923pt too wide) in paragraph at lines 258--259
+[]$[]$ 
+ []
+
+
+Overfull \hbox (42.37512pt too wide) in paragraph at lines 262--263
+[]$[]$ 
  []
 
 ) [81] 
@@ -1603,10 +1653,10 @@ AED: lastpage setting LastPage
 (Capitulos/capitulo3.aux) (Capitulos/capitulo4.aux) (Capitulos/capitulo5.aux)
 (Capitulos/capitulo6.aux) (Pos-Textuais/apendice1.aux)) ) 
 Here is how much of TeX's memory you used:
- 6522 strings out of 492895
- 112555 string characters out of 3123735
+ 6523 strings out of 492895
+ 112573 string characters out of 3123735
  220634 words of memory out of 3000000
- 10101 multiletter control sequences out of 15000+200000
+ 10102 multiletter control sequences out of 15000+200000
  34991 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,15n,52p,909b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1619,7 +1669,7 @@ fb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb
 utmbi8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Users/STHGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on modelo_utfpr.pdf (82 pages, 4204623 bytes).
+Output written on modelo_utfpr.pdf (82 pages, 4207781 bytes).
 PDF statistics:
  454 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
