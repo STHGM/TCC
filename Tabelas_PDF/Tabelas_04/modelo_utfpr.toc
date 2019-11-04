@@ -1,12 +1,12 @@
 \babel@toc {brazil}{}
-\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Polygon Collider}}}{}% 
-\contentsline {section}{\numberline {A.1}\MakeUppercase {\emph {Pre-Runtime}}}{}% 
-\contentsline {subsection}{\numberline {A.1.1}Um Objeto}{}% 
-\contentsline {subsection}{\numberline {A.1.2}Dez Objetos}{}% 
-\contentsline {subsection}{\numberline {A.1.3}Cinquenta Objetos}{}% 
-\contentsline {subsection}{\numberline {A.1.4}Cem Objetos}{}% 
-\contentsline {subsection}{\numberline {A.1.5}Quinhentos Objetos}{}% 
-\contentsline {subsection}{\numberline {A.1.6}Mil Objetos}{}% 
+\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} \MakeUppercase {Tabelas de Resultados - \emph {Polygon Collider}}}{8}% 
+\contentsline {section}{\numberline {A.1}\MakeUppercase {\emph {Pre-Runtime}}}{8}% 
+\contentsline {subsection}{\numberline {A.1.1}Um Objeto}{8}% 
+\contentsline {subsection}{\numberline {A.1.2}Dez Objetos}{31}% 
+\contentsline {subsection}{\numberline {A.1.3}Cinquenta Objetos}{66}% 
+\contentsline {subsection}{\numberline {A.1.4}Cem Objetos}{118}% 
+\contentsline {subsection}{\numberline {A.1.5}Quinhentos Objetos}{165}% 
+\contentsline {subsection}{\numberline {A.1.6}Mil Objetos}{214}% 
 \contentsline {section}{\numberline {A.2}\MakeUppercase {\emph {Runtime}}}{}% 
 \contentsline {subsection}{\numberline {A.2.1}Um Objeto por segundo}{}% 
 \contentsline {subsection}{\numberline {A.2.2}Dez Objetos por segundo}{}% 
